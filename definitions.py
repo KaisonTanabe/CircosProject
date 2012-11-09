@@ -1,3 +1,5 @@
+from itertools import combinations
+
 census_api_key = 'd20683ce326e4b794991ae637fd507dcec78e664'
 student_csv = 'majors.csv'
 
@@ -168,13 +170,11 @@ industry_map = \
         'Comput', 
         'Information'
         ],
-     'Homemaker'                        : [
-        'Homemaker'
-        ]
      'Other'                            : [
         'Farm',
         'Geo', 
-        'Entrepreneur'
+        'Entrepreneur', 
+        'Homemaker'
         ],
      }
 
@@ -249,7 +249,7 @@ major_map = {
     'Economics'                        : [
         'Economics'
         ],
-    'English'                          : [
+    'English/Literature'               : [
         "English",
         "English Literature",
         "Comparative Literature",
@@ -268,7 +268,7 @@ major_map = {
         'Mathematic Sciences',
         'Mathematics'
         ],
-    'Religion/Philsophy'               : [
+    'Philosophy/Religion'              : [
         'Philosophy',
         'Religion'
         ],
@@ -276,3 +276,48 @@ major_map = {
         'Psychology'
         ]
     }
+
+ordered_majors = [
+    'Mathematics',  
+    'Computer Science',
+    'Physics/Astronomy',
+    'Chemistry',
+    'Biology',
+    'Geosciences',
+    'Psychology',
+    'Economics',                       
+    'Political Studies',
+    'History',
+    'Culture Studies',
+    'Philosophy/Religion'
+    'English/Literature',
+    'Languages',
+    'Art/Music'
+    ]
+
+ordered_industries = [
+    'Arts/Entertainment',
+    'Writing/Communication',
+    'Social/Religious Services',
+    'Government',
+    'Law',
+    'Sales',
+    'Consulting',
+    'Banking/Financial',
+    'Insurance/Management',
+    'K-12 Education',
+    'College Education',
+    'Health/Medicine',
+    'Engineering/Construction',
+    'Technology',
+    'Other',
+    ]
+
+def gen_filenames(string, count = len(ordered_majors)):
+    for i in xrange(1, count+1):
+        if i < 10:
+            yield "%s00%d" % (string, i)
+        else:
+            yield "%s0%d" % (string, i)
+    
+double_majors = list(combinations(major_map.keys(), 2))

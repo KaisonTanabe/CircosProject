@@ -7,9 +7,13 @@ from collections import defaultdict
 from db import connect
 from definitions import industry_map, major_map, student_csv
 
-def read_csv_to_mongo(filename=student_csv):
+def read_csv(filename=student_csv):
     reader = csv.DictReader(open(filename))
     return reader
+
+def read_filled_csv(filename=student_csv):
+    reader = csv.DictReader(open(filename))
+    return fill_majors(fill_industries(reader))
 
 def fill_industries(reader):
 
@@ -30,6 +34,26 @@ def fill_industries(reader):
                 entry['Industry'] = match
                 yield entry   
 
+def fill_majors(reader):
+    for entry in reader:
+        
+        maj1_value = entry['Major1']
+        maj2_value = entry['Major2']
+        maj3_value = entry['Major3']
+
+        for category_name, matches in major_map.iteritems():
+            if maj1_value in matches:
+                entry['Major1'] = category_name
+
+            # These might be the empty string, but that's fine,
+            # because it will never match
+            if maj2_value in matches:
+                entry['Major2'] = category_name
+            if maj3_value in matches:
+                entry['Major3'] = category_name
+
+        yield entry
+                
 def match_definitions(info_str):
     for industry, keywords in industry_map.items():
         for word in keywords:
@@ -61,6 +85,5 @@ def job_title_frequencies(reader):
     
     
 if __name__ == "__main__":
-    
-    reader = read_csv_to_mongo()
+    reader = read_filled_csv()
     
