@@ -186,6 +186,11 @@ major_map = {
         'American History',
         'American History & Literature',
         'American Civilization',
+        'Music History', 
+        'English History', 
+        'Social Studies', 
+        'European History',
+        'African History'
         ],
     'Culture Studies'                   : [
         'Anthropology',
@@ -196,7 +201,11 @@ major_map = {
         'Arab Studies',
         'Latin American Studies',
         "Women's and Gender Studies",
-        "Women's Studies"
+        "Women's Studies", 
+        "Afro-American Studies", 
+        'East Asia/Japan', 
+        'African Education', 
+        'Latin America Studies',
         ],
     'Art/Music'                         : [
         'Architecture',
@@ -213,7 +222,9 @@ major_map = {
         'Physics',
         'Astronomy',
         'Physics and Astronomy',
+        'Astronomy and Physics',
         'Astrophysics',
+        'Electrical Engineering'
         ],
     'Geosciences'                       : [
         "Geology",
@@ -231,6 +242,7 @@ major_map = {
         "Organic Chemistry",
         "Physical Chemistry",
         "Biochemistry",
+        'Biogeochemistry'
         ],
     'Languages'                        : [
         "French",
@@ -241,13 +253,15 @@ major_map = {
         "Russian Area Studies",
         "Chinese",
         "Japanese",
-        "Linguistics"
+        "Linguistics", 
+        'Greek'
         ],
     'Computer Science'                 : [
         'Computer Science'
         ],
     'Economics'                        : [
-        'Economics'
+        'Economics', 
+        'Business'
         ],
     'English/Literature'               : [
         "English",
@@ -255,7 +269,9 @@ major_map = {
         "Comparative Literature",
         "Literary Studies",
         "Classics",
-        "Latin"
+        "Latin", 
+        'Chinese Literature',
+        'German Literature'
         ],
     'Political Studies'                : [
         "Political Economy",
@@ -266,14 +282,17 @@ major_map = {
         ],
     'Mathematics'                      : [
         'Mathematic Sciences',
-        'Mathematics'
+        'Mathematics', 
+        'Statistics'
         ],
     'Philosophy/Religion'              : [
         'Philosophy',
-        'Religion'
+        'Religion',
+        'Theology'
         ],
     'Psychology'                       : [
-        'Psychology'
+        'Psychology', 
+        'Clinical Psychology'
         ]
     }
 
@@ -320,4 +339,6 @@ def gen_filenames(string, count = len(ordered_majors)):
         else:
             yield "%s0%d" % (string, i)
     
-double_majors = list(combinations(major_map.keys(), 2))
+majors = major_map.keys()
+
+double_majors = list(combinations(majors, 2))
