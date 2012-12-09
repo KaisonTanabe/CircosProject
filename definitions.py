@@ -2,6 +2,7 @@ from itertools import combinations
 
 census_api_key = 'd20683ce326e4b794991ae637fd507dcec78e664'
 student_csv = 'majors.csv'
+circos_command = ['perl', '/Applications/circos-0.62-1/bin/circos', '-conf ./tmp/circos.conf']
 
 # Map from industry categories to keywords to fuzzy match.
 industry_map = \
@@ -127,7 +128,8 @@ industry_map = \
         'Professor', 
         'Economist', 
         'Mathematic', 
-        'Education Administrator'
+        'Education Administrator', 
+        'Education - College/University'
         ],
      'Health/Medicine'                  : [
         'Health',
@@ -213,7 +215,7 @@ major_map = {
         'Art History', # Maybe should be in history?
         'Design',
         'Fine Arts', 
-        'Studio Art'
+        'Studio Art',
         'Music',
         'Theatre',
         'Landscape'

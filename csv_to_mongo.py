@@ -20,7 +20,10 @@ def fill_industries(reader):
     for entry in reader:
         # Skip entries that already have industry info.l
         if entry.get('Industry'):
-            yield entry
+            match = match_definitions(entry.get('Industry'))
+            if match:
+                entry['Industry'] = match
+                yield entry
             
         if entry.get('Field of Work'):
             match = match_definitions(entry.get('Field of Work'))
@@ -40,11 +43,11 @@ def fill_majors(reader):
         maj1_value = entry['Major1']
         maj2_value = entry['Major2']
         maj3_value = entry['Major3']
-
+        
         for category_name, matches in major_map.iteritems():
             if maj1_value in matches:
                 entry['Major1'] = category_name
-
+                
             # These might be the empty string, but that's fine,
             # because it will never match
             if maj2_value in matches:
@@ -55,9 +58,13 @@ def fill_majors(reader):
         yield entry
                 
 def match_definitions(info_str):
+    
+    # if info_str in industry_map.keys():
+    #     return info_str
+
     for industry, keywords in industry_map.items():
         for word in keywords:
-            if info_str in word:
+            if word in info_str or info_str in word:
                 return industry
 
 def filter_by_major(reader, match_string):
@@ -82,6 +89,9 @@ def filter_by_major_no_industry(reader):
 
 def filter_no_major(reader):
     return (entry for entry in reader if entry.get('Major1'))
+
+def filter_no_industry(reader):
+    return (entry for entry in reader if entry.get('Industry'))
 
 def job_title_frequencies(reader):
     
