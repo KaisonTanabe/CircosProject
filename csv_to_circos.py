@@ -133,7 +133,7 @@ def produce_linked_image(lside, rside, **kwargs):
     karyotype_conf.close()
     write_circos_conf(chroms_formatted)
     write_ticks_conf(chroms_formatted)
-
+    
 def run_circos():
     subprocess.call(circos_command)
 
