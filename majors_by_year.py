@@ -30,6 +30,25 @@ if __name__ == "__main__":
                             weighted=True, 
                             filter=fil, 
                             filename=filename)
-        import nose.tools; nose.tools.set_trace()
         conf.produce_image()
         subprocess.call('open {filename}'.format(filename=filename).split())
+
+    fil = lambda entry: int(entry['Class']) < 1960
+    total = sum([yearly_totals.get(str(year), 0) for year in xrange(1930, 1960)])
+
+    filename = filename_template.format(start="~1930", 
+                                        end="1959", 
+                                        total=total)
+
+    r = clean_major_fields(read_filled_csv())
+    conf = CircosConfig(r, 
+                        'Major', 
+                        'Industry',
+                        lside_tag_order=ordered_majors,
+                        rside_tag_order=ordered_industries,
+                        weighted=True, 
+                        filter=fil, 
+                        filename=filename)
+    conf.produce_image()
+    subprocess.call('open {filename}'.format(filename=filename).split())
+

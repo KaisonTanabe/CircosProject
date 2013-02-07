@@ -54,8 +54,14 @@ class CircosConfig(object):
         # assert set(self.lside_tag_order) == set(self.lcounts.keys())
         # assert set(self.rside_tag_order) == set(self.rcounts.keys())
             
-        # TODO 
-        self.colors = {} #kwargs.get('colors', self.default_colors)
+        self.colors = kwargs.get('colors', {})
+        
+        # If no color dictionary is supplied, assume we're coloring by
+        # ltags using 'c{number}'-style coloring.
+        
+        if len(self.colors) == 0:
+            for index, tag in enumerate(self.lside_tag_order):
+                self.colors[tag] = 'c{index}'.format(index=index)
 
         # Define and format chromosome names.  These are always of the
         # form {r, l}side{0-length}.
@@ -82,7 +88,7 @@ class CircosConfig(object):
         
         # Settings for ideogram_conf file template.
         self.ideogram_conf_settings = \
-            {"default_spacing"       : "0.0085r", 
+            {"default_spacing"       : "0.006r", 
              "break"                 : "0.2r", 
              "radius"                : "0.75r"}
 
@@ -108,7 +114,7 @@ class CircosConfig(object):
     def write_karyotype_conf(self):
 
         with open('./tmp/karyotype.conf', 'w') as karyotype_conf:
-
+            
             line_template = \
                 'chr\t-\t{l_or_r}side{index}\t{tag}\t{start}\t{end}\t{color}\n'
             
@@ -120,7 +126,7 @@ class CircosConfig(object):
                 if width == 0:
                     print("Warning, no data for rside tag: %s" % tag)
                     continue
-
+                
                 color = self.colors.get(tag, 'grey')
                 karyotype_conf.write(line_template.format(l_or_r='r',
                                                           index=index,

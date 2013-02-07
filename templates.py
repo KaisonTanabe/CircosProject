@@ -10,7 +10,7 @@ circos_conf_header = \
   <<include etc/fonts.conf>>
 </fonts>
 
-<<include ideogram.conf>>
+<<include ./tmp/ideogram.conf>>
 <<include ticks.conf>>
 
 karyotype   = ./tmp/karyotype.conf
