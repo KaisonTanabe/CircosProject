@@ -1,7 +1,8 @@
+import os
 from itertools import combinations
 
 student_csv = 'majors.csv'
-circos_command = ['perl', '/Applications/circos-0.62-1/bin/circos', '-conf ./tmp/circos.conf']
+circos_command = ['perl', '/Applications/circos-0.62-1/bin/circos', '-conf', './tmp/circos.conf']
 
 # Map from industry categories to keywords to fuzzy match.
 industry_map = \
@@ -34,6 +35,7 @@ industry_map = \
         'Documentary',
         'Columnist'
         ],
+     #####
      'Social/Religious Services'        : [
         'Priest', 
         'Nun',
@@ -112,6 +114,7 @@ industry_map = \
         'Hotel', 
         'Resort'
         ],
+     #####
      'K-12 Education'                   : [
         'Teach',
         'Kindergarten',
@@ -121,6 +124,7 @@ industry_map = \
         'Head of School',
         'Educator'
         ],
+     #####
      'College Education'                : [
         'College',
         'Universal',
@@ -193,6 +197,7 @@ major_map = {
         'European History',
         'African History'
         ],
+    #####
     'Culture Studies'                   : [
         'Anthropology',
         'Urban Studies',
@@ -257,6 +262,7 @@ major_map = {
         "Linguistics", 
         'Greek'
         ],
+    #####
     'Computer Science'                 : [
         'Computer Science'
         ],
@@ -274,6 +280,7 @@ major_map = {
         'Chinese Literature',
         'German Literature'
         ],
+    #####
     'Political Studies'                : [
         "Political Economy",
         "Political Philosophy",
@@ -297,49 +304,5 @@ major_map = {
         ]
     }
 
-ordered_majors = [
-    'Mathematics',  
-    'Computer Science',
-    'Physics/Astronomy',
-    'Chemistry',
-    'Biology',
-    'Geosciences',
-    'Psychology',
-    'Economics',                       
-    'Political Studies',
-    'History',
-    'Culture Studies',
-    'Philosophy/Religion'
-    'English/Literature',
-    'Languages',
-    'Art/Music'
-    ]
-
-ordered_industries = [
-    'Arts/Entertainment',
-    'Writing/Communication',
-    'Social/Religious Services',
-    'Government',
-    'Law',
-    'Sales',
-    'Consulting',
-    'Banking/Financial',
-    'Insurance/Management',
-    'K-12 Education',
-    'College Education',
-    'Health/Medicine',
-    'Engineering/Construction',
-    'Technology',
-    'Other',
-    ]
-
-def gen_filenames(string, count = len(ordered_majors)):
-    for i in xrange(1, count+1):
-        if i < 10:
-            yield "%s00%d" % (string, i)
-        else:
-            yield "%s0%d" % (string, i)
-    
 majors = major_map.keys()
-
 double_majors = list(combinations(majors, 2))

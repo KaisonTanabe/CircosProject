@@ -24,12 +24,14 @@ def fill_industries(reader):
             if match:
                 entry['Industry'] = match
                 yield entry
+                continue
             
         if entry.get('Field of Work'):
             match = match_definitions(entry.get('Field of Work'))
             if match:
                 entry['Industry'] = match
                 yield entry
+                continue
             
         if entry.get('Job Title'):
             match = match_definitions(entry.get('Job Title'))
@@ -44,16 +46,33 @@ def fill_majors(reader):
         maj2_value = entry['Major2']
         maj3_value = entry['Major3']
         
+        matched = [False, False, False]
+
         for category_name, matches in major_map.iteritems():
+
             if maj1_value in matches:
                 entry['Major1'] = category_name
-                
-            # These might be the empty string, but that's fine,
-            # because it will never match
+                matched[0] = True
+
             if maj2_value in matches:
                 entry['Major2'] = category_name
+                matched[1] = True
+
             if maj3_value in matches:
                 entry['Major3'] = category_name
+                matched[2] = True
+
+        # Ignore entries with no matched majors.
+        if not any(matched):
+            continue
+                
+        # Clear out unmatched data.
+        if not matched[0]:
+            entry['Major1'] = ''
+        if not matched[1]:
+            entry['Major2'] = ''
+        if not matched[2]:
+            entry['Major3'] = ''
 
         yield entry
                 

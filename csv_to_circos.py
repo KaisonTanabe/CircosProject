@@ -1,291 +1,328 @@
 import os
 import subprocess
 
-from definitions import majors, double_majors, student_csv, circos_command
+from itertools import chain, tee, imap, ifilter
+from collections import Counter
+from operator import itemgetter
+
+from definitions import (majors, 
+                         double_majors, 
+                         student_csv, 
+                         circos_command)
+
 from csv_to_mongo import read_csv, filter_by_major, read_filled_csv
-from itertools import chain
-from collections import defaultdict
+from templates import(circos_conf_header, 
+                      circos_conf_links, 
+                      ideogram_conf_template)
 
-def math_major_image():
-    
-    try:
-        os.mkdir('./tmp')
-    except OSError:
-        print "Warning: ./tmp already exists"
+def tform(tup):
+    return '_'.join(tag for tag in tup)
+
+
+# Class storing all necessary information to create a set of circos
+# configuration files.  Can be modified on the fly to change the
+# produced image.
+
+class CircosConfig(object):
+
+    def __init__(self, data, ltag, rtag, **kwargs):
         
-    link_data = open('./tmp/linkdata.txt', 'w')
-    industries, major_pairs, combinations = count_double_majors("Mathematics")
+        # Save a 'copy' of the input data so that we can re-filter or
+        # change tags later without creating a new object.
+        self.data, self._data_copy = tee(data, 2)
+        
+        # No filter by default.
+        self.filter = kwargs.get('filter', lambda x: True)
+        self.data = ifilter(self.filter, self.data)
 
-    produce_linked_image(major_pairs, industries)
+        if kwargs.get('weighted'):
+            self.lcounts, self.rcounts, self.intersect_counts = \
+                count_tags_weighted(self.data, ltag, rtag)
+        else:
+            self.lcounts, self.rcounts, self.intersect_counts = \
+                count_tags(self.data, ltag, rtag)
 
-    link_id = 0
-    
-    major_template = "id{id} {name} {start} {end} color=c{colornum}\n"
-    industry_template = "id{id} {name} {start} {end} color=grey\n"
+        # Optional arguments for color dictionary and karyotype
+        # ordering data.  By default we order from most to least
+        # entries.  Order is followed clockwise from top of image for
+        # rside, clockwise from the bottom for lside.
 
-    for major_count, pair in enumerate(major_pairs.keys()):
-
-        major_name = "lside{count}".format(count=major_count)
-
-        for industry_count, industry in enumerate(industries.keys()):
-            ribbon_width = combinations.get(tuple([pair[0], pair[1], industry]), 0)
-            # No data for this combination
-            if ribbon_width == 0:
-                #print "No data for combination %s %s %s" % tuple([pair[0], pair[1], industry])
-                continue
+        self.lside_tag_order = kwargs.get('lside_tag_order', 
+                                          self.lcounts.keys())
+        self.rside_tag_order = kwargs.get('rside_tag_order', 
+                                          self.rcounts.keys())
+        # assert set(self.lside_tag_order) == set(self.lcounts.keys())
+        # assert set(self.rside_tag_order) == set(self.rcounts.keys())
             
-            # Don't bother to increment link_id for entries with no data.
-            link_id += 1
+        # TODO 
+        self.colors = {} #kwargs.get('colors', self.default_colors)
+
+        # Define and format chromosome names.  These are always of the
+        # form {r, l}side{0-length}.
+        lside_chroms = gen_chromosome_names('l', len(self.lcounts))
+        rside_chroms = gen_chromosome_names('r', len(self.rcounts))
+        all_chroms = chain(lside_chroms, rside_chroms)        
+
+        # Settings for circos.conf file template.
+        self.circos_conf_settings = \
+            {"chromosomes_units"     : 1, 
+             "chromosomes"           : ';'.join(all_chroms),
+             "show_ticks"            : "no", 
+             "show_tick_labels"      : "no", 
+             "filename"              : kwargs.get('filename', 'circos.png')}
+
+        self.circos_conf_link_settings = \
+            {"radius"                : "0.99r", 
+             "bezier_radius"         : ".25r", 
+             "crest"                 : ".3", 
+             "bezier_radius_purity"  : ".95", 
+             "show_by_default"       : "yes", 
+             "ribbon"                : "yes", 
+             "flat"                  : "no"}
+        
+        # Settings for ideogram_conf file template.
+        self.ideogram_conf_settings = \
+            {"default_spacing"       : "0.0085r", 
+             "break"                 : "0.2r", 
+             "radius"                : "0.75r"}
+
+    def write_config_files(self):
+        
+        # Open a scratch directory for us to work in.
+        try:
+            os.mkdir('./tmp')
+        except OSError:
+            print "Warning: ./tmp already exists"
+
+        self.write_circos_conf()
+        # self.write_ticks_conf()
+        self.write_ideogram_conf()
+        
+        # Write karyotype data.
+        self.write_karyotype_conf()
+        
+    # karyotype.conf controls how the outer ring of the circos image
+    # is partitioned and colored.  Each line defines an arc with a
+    # width, a color, and a tag used to identify the region by other
+    # parts of the image configuration.
+    def write_karyotype_conf(self):
+
+        with open('./tmp/karyotype.conf', 'w') as karyotype_conf:
+
+            line_template = \
+                'chr\t-\t{l_or_r}side{index}\t{tag}\t{start}\t{end}\t{color}\n'
             
-            # Write the line defining the "major" half of the link.
-            major_end = major_pairs[pair]
-            major_start = major_end - ribbon_width
-            major_line = major_template.format(id=link_id, 
-                                               name=major_name,
-                                               start=major_start,
-                                               end=major_end, 
-                                               colornum=major_count + 1)
-            link_data.write(major_line)
+            # Right side karyotypes.
+            for (index, tag) in enumerate(self.rside_tag_order):
+                width = self.rcounts.get(tag, 0)
 
-            # Reduce the number of remaining majors in this major pair
-            # for the next iteration.
-            major_pairs[pair] = major_start
+                # No data for this tag, move on to the next one.
+                if width == 0:
+                    print("Warning, no data for rside tag: %s" % tag)
+                    continue
 
-            # Write the line defining the "industry" half of the link
-            industry_name = 'rside{count}'.format(count = industry_count)
-            industry_end = industries[industry]
-            industry_start = industry_end - ribbon_width
-            link_data.write(industry_template.format(id=link_id, 
-                                                     name=industry_name,
-                                                     start=industry_start,
-                                                     end=industry_end, 
-                                                     ))
+                color = self.colors.get(tag, 'grey')
+                karyotype_conf.write(line_template.format(l_or_r='r',
+                                                          index=index,
+                                                          tag=tag, 
+                                                          start=0, 
+                                                          end=width, 
+                                                          color=color
+                                                          ))
+
+            # Left side karyotypes.
+            for (index, tag) in enumerate(self.lside_tag_order):
+                width = self.lcounts.get(tag, 0)
+
+                # No data for this tag, move on to the next one.
+                if width == 0:
+                    print("Warning, no data for rside tag: {tag}.".format(
+                            tag=tag
+                    ))
+                    continue
+
+                color = self.colors.get(tag, 'grey')
+                karyotype_conf.write(line_template.format(l_or_r='l',
+                                                          index=index,
+                                                          tag=tag, 
+                                                          start=0, 
+                                                          end=width, 
+                                                          color=color
+                                                          ))
+    
+    def write_circos_conf(self):
+
+        with open('./tmp/circos.conf', 'w') as circos_conf:
+
+            header = circos_conf_header.format(**self.circos_conf_settings)
+            circos_conf.write(header)
+            link_block = circos_conf_links.format(**self.circos_conf_link_settings)
+            circos_conf.write(link_block)
+
+    # Pretty sure this isn't actually doing anything right now.
+
+    # def write_ticks_conf(self):
+    
+#     header = """
+# <ticks>
+
+# chromosomes_display_default = yes
+# chromosomes = {all_chroms}
+# radius = dims(ideogram, radius_outer)
+# orientation = out
+# label_multiplier = 1
+
+# </ticks>
+# """.format(all_chroms=all_chroms_string)
+
+#     ticks_conf = open('./tmp/ticks.conf', 'w')
+#     ticks_conf.write(header)
+#     ticks_conf.close()
+
+    def write_ideogram_conf(self):
+
+        with open('./tmp/ideogram.conf', 'w') as ideogram_conf:
+            config = ideogram_conf_template.format(**self.ideogram_conf_settings)
+            ideogram_conf.write(config)
+
+    # TODO: make this not destroy our data
+    def write_linkdata(self):
+        
+        with open('./tmp/linkdata.txt') as link_data:
             
-            # Reduce the number of remaining majors in this major pair
-            # for the next iteration.
-            industries[industry] = industry_start
+            link_id = 0
+            line_template = "id{id}\t{name}\t{start}\t{end}\tcolor=c{colornum}\n"
+            link_data = open('./tmp/linkdata.txt', 'w')
 
-        assert major_pairs[pair] == 0, "major pair count should be zero"
-        print "Finished pair %s %s" % pair
-        
-    for count in industries.itervalues():
-        assert count == 0, "industry pair count should be zero"
-    run_circos()
+            # For each lside tag, iterate over all rside tags, drawing
+            # a ribbon of width given by the number of data entries
+            # matching both tags (as stored in self.combinations).
+            for (l_index, l_tag) in enumerate(self.lside_tag_order):
+                for (r_index, r_tag) in enumerate(self.rside_tag_order):
+
+                    ribbon_width = self.intersect_counts.get((l_tag, r_tag), 0)
+                    
+                    # No data for this pair.
+                    if ribbon_width == 0:
+                        print "No data for combination %s %s" % (l_tag, r_tag)
+                        continue
+                        
+                    # Write the line defining the left-side half of the ribbon.
+                    end = self.lcounts[l_tag]
+                    start = end - ribbon_width
+                    lside_line = line_template.format(id=link_id, 
+                                                      name="lside%d" % l_index, 
+                                                      start=start, 
+                                                      end=end,
+                                                      colornum=l_index)
+                    link_data.write(lside_line)
+                    
+                    # Resize the count of remaining entries for this
+                    # left-side tag.
+                    self.lcounts[l_tag] = start
+                    
+                    # Write the line defining the right-side half of the ribbon.
+                    end = self.rcounts[r_tag]
+                    start = end - ribbon_width
+                    rside_line = line_template.format(id=link_id, 
+                                                      name="rside%d" % r_index, 
+                                                      start=start, 
+                                                      end=end,
+                                                      colornum=l_index)
+                    link_data.write(rside_line)
+
+                    # Resize the count of remaining entries for this
+                    # right-side tag.
+                    self.rcounts[r_tag] = start
+                    link_id += 1
+                    
+                # End rside-loop.  We should have processed all
+                # entries for this lside tag.
+                assert self.lcounts[l_tag] == 0, l_tag
+                print "Finished processing lside tag: {tag}".format(tag=l_tag)
+                
+            # End lside-loop
+            for r_tag, count in self.rcounts.iteritems():
+                assert count == 0, "%s %d" % r_tag
+
+    def produce_image(self):
+        self.write_config_files()
+        self.write_linkdata()
+        run_circos()
+
+def count_single_tag(data, tag):
+    tag_values = (entry[tag] for entry in data)
+    return Counter(tag_values)
+
+# Iterate over data, counting unique values of entry[ltag],
+# entry[rtag], and (entry[ltag], entry[rtag]).
+def count_tags(data, ltag, rtag):
+
+    copy0, copy1, copy2 = tee(data, 3)
+
+    ltags = (entry[ltag] for entry in copy0)
+    ltag_counts = Counter(ltags)
+
+    rtags = (entry[rtag] for entry in copy1)
+    rtag_counts = Counter(rtags)
+
+    # Returns tuples of the form: (entry[ltag], entry[rtag]).
+    combinations = imap(itemgetter(ltag, rtag), copy2)
+    combination_counts = Counter(combinations)
+    return ltag_counts, rtag_counts, combination_counts
+
+def count_tags_weighted(data, ltag, rtag):
     
-def produce_linked_image(lside, rside, **kwargs):
+    copy0, copy1, copy2 = tee(data, 3)
+
+    ltag_counts = Counter()
+    rtag_counts = Counter()
+    combination_counts = Counter()
+
+    for entry in copy0:
+        value = entry[ltag]
+        assert iter(value)
+        assert len(value)
+        for sub_value in value:
+            ltag_counts[sub_value] += (2 / len(value))
+
+    for entry in copy1:
+        # TODO: support multi-valent rtags as well.
+        value = entry[rtag]
+        rtag_counts[value] += 2
     
-    assert_valid_input(lside, rside)
-    
-    # Define and format chromosome names.
-    lside_chroms = gen_chromosome_names('l', len(lside))
-    rside_chroms = gen_chromosome_names('r', len(rside))
-    all_chroms = chain(lside_chroms, rside_chroms)
-    chroms_formatted = ';'.join(all_chroms)
+    combinations = imap(itemgetter(ltag, rtag), copy2)
+    for entry in combinations:
+        lval = entry[0]
+        rval = entry[1]
+        # Iterate over ltag sub-values.
+        for sub_value in lval:
+            combination_counts[(sub_value, rval)] += (2 / len(lval))
 
-    # Get color information.
-    color = 'grey'
-    color_dict = kwargs.get('colors')
-
-    try:
-        os.mkdir('./tmp')
-    except OSError:
-        print "Warning: ./tmp already exists"
-    
-    # Write karyotype data.
-    karyotype_conf = open('./tmp/karyotype.conf', 'w')
-    line_template = 'chr - {l_or_r}side{index} {tag} {start} {end} color={color}\n'
-    
-    # Write left side karyotypes.
-    for (index, (tag, amount)) in enumerate(lside.iteritems()):
-        
-        if color_dict:
-            color = color_dict.get(tag, 'grey')
-        
-        # hard-coded special case for math major, fix later
-        if isinstance(tag, tuple):
-            if tag[0] in ['', "Mathematics"]:
-                tag = tag[1]
-            else:
-                tag = tag[0]
-
-        karyotype_conf.write(line_template.format(l_or_r='l',
-                                                  index=index,
-                                                  tag=tag, 
-                                                  start=0, 
-                                                  end=amount, 
-                                                  color=color
-        ))
-
-    # Write right side karyotypes.
-    for (index, (tag, amount)) in enumerate(rside.iteritems()):
-        
-        if color_dict:
-            color = color_dict.get(tag, 'grey')
-
-        karyotype_conf.write(line_template.format(l_or_r='r',
-                                                  index=index,
-                                                  tag=tag, 
-                                                  start=0, 
-                                                  end=amount, 
-                                                  color=color
-        ))
-        
-    karyotype_conf.close()
-    write_circos_conf(chroms_formatted)
-    write_ticks_conf(chroms_formatted)
-    
-def run_circos():
-    subprocess.call(circos_command)
-
-def write_ticks_conf(all_chroms_string):
-    
-    header = """
-<ticks>
-
-chromosomes_display_default = yes
-
-chromosomes = {all_chroms}
-
-radius = dims(ideogram, radius_outer)
-orientation = out
-label_multiplier = 1
-</ticks>
-""".format(all_chroms=all_chroms_string)
-
-    ticks_conf = open('./tmp/ticks.conf', 'w')
-    ticks_conf.write(header)
-    ticks_conf.close()
-
-def write_circos_conf(all_chroms_string):
-
-    circos_conf = open('./tmp/circos.conf', 'w')
-    
-    header = """
-<colors>
-  <<include ./colors.conf>>
-  <<include etc/brewer.conf>>
-</colors>
-
-<fonts>
-  <<include etc/fonts.conf>>
-</fonts>
-
-<<include ideogram.conf>>
-<<include ticks.conf>>
-
-karyotype   = ./karyotype.conf
-
-<image>
-  <<include ./image.conf>>
-</image>
-
-chromosomes_units = 1
-chromosomes = {all_chroms}
-chromosomes_display_default = yes
-show_ticks = yes
-show_tick_labels = yes
-""".format(all_chroms=all_chroms_string)
-
-    circos_conf.write(header)
-
-    link_block = """
-<links>
-
-z = 0
-radius = 0.99r
-bezier_radius = 0.25r
-crest = 0.4
-bezier_radius_purity = 0.8
-
-<link all_links>
-show = yes
-ribbon = yes
-file = ./tmp/linkdata.txt
-</link>
-
-</links>
-
-<<include etc/housekeeping.conf>>
-"""
-    circos_conf.write(link_block)
-    circos_conf.close()
+    return ltag_counts, rtag_counts, combination_counts
 
 def gen_chromosome_names(l_or_r, count):
     assert(l_or_r in ('l', 'r'))
     for index in xrange(count):
         yield '{l_or_r}side{index}'.format(l_or_r=l_or_r, index=index)
-    
-def assert_valid_input(lside, rside):
 
-    assert isinstance(lside, defaultdict)
-    assert isinstance(rside, defaultdict)
-    assert(lside.default_factory() == 0)
-    assert(rside.default_factory() == 0)
-
-    # Counter dicts may not share tags
-    assert(set(lside.keys()).intersection(set(rside.keys())) == set()), \
-        "Counter dictionaries may not share tags"
-    
-
-def count_all_double_majors(input_filename=student_csv):
-
-    major_counter = defaultdict(int)
-    industry_counter = defaultdict(int)
-
-    reader = read_filled_csv(input_filename)
-
-    for entry in reader:
-
-        if entry['Major3'] or not entry['Major2']:
-            continue
-        
-        industry_counter[entry['Industry']] += 1
-        major_counter[tuple(sorted([entry['Major1'], 
-                                   entry['Major2']]))] += 1
-        
-    return major_counter, industry_counter
-        
-
-def count_double_majors(base_major = "Mathematics"):
-    print "###############"
-    print "Starting %s:" % base_major
-    print "###############"
-    
-    # Map counting instances of each double major with base_major.
-    major_counter = defaultdict(int)
-
-    # Map counting total students in each industry.
-    industry_counter = defaultdict(int)
-
-    # Map counting students from each double major in each industry.
-    combination_counter = defaultdict(int)
-    
-    filtered_reader = filter_by_major(read_filled_csv(), base_major)
-    
-    for student in filtered_reader:
-        
-        # Ignore triple majors
-        if student['Major3']:
-            continue
-        
-        industry = student['Industry']
-        if student["Major1"] == student["Major2"]:
-            student["Major2"] = ""
-
-        major_pair = tuple(sorted([student['Major1'], student['Major2']]))
-        combination = tuple([major_pair[0], major_pair[1], industry])
-
-        industry_counter[industry] += 1
-        major_counter[major_pair] += 1
-        combination_counter[combination] += 1
-        
-    print "###############"
-    print "Finished %s:" % base_major
-    print "###############"
-    
-    return industry_counter, major_counter, combination_counter
+def run_circos():
+    subprocess.call(circos_command)
 
 if __name__ == "__main__":
+
+    from double_major import clean_major_fields, ordered_majors, ordered_industries
+    from pprint import pprint as pp
+
+    r = clean_major_fields(read_filled_csv())
     
-    for major in majors:
-        count_double_majors(major)
+    conf = CircosConfig(r, 
+                        'Major', 
+                        'Industry',
+                        lside_tag_order=ordered_majors,
+                        rside_tag_order=ordered_industries,
+                        weighted=True, 
+                        filter=fil, 
+                        filename=filename)
+    conf.produce_image()
+    subprocess.call('open {filename}'.format(filename=filename).split())
