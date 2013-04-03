@@ -1,23 +1,20 @@
 import os
 import subprocess
 
-from itertools import chain, tee, imap, ifilter
+from itertools import(chain, 
+                      tee, 
+                      imap, 
+                      ifilter)
+
 from collections import Counter
 from operator import itemgetter
 
-from definitions import (majors, 
-                         double_majors, 
-                         student_csv, 
-                         circos_command)
+from definitions import circos_command
 
-from csv_to_mongo import read_csv, filter_by_major, read_filled_csv
+from csv_to_mongo import read_filled_csv
 from templates import(circos_conf_header, 
                       circos_conf_links, 
                       ideogram_conf_template)
-
-def tform(tup):
-    return '_'.join(tag for tag in tup)
-
 
 # Class storing all necessary information to create a set of circos
 # configuration files.  Can be modified on the fly to change the
@@ -165,26 +162,6 @@ class CircosConfig(object):
             link_block = circos_conf_links.format(**self.circos_conf_link_settings)
             circos_conf.write(link_block)
 
-    # Pretty sure this isn't actually doing anything right now.
-
-    # def write_ticks_conf(self):
-    
-#     header = """
-# <ticks>
-
-# chromosomes_display_default = yes
-# chromosomes = {all_chroms}
-# radius = dims(ideogram, radius_outer)
-# orientation = out
-# label_multiplier = 1
-
-# </ticks>
-# """.format(all_chroms=all_chroms_string)
-
-#     ticks_conf = open('./tmp/ticks.conf', 'w')
-#     ticks_conf.write(header)
-#     ticks_conf.close()
-
     def write_ideogram_conf(self):
 
         with open('./tmp/ideogram.conf', 'w') as ideogram_conf:
@@ -249,7 +226,7 @@ class CircosConfig(object):
                 
             # End lside-loop
             for r_tag, count in self.rcounts.iteritems():
-                assert count == 0, "%s %d" % r_tag
+                assert count == 0, "%r %r" % (r_tag, count)
 
     def produce_image(self):
         self.write_config_files()
@@ -314,21 +291,3 @@ def gen_chromosome_names(l_or_r, count):
 
 def run_circos():
     subprocess.call(circos_command)
-
-if __name__ == "__main__":
-
-    from double_major import clean_major_fields, ordered_majors, ordered_industries
-    from pprint import pprint as pp
-
-    r = clean_major_fields(read_filled_csv())
-    
-    conf = CircosConfig(r, 
-                        'Major', 
-                        'Industry',
-                        lside_tag_order=ordered_majors,
-                        rside_tag_order=ordered_industries,
-                        weighted=True, 
-                        filter=fil, 
-                        filename=filename)
-    conf.produce_image()
-    subprocess.call('open {filename}'.format(filename=filename).split())

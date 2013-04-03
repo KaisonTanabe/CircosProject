@@ -1,10 +1,7 @@
 import csv
-import pymongo
-import difflib
 
 from collections import defaultdict
 
-from db import connect
 from definitions import industry_map, major_map, student_csv
 
 def read_csv(filename=student_csv):

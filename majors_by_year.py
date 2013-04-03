@@ -19,9 +19,9 @@ if __name__ == "__main__":
         fil = lambda entry: int(entry['Class']) >= start \
             and int(entry['Class']) <= end
 
-        filename = filename_template.format(start=start, 
-                                        end=end, 
-                                        total=total)
+        filename = filename_template.format(start=start,
+                                            end=end,
+                                            total=total)
         conf = CircosConfig(r, 
                             'Major', 
                             'Industry',
