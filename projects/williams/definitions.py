@@ -35,7 +35,6 @@ industry_map = \
         'Documentary',
         'Columnist'
         ],
-     #####
      'Social/Religious Services'        : [
         'Priest', 
         'Nun',
@@ -114,7 +113,6 @@ industry_map = \
         'Hotel', 
         'Resort'
         ],
-     #####
      'K-12 Education'                   : [
         'Teach',
         'Kindergarten',
@@ -124,7 +122,6 @@ industry_map = \
         'Head of School',
         'Educator'
         ],
-     #####
      'College Education'                : [
         'College',
         'Universal',
@@ -197,7 +194,6 @@ major_map = {
         'European History',
         'African History'
         ],
-    #####
     'Culture Studies'                   : [
         'Anthropology',
         'Urban Studies',
@@ -262,7 +258,6 @@ major_map = {
         "Linguistics", 
         'Greek'
         ],
-    #####
     'Computer Science'                 : [
         'Computer Science'
         ],
@@ -280,7 +275,6 @@ major_map = {
         'Chinese Literature',
         'German Literature'
         ],
-    #####
     'Political Studies'                : [
         "Political Economy",
         "Political Philosophy",
