@@ -1,4 +1,4 @@
-from csv_to_mongo import read_csv, read_filled_csv
+from filters import read_csv, read_filled_csv
 
 # Copy from the input csv and map the Major1, Major2, Major3
 # values to a single useful field.

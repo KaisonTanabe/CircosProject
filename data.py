@@ -131,6 +131,7 @@ def compute_counts_subvalues(data, ltag, rtag, lval_max, rval_max):
     rvalue_total = sum(count for count in rvalue_counts.itervalues())
     pair_total = sum(count for count in rvalue_counts.itervalues())
 
+    # Convert the counts to ints so that circos can parse them correctly.
     intify_counts(lvalue_counts)
     intify_counts(rvalue_counts)
     intify_counts(value_pair_counts)
