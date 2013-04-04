@@ -1,19 +1,20 @@
 
+circos_command = ['perl', '/Applications/circos-0.62-1/bin/circos', '-conf', './tmp/circos.conf']
+
 circos_conf_header = \
 """
 <colors>
-  <<include ./colors.conf>>
-  <<include etc/brewer.conf>>
+  <<include ../conf/colors.conf>>
 </colors>
 
 <fonts>
-  <<include etc/fonts.conf>>
+  <<include ../conf/fonts.conf>>
 </fonts>
 
-<<include ./tmp/ideogram.conf>>
-<<include ticks.conf>>
+<<include ./ideogram.conf>>
+<<include ./ticks.conf>>
 
-karyotype   = ./tmp/karyotype.conf
+karyotype = ./tmp/karyotype.conf
 
 <image>
   background = white
@@ -58,7 +59,7 @@ file = ./tmp/linkdata.txt
 
 </links>
 
-<<include ./tmp/housekeeping.conf>>
+<<include ./conf/housekeeping.conf>>
 """
 
 ideogram_conf_template = \
@@ -70,8 +71,8 @@ default = {default_spacing}
 break   = {break}
 </spacing>
 
-<<include ideogramposition.conf>>
-<<include ideogramlabel.conf>>
+<<include ./conf/ideogramposition.conf>>
+<<include ./conf/ideogramlabel.conf>>
 
 radius  = {radius}
 
