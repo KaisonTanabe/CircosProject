@@ -11,7 +11,7 @@ from operator import itemgetter
 
 from templates import circos_command
 
-from csv_to_mongo import read_filled_csv
+from filters import read_filled_csv
 from data import ImageData
 from templates import(circos_conf_header, 
                       circos_conf_links, 

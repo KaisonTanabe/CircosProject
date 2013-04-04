@@ -2,8 +2,6 @@ from operator import itemgetter
 from collections import Counter
 from itertools import imap, tee
 
-
-
 # data for use_subvalues=True should be an iterable with entries of the form:
 # {
 #  ltag: (l_sub0, l_sub1, ... l_subn), 
