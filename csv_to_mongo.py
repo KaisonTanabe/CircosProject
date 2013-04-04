@@ -2,7 +2,7 @@ import csv
 
 from collections import defaultdict
 
-from definitions import industry_map, major_map, student_csv
+from projects.williams.definitions import industry_map, major_map, student_csv
 
 def read_csv(filename=student_csv):
     reader = csv.DictReader(open(filename))

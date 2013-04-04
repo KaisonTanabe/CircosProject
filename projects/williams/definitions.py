@@ -1,8 +1,7 @@
 import os
 from itertools import combinations
 
-student_csv = 'majors.csv'
-circos_command = ['perl', '/Applications/circos-0.62-1/bin/circos', '-conf', './tmp/circos.conf']
+student_csv = 'projects/williams/majors.csv'
 
 # Map from industry categories to keywords to fuzzy match.
 industry_map = \

@@ -1,4 +1,6 @@
 
+circos_command = ['perl', '/Applications/circos-0.62-1/bin/circos', '-conf', './tmp/circos.conf']
+
 circos_conf_header = \
 """
 <colors>

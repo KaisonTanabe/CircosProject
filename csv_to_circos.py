@@ -9,7 +9,7 @@ from itertools import(chain,
 from collections import Counter
 from operator import itemgetter
 
-from definitions import circos_command
+from templates import circos_command
 
 from csv_to_mongo import read_filled_csv
 from data import ImageData
