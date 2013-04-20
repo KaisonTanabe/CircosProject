@@ -297,5 +297,59 @@ major_map = {
         ]
     }
 
+division_map = {
+    "Division 1": ["Art/Music", 
+                   "Languages", 
+                   "English/Literature"], 
+    
+    "Division 2": ["Philosophy/Religion", 
+                   "Culture Studies", 
+                   "History", 
+                   "Political Studies", 
+                   "Economics", 
+                   "Psychology"],
+    "Division 3": ["Geosciences", 
+                   "Biology", 
+                   "Chemistry", 
+                   "Physics/Astronomy", 
+                   "Computer Science", 
+                   "Mathematics"]
+    }
+
 majors = major_map.keys()
-double_majors = list(combinations(majors, 2))
+
+ordered_majors = [
+    'Mathematics',  
+    'Computer Science',
+    'Physics/Astronomy',
+    'Chemistry',
+    'Biology',
+    'Geosciences',
+    'Psychology',
+    'Economics',                       
+    'Political Studies',
+    'History',
+    'Culture Studies',
+    'Philosophy/Religion',
+    'English/Literature',
+    'Languages',
+    'Art/Music'
+    ]
+
+ordered_industries = [
+    'Arts/Entertainment',
+    'Writing/Communication',
+    'Social/Religious Services',
+    'Government',
+    'Law',
+    'Sales',
+    'Consulting',
+    'Banking/Financial',
+    'Insurance/Management',
+    'K-12 Education',
+    'College Education',
+    'Health/Medicine',
+    'Engineering/Construction',
+    'Technology',
+    'Other',
+    ]

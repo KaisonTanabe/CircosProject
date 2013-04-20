@@ -1,4 +1,5 @@
 from filters import read_csv, read_filled_csv
+from definitions import division_map
 
 # Copy from the input csv and map the Major1, Major2, Major3
 # values to a single useful field.
@@ -17,38 +18,21 @@ def clean_major_fields(student_gen):
             entry['Major'] = tuple(sorted(majors))
             yield entry
 
-ordered_majors = [
-    'Mathematics',  
-    'Computer Science',
-    'Physics/Astronomy',
-    'Chemistry',
-    'Biology',
-    'Geosciences',
-    'Psychology',
-    'Economics',                       
-    'Political Studies',
-    'History',
-    'Culture Studies',
-    'Philosophy/Religion',
-    'English/Literature',
-    'Languages',
-    'Art/Music'
-    ]
+def get_division(major):
+    
+    for div, major_list in division_map.iteritems():
+        if major in major_list:
+            return div
 
-ordered_industries = [
-    'Arts/Entertainment',
-    'Writing/Communication',
-    'Social/Religious Services',
-    'Government',
-    'Law',
-    'Sales',
-    'Consulting',
-    'Banking/Financial',
-    'Insurance/Management',
-    'K-12 Education',
-    'College Education',
-    'Health/Medicine',
-    'Engineering/Construction',
-    'Technology',
-    'Other',
-    ]
+    assert False, "Couldn't map major (%s)" % major
+    
+
+def major_to_division(student_gen):
+    
+    for entry in student_gen:
+        entry["Division"] = tuple(map(get_division, entry["Major"]))
+        yield entry
+        
+            
+            
+        

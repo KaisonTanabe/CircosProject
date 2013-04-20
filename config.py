@@ -27,6 +27,10 @@ class CircosConfig(object):
 
         assert isinstance(data, ImageData)
         self.data = data
+        self.link_filter = kwargs.get('link_filter', lambda x, y: True)
+
+        self.ltag_parse = kwargs.get('ltag_parse', lambda x: x)
+        self.rtag_parse = kwargs.get('rtag_parse', lambda x: x)
         
         self.lside_tag_order = kwargs.get('lside_tag_order', 
                                           self.data.lcounts.keys())
@@ -36,17 +40,22 @@ class CircosConfig(object):
         self.karyotype_colors = kwargs.get('karyotype_colors', {})
         self.link_colors = kwargs.get('link_colors', {})
         
-        # If no color dictionary is supplied, assume we're coloring by
-        # ltags using 'c{number}'-style coloring.  There are initially
+        # If use_default_colors is set, we color by ltags using
+        # 'default_color{i}' for the ith tag.  There are initially
         # only 15 default colors defined, but more can be added by
-        # modifying colors.conf.
-        
+        # modifying tmp/customcolors.conf.
         if kwargs.get('use_default_colors', False):
             for index, ltag in enumerate(self.lside_tag_order):
                 self.karyotype_colors[ltag] = 'default_color{index}'.format(index=index)
                 
                 for rtag in self.rside_tag_order:
                     self.link_colors[(ltag, rtag)] = 'default_color{index}'.format(index=index)
+        else:
+            # Color links by ltag if only karyotype colors are specified.
+            if self.link_colors == {} and self.karyotype_colors != {}:
+                for ltag in self.lside_tag_order:
+                    for rtag in self.rside_tag_order:
+                        self.link_colors[(ltag, rtag)] = self.karyotype_colors[ltag]
 
         # Define and format chromosome names.  These are always of the
         # form {r, l}side{0-length}.
@@ -60,13 +69,14 @@ class CircosConfig(object):
              "chromosomes"           : ';'.join(all_chroms),
              "show_ticks"            : "no", 
              "show_tick_labels"      : "no", 
+             "image_size"            : kwargs.get('image_size', '3000p'),
              "filename"              : kwargs.get('filename', 'circos.png')}
 
         self.circos_conf_link_settings = \
             {"radius"                : "0.99r", 
              "bezier_radius"         : ".25r", 
-             "crest"                 : ".3", 
-             "bezier_radius_purity"  : ".95", 
+             "crest"                 : ".4", 
+             "bezier_radius_purity"  : ".8", 
              "show_by_default"       : "yes", 
              "ribbon"                : "yes", 
              "flat"                  : "no"}
@@ -113,8 +123,8 @@ class CircosConfig(object):
         with open('./tmp/karyotype.conf', 'w') as karyotype_conf:
             
             line_template = \
-                'chr\t-\t{l_or_r}side{index}\t{tag}\t{start}\t{end}\t{color}\n'
-            
+                'chr\t-\t{l_or_r}side{index}\t{name}\t{start}\t{end}\t{color}\n'
+
             # Right side karyotypes.
             for (index, tag) in enumerate(self.rside_tag_order):
                 width = self.data.rcounts.get(tag, 0)
@@ -127,11 +137,14 @@ class CircosConfig(object):
                 color = self.karyotype_colors.get(tag, 'grey')
                 karyotype_conf.write(line_template.format(l_or_r='r',
                                                           index=index,
-                                                          tag=tag, 
+                                                          name=self.rtag_parse(tag), 
                                                           start=0, 
                                                           end=width, 
                                                           color=color
                                                           ))
+                
+                
+
             # Left side karyotypes.
             for (index, tag) in enumerate(self.lside_tag_order):
                 width = self.data.lcounts.get(tag, 0)
@@ -146,7 +159,7 @@ class CircosConfig(object):
                 color = self.karyotype_colors.get(tag, 'grey')
                 karyotype_conf.write(line_template.format(l_or_r='l',
                                                           index=index,
-                                                          tag=tag, 
+                                                          name=self.ltag_parse(tag), 
                                                           start=0, 
                                                           end=width, 
                                                           color=color
@@ -167,7 +180,7 @@ class CircosConfig(object):
         with open('./tmp/linkdata.txt') as link_data:
             
             link_id = 0
-            line_template = "id{id}\t{name}\t{start}\t{end}\tcolor={color}\n"
+            line_template = "{hide_link}id{id}\t{name}\t{start}\t{end}\tcolor={color}\n"
             link_data = open('./tmp/linkdata.txt', 'w')
 
             # For each lside tag, iterate over all rside tags, drawing
@@ -175,6 +188,10 @@ class CircosConfig(object):
             # matching both tags (as stored in self.data.pair_counts).
             for (l_index, l_tag) in enumerate(self.lside_tag_order):
                 for (r_index, r_tag) in enumerate(self.rside_tag_order):
+
+                    # We prepend a # symbol to comment out the line if
+                    # we don't want to actually show this link.
+                    hide_link = '' if self.link_filter(l_tag, r_tag) else '#'
 
                     ribbon_width = self.data.pair_counts.get((l_tag, r_tag), 0)
                     color = self.link_colors.get((l_tag, r_tag), 'grey')
@@ -192,7 +209,9 @@ class CircosConfig(object):
                                                       name="lside%d" % l_index, 
                                                       start=start, 
                                                       end=end,
-                                                      color=color)
+                                                      color=color, 
+                                                      hide_link=hide_link)
+
                     link_data.write(lside_line)
                     # Resize the count of remaining entries for this
                     # left-side tag.
@@ -207,7 +226,8 @@ class CircosConfig(object):
                                                       name="rside%d" % r_index, 
                                                       start=start, 
                                                       end=end,
-                                                      color=color)
+                                                      color=color, 
+                                                      hide_link=hide_link)
                     link_data.write(rside_line)
                     # Resize the count of remaining entries for this
                     # right-side tag.

@@ -1,6 +1,6 @@
 from operator import itemgetter
 from collections import Counter
-from itertools import imap, tee
+from itertools import ifilter, imap, tee
 
 # data for use_subvalues=True should be an iterable with entries of the form:
 # {
@@ -24,7 +24,7 @@ class ImageData(object):
         self.rtag = rtag
 
         if (kwargs.get('filter')):
-            self.data = imap(kwargs['filter'], self.data)
+            self.data = ifilter(kwargs['filter'], self.data)
 
         # Convert all tags to tuples if only one is a tuple on input.
         if use_subvalues_left and not use_subvalues_right:

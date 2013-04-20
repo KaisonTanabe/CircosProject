@@ -23,7 +23,7 @@ karyotype = ./tmp/karyotype.conf
   png   = yes
   svg   = yes
   # radius of inscribed circle in image
-  radius         = 3000p
+  radius         = {image_size}
 
   # by default angle=0 is at 3 o'clock position
   angle_offset      = -90
@@ -67,8 +67,8 @@ ideogram_conf_template = \
 <ideogram>
 
 <spacing>
-default = {default_spacing}
-break   = {break}
+default      = {default_spacing}
+break        = {break}
 </spacing>
 
 <<include ./conf/ideogramposition.conf>>
