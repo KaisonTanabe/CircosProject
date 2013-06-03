@@ -23,9 +23,9 @@ class ImageData(object):
         self.ltag = ltag
         self.rtag = rtag
 
-        if (kwargs.get('filter')):
+        if kwargs.get('filter'):
             self.data = ifilter(kwargs['filter'], self.data)
-
+            
         # Convert all tags to tuples if only one is a tuple on input.
         if use_subvalues_left and not use_subvalues_right:
             self.data = convert_to_tuples(self.data, self.rtag)
@@ -144,7 +144,7 @@ def intify_counts(counter):
     
     for key in counter.iterkeys():
         counter[key] = int(counter[key])
-    
+
 def convert_to_tuples(gen, key):
 
     for entry in gen:

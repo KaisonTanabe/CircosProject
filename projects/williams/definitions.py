@@ -7,7 +7,7 @@ student_csv = 'projects/williams/majors.csv'
 industry_map = \
     {'Arts/Entertainment'               : [
         'Art',
-        'Film'
+        'Film',
         'Musician', 
         'Painter',
         'Graphic',
@@ -44,7 +44,7 @@ industry_map = \
         'Charit',
         'Environmental',
         'Forestry',
-        'Conservation'
+        'Conservation',
         'Library',
         'Philanthrop', 
         'Foundations',
@@ -92,7 +92,7 @@ industry_map = \
         'Capital',
         'Invest', 
         'Hedge',
-        'Fund'
+        'Fund',
         'Analyst', 
         'High Yield',
         'Wealth', 
@@ -157,7 +157,7 @@ industry_map = \
         ],
      'Engineering/Construction'         : [
         'Engin',
-        'Contractor'
+        'Contractor',
         'Construct',
         'Manufactur',
         'Mining',
@@ -308,6 +308,7 @@ division_map = {
                    "Political Studies", 
                    "Economics", 
                    "Psychology"],
+
     "Division 3": ["Geosciences", 
                    "Biology", 
                    "Chemistry", 

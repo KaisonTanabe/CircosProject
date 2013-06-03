@@ -1,7 +1,5 @@
 import csv
-
 from collections import defaultdict
-
 from projects.williams.definitions import (industry_map, 
                                            major_map, 
                                            student_csv)
@@ -13,10 +11,14 @@ def read_filled_csv(filename=student_csv):
     reader = csv.DictReader(open(filename))
     return fill_majors(fill_industries(reader))
 
+################################
+# Williams-Specific Data Filters
+################################
+
 def fill_industries(reader):
 
     for entry in reader:
-        # Skip entries that already have industry info.l
+        # Skip entries that already have industry info.
         if entry.get('Industry'):
             match = match_definitions(entry.get('Industry'))
             if match:
@@ -76,9 +78,6 @@ def fill_majors(reader):
                 
 def match_definitions(info_str):
     
-    # if info_str in industry_map.keys():
-    #     return info_str
-
     for industry, keywords in industry_map.items():
         for word in keywords:
             if word in info_str or info_str in word:
