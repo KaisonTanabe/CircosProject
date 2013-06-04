@@ -12,7 +12,6 @@ from operator import itemgetter
 from templates import circos_command
 
 from filters import read_filled_csv
-from data import ImageData
 from templates import(circos_conf_header, 
                       circos_conf_links, 
                       ideogram_conf_template)
@@ -25,7 +24,6 @@ class CircosConfig(object):
 
     def __init__(self, data, **kwargs):
 
-        assert isinstance(data, ImageData)
         self.data = data
         self.link_filter = kwargs.get('link_filter', lambda x, y: True)
 
@@ -142,8 +140,6 @@ class CircosConfig(object):
                                                           end=width, 
                                                           color=color
                                                           ))
-                
-                
 
             # Left side karyotypes.
             for (index, tag) in enumerate(self.lside_tag_order):
@@ -239,12 +235,15 @@ class CircosConfig(object):
                     
                 # End rside-loop.  We should have processed all
                 # entries for this lside tag.
-                assert lcounts[l_tag] == 0, l_tag
+
+                #assert lcounts[l_tag] == 0, l_tag
+                print lcounts[l_tag]
                 print "Finished processing lside tag: {tag}".format(tag=l_tag)
                 
             # End lside-loop
             for r_tag, count in rcounts.iteritems():
-                assert count == 0, "%r %r" % (r_tag, count)
+                #assert count == 0, "%r %r" % (r_tag, count)
+                print count
 
     def produce_image(self):
         self.write_config_files()

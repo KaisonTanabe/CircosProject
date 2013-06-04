@@ -35,18 +35,36 @@ of the diagram; right tags will be placed clockwise from the top.
 
 class CategoryMapping(object):
 
-    def __init__(self, left_csv, right_csv, order_csv):
+    def __init__(self, 
+                 left_csv, 
+                 right_csv, 
+                 order_csv, 
+                 left_output_key="Major",
+                 right_output_key="Industry"):
         
         self.left_mapping = read_transpose_dict(left_csv)
         self.right_mapping = read_transpose_dict(right_csv)
         self.left_order, self.right_order = parse_order(order_csv)
+        self.left_output_key= left_output_key
+        self.right_output_key="Industry"
 
     def apply(self, data):
         
         for entry in data:
-            import nose.tools; nose.tools.set_trace()
-            apply_to_entry(entry, self.left_mapping, self.left_mapping["Major Tags"], "Major")
-            apply_to_entry(entry, self.right_mapping, self.right_mapping["Industry Tags"], "Industry")
+            success = apply_to_entry(entry, 
+                                    self.left_mapping, 
+                                    self.left_mapping["Major Tags"], 
+                                    self.left_output_key)
+            # No match, skip to the next entry.
+            if not success:
+                continue
+
+            sucess = apply_to_entry(entry, 
+                                    self.right_mapping, 
+                                    self.right_mapping["Industry Tags"], 
+                                    self.right_output_key)
+            if not success:
+                continue
             
             # Insufficient or non-matching data for this entry.
             if entry != None:
@@ -65,12 +83,14 @@ def apply_to_entry(entry, mapping, tags, output_field):
         
         matches[index] = find_match(entry[tag], mapping)
     
-    all_matches = tuple(sorted(filter(lambda x: x != '', matches)))
+    # Filter out empty values and duplicates, then sort and make a tuple.
+    all_matches = tuple(sorted(set(filter(lambda x: x != '', matches))))
 
     if len(all_matches) == 0:
-        entry = None
+        return False
     else:
         entry[output_field] = all_matches
+        return True
         
 """Take a string and a dict with entries like {key : [values]}, and
 return the first key either containing a value that is a substring
@@ -116,15 +136,34 @@ def parse_order(filename):
 
 if __name__ == "__main__":
 
-    from filters import read_csv, fill_industries
+    from config import CircosConfig
+    from data import ImageData, CMapImageData
+    from projects.williams.double_major import clean_major_fields
+    from filters import read_csv, fill_industries, read_filled_csv
+    from projects.williams.definitions import(ordered_majors, 
+                                              ordered_industries)
 
-    # 'ADV-ID': '0010037246'
-    
-    r = ifilter(lambda x: x['ADV-ID'] == '0010037246', fill_industries(read_csv()))
-
+    nreader = fill_industries(read_csv())
     catmap = CategoryMapping("major.csv", "industry.csv", "order.csv")
-    mapped = catmap.apply(r)
 
+    ndata = CMapImageData(nreader, 
+                          catmap, 
+                          use_subvalues_left=True, 
+                          use_subvalues_right=True)
+    nconf = CircosConfig(ndata, 
+                         use_default_colors=True, 
+                         lside_tag_order=catmap.left_order, 
+                         rside_tag_order=catmap.right_order)
     
-    
+    oreader = clean_major_fields(read_filled_csv())
+    odata = ImageData(oreader, 
+                      "Major", 
+                      "Industry", 
+                      use_subvalues_left=True)
 
+    oconf = CircosConfig(odata, 
+                         use_default_colors=True, 
+                         lside_tag_order=ordered_majors,
+                         rside_tag_order=ordered_industries)
+    
+    nconf.produce_image()

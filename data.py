@@ -53,7 +53,49 @@ class ImageData(object):
 
             self.lcounts, self.rcounts, self.pair_counts = \
                 compute_counts_primitives(copy, self.ltag, self.rtag)
-        
+
+
+class CMapImageData(object):
+    
+    def __init__(self, 
+                 data, 
+                 mapping,
+                 use_subvalues_left=True, # default to true because everything is a tuple
+                 use_subvalues_right=True, 
+                 **kwargs):
+
+        self.data = data
+        self.mapping = mapping
+        self.ltag = self.mapping.left_output_key
+        self.rtag = self.mapping.right_output_key
+
+        if kwargs.get('filter'):
+            self.data = ifilter(kwargs['filter'], self.data)
+            
+        self.data = ifilter(lambda x: len(x['Major']) < 2, mapping.apply(data))
+
+        self.use_subvalues = (use_subvalues_right or use_subvalues_left)
+        self.compute_counts()
+
+    def compute_counts(self):
+
+        # The use_subvalues flag signifies that our data entries are
+        # tuples of primitives, and we want to count the entries in
+        # the tuples rather than the tuples themselves.
+        if self.use_subvalues:
+            
+            self.data, copy0, copy1 = tee(self.data, 3)
+            l_max, r_max = compute_max_entry_length(copy0, self.ltag, self.rtag)
+
+            self.lcounts, self.rcounts, self.pair_counts = \
+                compute_counts_subvalues(copy1, self.ltag, self.rtag, l_max, r_max)
+
+        else:
+            self.data, copy = tee(self.data, 2)
+
+            self.lcounts, self.rcounts, self.pair_counts = \
+                compute_counts_primitives(copy, self.ltag, self.rtag)
+    
 def compute_counts_primitives(data, ltag, rtag):
     
     copy0, copy1, copy2 = tee(data, 3)
