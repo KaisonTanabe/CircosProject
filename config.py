@@ -39,19 +39,15 @@ class CircosConfig(object):
         self.link_colors = kwargs.get('link_colors', {})
         
         # If use_default_colors is set, we color by ltags using
-        # 'default_color{i}' for the ith tag.  There are initially
-        # only 15 default colors defined, but more can be added by
-        # modifying tmp/customcolors.conf.
+        # 'default_color{i}' for the ith tag.  
         self.use_default_colors = kwargs.get('use_default_colors', False)
+        open('tmp/customcolors.txt', 'w').close() # clear custom colors
         if self.use_default_colors:
             for index, ltag in enumerate(self.lside_tag_order):
                 self.karyotype_colors[ltag] = 'default_color{index}'.format(index=index)
                 
                 for rtag in self.rside_tag_order:
-                    self.link_colors[(ltag, rtag)] = 'default_color{index}'.format(index=index)
-        
-        # Clear out old customcolors.
-        open('tmp/customcolors.txt', 'w').close()
+                    self.link_colors[(ltag, rtag)] = 'default_color{index}'.format(index=index)                
         else:
             # This needs to happen first because it changes the values
             # stored in the color dictionary.
