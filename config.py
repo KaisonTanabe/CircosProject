@@ -116,7 +116,7 @@ class CircosConfig(object):
                 return
             
             for index, key in enumerate(self.karyotype_colors.keys()):
-                line = "custom{i} = {value}".format(i=index,
+                line = "custom{i} = {value}\n".format(i=index,
                                                     value=self.karyotype_colors[key])
                 colors.write(line)
                 self.karyotype_colors[key] = "custom%s" % index
