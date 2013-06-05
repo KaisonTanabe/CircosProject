@@ -41,7 +41,7 @@ class CircosConfig(object):
         # If use_default_colors is set, we color by ltags using
         # 'default_color{i}' for the ith tag.  
         self.use_default_colors = kwargs.get('use_default_colors', False)
-        open('tmp/customcolors.txt', 'w').close() # clear custom colors
+        open('tmp/customcolors.conf', 'w').close() # clear custom colors
         if self.use_default_colors:
             for index, ltag in enumerate(self.lside_tag_order):
                 self.karyotype_colors[ltag] = 'default_color{index}'.format(index=index)
