@@ -3,34 +3,8 @@ from collections import defaultdict
 from itertools import ifilter
 
 """
-
 Class encapsulating the category mapping information stored in
 client's csv input.
-
-Major and Industry CSV files should begin with a line of the form:
-
-{Major/Industry} Tags, Tag1, Tag2, Tag3, ...
-
-for example:
-
-Major Tags, Major1, Major2, Major3, ...
-Industry Tags, Industry, ...
-
-The remaining lines should be of the form:
-
-Category Name, Match1, Match2, Match3, ...
-
-for example:
-
-Languages, French, Spanish, Chinese, ...
-Sales, Sales, Advertising, Marketing, Retail, ...
-
-The Order CSV file should have the values "Major Order" and "Industry
-Order" as the entries of its first row.  The remaining rows should
-generate two columns defining an order for placing categories around
-the cirle diagram.  Major tags will be placed clockwise from the bottom
-of the diagram; right tags will be placed clockwise from the top.
-
 """
 
 class CategoryMapping(object):
@@ -59,11 +33,12 @@ class CategoryMapping(object):
             if not success:
                 continue
 
-            sucess = apply_to_entry(entry, 
+            success = apply_to_entry(entry, 
                                     self.right_mapping, 
                                     self.right_mapping["Industry Tags"], 
                                     self.right_output_key)
             if not success:
+                import nose.tools; nose.tools.set_trace()
                 continue
             
             # Insufficient or non-matching data for this entry.
@@ -122,6 +97,9 @@ def read_transpose_dict(filename):
     
     return dict(out_dict)
     
+def fil_ws(s):
+    return not (s.isspace() or s == '')
+
 def parse_order(filename):
 
     left_order = []
@@ -131,8 +109,10 @@ def parse_order(filename):
     for entry in reader:
         left_order.append(entry["Major Order"])
         right_order.append(entry["Industry Order"])
-        
-    return (left_order, right_order)
+    
+    # Make both orders go from top to bottom.
+    left_order.reverse()
+    return (filter(fil_ws, left_order), filter(fil_ws, right_order))
 
 if __name__ == "__main__":
 
@@ -143,27 +123,16 @@ if __name__ == "__main__":
     from projects.williams.definitions import(ordered_majors, 
                                               ordered_industries)
 
-    nreader = fill_industries(read_csv())
+    reader = fill_industries(read_csv())
     catmap = CategoryMapping("major.csv", "industry.csv", "order.csv")
 
-    ndata = CMapImageData(nreader, 
-                          catmap, 
-                          use_subvalues_left=True, 
-                          use_subvalues_right=True)
-    nconf = CircosConfig(ndata, 
-                         use_default_colors=True, 
-                         lside_tag_order=catmap.left_order, 
-                         rside_tag_order=catmap.right_order)
-    
-    oreader = clean_major_fields(read_filled_csv())
-    odata = ImageData(oreader, 
-                      "Major", 
-                      "Industry", 
-                      use_subvalues_left=True)
-
-    oconf = CircosConfig(odata, 
-                         use_default_colors=True, 
-                         lside_tag_order=ordered_majors,
-                         rside_tag_order=ordered_industries)
-    
-    nconf.produce_image()
+    data = CMapImageData(reader, 
+                         catmap, 
+                         filter=lambda x: x['Industry'] != 'Unlisted',
+                         use_subvalues_left=True, 
+                         use_subvalues_right=True)
+    conf = CircosConfig(data, 
+                        use_default_colors=True, 
+                        lside_tag_order=catmap.left_order, 
+                        rside_tag_order=catmap.right_order)
+    conf.produce_image()

@@ -4,7 +4,8 @@ from config import *
 from projects.williams.double_major import clean_major_fields, major_to_division
 from projects.williams.definitions import(ordered_majors, 
                                           ordered_industries)
-from data import ImageData
+from data import ImageData, CMapImageData
+from mapping import CategoryMapping
 from pprint import pprint as pp
 
 # Uses ordered ltags and rtags, default colors, left subvalues.
@@ -255,3 +256,40 @@ def divisions_to_some_industries():
                         rside_tag_order=ordered_industries)
     conf.produce_image()
     
+def kenyon_image():
+    reader = read_csv("projects/kenyon/kenyon.csv")
+    catmap = CategoryMapping("projects/kenyon/major.csv", 
+                             "projects/kenyon/industry.csv", 
+                             "projects/kenyon/order.csv")
+    
+    data = CMapImageData(reader, 
+                         catmap, 
+                         filter=lambda x: x['Industry'] != 'Unlisted',
+                         use_subvalues_left=True,
+                         use_subvalues_right=True)
+
+    conf = CircosConfig(data, 
+                        use_default_colors=False, 
+                        lside_tag_order=catmap.left_order, 
+                        rside_tag_order=catmap.right_order)
+
+    conf.produce_image()
+                   
+if __name__ == "__main__":
+    kenyon_image()
+    # reader = read_csv("projects/kenyon/kenyon.csv")
+    # catmap = CategoryMapping("projects/kenyon/major.csv", 
+    #                          "projects/kenyon/industry.csv", 
+    #                          "projects/kenyon/order.csv")
+    
+    # data = CMapImageData(reader, 
+    #                      catmap, 
+    #                      use_subvalues_left=True,
+    #                      use_subvalues_right=True)
+
+    # conf = CircosConfig(data, 
+    #                     use_default_colors=True, 
+    #                     lside_tag_order=catmap.left_order, 
+    #                     rside_tag_order=catmap.right_order)
+
+   #conf.produce_image()

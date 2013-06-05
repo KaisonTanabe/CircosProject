@@ -54,7 +54,6 @@ class ImageData(object):
             self.lcounts, self.rcounts, self.pair_counts = \
                 compute_counts_primitives(copy, self.ltag, self.rtag)
 
-
 class CMapImageData(object):
     
     def __init__(self, 
@@ -72,7 +71,7 @@ class CMapImageData(object):
         if kwargs.get('filter'):
             self.data = ifilter(kwargs['filter'], self.data)
             
-        self.data = ifilter(lambda x: len(x['Major']) < 2, mapping.apply(data))
+        self.data = ifilter(lambda x: len(x['Major']) <= 2, mapping.apply(self.data))
 
         self.use_subvalues = (use_subvalues_right or use_subvalues_left)
         self.compute_counts()
@@ -145,11 +144,9 @@ def compute_counts_subvalues(data, ltag, rtag, lval_max, rval_max):
     # Returns a stream of tuples containing (entry[ltag], entry[rtag])
     # for each entry.
     tag_values = imap(itemgetter(ltag, rtag), data)
-    
     for lvalue, rvalue in tag_values:
-
+        
         total_pairs = len(lvalue) * len(rvalue)
-
         assert(isinstance(lvalue, tuple)), "Non-tuple entry: (%s %r)" % (ltag, lvalue)
         assert(isinstance(rvalue, tuple)), "Non-tuple: (%s %r)" % (rtag, rvalue)
         

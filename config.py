@@ -55,6 +55,18 @@ class CircosConfig(object):
                     for rtag in self.rside_tag_order:
                         self.link_colors[(ltag, rtag)] = self.karyotype_colors[ltag]
 
+        if set(self.lside_tag_order) != set(data.lcounts.keys()):
+            print "Warning: lside tag order does not match lcount key set."
+            print self.lside_tag_order
+            print data.lcounts.keys()
+            print set(self.lside_tag_order).symmetric_difference(set(data.lcounts.keys()))
+
+        if set(self.rside_tag_order) != set(data.rcounts.keys()):
+            print "Warning: rside tag order does not match rcount key set."
+            print self.rside_tag_order
+            print data.rcounts.keys()
+            print set(self.rside_tag_order).symmetric_difference(set(data.rcounts.keys()))
+
         # Define and format chromosome names.  These are always of the
         # form {r, l}side{0-length}.
         lside_chroms = gen_chromosome_names('l', len(self.data.lcounts))
@@ -235,15 +247,12 @@ class CircosConfig(object):
                     
                 # End rside-loop.  We should have processed all
                 # entries for this lside tag.
-
-                #assert lcounts[l_tag] == 0, l_tag
-                print lcounts[l_tag]
+                assert lcounts[l_tag] == 0, l_tag
                 print "Finished processing lside tag: {tag}".format(tag=l_tag)
                 
             # End lside-loop
             for r_tag, count in rcounts.iteritems():
-                #assert count == 0, "%r %r" % (r_tag, count)
-                print count
+                assert count == 0, "%r %r" % (r_tag, count)
 
     def produce_image(self):
         self.write_config_files()
