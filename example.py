@@ -35,8 +35,25 @@ def highlight_image():
                      "Industry", 
                      use_subvalues_left=True)
 
-    colors = {'History': make_color('EF002A')}
+    colors = {'History': make_color('FFDA70')}
     conf = CircosConfig(data, 
+                        karyotype_colors = colors,
+                        lside_tag_order=ordered_majors,
+                        rside_tag_order=ordered_industries)
+
+    conf.produce_image()
+
+def highlight_image_change_default_grey():
+    
+    reader = clean_major_fields(read_filled_csv())
+    data = ImageData(reader, 
+                     "Major", 
+                     "Industry", 
+                     use_subvalues_left=True)
+
+    colors = {'History': make_color('FFDA70')}
+    conf = CircosConfig(data, 
+                        grey_default='red',
                         karyotype_colors = colors,
                         lside_tag_order=ordered_majors,
                         rside_tag_order=ordered_industries)

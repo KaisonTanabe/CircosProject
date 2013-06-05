@@ -94,7 +94,8 @@ class CircosConfig(object):
              "bezier_radius_purity"  : ".8", 
              "show_by_default"       : "yes", 
              "ribbon"                : "yes", 
-             "flat"                  : "no"}
+             "flat"                  : "no", 
+             "grey_default"          : kwargs.get("grey_default", 'lgrey')}
         
         # Settings for ideogram_conf file template.
         self.ideogram_conf_settings = \

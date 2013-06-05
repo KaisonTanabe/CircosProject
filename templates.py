@@ -59,7 +59,7 @@ file = ./tmp/linkdata.txt
 <rules>
 <rule>
 condition = var(color) eq "grey"
-color = lgrey
+color = {grey_default}
 z = -1
 </rule>
 </rules>
