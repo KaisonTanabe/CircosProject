@@ -282,4 +282,4 @@ def gen_chromosome_names(l_or_r, count):
         yield '{l_or_r}side{index}'.format(l_or_r=l_or_r, index=index)
 
 def run_circos():
-    subprocess.call(circos_command)
+    subprocess.call(circos_command())
