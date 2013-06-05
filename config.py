@@ -49,6 +49,9 @@ class CircosConfig(object):
                 
                 for rtag in self.rside_tag_order:
                     self.link_colors[(ltag, rtag)] = 'default_color{index}'.format(index=index)
+        
+        # Clear out old customcolors.
+        open('tmp/customcolors.txt', 'w').close()
         else:
             # This needs to happen first because it changes the values
             # stored in the color dictionary.
