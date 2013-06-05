@@ -1,5 +1,6 @@
 import platform
 
+
 def circos_command():
     if platform.system() == 'Darwin':
         return ['perl', '/Applications/circos-0.62-1/bin/circos', '-conf', './tmp/circos.conf']
