@@ -27,6 +27,22 @@ def original_image():
 
     conf.produce_image()
 
+def highlight_image():
+    
+    reader = clean_major_fields(read_filled_csv())
+    data = ImageData(reader, 
+                     "Major", 
+                     "Industry", 
+                     use_subvalues_left=True)
+
+    colors = {'History': make_color('EF002A')}
+    conf = CircosConfig(data, 
+                        karyotype_colors = colors,
+                        lside_tag_order=ordered_majors,
+                        rside_tag_order=ordered_industries)
+
+    conf.produce_image()
+
 # Same as above, but filtering data so that our universe contains only
 # math majors.
 def filter_data_math():

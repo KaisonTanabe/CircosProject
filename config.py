@@ -42,13 +42,18 @@ class CircosConfig(object):
         # 'default_color{i}' for the ith tag.  There are initially
         # only 15 default colors defined, but more can be added by
         # modifying tmp/customcolors.conf.
-        if kwargs.get('use_default_colors', False):
+        self.use_default_colors = kwargs.get('use_default_colors', False)
+        if self.use_default_colors:
             for index, ltag in enumerate(self.lside_tag_order):
                 self.karyotype_colors[ltag] = 'default_color{index}'.format(index=index)
                 
                 for rtag in self.rside_tag_order:
                     self.link_colors[(ltag, rtag)] = 'default_color{index}'.format(index=index)
         else:
+            # This needs to happen first because it changes the values
+            # stored in the color dictionary.
+            self.write_custom_colors()
+
             # Color links by ltag if only karyotype colors are specified.
             if self.link_colors == {} and self.karyotype_colors != {}:
                 for ltag in self.lside_tag_order:
@@ -75,10 +80,10 @@ class CircosConfig(object):
 
         # Settings for circos.conf file template.
         self.circos_conf_settings = \
-            {"chromosomes_units"     : 1, 
+            {"chromosomes_units"     : 1,
              "chromosomes"           : ';'.join(all_chroms),
-             "show_ticks"            : "no", 
-             "show_tick_labels"      : "no", 
+             "show_ticks"            : "no",
+             "show_tick_labels"      : "no",
              "image_size"            : kwargs.get('image_size', '3000p'),
              "filename"              : kwargs.get('filename', 'circos.png')}
 
@@ -98,16 +103,23 @@ class CircosConfig(object):
              "radius"                : "0.75r"}
 
     def write_config_files(self):
-        
-        # Open a scratch directory for us to work in.
-        try:
-            os.mkdir('./tmp')
-        except OSError:
-            print "Warning: ./tmp already exists"
-
+                
         self.write_circos_conf()
         self.write_ideogram_conf()
         self.write_karyotype_conf()
+
+    def write_custom_colors(self):
+
+        with open('./tmp/customcolors.conf', 'w') as colors:
+            if self.use_default_colors:
+                return
+            
+            for index, key in enumerate(self.karyotype_colors.keys()):
+                line = "custom{i} = {value}".format(i=index,
+                                                    value=self.karyotype_colors[key])
+                colors.write(line)
+                self.karyotype_colors[key] = "custom%s" % index
+                
 
     def write_circos_conf(self):
 

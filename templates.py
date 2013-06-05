@@ -55,6 +55,15 @@ show   = {show_by_default}
 ribbon = {ribbon}
 flat   = {flat}
 file = ./tmp/linkdata.txt
+
+<rules>
+<rule>
+condition = var(color) eq "grey"
+color = lgrey
+z = -1
+</rule>
+</rules>
+
 </link>
 
 </links>
