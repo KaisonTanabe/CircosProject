@@ -53,7 +53,7 @@ class CircosConfig(object):
             if self.link_colors == {} and self.karyotype_colors != {}:
                 for ltag in self.lside_tag_order:
                     for rtag in self.rside_tag_order:
-                        self.link_colors[(ltag, rtag)] = self.karyotype_colors[ltag]
+                        self.link_colors[(ltag, rtag)] = self.karyotype_colors.get(ltag, 'grey')
 
         if set(self.lside_tag_order) != set(data.lcounts.keys()):
             print "Warning: lside tag order does not match lcount key set."

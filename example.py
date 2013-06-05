@@ -1,5 +1,8 @@
+from collections import defaultdict
+
 from filters import *
 from config import *
+from utils import make_color
 
 from projects.williams.double_major import clean_major_fields, major_to_division
 from projects.williams.definitions import(ordered_majors, 
@@ -267,6 +270,8 @@ def kenyon_image():
                          filter=lambda x: x['Industry'] != 'Unlisted',
                          use_subvalues_left=True,
                          use_subvalues_right=True)
+
+    colors = {'History': make_color('EF002A')}
 
     conf = CircosConfig(data, 
                         use_default_colors=False, 
