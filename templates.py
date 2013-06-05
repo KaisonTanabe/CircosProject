@@ -1,13 +1,10 @@
 import platform
 
+osx_circos_command =    ['perl', '/Applications/circos-0.62-1/bin/circos', '-conf', './tmp/circos.conf']
+cygwin_circos_command = ['perl', '../circos-0.64/bin/circos', '-conf', './tmp/circos.conf']
 
-def circos_command():
-    if platform.system() == 'Darwin':
-        return ['perl', '/Applications/circos-0.62-1/bin/circos', '-conf', './tmp/circos.conf']
-    elif platform.system().startswith('CYGWIN'):
-        return ['perl', '../circos-0.64/bin/circos', '-conf', './tmp/circos.conf']
-    else:
-        raise
+def svg_to_png_command(filename):
+    return ['convert', filename+'.svg', filename+'.png']
 
 circos_conf_header = \
 """

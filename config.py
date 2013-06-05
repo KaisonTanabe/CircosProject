@@ -1,5 +1,6 @@
 import os
 import subprocess
+import platform
 
 from copy import deepcopy
 from itertools import(chain, 
@@ -9,7 +10,9 @@ from itertools import(chain,
 from collections import Counter
 from operator import itemgetter
 
-from templates import circos_command
+from templates import (osx_circos_command, 
+                       cygwin_circos_command, 
+                       svg_to_png_command)
 
 from filters import read_filled_csv
 from templates import(circos_conf_header, 
@@ -269,7 +272,25 @@ class CircosConfig(object):
     def produce_image(self):
         self.write_config_files()
         self.write_linkdata()
-        run_circos()
+        self.run_circos()
+
+    def run_circos(self):
+
+        # If you are on OSX
+        if platform.system() == 'Darwin':
+            subprocess.call(osx_circos_command)
+
+        # If you are on Windows via Cygwin.
+        elif platform.system().startswith('CYGWIN'):
+            subprocess.call(cygwin_circos_command)
+            
+            # If you are Kaison and your computer doesn't know about white.
+            if platform.system().endswith('WOW64'):
+                filename = self.circos_conf_settings['filename'].strip('.png')
+                subprocess.call(svg_to_png_command(filename))
+
+
+
 
 def count_single_tag(data, tag):
     tag_values = (entry[tag] for entry in data)
@@ -280,5 +301,5 @@ def gen_chromosome_names(l_or_r, count):
     for index in xrange(count):
         yield '{l_or_r}side{index}'.format(l_or_r=l_or_r, index=index)
 
-def run_circos():
-    subprocess.call(circos_command())
+
+            
