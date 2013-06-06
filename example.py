@@ -304,8 +304,6 @@ def kenyon_image():
                          use_subvalues_left=True,
                          use_subvalues_right=True)
 
-    colors = {'History': make_color('EF002A')}
-
     conf = CircosConfig(data, 
                         use_default_colors=False, 
                         lside_tag_order=catmap.left_order, 
