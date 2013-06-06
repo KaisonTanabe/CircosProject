@@ -118,7 +118,12 @@ def industry_set(data_filename, major_filename, industry_filename, order_filenam
                                        order_filename)
 
     dirname = data_filename.strip('.csv')+"-Industries"
-    os.mkdir(dirname)
+    try:
+        os.mkdir(dirname)
+    except OSError:
+        print "Overwriting directory: %s" % dirname
+        shutil.rmtree(dirname)
+        os.mkdir(dirname)
     
     for industry in category_mapping.right_order:
 
@@ -151,7 +156,13 @@ def major_set(data_filename, major_filename, industry_filename, order_filename):
                                        order_filename)
     
     dirname = data_filename.strip('.csv')+"-Majors"
-    os.mkdir(dirname)
+
+    try:
+        os.mkdir(dirname)
+    except OSError:
+        print "Overwriting directory: %s" % dirname
+        shutil.rmtree(dirname)
+        os.mkdir(dirname)
 
     for major in category_mapping.left_order:
 

@@ -10,13 +10,13 @@ from itertools import(chain,
 from collections import Counter
 from operator import itemgetter
 
-from templates import (osx_circos_command, 
-                       cygwin_circos_command, 
+from templates import (osx_circos_command,
+                       cygwin_circos_command,
                        svg_to_png_command)
 
 from filters import read_filled_csv
-from templates import(circos_conf_header, 
-                      circos_conf_links, 
+from templates import(circos_conf_header,
+                      circos_conf_links,
                       ideogram_conf_template)
 
 # Class storing all necessary information to create a set of circos
@@ -291,9 +291,6 @@ class CircosConfig(object):
                 print "-----------------------"
                 filename = self.circos_conf_settings['filename'].strip('.png')
                 subprocess.call(svg_to_png_command(filename))
-
-
-
 
 def count_single_tag(data, tag):
     tag_values = (entry[tag] for entry in data)
