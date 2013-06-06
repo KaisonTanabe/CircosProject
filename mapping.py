@@ -26,9 +26,9 @@ class CategoryMapping(object):
         
         for entry in data:
             success = apply_to_entry(entry, 
-                                    self.left_mapping, 
-                                    self.left_mapping["Major Tags"], 
-                                    self.left_output_key)
+                                     self.left_mapping, 
+                                     self.left_mapping["Major Tags"], 
+                                     self.left_output_key)
             # No match, skip to the next entry.
             if not success:
                 continue
