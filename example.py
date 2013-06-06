@@ -12,7 +12,7 @@ from projects.williams.double_major import (clean_major_fields,
 from projects.williams.definitions import(ordered_majors, 
                                           ordered_industries)
 from data import ImageData, CMapImageData
-from mapping import CategoryMapping
+from mapping import CategoryMapping #,color_dict_from_field
 from pprint import pprint as pp
 
 # Uses ordered ltags and rtags, default colors, left subvalues.
@@ -117,7 +117,7 @@ def industry_set(data_filename, major_filename, industry_filename, order_filenam
                                        industry_filename, 
                                        order_filename)
 
-    dirname = data_filename.strip('.csv')+"-Industries"
+    dirname = data_filename.replace('.csv', '')+"-Industries"
     try:
         os.mkdir(dirname)
     except OSError:
@@ -155,7 +155,7 @@ def major_set(data_filename, major_filename, industry_filename, order_filename):
                                        industry_filename, 
                                        order_filename)
     
-    dirname = data_filename.strip('.csv')+"-Majors"
+    dirname = data_filename.replace('.png', '')+"-Majors"
 
     try:
         os.mkdir(dirname)
@@ -355,17 +355,45 @@ def kenyon_image():
                              "projects/kenyon/order.csv")
     
     data = CMapImageData(reader, 
-                         catmap, 
-                         filter=lambda x: x['Industry'] != 'Unlisted',
-                         use_subvalues_left=True,
-                         use_subvalues_right=True)
+                         catmap)
 
     conf = CircosConfig(data, 
-                        use_default_colors=False, 
+                        use_default_colors=True, 
                         lside_tag_order=catmap.left_order, 
                         rside_tag_order=catmap.right_order)
 
     conf.produce_image()
+
+def kenyon_alternate_palette():
+    reader = read_csv("projects/kenyon/kenyon.csv")
+    catmap = CategoryMapping("projects/kenyon/major.csv", 
+                             "projects/kenyon/industry.csv", 
+                             "projects/kenyon/order.csv")
+    
+    data = CMapImageData(reader, 
+                         catmap)
+
+    conf = CircosConfig(data, 
+                        color_palette="palette_example",
+                        lside_tag_order=catmap.left_order, 
+                        rside_tag_order=catmap.right_order)
+
+    conf.produce_image()
+
+# def test_color_by_salary():
+#     reader = read_csv("projects/kenyon/kenyon-salary.csv")
+#     catmap = CategoryMapping("projects/kenyon/major.csv", 
+#                              "projects/kenyon/industry.csv", 
+#                              "projects/kenyon/order.csv")
+    
+#     data = CMapImageData(reader, 
+#                          catmap)
+#     colors = color_dict_from_field(data, 
+#                                    'Major', 
+#                                    'Industry', 
+#                                    'Salary', 
+#                                    ['red', 'yellow', 'green'])
+
                    
 if __name__ == "__main__":
     kenyon_image()

@@ -76,6 +76,10 @@ class CMapImageData(object):
         self.use_subvalues = (use_subvalues_right or use_subvalues_left)
         self.compute_counts()
 
+    def __iter__(self):
+        data_copy, self.data = tee(self.data, 2)
+        return data_copy
+
     def compute_counts(self):
 
         # The use_subvalues flag signifies that our data entries are

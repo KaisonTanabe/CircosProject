@@ -1,6 +1,6 @@
 import csv
 from collections import defaultdict
-from itertools import ifilter
+from itertools import ifilter, tee
 
 """
 Class encapsulating the category mapping information stored in
@@ -108,6 +108,27 @@ def parse_order(filename):
     # Make both orders go from top to bottom.
     left_order.reverse()
     return (filter(fil_ws, left_order), filter(fil_ws, right_order))
+
+# def color_dict_from_field(image_data,
+#                           ltag, 
+#                           rtag,
+#                           fieldname, 
+#                           color_list):
+#     assert(isinstance(image_data, CMapImageData))
+#     avg_dict = defaultdict(list)
+#     for entry in image_data:
+#         for lval in entry[ltag]:
+#             for rval in entry[rtag]:
+#                 avg_dict[(lval, rval)].append(int(entry[fieldname]))
+#     for key in avg_dict.keys():
+#         avg_dict[key] = average(avg_dict[key])
+        
+#     for pair, avg in 
+        
+
+def average(l):
+    return sum(l) / ((1.0) * len(l))
+
 
 if __name__ == "__main__":
 
