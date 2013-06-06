@@ -286,6 +286,9 @@ class CircosConfig(object):
             
             # If you are Kaison and your computer doesn't know about white.
             if platform.system().endswith('WOW64'):
+                print "-----------------------"
+                print "Converting .svg to .png"
+                print "-----------------------"
                 filename = self.circos_conf_settings['filename'].strip('.png')
                 subprocess.call(svg_to_png_command(filename))
 
