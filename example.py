@@ -1,3 +1,6 @@
+import os
+import shutil
+
 from collections import defaultdict
 
 from filters import *
@@ -51,7 +54,7 @@ def highlight_image_change_default_grey():
                      "Major", 
                      "Industry", 
                      use_subvalues_left=True)
-
+    
     colors = {'History': make_color('FFDA70')}
     conf = CircosConfig(data, 
                         grey_default='red',
@@ -108,28 +111,69 @@ def filter_links_math():
 
 # Original image with full dataset, only drawing links for a single
 # industry.  One for each industry.
-def industry_set():
-    
-    for industry in ordered_industries:
+def industry_set(data_filename, major_filename, industry_filename, order_filename):
 
-        reader = clean_major_fields(read_filled_csv())
+    category_mapping = CategoryMapping(major_filename, 
+                                       industry_filename, 
+                                       order_filename)
+
+    dirname = data_filename.strip('.csv')+"-Industries"
+    os.mkdir(dirname)
+    
+    for industry in category_mapping.right_order:
+
+        reader = read_csv(data_filename)
 
         def link_filter(ltag, rtag):
             return (rtag == industry)
-            
-        data = ImageData(reader, 
-                         "Major", 
-                         "Industry", 
-                         use_subvalues_left=True)
 
+        data = CMapImageData(reader, 
+                             category_mapping)
+
+        imagename=('%s' % industry).split('/')[0]
         conf = CircosConfig(data, 
                             use_default_colors=True, 
                             link_filter=link_filter,
-                            lside_tag_order=ordered_majors,
-                            rside_tag_order=ordered_industries,
-                            filename='industry-%s.png' % industry)
+                            lside_tag_order=category_mapping.left_order,
+                            rside_tag_order=category_mapping.right_order,
+                            filename=imagename+'.png')
         conf.produce_image()
         print '------- Industry %s finished. -------' % industry
+        shutil.move(imagename+'.png', dirname)
+        os.remove(imagename+'.svg')
+
+# Original image with full dataset, only drawing links for a single
+# major.  One for each major.
+def major_set(data_filename, major_filename, industry_filename, order_filename):
+
+    category_mapping = CategoryMapping(major_filename, 
+                                       industry_filename, 
+                                       order_filename)
+    
+    dirname = data_filename.strip('.csv')+"-Majors"
+    os.mkdir(dirname)
+
+    for major in category_mapping.left_order:
+
+        reader = read_csv(data_filename)
+
+        def link_filter(ltag, rtag):
+            return (ltag == major)
+
+        data = CMapImageData(reader, 
+                             category_mapping)
+
+        imagename=('%s' % major).split('/')[0]
+        conf = CircosConfig(data, 
+                            use_default_colors=True, 
+                            link_filter=link_filter,
+                            lside_tag_order=category_mapping.left_order,
+                            rside_tag_order=category_mapping.right_order,
+                            filename=imagename+'.png')
+        conf.produce_image()
+        print '------- Major %s finished. -------' % major
+        shutil.move(imagename+'.png', dirname)
+        os.remove(imagename+'.svg')
 
 # Treat each double major pair as a unique tag instead of using
 # sub-values.

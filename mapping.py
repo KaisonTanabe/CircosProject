@@ -9,18 +9,14 @@ client's csv input.
 
 class CategoryMapping(object):
 
-    def __init__(self, 
-                 left_csv, 
-                 right_csv, 
-                 order_csv, 
-                 left_output_key="Major",
-                 right_output_key="Industry"):
-        
+    def __init__(self, left_csv, right_csv, order_csv, **kwargs):
+                 
         self.left_mapping = read_transpose_dict(left_csv)
         self.right_mapping = read_transpose_dict(right_csv)
         self.left_order, self.right_order = parse_order(order_csv)
-        self.left_output_key= left_output_key
-        self.right_output_key="Industry"
+
+        self.left_output_key= kwargs.get('left_output_key', 'Major')
+        self.right_output_key= kwargs.get('right_output_key', 'Industry')
 
     def apply(self, data):
         
@@ -38,7 +34,6 @@ class CategoryMapping(object):
                                     self.right_mapping["Industry Tags"], 
                                     self.right_output_key)
             if not success:
-                import nose.tools; nose.tools.set_trace()
                 continue
             
             # Insufficient or non-matching data for this entry.
