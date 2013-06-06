@@ -4,7 +4,8 @@ from filters import *
 from config import *
 from utils import make_color
 
-from projects.williams.double_major import clean_major_fields, major_to_division
+from projects.williams.double_major import (clean_major_fields, 
+                                            major_to_division)
 from projects.williams.definitions import(ordered_majors, 
                                           ordered_industries)
 from data import ImageData, CMapImageData
