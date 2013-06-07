@@ -1,6 +1,6 @@
 import platform
 
-osx_circos_command =    ['perl', '/Applications/circos-0.62-1/bin/circos', '-conf', './tmp/circos.conf']
+osx_circos_command =    ['perl', '/Applications/circos-0.64/bin/circos', '-conf', './tmp/circos.conf']
 cygwin_circos_command = ['perl', '../circos-0.64/bin/circos', '-conf', './tmp/circos.conf']
 
 def svg_to_png_command(filename):

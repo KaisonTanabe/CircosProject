@@ -73,6 +73,11 @@ class CircosConfig(object):
                 for ltag in self.lside_tag_order:
                     for rtag in self.rside_tag_order:
                         self.link_colors[(ltag, rtag)] = self.karyotype_colors.get(ltag, 'grey')
+        # Add Transparency
+        tp_level = kwargs.get('transparency_level', 0)
+        if 0 < tp_level < 6:
+            for key in self.link_colors:
+                self.link_colors[key] = self.link_colors[key] + ('_a%d' % tp_level)
 
         # -----------------------------
         # ----- Verify Tag Orders -----

@@ -380,6 +380,22 @@ def kenyon_alternate_palette():
 
     conf.produce_image()
 
+def kenyon_transparent():
+    reader = read_csv("projects/kenyon/kenyon.csv")
+    catmap = CategoryMapping("projects/kenyon/major.csv", 
+                             "projects/kenyon/industry.csv", 
+                             "projects/kenyon/order.csv")
+    
+    data = CMapImageData(reader, 
+                         catmap)
+
+    conf = CircosConfig(data, 
+                        use_default_colors='True', 
+                        transparency_level=4,
+                        lside_tag_order=catmap.left_order, 
+                        rside_tag_order=catmap.right_order)
+    conf.produce_image()
+
 def color_by_salary():
     reader = read_csv("projects/kenyon/kenyon-salary.csv")
     catmap = CategoryMapping("projects/kenyon/major.csv", 
@@ -392,7 +408,7 @@ def color_by_salary():
                                    'Major', 
                                    'Industry', 
                                    'Salary', 
-                                   ['vvlgrey', 'lgrey', 'grey', 'dgrey', 'vdgrey', 'vvdgrey'])
+                                   ['red', 'yellow', 'green'])
     conf = CircosConfig(data, 
                         use_default_colors=True,
                         link_colors=colors,
