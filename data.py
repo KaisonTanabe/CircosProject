@@ -67,11 +67,10 @@ class CMapImageData(object):
         self.mapping = mapping
         self.ltag = self.mapping.left_output_key
         self.rtag = self.mapping.right_output_key
-
-        if kwargs.get('filter'):
-            self.data = ifilter(kwargs['filter'], self.data)
             
         self.data = ifilter(lambda x: len(x['Major']) <= 2, mapping.apply(self.data))
+        if kwargs.get('filter'):
+            self.data = ifilter(kwargs['filter'], self.data)
 
         self.use_subvalues = (use_subvalues_right or use_subvalues_left)
         self.compute_counts()

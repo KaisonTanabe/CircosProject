@@ -117,7 +117,8 @@ def color_dict_from_field(image_data,
                           rtag,
                           fieldname, 
                           color_list, 
-                          cutoff_list = []):
+                          cutoff_list = [],
+                          verbose=False):
     assert(isinstance(image_data, CMapImageData))
     avg_dict = defaultdict(list)
     for entry in image_data:
@@ -136,6 +137,8 @@ def color_dict_from_field(image_data,
         for color, chunk in zip(color_list, chunked):
             for pair in chunk:
                 color_dict[pair[0]] = color
+            if verbose:
+                print "Max value for %s at %s" % (color, chunk[-1][1])
     # Divide up data in accordance with supplied cutoffs.
     else:
         queue = deque(sorted_avgs)
@@ -154,26 +157,3 @@ def color_dict_from_field(image_data,
             color_dict[queue[0][0]] = color_list[-1]
             queue.popleft()
     return color_dict
-
-if __name__ == "__main__":
-
-    from config import CircosConfig
-    from data import ImageData, CMapImageData
-    from projects.williams.double_major import clean_major_fields
-    from filters import read_csv, fill_industries, read_filled_csv
-    from projects.williams.definitions import(ordered_majors, 
-                                              ordered_industries)
-
-    reader = fill_industries(read_csv())
-    catmap = CategoryMapping("major.csv", "industry.csv", "order.csv")
-
-    data = CMapImageData(reader, 
-                         catmap, 
-                         filter=lambda x: x['Industry'] != 'Unlisted',
-                         use_subvalues_left=True, 
-                         use_subvalues_right=True)
-    conf = CircosConfig(data, 
-                        use_default_colors=True, 
-                        lside_tag_order=catmap.left_order, 
-                        rside_tag_order=catmap.right_order)
-    conf.produce_image()
