@@ -37,10 +37,13 @@ class CircosConfig(object):
                                           self.data.lcounts.keys())
         self.rside_tag_order = kwargs.get('rside_tag_order', 
                                           self.data.rcounts.keys())
-
+        
+        # ----------------------------------------
         # ----- Setup for Color Dictionaries -----
+        # ----------------------------------------
         self.karyotype_colors = kwargs.get('karyotype_colors', {})
         self.link_colors = kwargs.get('link_colors', {})
+        build_links = (self.link_colors == {})
         
         self.use_default_colors = kwargs.get('use_default_colors', False)
         open('tmp/customcolors.conf', 'w').close() # clear custom colors
@@ -48,15 +51,17 @@ class CircosConfig(object):
         if self.use_default_colors:
             for index, ltag in enumerate(self.lside_tag_order):
                 self.karyotype_colors[ltag] = 'default_color{index}'.format(index=index)
-                for rtag in self.rside_tag_order:
-                    self.link_colors[(ltag, rtag)] = 'default_color{index}'.format(index=index)
+                if build_links:
+                    for rtag in self.rside_tag_order:
+                        self.link_colors[(ltag, rtag)] = 'default_color{index}'.format(index=index)
         # Pre-fab color palette using '{palette_name}{num}'
         elif kwargs.get('color_palette', False):
             palette = kwargs.get('color_palette')
             for index, ltag in enumerate(self.lside_tag_order):
                 self.karyotype_colors[ltag] = '{palette}{index}'.format(index=index, palette=palette)
-                for rtag in self.rside_tag_order:
-                    self.link_colors[(ltag, rtag)] = '{palette}{index}'.format(index=index, palette=palette)
+                if build_links:
+                    for rtag in self.rside_tag_order:
+                        self.link_colors[(ltag, rtag)] = '{palette}{index}'.format(index=index, palette=palette)
         # Custom dictionary, default to grey for missing entries.
         else:
             # This needs to happen first because it changes the values
@@ -64,12 +69,14 @@ class CircosConfig(object):
             self.write_custom_colors()
 
             # Color links by ltag if only karyotype colors are specified.
-            if self.link_colors == {} and self.karyotype_colors != {}:
+            if build_links and self.karyotype_colors != {}:
                 for ltag in self.lside_tag_order:
                     for rtag in self.rside_tag_order:
                         self.link_colors[(ltag, rtag)] = self.karyotype_colors.get(ltag, 'grey')
 
+        # -----------------------------
         # ----- Verify Tag Orders -----
+        # -----------------------------
         if set(self.lside_tag_order) != set(data.lcounts.keys()):
             print "Warning: lside tag order does not match lcount key set."
             print self.lside_tag_order

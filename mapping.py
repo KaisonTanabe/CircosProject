@@ -1,6 +1,9 @@
 import csv
-from collections import defaultdict
+from collections import defaultdict, OrderedDict
 from itertools import ifilter, tee
+
+from data import CMapImageData
+from utils import split_even_chunks, average
 
 """
 Class encapsulating the category mapping information stored in
@@ -109,26 +112,29 @@ def parse_order(filename):
     left_order.reverse()
     return (filter(fil_ws, left_order), filter(fil_ws, right_order))
 
-# def color_dict_from_field(image_data,
-#                           ltag, 
-#                           rtag,
-#                           fieldname, 
-#                           color_list):
-#     assert(isinstance(image_data, CMapImageData))
-#     avg_dict = defaultdict(list)
-#     for entry in image_data:
-#         for lval in entry[ltag]:
-#             for rval in entry[rtag]:
-#                 avg_dict[(lval, rval)].append(int(entry[fieldname]))
-#     for key in avg_dict.keys():
-#         avg_dict[key] = average(avg_dict[key])
+def color_dict_from_field(image_data,
+                          ltag, 
+                          rtag,
+                          fieldname, 
+                          color_list):
+    assert(isinstance(image_data, CMapImageData))
+    avg_dict = defaultdict(list)
+    for entry in image_data:
+        for lval in entry[ltag]:
+            for rval in entry[rtag]:
+                avg_dict[(lval, rval)].append(int(entry[fieldname]))
+    for key in avg_dict.keys():
+        avg_dict[key] = average(avg_dict[key])
         
-#     for pair, avg in 
-        
+    sorted_avgs = sorted(list(avg_dict.iteritems()), key=lambda x: x[1])
+    chunked = split_even_chunks(sorted_avgs, len(color_list))
 
-def average(l):
-    return sum(l) / ((1.0) * len(l))
+    color_dict = {}
+    for color, chunk in zip(color_list, chunked):
+        for pair in chunk:
+            color_dict[pair[0]] = color
 
+    return color_dict
 
 if __name__ == "__main__":
 
