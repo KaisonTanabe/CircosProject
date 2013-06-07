@@ -1,5 +1,5 @@
 import csv
-from collections import defaultdict, OrderedDict
+from collections import defaultdict, OrderedDict, deque
 from itertools import ifilter, tee
 
 from data import CMapImageData
@@ -64,7 +64,7 @@ def apply_to_entry(entry, mapping, tags, output_field):
     else:
         entry[output_field] = all_matches
         return True
-        
+
 """Take a string and a dict with entries like {key : [values]}, and
 return the first key either containing a value that is a substring
 of in_str, or the first key with in_str as a substring of some
@@ -116,7 +116,8 @@ def color_dict_from_field(image_data,
                           ltag, 
                           rtag,
                           fieldname, 
-                          color_list):
+                          color_list, 
+                          cutoff_list = []):
     assert(isinstance(image_data, CMapImageData))
     avg_dict = defaultdict(list)
     for entry in image_data:
@@ -127,13 +128,31 @@ def color_dict_from_field(image_data,
         avg_dict[key] = average(avg_dict[key])
         
     sorted_avgs = sorted(list(avg_dict.iteritems()), key=lambda x: x[1])
-    chunked = split_even_chunks(sorted_avgs, len(color_list))
-
     color_dict = {}
-    for color, chunk in zip(color_list, chunked):
-        for pair in chunk:
-            color_dict[pair[0]] = color
 
+    # Divide up data by pseudo-percentiles.
+    if len(cutoff_list) == 0:
+        chunked = split_even_chunks(sorted_avgs, len(color_list))
+        for color, chunk in zip(color_list, chunked):
+            for pair in chunk:
+                color_dict[pair[0]] = color
+    # Divide up data in accordance with supplied cutoffs.
+    else:
+        queue = deque(sorted_avgs)
+        assert len(color_list) == len(cutoff_list) + 1, \
+            """Supplied {color} colors and [cutoff] cutoffs.
+             Number of colors should be one greater than
+             the number of cutoffs.""".format(color=len(color_list), 
+                                            cutoff=len(cutoff_list))
+        # Fill values up to each cutoff.
+        for index, cutoff in enumerate(cutoff_list):
+            while len(queue) > 0 and queue[0][1] < cutoff:
+                color_dict[queue[0][0]] = color_list[index]
+                queue.popleft()
+        # Fill values higher than the last cutoff.
+        while len(queue) > 0:
+            color_dict[queue[0][0]] = color_list[-1]
+            queue.popleft()
     return color_dict
 
 if __name__ == "__main__":

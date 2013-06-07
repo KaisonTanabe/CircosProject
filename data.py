@@ -98,7 +98,7 @@ class CMapImageData(object):
 
             self.lcounts, self.rcounts, self.pair_counts = \
                 compute_counts_primitives(copy, self.ltag, self.rtag)
-    
+
 def compute_counts_primitives(data, ltag, rtag):
     
     copy0, copy1, copy2 = tee(data, 3)

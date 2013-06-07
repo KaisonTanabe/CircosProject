@@ -1,4 +1,5 @@
 import os
+
 import subprocess
 import platform
 
@@ -100,6 +101,11 @@ class CircosConfig(object):
         rside_chroms = gen_chromosome_names('r', len(self.data.rcounts))
         all_chroms = chain(lside_chroms, rside_chroms)        
 
+        if kwargs.get('filename', '').find('/') != -1:
+            print "########################################################"
+            print "Warning: Replacing character [/] with [-] in filename %s" % kwargs['filename']
+            print "########################################################"
+
         # Settings for circos.conf file template.
         self.circos_conf_settings = \
             {"chromosomes_units"     : 1,
@@ -107,7 +113,7 @@ class CircosConfig(object):
              "show_ticks"            : "no",
              "show_tick_labels"      : "no",
              "image_size"            : kwargs.get('image_size', '3000p'),
-             "filename"              : kwargs.get('filename', 'circos.png')}
+             "filename"              : kwargs.get('filename', 'circos.png').replace('/','-')}
 
         self.circos_conf_link_settings = \
             {"radius"                : "0.99r", 

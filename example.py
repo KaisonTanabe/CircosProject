@@ -135,7 +135,7 @@ def industry_set(data_filename, major_filename, industry_filename, order_filenam
         data = CMapImageData(reader, 
                              category_mapping)
 
-        imagename=('%s' % industry).split('/')[0]
+        imagename=('%s' % industry).replace('/', '-')
         conf = CircosConfig(data, 
                             use_default_colors=True, 
                             link_filter=link_filter,
@@ -155,7 +155,7 @@ def major_set(data_filename, major_filename, industry_filename, order_filename):
                                        industry_filename, 
                                        order_filename)
     
-    dirname = data_filename.replace('.png', '')+"-Majors"
+    dirname = data_filename.replace('.csv', '')+"-Majors"
 
     try:
         os.mkdir(dirname)
@@ -174,7 +174,7 @@ def major_set(data_filename, major_filename, industry_filename, order_filename):
         data = CMapImageData(reader, 
                              category_mapping)
 
-        imagename=('%s' % major).split('/')[0]
+        imagename=('%s' % major).replace('/', '-')
         conf = CircosConfig(data, 
                             use_default_colors=True, 
                             link_filter=link_filter,
@@ -284,7 +284,7 @@ def double_major_set():
                             lside_tag_order=sorted(data.lcounts.keys(), key=get_other_major_index),
                             rside_tag_order=ordered_industries,
                             ltag_parse=fix_labels)
-
+        
         conf.produce_image()
         print '------- %s double majors finished. -------' % major
 
@@ -416,14 +416,35 @@ def color_by_salary():
                         rside_tag_order=catmap.right_order)
 
     conf.produce_image()
+
+def color_by_salary_explicit_cutoffs():
+    reader = read_csv("projects/kenyon/kenyon-salary.csv")
+    catmap = CategoryMapping("projects/kenyon/major.csv", 
+                             "projects/kenyon/industry.csv", 
+                             "projects/kenyon/order.csv")
     
-                   
+    data = CMapImageData(reader, 
+                         catmap)
+    colors = color_dict_from_field(data, 
+                                   'Major', 
+                                   'Industry', 
+                                   'Salary', 
+                                   ['dred', 'red', 'orange', 'yellow', 'lblue', 'vdgreen', 'green', 'vlgreen'],
+                                   cutoff_list=[100000,200000,300000,400000,500000,600000,700000])
+    conf = CircosConfig(data, 
+                        use_default_colors=True,
+                        link_colors=colors,
+                        lside_tag_order=catmap.left_order, 
+                        rside_tag_order=catmap.right_order)
+
+    conf.produce_image()
+    
 if __name__ == "__main__":
-    pass
-    # reader = read_csv("projects/kenyon/kenyon-salary.csv")
-    # catmap = CategoryMapping("projects/kenyon/major.csv", 
-    #                          "projects/kenyon/industry.csv", 
-    #                          "projects/kenyon/order.csv")
+
+    reader = read_csv("projects/kenyon/kenyon-salary.csv")
+    catmap = CategoryMapping("projects/kenyon/major.csv", 
+                             "projects/kenyon/industry.csv", 
+                             "projects/kenyon/order.csv")
     
     # data = CMapImageData(reader, 
     #                      catmap)
@@ -433,7 +454,7 @@ if __name__ == "__main__":
     #                                'Salary', 
     #                                ['default_color1', 'default_color6', 'purple', 'blue', 'green'])
     # conf = CircosConfig(data, 
-    #                     #use_default_colors=True,
+    #                     use_default_colors=True,
     #                     link_colors=colors,
     #                     lside_tag_order=catmap.left_order, 
     #                     rside_tag_order=catmap.right_order)
