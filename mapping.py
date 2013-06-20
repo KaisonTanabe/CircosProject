@@ -94,8 +94,8 @@ def read_transpose_dict(filename):
             if v == '' or v.isspace():
                 continue
             elif v[0].isspace() or v[-1].isspace():
-                print "Stripping whitespace from mapping pair: %s\nIn entry: %s" % \
-                    (k, v)
+                print "Stripping whitespace from mapping pair: (%s,%s)" % \
+                    (repr(k), repr(v))
                 out_dict[k].append((v.strip()))
             else:
                 out_dict[k].append(v)

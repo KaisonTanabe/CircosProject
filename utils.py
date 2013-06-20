@@ -1,3 +1,5 @@
+from filters import read_csv
+
 def make_color(s):
     r = int(s[0:2], 16)
     g = int(s[2:4], 16)
@@ -21,3 +23,16 @@ def split_even_chunks(l, n):
 def average(l):
     return sum(l) / ((1.0) * len(l))
     
+def verify_csv_whitespace(filename):
+    csv = read_csv(filename)
+    for (linenum, entry)  in enumerate(csv):
+        for k, v in entry.iteritems():
+            if stripable(k) or stripable(v):
+                print "Line: %s, Column: %s, Value: %s" % (linenum +1, repr(k), repr(v))
+            
+def stripable(s):
+    if s == '':
+        return False
+    else:
+        return s[0].isspace() or s[-1].isspace()
+
