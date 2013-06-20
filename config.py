@@ -38,7 +38,8 @@ class CircosConfig(object):
                                           self.data.lcounts.keys())
         self.rside_tag_order = kwargs.get('rside_tag_order', 
                                           self.data.rcounts.keys())
-        
+        self.verify_tags()
+
         # ----------------------------------------
         # ----- Setup for Color Dictionaries -----
         # ----------------------------------------
@@ -318,6 +319,22 @@ class CircosConfig(object):
                 # Cut off the .png or .svg extension.
                 filename = self.circos_conf_settings['filename'].replace('.png', '')
                 subprocess.call(svg_to_png_command(filename))
+
+    def verify_tags(self):
+        
+        a = set(self.lside_tag_order) - set(self.data.lcounts.keys())
+        b = set(self.data.lcounts.keys()) - set(self.lside_tag_order)
+
+        c = set(self.rside_tag_order) - set(self.data.rcounts.keys())
+        d = set(self.data.rcounts.keys()) - set(self.rside_tag_order)
+
+        assert(len(a) == len(b) == len(c) == len(d) == 0), \
+            "Tag order doesn't match data keys:\n%s%s%s%s" % \
+            ("\t\tExtra keys in supplied left order: %s\n"  % a, 
+             "\t\tExtra keys in left side data: %s\n"       % b, 
+             "\t\tExtra keys in supplied right order: %s\n" % c, 
+             "\t\tExtra keys in right side data: %s\n"      % d)
+
 
 def count_single_tag(data, tag):
     tag_values = (entry[tag] for entry in data)
