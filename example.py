@@ -34,7 +34,7 @@ def original_image():
 # Unspecified colors will default to lgrey.
 def highlight_image():
     
-    reader = read_csv("projects/kenyon/kenyon-salary.csv")
+    reader = read_csv("projects/kenyon/salary.csv")
     catmap = CategoryMapping("projects/kenyon/major.csv", 
                              "projects/kenyon/industry.csv", 
                              "projects/kenyon/order.csv")
@@ -70,10 +70,10 @@ def highlight_image_change_default_grey():
 # Filter data to only compute with math majors.
 def filter_data_math():
 
-    reader = read_csv("projects/kenyon/kenyon.csv")
-    catmap = CategoryMapping("projects/kenyon/major.csv", 
-                             "projects/kenyon/industry.csv", 
-                             "projects/kenyon/order.csv")
+    reader = read_csv("projects/salary/salary.csv")
+    catmap = CategoryMapping("projects/salary/major.csv", 
+                             "projects/salary/industry.csv", 
+                             "projects/salary/order.csv")
 
     def data_filter(entry):
         return ("Mathematics" in entry['Major'])
@@ -96,7 +96,7 @@ def filter_links_math():
                              "projects/kenyon/order.csv")
     def only_math(ltag, rtag):
         return (ltag == 'Mathematics')
-        
+		
     data = CMapImageData(reader, 
                          catmap)
     conf = CircosConfig(data, 
@@ -135,6 +135,45 @@ def industry_set(data_filename, major_filename, industry_filename, order_filenam
         imagename=('%s' % industry).replace('/', '-')
         conf = CircosConfig(data, 
                             use_default_colors=True, 
+                            link_filter=link_filter,
+                            lside_tag_order=category_mapping.left_order,
+                            rside_tag_order=category_mapping.right_order,
+                            filename=imagename+'.png')
+        conf.produce_image()
+        print '------- Industry %s finished. -------' % industry
+        shutil.move(imagename+'.png', dirname)
+        os.remove(imagename+'.svg')
+		
+# Original image with full dataset, only drawing links for a single
+# industry.  One for each industry.
+def uva_industry_set():
+
+    category_mapping = CategoryMapping("projects/uva/majornew.csv", 
+                                       "projects/uva/industrynew.csv", 
+                                       "projects/uva/ordernew.csv")
+
+    dirname = "projects/uva/uva.csv".replace('.csv', '')+"-Industries"
+	
+    try:
+        os.mkdir(dirname)
+    except OSError:
+        print "Overwriting directory: %s" % dirname
+        shutil.rmtree(dirname)
+        os.mkdir(dirname)
+    
+    for industry in category_mapping.right_order:
+
+        reader = read_csv("projects/uva/uva.csv")
+
+        def link_filter(ltag, rtag):
+            return (rtag == industry)
+
+        data = CMapImageData(reader, 
+                             category_mapping)
+
+        imagename=('%s' % industry).replace('/', '-')
+        conf = CircosConfig(data, 
+                            color_palette="uva", 
                             link_filter=link_filter,
                             lside_tag_order=category_mapping.left_order,
                             rside_tag_order=category_mapping.right_order,
@@ -182,23 +221,95 @@ def major_set(data_filename, major_filename, industry_filename, order_filename):
         print '------- Major %s finished. -------' % major
         shutil.move(imagename+'.png', dirname)
         os.remove(imagename+'.svg')
+
+
+# Original image with full dataset, only drawing links for a single
+# major.  One for each major.
+def uva_major_set():
+
+    category_mapping = CategoryMapping("projects/uva/majornew.csv", 
+                             "projects/uva/industrynew.csv", 
+                             "projects/uva/ordernew.csv")
     
+    dirname = "projects/uva/uva.csv".replace('.csv', '')+"-Majors"
+
+    try:
+        os.mkdir(dirname)
+    except OSError:
+        print "Overwriting directory: %s" % dirname
+        shutil.rmtree(dirname)
+        os.mkdir(dirname)
+
+    for major in category_mapping.left_order:
+
+        reader = read_csv("projects/uva/uva.csv")
+
+        def link_filter(ltag, rtag):
+            return (ltag == major)
+
+        data = CMapImageData(reader, 
+                             category_mapping)
+
+        imagename=('%s' % major).replace('/', '-')
+        conf = CircosConfig(data, 
+                            color_palette="uva", 
+                            link_filter=link_filter,
+                            lside_tag_order=category_mapping.left_order,
+                            rside_tag_order=category_mapping.right_order,
+                            filename=imagename+'.png')
+        conf.produce_image()
+        print '------- Major %s finished. -------' % major
+        shutil.move(imagename+'.png', dirname)
+        os.remove(imagename+'.svg')
+   		
 def kenyon_alternate_palette():
-    reader = read_csv("projects/kenyon/kenyon.csv")
-    catmap = CategoryMapping("projects/kenyon/major.csv", 
-                             "projects/kenyon/industry.csv", 
-                             "projects/kenyon/order.csv")
+    reader = read_csv("projects/kenyonn/kenyon.csv")
+    catmap = CategoryMapping("projects/kenyonn/major.csv", 
+                             "projects/kenyonn/industry.csv", 
+                             "projects/kenyonn/order.csv")
     
     data = CMapImageData(reader, 
                          catmap)
 
     conf = CircosConfig(data, 
-                        color_palette="palette_example",
+                        color_palette="kenyon",
                         lside_tag_order=catmap.left_order, 
                         rside_tag_order=catmap.right_order)
 
     conf.produce_image()
+	   
 
+def bilal():
+    reader = read_csv("projects/bilal/bilal.csv")
+    catmap = CategoryMapping("projects/bilal/major.csv", 
+                             "projects/bilal/industry.csv", 
+                             "projects/bilal/order.csv")
+    
+    data = CMapImageData(reader, 
+                         catmap)
+
+    conf = CircosConfig(data, 
+                        color_palette="bilal",
+                        lside_tag_order=catmap.left_order, 
+                        rside_tag_order=catmap.right_order)
+
+    conf.produce_image()
+	
+def uva():
+    reader = read_csv("projects/uva/uva.csv")
+    catmap = CategoryMapping("projects/uva/majornew.csv", 
+                             "projects/uva/industrynew.csv", 
+                             "projects/uva/ordernew.csv")
+    
+    data = CMapImageData(reader, 
+                         catmap)
+
+    conf = CircosConfig(data, 
+                        color_palette="uva",
+                        lside_tag_order=catmap.left_order, 
+                        rside_tag_order=catmap.right_order)
+
+    conf.produce_image()
 def kenyon_transparent():
     reader = read_csv("projects/kenyon/kenyon.csv")
     catmap = CategoryMapping("projects/kenyon/major.csv", 
@@ -312,60 +423,60 @@ def color_by_salary_explicit_cutoffs():
 # # Produce a set of images similar to the above, one for each major.
 # # Note the use of the filename parameter to CircosConfig.
 # # Deprecated
-# def double_major_set():
-
-#     for major in ordered_majors:
-
-#         # We use this function to sort the string representations of
-#         # our major pairs so that they correspond to the original
-#         # ordered major list.
-
-#         def get_other_major_index(tup_str):
-
-#             tup = eval(tup_str)
-
-#             if len(tup) == 1:
-#                 return ordered_majors.index(major)
-
-#             other_major = tup[0] if tup[0] != major else tup[1]
-#             assert other_major != major
-#             return ordered_majors.index(other_major)
-
-#         def fix_labels(tup_str):
-
-#             tup = eval(tup_str)
-
-#             if len(tup) == 1:
-#                 return tup[0]
-#             elif tup[0] == major:
-#                 return tup[1]
-#             else:
-#                 assert tup[1] == major
-#                 return tup[0]
-
-#         reader = clean_major_fields(read_filled_csv())
-
-#         def fil(entry):
-#             return (major in entry['Major'])
-            
-#         data = ImageData(reader, 
-#                          "Major", 
-#                          "Industry", 
-#                          filter=fil)
-        
-#         conf = CircosConfig(data, 
-#                             use_default_colors=True, 
-#                             filename='%s-double-majors.png' % major, 
-#                             lside_tag_order=sorted(data.lcounts.keys(), key=get_other_major_index),
-#                             rside_tag_order=ordered_industries,
-#                             ltag_parse=fix_labels)
-        
-#         conf.produce_image()
-#         print '------- %s double majors finished. -------' % major
-
-# # Deprecated
-# def majors_to_some_industries():
+def double_major_set():
     
+    for major in ordered_majors:
+        
+        #         # We use this function to sort the string representations of
+        #         # our major pairs so that they correspond to the original
+        #         # ordered major list.
+        
+        def get_other_major_index(tup_str):
+            
+            tup = eval(tup_str)
+            
+            if len(tup) == 1:
+                return ordered_majors.index(major)
+                
+                other_major = tup[0] if tup[0] != major else tup[1]
+                assert other_major != major
+                return ordered_majors.index(other_major)
+                
+                def fix_labels(tup_str):
+                    
+                    tup = eval(tup_str)
+                    
+                    if len(tup) == 1:
+                        return tup[0]
+                    elif tup[0] == major:
+                        return tup[1]
+                    else:
+                        assert tup[1] == major
+                        return tup[0]
+                        
+                        reader = clean_major_fields(read_filled_csv())
+                        
+                        def fil(entry):
+                            return (major in entry['Major'])
+                            
+                            data = ImageData(reader, 
+                                             "Major", 
+                                             "Industry", 
+                                             filter=fil)
+                            
+                            conf = CircosConfig(data, 
+                                                use_default_colors=True, 
+                                                filename='%s-double-majors.png' % major, 
+                                                lside_tag_order=sorted(data.lcounts.keys(), key=get_other_major_index),
+                                                rside_tag_order=ordered_industries,
+                                                ltag_parse=fix_labels)
+                            
+                            conf.produce_image()
+                            print '------- %s double majors finished. -------' % major
+                
+                # # Deprecated
+# def majors_to_some_industries():
+                    
 #     reader = clean_major_fields(read_filled_csv())
 
 #     def fil(entry):
@@ -428,4 +539,3 @@ if __name__ == "__main__":
     #                     lside_tag_order=catmap.left_order, 
     #                     rside_tag_order=catmap.right_order)
     # conf.produce_image()
-
