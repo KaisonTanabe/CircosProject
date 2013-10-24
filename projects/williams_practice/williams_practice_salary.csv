@@ -1,0 +1,4446 @@
+major1,major2,Industry,gradyear,Salary
+AMST,ARHS,Other,2007,0
+AMST,DANC,Unlisted,2005,200
+AMST,DANC,Law,2009,400
+AMST,DRAM,Unlisted,2004,600
+AMST,DRAM,Unlisted,2006,800
+AMST,DRAM,Unlisted,2006,1000
+AMST,DRAM,Unlisted,2007,1200
+AMST,DRAM,Journalism,2009,1400
+AMST,ENGL,Homemaker,2005,1600
+AMST,ENGL,Unlisted,2005,1800
+AMST,ENGL,Unlisted,2007,2000
+AMST,ENGL,Government,2012,2200
+AMST,HIST,Other,2011,2400
+AMST,MUSC,Unlisted,2011,2600
+AMST,PSYC,Journalism,2008,2800
+AMST,SOCY,Other,2005,3000
+AMST,SOCY,Unlisted,2010,3200
+AMST,,Government,1984,3400
+AMST,,Social Work/Human Services,1993,3600
+AMST,,Unlisted,1999,3800
+AMST,,Graduate Studies,1999,4000
+AMST,,Education (Secondary),2000,4200
+AMST,,Finance,2003,4400
+AMST,,Unlisted,2003,4600
+AMST,,Transportation,2003,4800
+AMST,,Finance,2005,5000
+AMST,,"Research,Scientific",2003,5200
+AMST,,Investment/Securities,2003,5400
+AMST,,Law,2003,5600
+AMST,,Nursing,2004,5800
+AMST,,Government,2004,6000
+AMST,,Fundraising/Development,2004,6200
+AMST,,Marketing/Market Research,2004,6400
+AMST,,Graduate Studies,2004,6600
+AMST,,Graduate Studies,2005,6800
+AMST,,Graduate Studies,2005,7000
+AMST,,Real Estate,2005,7200
+AMST,,Unlisted,2005,7400
+AMST,,Environment/Ecology,2005,7600
+AMST,,Other,2005,7800
+AMST,,Education (Higher Education),2005,8000
+AMST,,Unlisted,2005,8200
+AMST,,Unlisted,2005,8400
+AMST,,Unlisted,2006,8600
+AMST,,Unlisted,2006,8800
+AMST,,Performing Arts,2006,9000
+AMST,,Unlisted,2006,9200
+AMST,,Unlisted,2006,9400
+AMST,,Education (Higher Education),2006,9600
+AMST,,Unlisted,2006,9800
+AMST,,Veterinary/Animal Care,2006,10000
+AMST,,Unlisted,2006,10200
+AMST,,Military,2006,10400
+AMST,,Unlisted,2006,10600
+AMST,,Unlisted,2006,10800
+AMST,,Transportation,2006,11000
+AMST,,Graduate Studies,2006,11200
+AMST,,Unlisted,2006,11400
+AMST,,Unlisted,2006,11600
+AMST,,Graduate Studies,2006,11800
+AMST,,Education (Secondary),2007,12000
+AMST,,Computer,2007,12200
+AMST,,Unlisted,2007,12400
+AMST,,Unlisted,2007,12600
+AMST,,Consulting,2007,12800
+AMST,,Unlisted,2007,13000
+AMST,,Unlisted,2007,13200
+AMST,,Non-Profit Adminstration,2008,13400
+AMST,,Unlisted,2008,13600
+AMST,,Graduate Studies,2008,13800
+AMST,,Sales,2008,14000
+AMST,,Education (Higher Education),2008,14200
+AMST,,International,2008,14400
+AMST,,Unlisted,2008,14600
+AMST,,Education (Higher Education),2008,14800
+AMST,,Unlisted,2008,15000
+AMST,,Education (Secondary),2008,15200
+AMST,,Graduate Studies,2008,15400
+AMST,,Business,2008,15600
+AMST,,Writing,2008,15800
+AMST,,Unlisted,2008,16000
+AMST,,Unlisted,2008,16200
+AMST,,Sales,2008,16400
+AMST,,Homemaker,2008,16600
+AMST,,Public Relations,2008,16800
+AMST,,Unlisted,2009,17000
+AMST,,Unlisted,2009,17200
+AMST,,Unlisted,2009,17400
+AMST,,Business,2009,17600
+AMST,,Government,2009,17800
+AMST,,Unlisted,2009,18000
+AMST,,Unlisted,2009,18200
+AMST,,Unlisted,2009,18400
+AMST,,Graduate Studies,2009,18600
+AMST,,Unlisted,2009,18800
+AMST,,Hotel/Food Management,2010,19000
+AMST,,Unlisted,2010,19200
+AMST,,Government,2010,19400
+AMST,,Unlisted,2010,19600
+AMST,,Homemaker,2010,19800
+AMST,,Unlisted,2010,20000
+AMST,,Medicine,2010,20200
+AMST,,Advertising,2010,20400
+AMST,,Law,2010,20600
+AMST,,Veterinary/Animal Care,2010,20800
+AMST,,Fundraising/Development,2011,21000
+AMST,,Unlisted,2011,21200
+AMST,,Unlisted,2011,21400
+AMST,,Arts,2011,21600
+AMST,,Energy Industries,2012,21800
+ANTH,ARHS,Unlisted,2004,22000
+ANTH,ARTS,Education (Secondary),2004,22200
+ANTH,ARTS,Medicine,2005,22400
+ANTH,ARTS,Education (Secondary),2008,22600
+ANTH,BIOL,Unlisted,2004,22800
+ANTH,CLAS,Unlisted,2007,23000
+ANTH,DRAM,Health Care,2011,23200
+ANTH,ECON,Other,2002,23400
+ANTH,ECON,Education (Elementary),2003,23600
+ANTH,ENGL,Ministry,2002,23800
+ANTH,ENGL,Unlisted,2002,24000
+ANTH,ENGL,Other,2003,24200
+ANTH,ENGL,Graduate Studies,2006,24400
+ANTH,ENGL,Law,2006,24600
+ANTH,ENGL,Nursing,2009,24800
+ANTH,HIST,Unlisted,2009,25000
+ANTH,INST,Education (Secondary),2001,25200
+ANTH,INST,Publishing,2001,25400
+ANTH,INST,Graduate Studies,2009,25600
+ANTH,MATH,Unlisted,2003,25800
+ANTH,MATH,Military,2008,26000
+ANTH,MBIO,Unlisted,2007,26200
+ANTH,MLL,Unlisted,2011,26400
+ANTH,MUSC,Law,2007,26600
+ANTH,MUSC,Education (Secondary),2008,26800
+ANTH,PSCI,Arts,2005,27000
+ANTH,PSYC,Education (Secondary),2002,27200
+ANTH,PSYC,Unlisted,2002,27400
+ANTH,PSYC,Unlisted,2006,27600
+ANTH,PSYC,Sales,2006,27800
+ANTH,PSYC,Unlisted,2008,28000
+ANTH,SPAN,Museum Work,2006,28200
+ANTH,SPAN,Law,2007,28400
+ANTH,SPAN,Education (Secondary),2010,28600
+ANTH,SPAN,"Research,Scientific",2012,28800
+ANTH,WMNS,Unlisted,2009,29000
+ANTH,,Other,1995,29200
+ANTH,,Unlisted,2001,29400
+ANTH,,Insurance,2001,29600
+ANTH,,Consulting,2001,29800
+ANTH,,Medicine,2001,30000
+ANTH,,Unlisted,2001,30200
+ANTH,,Broadcast-Radio/Television,2002,30400
+ANTH,,Graduate Studies,2002,30600
+ANTH,,Unlisted,2002,30800
+ANTH,,Unlisted,2002,31000
+ANTH,,Unlisted,2002,31200
+ANTH,,Unlisted,2002,31400
+ANTH,,Public Relations,2002,31600
+ANTH,,Unlisted,2002,31800
+ANTH,,Nursing,2002,32000
+ANTH,,Education (Elementary),2002,32200
+ANTH,,Education (Secondary),2002,32400
+ANTH,,Law,2002,32600
+ANTH,,Business,2002,32800
+ANTH,,"Research,Scientific",2002,33000
+ANTH,,Communications,2002,33200
+ANTH,,Non-Profit Adminstration,2002,33400
+ANTH,,Unlisted,2002,33600
+ANTH,,Volunteer,2002,33800
+ANTH,,Graduate Studies,2003,34000
+ANTH,,Publishing,2003,34200
+ANTH,,Fundraising/Development,2003,34400
+ANTH,,Education (Secondary),2003,34600
+ANTH,,Arts,2003,34800
+ANTH,,Unlisted,2003,35000
+ANTH,,Unlisted,2003,35200
+ANTH,,"Research,Scientific",2003,35400
+ANTH,,Unlisted,2003,35600
+ANTH,,Music,2003,35800
+ANTH,,Other,2003,36000
+ANTH,,Government,2003,36200
+ANTH,,Unlisted,2004,36400
+ANTH,,Consulting,2004,36600
+ANTH,,Museum Work,2004,36800
+ANTH,,Education (Secondary),2004,37000
+ANTH,,Unlisted,2004,37200
+ANTH,,Psychology/Counseling/Therapy,2004,37400
+ANTH,,Education (Secondary),2004,37600
+ANTH,,Unlisted,2004,37800
+ANTH,,Law,2004,38000
+ANTH,,Unlisted,2004,38200
+ANTH,,Military,2004,38400
+ANTH,,Unlisted,2004,38600
+ANTH,,Investment/Securities,2004,38800
+ANTH,,Unlisted,2005,39000
+ANTH,,Library Science,2005,39200
+ANTH,,Education (Elementary),2005,39400
+ANTH,,Unlisted,2005,39600
+ANTH,,Other,2005,39800
+ANTH,,Environment/Ecology,2005,40000
+ANTH,,Other,2005,40200
+ANTH,,Graduate Studies,2005,40400
+ANTH,,Law,2005,40600
+ANTH,,Hotel/Food Management,2005,40800
+ANTH,,Unlisted,2006,41000
+ANTH,,Graduate Studies,2006,41200
+ANTH,,ECommerce/Web,2006,41400
+ANTH,,Graduate Studies,2006,41600
+ANTH,,Publishing,2006,41800
+ANTH,,"Research,Scientific",2006,42000
+ANTH,,Entertainment,2006,42200
+ANTH,,Graduate Studies,2006,42400
+ANTH,,Publishing,2006,42600
+ANTH,,Medicine,2006,42800
+ANTH,,Other,2006,43000
+ANTH,,Advertising,2006,43200
+ANTH,,Unlisted,2006,43400
+ANTH,,Government,2006,43600
+ANTH,,Education (Secondary),2007,43800
+ANTH,,Education (Higher Education),2007,44000
+ANTH,,Unlisted,2007,44200
+ANTH,,Ministry,2007,44400
+ANTH,,Education (Secondary),2007,44600
+ANTH,,Unlisted,2007,44800
+ANTH,,Veterinary/Animal Care,2007,45000
+ANTH,,Unlisted,2007,45200
+ANTH,,Social Work/Human Services,2007,45400
+ANTH,,Unlisted,2008,45600
+ANTH,,Graduate Studies,2008,45800
+ANTH,,Publishing,2008,46000
+ANTH,,Sales,2008,46200
+ANTH,,Unlisted,2008,46400
+ANTH,,Sports,2008,46600
+ANTH,,Government,2008,46800
+ANTH,,Unlisted,2008,47000
+ANTH,,Unlisted,2008,47200
+ANTH,,Unlisted,2008,47400
+ANTH,,Unlisted,2008,47600
+ANTH,,Unlisted,2008,47800
+ANTH,,Unlisted,2008,48000
+ANTH,,Unlisted,2008,48200
+ANTH,,Consulting,2008,48400
+ANTH,,Nursing,2008,48600
+ANTH,,Unlisted,2009,48800
+ANTH,,Other,2009,49000
+ANTH,,Banking,2009,49200
+ANTH,,Sales,2009,49400
+ANTH,,Education (Secondary),2009,49600
+ANTH,,Unlisted,2009,49800
+ANTH,,Unlisted,2009,50000
+ANTH,,Education (Secondary),2009,50200
+ANTH,,Other,2009,50400
+ANTH,,Journalism,2009,50600
+ANTH,,Unlisted,2009,50800
+ANTH,,Marketing/Market Research,2009,51000
+ANTH,,Unlisted,2009,51200
+ANTH,,Graduate Studies,2009,51400
+ANTH,,Advertising,2009,51600
+ANTH,,Unlisted,2010,51800
+ANTH,,Banking,2010,52000
+ANTH,,Education (Secondary),2010,52200
+ANTH,,Journalism,2010,52400
+ANTH,,Entertainment,2010,52600
+ANTH,,Marketing/Market Research,2010,52800
+ANTH,,Marketing/Market Research,2010,53000
+ANTH,,Unlisted,2010,53200
+ANTH,,Sales,2010,53400
+ANTH,,Education (Secondary),2010,53600
+ANTH,,Psychology/Counseling/Therapy,2010,53800
+ANTH,,Education (Secondary),2010,54000
+ANTH,,Law,2010,54200
+ANTH,,Volunteer,2010,54400
+ANTH,,Health Care,2010,54600
+ANTH,,Unlisted,2010,54800
+ANTH,,Unlisted,2010,55000
+ANTH,,Fundraising/Development,2010,55200
+ANTH,,Graduate Studies,2011,55400
+ANTH,,Nursing,2011,55600
+ANTH,,Education (Secondary),2011,55800
+ANTH,,Writing,2011,56000
+ANTH,,Unlisted,2011,56200
+ANTH,,Education (Secondary),2011,56400
+ANTH,,Photography,2011,56600
+ANTH,,Unlisted,2011,56800
+ANTH,,Consulting,2011,57000
+ANTH,,Other,2011,57200
+ANTH,,Government,2011,57400
+ANTH,,Advertising,2011,57600
+ANTH,,Graduate Studies,2011,57800
+ANTH,,Unlisted,2011,58000
+ANTH,,Medicine,2011,58200
+ANTH,,"Research,Scientific",2012,58400
+ANTH,,Finance,2012,58600
+ANTH,,Graduate Studies,2012,58800
+ARHS,ARTS,Accounting,2006,59000
+ARHS,ENGL,Entertainment,2001,59200
+ARHS,ENGL,Unlisted,2003,59400
+ARHS,ENGL,Real Estate,2003,59600
+ARHS,ENGL,Unlisted,2003,59800
+ARHS,ENGL,Government,2007,60000
+ARHS,ENGL,Education (Higher Education),2008,60200
+ARHS,ENGL,Arts,2009,60400
+ARHS,INST,Education (Higher Education),2008,60600
+ARHS,MLL,Graduate Studies,2001,60800
+ARHS,MLL,Non-Profit Adminstration,2002,61000
+ARHS,PSCI,Education (Secondary),2001,61200
+ARHS,PSCI,Unlisted,2007,61400
+ARHS,PSCI,Unlisted,2008,61600
+ARHS,PSYC,Graduate Studies,2004,61800
+ARHS,SPAN,Unlisted,2005,62000
+ARHS,,"Research, Other",2001,62200
+ARHS,,Ministry,2001,62400
+ARHS,,Nursing,2001,62600
+ARHS,,Unlisted,2001,62800
+ARHS,,Education (Higher Education),2002,63000
+ARHS,,Graduate Studies,2002,63200
+ARHS,,Other,2002,63400
+ARHS,,Unlisted,2002,63600
+ARHS,,Energy Industries,2002,63800
+ARHS,,Museum Work,2002,64000
+ARHS,,Unlisted,2002,64200
+ARHS,,Graduate Studies,2002,64400
+ARHS,,Graduate Studies,2003,64600
+ARHS,,Education (Higher Education),2003,64800
+ARHS,,Graduate Studies,2003,65000
+ARHS,,Education (Secondary),2003,65200
+ARHS,,Arts,2003,65400
+ARHS,,Unlisted,2003,65600
+ARHS,,Unlisted,2003,65800
+ARHS,,Business,2004,66000
+ARHS,,Consulting,2004,66200
+ARHS,,Graduate Studies,2004,66400
+ARHS,,Graduate Studies,2004,66600
+ARHS,,Nursing,2004,66800
+ARHS,,Psychology/Counseling/Therapy,2005,67000
+ARHS,,Education (Secondary),2005,67200
+ARHS,,Unlisted,2005,67400
+ARHS,,Education (Higher Education),2005,67600
+ARHS,,Other,2005,67800
+ARHS,,Sports,2005,68000
+ARHS,,Military,2005,68200
+ARHS,,Graduate Studies,2006,68400
+ARHS,,Law,2006,68600
+ARHS,,Unlisted,2006,68800
+ARHS,,Graduate Studies,2006,69000
+ARHS,,Other,2006,69200
+ARHS,,Graduate Studies,2007,69400
+ARHS,,Engineering,2007,69600
+ARHS,,Education (Elementary),2007,69800
+ARHS,,Education (Secondary),2007,70000
+ARHS,,Marketing/Market Research,2007,70200
+ARHS,,Unlisted,2007,70400
+ARHS,,"Research,Scientific",2007,70600
+ARHS,,Social Work/Human Services,2007,70800
+ARHS,,Unlisted,2008,71000
+ARHS,,Unlisted,2008,71200
+ARHS,,Non-Profit Adminstration,2008,71400
+ARHS,,Health Care,2008,71600
+ARHS,,Unlisted,2008,71800
+ARHS,,Unlisted,2008,72000
+ARHS,,Unlisted,2009,72200
+ARHS,,Unlisted,2009,72400
+ARHS,,Writing,2009,72600
+ARHS,,Unlisted,2009,72800
+ARHS,,Other,2009,73000
+ARHS,,Education (Secondary),2009,73200
+ARHS,,Unlisted,2009,73400
+ARHS,,Government,2009,73600
+ARHS,,Publishing,2009,73800
+ARHS,,Unlisted,2009,74000
+ARHS,,Nursing,2009,74200
+ARHS,,Unlisted,2009,74400
+ARHS,,Other,2010,74600
+ARHS,,Social Work/Human Services,2010,74800
+ARHS,,Law,2010,75000
+ARHS,,Unlisted,2010,75200
+ARHS,,Finance,2010,75400
+ARHS,,Education (Secondary),2010,75600
+ARHS,,Government,2010,75800
+ARHS,,Writing,2010,76000
+ARHS,,Performing Arts,2011,76200
+ARHS,,Arts,2011,76400
+ARHS,,Unlisted,2011,76600
+ARHS,,Graduate Studies,2011,76800
+ARHS,,Unlisted,2011,77000
+ARHS,,Unlisted,2011,77200
+ARHS,,Unlisted,2011,77400
+ARHS,,Arts,2011,77600
+ARHS,,Education (Elementary),2011,77800
+ARHS,,Arts,2011,78000
+ARHS,,Publishing,2011,78200
+ARHS,,Unlisted,2011,78400
+ARHS,,Energy Industries,2011,78600
+ARTS,BIOL,Graduate Studies,2002,78800
+ARTS,BIOL,Ministry,2012,79000
+ARTS,CHEM,Social Work/Human Services,2012,79200
+ARTS,CLAS,ECommerce/Web,2011,79400
+ARTS,DRAM,Unlisted,2003,79600
+ARTS,ECON,Education (Higher Education),2012,79800
+ARTS,ECON,Business,2006,80000
+ARTS,ECON,Museum Work,2006,80200
+ARTS,ECON,Investment/Securities,2007,80400
+ARTS,ECON,Fundraising/Development,2009,80600
+ARTS,ECON,Social Work/Human Services,2011,80800
+ARTS,ENGL,Unlisted,2002,81000
+ARTS,ENGL,Journalism,2003,81200
+ARTS,ENGL,Education (Secondary),2003,81400
+ARTS,ENGL,Military,2004,81600
+ARTS,ENGL,Banking,2004,81800
+ARTS,ENGL,Education (Elementary),2005,82000
+ARTS,ENGL,Environment/Ecology,2006,82200
+ARTS,ENGL,Unlisted,2007,82400
+ARTS,ENGL,Sales,2007,82600
+ARTS,ENGL,Education (Higher Education),2008,82800
+ARTS,ENGL,Graduate Studies,2009,83000
+ARTS,ENGL,Unlisted,2010,83200
+ARTS,ENGL,Education (Secondary),2010,83400
+ARTS,ENGL,Publishing,2011,83600
+ARTS,ENGL,Nursing,2011,83800
+ARTS,ENGL,Writing,2011,84000
+ARTS,HIST,Journalism,2007,84200
+ARTS,INST,Unlisted,2004,84400
+ARTS,INST,Law,2005,84600
+ARTS,INST,Medicine,2009,84800
+ARTS,NEUR,Sports,2004,85000
+ARTS,PHIL,Medicine,2010,85200
+ARTS,PHIL,Unlisted,2012,85400
+ARTS,PHYS,Unlisted,2002,85600
+ARTS,PSCI,Finance,2003,85800
+ARTS,PSCI,Graduate Studies,2006,86000
+ARTS,PSCI,Other,2008,86200
+ARTS,PSCI,Self Employed,2011,86400
+ARTS,PSYC,Marketing/Market Research,2003,86600
+ARTS,PSYC,Psychology/Counseling/Therapy,2004,86800
+ARTS,PSYC,Graduate Studies,2005,87000
+ARTS,PSYC,Unlisted,2006,87200
+ARTS,PSYC,Communications,2006,87400
+ARTS,PSYC,Education (Secondary),2009,87600
+ARTS,PSYC,Unlisted,2012,87800
+ARTS,SOCY,Unlisted,2008,88000
+ARTS,SPAN,Medicine,2001,88200
+ARTS,SPAN,Unlisted,2006,88400
+ARTS,WMNS,Consulting,2012,88600
+ARTS,,Other,2001,88800
+ARTS,,Unlisted,2001,89000
+ARTS,,Fundraising/Development,2001,89200
+ARTS,,Environment/Ecology,2001,89400
+ARTS,,Unlisted,2001,89600
+ARTS,,Education (Higher Education),2002,89800
+ARTS,,Unlisted,2002,90000
+ARTS,,Unlisted,2002,90200
+ARTS,,Museum Work,2002,90400
+ARTS,,Unlisted,2002,90600
+ARTS,,Unlisted,2002,90800
+ARTS,,Unlisted,2002,91000
+ARTS,,Medicine,2002,91200
+ARTS,,Unlisted,2002,91400
+ARTS,,Journalism,2003,91600
+ARTS,,Education (Secondary),2003,91800
+ARTS,,Education (Higher Education),2003,92000
+ARTS,,Unlisted,2003,92200
+ARTS,,Unlisted,2003,92400
+ARTS,,Unlisted,2003,92600
+ARTS,,Non-Profit Adminstration,2003,92800
+ARTS,,Education (Higher Education),2003,93000
+ARTS,,Marketing/Market Research,2003,93200
+ARTS,,Government,2003,93400
+ARTS,,Graduate Studies,2004,93600
+ARTS,,Insurance,2004,93800
+ARTS,,Finance,2004,94000
+ARTS,,Unlisted,2004,94200
+ARTS,,Government,2004,94400
+ARTS,,Unlisted,2004,94600
+ARTS,,Graduate Studies,2004,94800
+ARTS,,Graduate Studies,2004,95000
+ARTS,,Medicine,2005,95200
+ARTS,,Education (Higher Education),2005,95400
+ARTS,,Unlisted,2005,95600
+ARTS,,Law,2005,95800
+ARTS,,Unlisted,2005,96000
+ARTS,,Graduate Studies,2005,96200
+ARTS,,Unlisted,2006,96400
+ARTS,,Law,2006,96600
+ARTS,,Graduate Studies,2006,96800
+ARTS,,Unlisted,2006,97000
+ARTS,,Graduate Studies,2006,97200
+ARTS,,Unlisted,2006,97400
+ARTS,,Graduate Studies,2007,97600
+ARTS,,Unlisted,2007,97800
+ARTS,,Other,2007,98000
+ARTS,,Graduate Studies,2007,98200
+ARTS,,Unlisted,2007,98400
+ARTS,,Unlisted,2007,98600
+ARTS,,Unlisted,2007,98800
+ARTS,,Homemaker,2008,99000
+ARTS,,Graduate Studies,2008,99200
+ARTS,,Marketing/Market Research,2008,99400
+ARTS,,Law,2008,99600
+ARTS,,Unlisted,2008,99800
+ARTS,,Unlisted,2008,100000
+ARTS,,Graduate Studies,2008,100200
+ARTS,,Unlisted,2008,100400
+ARTS,,Graduate Studies,2008,100600
+ARTS,,Other,2008,100800
+ARTS,,Finance,2008,101000
+ARTS,,Arts,2008,101200
+ARTS,,Health Care,2008,101400
+ARTS,,Writing,2009,101600
+ARTS,,Graduate Studies,2009,101800
+ARTS,,Health Care,2010,102000
+ARTS,,Graduate Studies,2010,102200
+ARTS,,Unlisted,2010,102400
+ARTS,,Unlisted,2010,102600
+ARTS,,Education (Higher Education),2010,102800
+ARTS,,Unlisted,2010,103000
+ARTS,,Self Employed,2010,103200
+ARTS,,Other,2010,103400
+ARTS,,Consulting,2010,103600
+ARTS,,Social Work/Human Services,2010,103800
+ARTS,,Law,2010,104000
+ARTS,,Unlisted,2010,104200
+ARTS,,Broadcast-Radio/Television,2010,104400
+ARTS,,Government,2010,104600
+ARTS,,Graduate Studies,2010,104800
+ARTS,,Education (Secondary),2010,105000
+ARTS,,Education (Secondary),2010,105200
+ARTS,,Graduate Studies,2010,105400
+ARTS,,Psychology/Counseling/Therapy,2011,105600
+ARTS,,Unlisted,2011,105800
+ARTS,,Engineering,2011,106000
+ARTS,,Law,2011,106200
+ARTS,,Unlisted,2011,106400
+ARTS,,Banking,2011,106600
+ARTS,,Unlisted,2011,106800
+ARTS,,Education (Secondary),2011,107000
+ARTS,,Graduate Studies,2011,107200
+ARTS,,Medicine,2011,107400
+ARTS,,Hotel/Food Management,2012,107600
+ARTS,,Unlisted,2012,107800
+ARTS,,Other,2012,108000
+BCHM,ECON,Fundraising/Development,2008,108200
+BCHM,NEUR,Performing Arts,2006,108400
+BCHM,,Nursing,2000,108600
+BCHM,,Graduate Studies,2000,108800
+BCHM,,Finance,2001,109000
+BCHM,,Performing Arts,2001,109200
+BCHM,,Graduate Studies,2001,109400
+BCHM,,Library Science,2001,109600
+BCHM,,"Research,Scientific",2002,109800
+BCHM,,Medicine,2002,110000
+BCHM,,Unlisted,2003,110200
+BCHM,,Homemaker,2003,110400
+BCHM,,Law,2003,110600
+BCHM,,Unlisted,2003,110800
+BCHM,,Writing,2004,111000
+BCHM,,Unlisted,2004,111200
+BCHM,,Law,2004,111400
+BCHM,,Graduate Studies,2004,111600
+BCHM,,Ministry,2005,111800
+BCHM,,Ministry,2005,112000
+BCHM,,"Research,Scientific",2005,112200
+BCHM,,Graduate Studies,2005,112400
+BCHM,,Other,2006,112600
+BCHM,,Nursing,2006,112800
+BCHM,,Education (Secondary),2007,113000
+BCHM,,Library Science,2007,113200
+BCHM,,Marketing/Market Research,2007,113400
+BCHM,,Unlisted,2007,113600
+BCHM,,Other,2007,113800
+BCHM,,Veterinary/Animal Care,2007,114000
+BCHM,,Psychology/Counseling/Therapy,2008,114200
+BCHM,,Psychology/Counseling/Therapy,2008,114400
+BCHM,,Unlisted,2008,114600
+BCHM,,Unlisted,2008,114800
+BCHM,,Law,2008,115000
+BCHM,,Insurance,2009,115200
+BCHM,,Arts,2009,115400
+BCHM,,Law,2009,115600
+BCHM,,Architecture,2010,115800
+BCHM,,Unlisted,2011,116000
+BCHM,,Unlisted,2011,116200
+BCHM,,Graduate Studies,2011,116400
+BCHM,,Education (Higher Education),2011,116600
+BCHM,,Unlisted,2011,116800
+BCHM,,Graduate Studies,2011,117000
+BCHM,,Unlisted,2011,117200
+BCHM,,"Research, Other",2011,117400
+BCHM,,Medicine,2011,117600
+BCHM,,Ministry,2011,117800
+BCHM,,Unlisted,2011,118000
+BCHM,,Unlisted,2011,118200
+BIOL,DANC,Unlisted,2006,118400
+BIOL,ENGL,Unlisted,2001,118600
+BIOL,ENGL,Publishing,2002,118800
+BIOL,ENGL,Unlisted,2003,119000
+BIOL,ENGL,Graduate Studies,2003,119200
+BIOL,ENGL,Unlisted,2004,119400
+BIOL,ENGL,Entertainment,2006,119600
+BIOL,ENGL,Unlisted,2006,119800
+BIOL,ENGL,Unlisted,2007,120000
+BIOL,ENGL,Education (Higher Education),2007,120200
+BIOL,ENGL,Unlisted,2008,120400
+BIOL,ENGL,Law,2009,120600
+BIOL,ENGL,Unlisted,2010,120800
+BIOL,ENGL,Unlisted,2012,121000
+BIOL,HIST,Education (Secondary),2003,121200
+BIOL,MATH,Unlisted,2011,121400
+BIOL,MUSC,Journalism,2005,121600
+BIOL,PSYC,Graduate Studies,2005,121800
+BIOL,RELN,Accounting,2003,122000
+BIOL,SPAN,Accounting,2004,122200
+BIOL,SPAN,Library Science,2007,122400
+BIOL,,Architecture,2001,122600
+BIOL,,Other,2001,122800
+BIOL,,Psychology/Counseling/Therapy,2001,123000
+BIOL,,Law,2001,123200
+BIOL,,Unlisted,2001,123400
+BIOL,,Government,2002,123600
+BIOL,,Unlisted,2002,123800
+BIOL,,Graduate Studies,2002,124000
+BIOL,,Law,2002,124200
+BIOL,,Fundraising/Development,2002,124400
+BIOL,,Travel Agency/Tourism,2002,124600
+BIOL,,Unlisted,2002,124800
+BIOL,,Fundraising/Development,2002,125000
+BIOL,,Graduate Studies,2002,125200
+BIOL,,Graduate Studies,2002,125400
+BIOL,,Fundraising/Development,2002,125600
+BIOL,,Law,2002,125800
+BIOL,,Photography,2002,126000
+BIOL,,Other,2002,126200
+BIOL,,Unlisted,2003,126400
+BIOL,,Finance,2003,126600
+BIOL,,Education (Secondary),2003,126800
+BIOL,,Entertainment,2003,127000
+BIOL,,Unlisted,2003,127200
+BIOL,,Graduate Studies,2003,127400
+BIOL,,Arts,2003,127600
+BIOL,,Unlisted,2003,127800
+BIOL,,Non-Profit Adminstration,2003,128000
+BIOL,,Graduate Studies,2003,128200
+BIOL,,Unlisted,2003,128400
+BIOL,,"Research,Scientific",2003,128600
+BIOL,,Military,2003,128800
+BIOL,,Unlisted,2003,129000
+BIOL,,Ministry,2003,129200
+BIOL,,Unlisted,2003,129400
+BIOL,,Engineering,2003,129600
+BIOL,,Entertainment,2003,129800
+BIOL,,Construction,2003,130000
+BIOL,,Other,2003,130200
+BIOL,,Finance,2003,130400
+BIOL,,Graduate Studies,2003,130600
+BIOL,,Other,2004,130800
+BIOL,,"Research,Scientific",2004,131000
+BIOL,,Unlisted,2004,131200
+BIOL,,Unlisted,2004,131400
+BIOL,,Entertainment,2004,131600
+BIOL,,Unlisted,2004,131800
+BIOL,,Finance,2004,132000
+BIOL,,Law,2004,132200
+BIOL,,Unlisted,2004,132400
+BIOL,,Unlisted,2004,132600
+BIOL,,Education (Secondary),2004,132800
+BIOL,,Consulting,2004,133000
+BIOL,,Consulting,2004,133200
+BIOL,,Non-Profit Adminstration,2004,133400
+BIOL,,Unlisted,2004,133600
+BIOL,,Writing,2004,133800
+BIOL,,Self Employed,2004,134000
+BIOL,,Graduate Studies,2004,134200
+BIOL,,Unlisted,2005,134400
+BIOL,,Banking,2005,134600
+BIOL,,Unlisted,2005,134800
+BIOL,,Unlisted,2005,135000
+BIOL,,Unlisted,2005,135200
+BIOL,,Homemaker,2005,135400
+BIOL,,Graduate Studies,2005,135600
+BIOL,,Unlisted,2005,135800
+BIOL,,Unlisted,2005,136000
+BIOL,,Sales,2005,136200
+BIOL,,Accounting,2005,136400
+BIOL,,Unlisted,2005,136600
+BIOL,,Ministry,2006,136800
+BIOL,,Graduate Studies,2006,137000
+BIOL,,Other,2006,137200
+BIOL,,Unlisted,2006,137400
+BIOL,,Unlisted,2006,137600
+BIOL,,Education (Secondary),2006,137800
+BIOL,,Unlisted,2006,138000
+BIOL,,Unlisted,2006,138200
+BIOL,,Unlisted,2006,138400
+BIOL,,Unlisted,2006,138600
+BIOL,,Education (Secondary),2006,138800
+BIOL,,Unlisted,2006,139000
+BIOL,,Unlisted,2006,139200
+BIOL,,Unlisted,2006,139400
+BIOL,,Education (Secondary),2006,139600
+BIOL,,Unlisted,2006,139800
+BIOL,,Business,2006,140000
+BIOL,,Other,2006,140200
+BIOL,,Unlisted,2006,140400
+BIOL,,Unlisted,2006,140600
+BIOL,,Journalism,2006,140800
+BIOL,,Education (Secondary),2006,141000
+BIOL,,Unlisted,2006,141200
+BIOL,,Psychology/Counseling/Therapy,2007,141400
+BIOL,,Unlisted,2007,141600
+BIOL,,Government,2007,141800
+BIOL,,Unlisted,2007,142000
+BIOL,,Social Work/Human Services,2007,142200
+BIOL,,Unlisted,2007,142400
+BIOL,,Unlisted,2007,142600
+BIOL,,"Research,Scientific",2007,142800
+BIOL,,Education (Secondary),2007,143000
+BIOL,,Education (Higher Education),2007,143200
+BIOL,,Other,2007,143400
+BIOL,,Law,2007,143600
+BIOL,,Banking,2007,143800
+BIOL,,Real Estate,2007,144000
+BIOL,,Broadcast-Radio/Television,2007,144200
+BIOL,,Construction,2007,144400
+BIOL,,International,2007,144600
+BIOL,,Unlisted,2007,144800
+BIOL,,Human Resources,2007,145000
+BIOL,,"Research,Scientific",2008,145200
+BIOL,,Other,2008,145400
+BIOL,,Unlisted,2008,145600
+BIOL,,Museum Work,2008,145800
+BIOL,,Other,2008,146000
+BIOL,,Unlisted,2008,146200
+BIOL,,Graduate Studies,2008,146400
+BIOL,,Banking,2008,146600
+BIOL,,Law,2008,146800
+BIOL,,Graduate Studies,2009,147000
+BIOL,,Unlisted,2009,147200
+BIOL,,Unlisted,2009,147400
+BIOL,,Unlisted,2009,147600
+BIOL,,Graduate Studies,2009,147800
+BIOL,,Graduate Studies,2009,148000
+BIOL,,Graduate Studies,2009,148200
+BIOL,,Education (Secondary),2009,148400
+BIOL,,Unlisted,2009,148600
+BIOL,,Unlisted,2009,148800
+BIOL,,Unlisted,2009,149000
+BIOL,,Social Work/Human Services,2009,149200
+BIOL,,Unlisted,2009,149400
+BIOL,,Graduate Studies,2009,149600
+BIOL,,Graduate Studies,2009,149800
+BIOL,,Unlisted,2009,150000
+BIOL,,Law,2009,150200
+BIOL,,Government,2009,150400
+BIOL,,"Research, Other",2009,150600
+BIOL,,Unlisted,2009,150800
+BIOL,,Government,2009,151000
+BIOL,,Unlisted,2009,151200
+BIOL,,Education (Secondary),2009,151400
+BIOL,,Unlisted,2009,151600
+BIOL,,Education (Higher Education),2009,151800
+BIOL,,Social Work/Human Services,2009,152000
+BIOL,,Law,2010,152200
+BIOL,,Journalism,2010,152400
+BIOL,,Graduate Studies,2010,152600
+BIOL,,Graduate Studies,2010,152800
+BIOL,,Education (Secondary),2010,153000
+BIOL,,Unlisted,2010,153200
+BIOL,,Marketing/Market Research,2010,153400
+BIOL,,Graduate Studies,2010,153600
+BIOL,,Law,2010,153800
+BIOL,,Entertainment,2010,154000
+BIOL,,Unlisted,2010,154200
+BIOL,,"Research,Scientific",2010,154400
+BIOL,,Graduate Studies,2010,154600
+BIOL,,Graduate Studies,2011,154800
+BIOL,,Entertainment,2011,155000
+BIOL,,Medicine,2011,155200
+BIOL,,Unlisted,2011,155400
+BIOL,,Graduate Studies,2011,155600
+BIOL,,Unlisted,2011,155800
+BIOL,,Unlisted,2011,156000
+BIOL,,Unlisted,2011,156200
+BIOL,,Unlisted,2011,156400
+BIOL,,Unlisted,2011,156600
+BIOL,,Finance,2011,156800
+BIOL,,Unlisted,2011,157000
+BIOL,,Unlisted,2011,157200
+BIOL,,Fundraising/Development,2011,157400
+BIOL,,Banking,2011,157600
+BIOL,,Unlisted,2011,157800
+BIOL,,Public Relations,2011,158000
+BIOL,,Graduate Studies,2012,158200
+BIOL,,Library Science,2012,158400
+BIOL,,Graduate Studies,2012,158600
+BIOL,,Medicine,2012,158800
+BIOL,,Social Work/Human Services,2012,159000
+BIOL,,Social Work/Human Services,2012,159200
+BIOL,,Unlisted,2012,159400
+BIOL,,Graduate Studies,2012,159600
+BIOL,,Unlisted,2012,159800
+BIOL,,Publishing,2012,160000
+BIOL,,Law,2012,160200
+BIOL,,Education (Secondary),2012,160400
+BIOL,,Unlisted,2012,160600
+BIOL,,Other,2012,160800
+CHEM,ECON,Sports,2005,161000
+CHEM,FREN,Computer,2002,161200
+CHEM,GERM,Non-Profit Adminstration,2004,161400
+CHEM,HIST,Unlisted,2009,161600
+CHEM,INST,Law,2004,161800
+CHEM,MATH,Education (Higher Education),2007,162000
+CHEM,PHYS,Arts,2008,162200
+CHEM,PHYS,Unlisted,2010,162400
+CHEM,SOCY,Sports,2003,162600
+CHEM,,Unlisted,2001,162800
+CHEM,,Unlisted,2001,163000
+CHEM,,Medicine,2001,163200
+CHEM,,Education (Secondary),2001,163400
+CHEM,,Unlisted,2001,163600
+CHEM,,Education (Secondary),2001,163800
+CHEM,,Unlisted,2002,164000
+CHEM,,Education (Secondary),2002,164200
+CHEM,,Marketing/Market Research,2002,164400
+CHEM,,Unlisted,2002,164600
+CHEM,,Consulting,2002,164800
+CHEM,,Law,2002,165000
+CHEM,,Other,2003,165200
+CHEM,,Investment/Securities,2003,165400
+CHEM,,Unlisted,2003,165600
+CHEM,,Education (Secondary),2003,165800
+CHEM,,Arts,2003,166000
+CHEM,,Unlisted,2004,166200
+CHEM,,Unlisted,2004,166400
+CHEM,,Law Enforcement,2004,166600
+CHEM,,Unlisted,2004,166800
+CHEM,,"Research,Scientific",2005,167000
+CHEM,,Government,2005,167200
+CHEM,,Unlisted,2005,167400
+CHEM,,Education (Secondary),2005,167600
+CHEM,,Education (Secondary),2005,167800
+CHEM,,Unlisted,2006,168000
+CHEM,,Government,2006,168200
+CHEM,,Education (Secondary),2006,168400
+CHEM,,"Research,Scientific",2006,168600
+CHEM,,Graduate Studies,2006,168800
+CHEM,,Education (Secondary),2006,169000
+CHEM,,Unlisted,2006,169200
+CHEM,,Unlisted,2006,169400
+CHEM,,Unlisted,2007,169600
+CHEM,,Entertainment,2007,169800
+CHEM,,Unlisted,2007,170000
+CHEM,,Unlisted,2007,170200
+CHEM,,Social Work/Human Services,2007,170400
+CHEM,,Unlisted,2009,170600
+CHEM,,Unlisted,2009,170800
+CHEM,,Unlisted,2009,171000
+CHEM,,Medicine,2009,171200
+CHEM,,Government,2009,171400
+CHEM,,Unlisted,2009,171600
+CHEM,,Non-Profit Adminstration,2010,171800
+CHEM,,Graduate Studies,2010,172000
+CHEM,,Unlisted,2010,172200
+CHEM,,Computer,2011,172400
+CLAS,ECON,"Research,Scientific",2012,172600
+CLAS,ENGL,Unlisted,2002,172800
+CLAS,ENGL,Homemaker,2005,173000
+CLAS,ENGL,Education (Higher Education),2006,173200
+CLAS,ENGL,Unlisted,2008,173400
+CLAS,ENGL,Finance,2009,173600
+CLAS,ENGL,Museum Work,2010,173800
+CLAS,ENGL,Unlisted,2010,174000
+CLAS,ENGL,Education (Secondary),2011,174200
+CLAS,HIST,Graduate Studies,2010,174400
+CLAS,MATH,Self Employed,2007,174600
+CLAS,MLL,Unlisted,2008,174800
+CLAS,MUSC,Law,2004,175000
+CLAS,PHIL,Education (Secondary),2004,175200
+CLAS,PHIL,Unlisted,2005,175400
+CLAS,PHYS,Energy Industries,2012,175600
+CLAS,PSCI,Unlisted,2004,175800
+CLAS,PSCI,Entertainment,2004,176000
+CLAS,PSCI,Unlisted,2008,176200
+CLAS,PSYC,Unlisted,2010,176400
+CLAS,RELN,ECommerce/Web,2001,176600
+CLAS,RELN,Unlisted,2001,176800
+CLAS,,Other,2001,177000
+CLAS,,Unlisted,2001,177200
+CLAS,,Unlisted,2001,177400
+CLAS,,Unlisted,2001,177600
+CLAS,,Law,2002,177800
+CLAS,,Unlisted,2002,178000
+CLAS,,Unlisted,2002,178200
+CLAS,,Unlisted,2003,178400
+CLAS,,Unlisted,2004,178600
+CLAS,,Unlisted,2005,178800
+CLAS,,Nursing,2005,179000
+CLAS,,Other,2005,179200
+CLAS,,Unlisted,2005,179400
+CLAS,,Education (Secondary),2005,179600
+CLAS,,Education (Higher Education),2005,179800
+CLAS,,Graduate Studies,2006,180000
+CLAS,,Publishing,2006,180200
+CLAS,,Education (Elementary),2006,180400
+CLAS,,Education (Elementary),2006,180600
+CLAS,,Agriculture,2007,180800
+CLAS,,Unlisted,2007,181000
+CLAS,,Unlisted,2007,181200
+CLAS,,Unlisted,2007,181400
+CLAS,,Unlisted,2007,181600
+CLAS,,Education (Higher Education),2007,181800
+CLAS,,Other,2007,182000
+CLAS,,Accounting,2007,182200
+CLAS,,Unlisted,2007,182400
+CLAS,,Publishing,2008,182600
+CLAS,,Graduate Studies,2008,182800
+CLAS,,Unlisted,2009,183000
+CLAS,,Medicine,2009,183200
+CLAS,,Education (Elementary),2009,183400
+CLAS,,Unlisted,2009,183600
+CLAS,,Homemaker,2009,183800
+CLAS,,Law,2009,184000
+CLAS,,Unlisted,2010,184200
+CLAS,,Unlisted,2010,184400
+CLAS,,Unlisted,2010,184600
+CLAS,,Non-Profit Adminstration,2010,184800
+CLAS,,Arts,2010,185000
+CLAS,,Graduate Studies,2010,185200
+CLAS,,Unlisted,2011,185400
+CLAS,,Insurance,2011,185600
+CLAS,,Social Work/Human Services,2011,185800
+CLAS,,Graduate Studies,2011,186000
+CLAS,,Education (Secondary),2011,186200
+CLAS,,Unlisted,2012,186400
+DANC,ENGL,Unlisted,1995,186600
+DANC,ENGL,Law,2004,186800
+DANC,ENGL,Entertainment,2004,187000
+DANC,ENGL,Education (Elementary),2009,187200
+DANC,HIST,Unlisted,2003,187400
+DANC,HIST,Entertainment,2010,187600
+DANC,INST,Graduate Studies,2004,187800
+DANC,INST,Other,2005,188000
+DANC,INST,Education (Higher Education),2008,188200
+DANC,PHIL,Unlisted,2005,188400
+DANC,PSCI,Education (Higher Education),2007,188600
+DANC,PSYC,Unlisted,2006,188800
+DANC,SOCY,Journalism,2009,189000
+DANC,SPAN,Law,2006,189200
+DANC,,Marketing/Market Research,1997,189400
+DANC,,Graduate Studies,1998,189600
+DANC,,Unlisted,1998,189800
+DANC,,ECommerce/Web,2000,190000
+DANC,,Sales,2000,190200
+DANC,,Other,2003,190400
+DANC,,Journalism,2005,190600
+DANC,,Unlisted,2006,190800
+DANC,,Graduate Studies,2007,191000
+DANC,,Transportation,2008,191200
+DANC,,Veterinary/Animal Care,2008,191400
+DANC,,Education (Higher Education),2008,191600
+DANC,,Graduate Studies,2009,191800
+DANC,,Unlisted,2010,192000
+DRAM,ECON,Unlisted,2005,192200
+DRAM,ECON,Unlisted,2006,192400
+DRAM,ENGL,Unlisted,2001,192600
+DRAM,ENGL,Unlisted,2002,192800
+DRAM,ENGL,Social Work/Human Services,2002,193000
+DRAM,ENGL,Unlisted,2002,193200
+DRAM,ENGL,Government,2003,193400
+DRAM,ENGL,Unlisted,2003,193600
+DRAM,ENGL,Education (Secondary),2004,193800
+DRAM,ENGL,Unlisted,2004,194000
+DRAM,ENGL,Other,2005,194200
+DRAM,ENGL,Engineering,2005,194400
+DRAM,ENGL,Unlisted,2005,194600
+DRAM,ENGL,Unlisted,2006,194800
+DRAM,ENGL,Unlisted,2007,195000
+DRAM,ENGL,Unlisted,2007,195200
+DRAM,ENGL,Energy Industries,2007,195400
+DRAM,ENGL,Law,2007,195600
+DRAM,ENGL,Arts,2007,195800
+DRAM,ENGL,Unlisted,2007,196000
+DRAM,ENGL,Insurance,2007,196200
+DRAM,ENGL,Sports,2008,196400
+DRAM,ENGL,Unlisted,2008,196600
+DRAM,ENGL,Finance,2008,196800
+DRAM,ENGL,Medicine,2008,197000
+DRAM,ENGL,Other,2009,197200
+DRAM,ENGL,"Research, Other",2009,197400
+DRAM,ENGL,Unlisted,2009,197600
+DRAM,ENGL,Unlisted,2010,197800
+DRAM,ENGL,Education (Higher Education),2011,198000
+DRAM,ENGL,Self Employed,2011,198200
+DRAM,ENGL,Unlisted,2011,198400
+DRAM,ENGL,Writing,2011,198600
+DRAM,ENGL,Other,2011,198800
+DRAM,ENGL,Unlisted,2012,199000
+DRAM,FREN,Education (Higher Education),2006,199200
+DRAM,HIST,Education (Higher Education),2003,199400
+DRAM,HIST,Education (Higher Education),2005,199600
+DRAM,HIST,Business,2005,199800
+DRAM,MUSC,Social Work/Human Services,2003,200000
+DRAM,MUSC,Law,2005,200200
+DRAM,MUSC,Unlisted,2007,200400
+DRAM,MUSC,Graduate Studies,2009,200600
+DRAM,PSCI,Unlisted,2001,200800
+DRAM,PSCI,Non-Profit Adminstration,2004,201000
+DRAM,PSCI,Social Work/Human Services,2007,201200
+DRAM,PSCI,Government,2008,201400
+DRAM,PSCI,Education (Secondary),2009,201600
+DRAM,PSCI,Education (Secondary),2010,201800
+DRAM,PSYC,Government,2007,202000
+DRAM,PSYC,Other,2011,202200
+DRAM,SOCY,Unlisted,2005,202400
+DRAM,SOCY,Other,2012,202600
+DRAM,SPAN,Publishing,2002,202800
+DRAM,SPAN,Unlisted,2009,203000
+DRAM,,"Research, Other",2001,203200
+DRAM,,Public Relations,2001,203400
+DRAM,,Journalism,2001,203600
+DRAM,,Unlisted,2001,203800
+DRAM,,Graduate Studies,2002,204000
+DRAM,,Law,2002,204200
+DRAM,,Human Resources,2002,204400
+DRAM,,Unlisted,2002,204600
+DRAM,,Unlisted,2002,204800
+DRAM,,Graduate Studies,2002,205000
+DRAM,,Education (Elementary),2002,205200
+DRAM,,Other,2002,205400
+DRAM,,Graduate Studies,2002,205600
+DRAM,,Unlisted,2002,205800
+DRAM,,Education (Elementary),2003,206000
+DRAM,,Unlisted,2003,206200
+DRAM,,Medicine,2003,206400
+DRAM,,Unlisted,2003,206600
+DRAM,,Marketing/Market Research,2003,206800
+DRAM,,Museum Work,2003,207000
+DRAM,,Unlisted,2003,207200
+DRAM,,Unlisted,2003,207400
+DRAM,,Unlisted,2003,207600
+DRAM,,Other,2003,207800
+DRAM,,Unlisted,2003,208000
+DRAM,,Graduate Studies,2003,208200
+DRAM,,Unlisted,2004,208400
+DRAM,,Unlisted,2004,208600
+DRAM,,Unlisted,2004,208800
+DRAM,,Unlisted,2004,209000
+DRAM,,Unlisted,2004,209200
+DRAM,,Fundraising/Development,2004,209400
+DRAM,,Unlisted,2004,209600
+DRAM,,Unlisted,2004,209800
+DRAM,,Social Work/Human Services,2004,210000
+DRAM,,Entertainment,2004,210200
+DRAM,,Unlisted,2004,210400
+DRAM,,Unlisted,2004,210600
+DRAM,,Museum Work,2004,210800
+DRAM,,Environment/Ecology,2004,211000
+DRAM,,Unlisted,2004,211200
+DRAM,,Government,2005,211400
+DRAM,,Government,2005,211600
+DRAM,,Graduate Studies,2005,211800
+DRAM,,Unlisted,2005,212000
+DRAM,,Unlisted,2005,212200
+DRAM,,Unlisted,2005,212400
+DRAM,,Sports,2005,212600
+DRAM,,Graduate Studies,2005,212800
+DRAM,,Museum Work,2005,213000
+DRAM,,Other,2005,213200
+DRAM,,Other,2005,213400
+DRAM,,Veterinary/Animal Care,2005,213600
+DRAM,,Law,2005,213800
+DRAM,,Education (Higher Education),2005,214000
+DRAM,,Unlisted,2006,214200
+DRAM,,Unlisted,2006,214400
+DRAM,,Unlisted,2006,214600
+DRAM,,Graduate Studies,2006,214800
+DRAM,,Law,2006,215000
+DRAM,,Education (Higher Education),2006,215200
+DRAM,,Unlisted,2006,215400
+DRAM,,Graduate Studies,2006,215600
+DRAM,,Unlisted,2007,215800
+DRAM,,Graduate Studies,2007,216000
+DRAM,,Unlisted,2007,216200
+DRAM,,Unlisted,2007,216400
+DRAM,,Marketing/Market Research,2007,216600
+DRAM,,Unlisted,2007,216800
+DRAM,,Business,2008,217000
+DRAM,,Unlisted,2008,217200
+DRAM,,Other,2008,217400
+DRAM,,Unlisted,2008,217600
+DRAM,,Marketing/Market Research,2008,217800
+DRAM,,"Research, Other",2008,218000
+DRAM,,International,2008,218200
+DRAM,,Unlisted,2008,218400
+DRAM,,Law,2008,218600
+DRAM,,Entertainment,2008,218800
+DRAM,,Unlisted,2008,219000
+DRAM,,Non-Profit Adminstration,2008,219200
+DRAM,,Unlisted,2008,219400
+DRAM,,"Research,Scientific",2008,219600
+DRAM,,Sports,2008,219800
+DRAM,,Unlisted,2008,220000
+DRAM,,Unlisted,2009,220200
+DRAM,,Unlisted,2009,220400
+DRAM,,Journalism,2009,220600
+DRAM,,Unlisted,2009,220800
+DRAM,,Unlisted,2009,221000
+DRAM,,Education (Elementary),2009,221200
+DRAM,,Psychology/Counseling/Therapy,2009,221400
+DRAM,,Non-Profit Adminstration,2009,221600
+DRAM,,Arts,2009,221800
+DRAM,,Music,2009,222000
+DRAM,,Law,2009,222200
+DRAM,,Unlisted,2009,222400
+DRAM,,Computer,2009,222600
+DRAM,,Unlisted,2009,222800
+DRAM,,Marketing/Market Research,2009,223000
+DRAM,,Law,2010,223200
+DRAM,,Unlisted,2010,223400
+DRAM,,Unlisted,2010,223600
+DRAM,,Fundraising/Development,2010,223800
+DRAM,,Medicine,2010,224000
+DRAM,,Homemaker,2010,224200
+DRAM,,Unlisted,2010,224400
+DRAM,,Unlisted,2010,224600
+DRAM,,Business,2010,224800
+DRAM,,Education (Secondary),2010,225000
+DRAM,,Graduate Studies,2010,225200
+DRAM,,Unlisted,2010,225400
+DRAM,,Merchandising/Retail,2011,225600
+DRAM,,Education (Secondary),2011,225800
+DRAM,,Unlisted,2011,226000
+DRAM,,Entertainment,2011,226200
+DRAM,,Unlisted,2012,226400
+DRAM,,Broadcast-Radio/Television,2012,226600
+DRAM,,Unlisted,2012,226800
+DRAM,,Marketing/Market Research,2012,227000
+DRAM,,Education (Elementary),2012,227200
+DRAM,,Ministry,2012,227400
+ECON,ENGL,Unlisted,2003,227600
+ECON,ENGL,Non-Profit Adminstration,2008,227800
+ECON,ENGL,Entertainment,2008,228000
+ECON,ENGL,Education (Higher Education),2010,228200
+ECON,ENGL,Other,2011,228400
+ECON,FREN,Graduate Studies,2009,228600
+ECON,HIST,Government,2003,228800
+ECON,HIST,Medicine,2004,229000
+ECON,HIST,Other,2008,229200
+ECON,HIST,Unlisted,2011,229400
+ECON,INST,Unlisted,2002,229600
+ECON,INST,Other,2004,229800
+ECON,INST,Self Employed,2004,230000
+ECON,INST,Unlisted,2006,230200
+ECON,INST,Unlisted,2006,230400
+ECON,INST,Insurance,2006,230600
+ECON,INST,Environment/Ecology,2008,230800
+ECON,INST,Law,2009,231000
+ECON,INST,Unlisted,2009,231200
+ECON,INST,Advertising,2012,231400
+ECON,INST,Health Care,2012,231600
+ECON,MATH,Education (Secondary),2001,231800
+ECON,MATH,Other,2001,232000
+ECON,MATH,Other,2002,232200
+ECON,MATH,Museum Work,2002,232400
+ECON,MATH,Marketing/Market Research,2002,232600
+ECON,MATH,Graduate Studies,2003,232800
+ECON,MATH,Museum Work,2004,233000
+ECON,MATH,Government,2004,233200
+ECON,MATH,Health Care,2004,233400
+ECON,MATH,Other,2005,233600
+ECON,MATH,Law,2005,233800
+ECON,MATH,Fundraising/Development,2006,234000
+ECON,MATH,Unlisted,2007,234200
+ECON,MATH,Consulting,2007,234400
+ECON,MATH,Unlisted,2008,234600
+ECON,MATH,Journalism,2008,234800
+ECON,MATH,Education (Secondary),2008,235000
+ECON,MATH,Unlisted,2008,235200
+ECON,MATH,Non-Profit Adminstration,2009,235400
+ECON,MATH,Government,2009,235600
+ECON,MATH,Unlisted,2010,235800
+ECON,MATH,Other,2010,236000
+ECON,MATH,"Research,Scientific",2011,236200
+ECON,MATH,Government,2011,236400
+ECON,MATH,Sports,2012,236600
+ECON,MATH,Other,2012,236800
+ECON,MLL,Education (Higher Education),2010,237000
+ECON,MLL,Hotel/Food Management,2012,237200
+ECON,MLL,Unlisted,2012,237400
+ECON,MLL,Education (Higher Education),2012,237600
+ECON,MUSC,Unlisted,2003,237800
+ECON,MUSC,Real Estate,2006,238000
+ECON,MUSC,Education (Secondary),2007,238200
+ECON,MUSC,Business,2010,238400
+ECON,PHIL,Unlisted,2008,238600
+ECON,PHIL,Fundraising/Development,2008,238800
+ECON,PHIL,Unlisted,2009,239000
+ECON,PHYS,Marketing/Market Research,2003,239200
+ECON,PHYS,Unlisted,2010,239400
+ECON,PSCI,Government,2002,239600
+ECON,PSCI,Unlisted,2003,239800
+ECON,PSCI,Law,2006,240000
+ECON,PSCI,Other,2006,240200
+ECON,PSCI,Unlisted,2006,240400
+ECON,PSCI,Medicine,2007,240600
+ECON,PSCI,Unlisted,2007,240800
+ECON,PSCI,Health Care,2007,241000
+ECON,PSCI,Museum Work,2008,241200
+ECON,PSCI,Real Estate,2008,241400
+ECON,PSCI,Insurance,2008,241600
+ECON,PSCI,Unlisted,2009,241800
+ECON,PSCI,Construction,2009,242000
+ECON,PSCI,Law,2009,242200
+ECON,PSCI,Education (Secondary),2009,242400
+ECON,PSCI,Unlisted,2009,242600
+ECON,PSCI,Law,2009,242800
+ECON,PSCI,Unlisted,2010,243000
+ECON,PSCI,Unlisted,2010,243200
+ECON,PSCI,Psychology/Counseling/Therapy,2010,243400
+ECON,PSCI,Other,2011,243600
+ECON,PSCI,Journalism,2011,243800
+ECON,PSCI,Unlisted,2012,244000
+ECON,PSYC,Self Employed,2007,244200
+ECON,PSYC,Law,2008,244400
+ECON,PSYC,Graduate Studies,2008,244600
+ECON,PSYC,Unlisted,2008,244800
+ECON,PSYC,Graduate Studies,2012,245000
+ECON,PSYC,Unlisted,2012,245200
+ECON,RLST,Education (Secondary),2011,245400
+ECON,SPAN,Unlisted,2002,245600
+ECON,SPAN,Education (Higher Education),2004,245800
+ECON,SPAN,Psychology/Counseling/Therapy,2005,246000
+ECON,SPAN,Medicine,2007,246200
+ECON,SPAN,Education (Secondary),2012,246400
+ECON,,Unlisted,2001,246600
+ECON,,Graduate Studies,2001,246800
+ECON,,Medicine,2001,247000
+ECON,,Unlisted,2001,247200
+ECON,,Graduate Studies,2002,247400
+ECON,,Banking,2002,247600
+ECON,,Unlisted,2002,247800
+ECON,,Education (Secondary),2002,248000
+ECON,,Unlisted,2002,248200
+ECON,,Graduate Studies,2002,248400
+ECON,,Education (Elementary),2002,248600
+ECON,,Other,2002,248800
+ECON,,Graduate Studies,2002,249000
+ECON,,Unlisted,2002,249200
+ECON,,Marketing/Market Research,2002,249400
+ECON,,Unlisted,2002,249600
+ECON,,Law,2003,249800
+ECON,,Unlisted,2003,250000
+ECON,,Unlisted,2003,250200
+ECON,,Education (Elementary),2003,250400
+ECON,,Unlisted,2003,250600
+ECON,,Unlisted,2003,250800
+ECON,,Unlisted,2003,251000
+ECON,,Entertainment,2003,251200
+ECON,,Unlisted,2003,251400
+ECON,,Graduate Studies,2003,251600
+ECON,,Unlisted,2003,251800
+ECON,,Unlisted,2003,252000
+ECON,,Unlisted,2003,252200
+ECON,,Other,2003,252400
+ECON,,Unlisted,2003,252600
+ECON,,Agriculture,2004,252800
+ECON,,Education (Higher Education),2004,253000
+ECON,,Unlisted,2004,253200
+ECON,,Unlisted,2004,253400
+ECON,,Graduate Studies,2004,253600
+ECON,,Unlisted,2004,253800
+ECON,,Unlisted,2004,254000
+ECON,,Unlisted,2004,254200
+ECON,,Other,2004,254400
+ECON,,Unlisted,2004,254600
+ECON,,Writing,2004,254800
+ECON,,Education (Higher Education),2004,255000
+ECON,,Unlisted,2005,255200
+ECON,,Unlisted,2005,255400
+ECON,,Graduate Studies,2005,255600
+ECON,,Government,2005,255800
+ECON,,Other,2005,256000
+ECON,,Unlisted,2005,256200
+ECON,,Unlisted,2005,256400
+ECON,,Sales,2005,256600
+ECON,,Other,2005,256800
+ECON,,Publishing,2005,257000
+ECON,,Health Care,2005,257200
+ECON,,Law,2005,257400
+ECON,,Graduate Studies,2005,257600
+ECON,,Graduate Studies,2006,257800
+ECON,,Fundraising/Development,2006,258000
+ECON,,Unlisted,2006,258200
+ECON,,Graduate Studies,2006,258400
+ECON,,Merchandising/Retail,2006,258600
+ECON,,Unlisted,2006,258800
+ECON,,Marketing/Market Research,2006,259000
+ECON,,Unlisted,2006,259200
+ECON,,Health Care,2006,259400
+ECON,,Writing,2006,259600
+ECON,,Unlisted,2006,259800
+ECON,,Unlisted,2006,260000
+ECON,,Education (Secondary),2006,260200
+ECON,,Other,2006,260400
+ECON,,Unlisted,2007,260600
+ECON,,Non-Profit Adminstration,2007,260800
+ECON,,Law,2007,261000
+ECON,,Marketing/Market Research,2007,261200
+ECON,,ECommerce/Web,2007,261400
+ECON,,Graduate Studies,2007,261600
+ECON,,Journalism,2007,261800
+ECON,,Unlisted,2007,262000
+ECON,,Unlisted,2007,262200
+ECON,,Education (Secondary),2007,262400
+ECON,,Unlisted,2007,262600
+ECON,,Unlisted,2007,262800
+ECON,,Unlisted,2007,263000
+ECON,,Law,2007,263200
+ECON,,Unlisted,2007,263400
+ECON,,Graduate Studies,2007,263600
+ECON,,Other,2008,263800
+ECON,,Unlisted,2008,264000
+ECON,,Education (Elementary),2008,264200
+ECON,,Fundraising/Development,2008,264400
+ECON,,Education (Elementary),2008,264600
+ECON,,Unlisted,2008,264800
+ECON,,Unlisted,2008,265000
+ECON,,Graduate Studies,2008,265200
+ECON,,Education (Elementary),2008,265400
+ECON,,Unlisted,2008,265600
+ECON,,Graduate Studies,2008,265800
+ECON,,Unlisted,2008,266000
+ECON,,Psychology/Counseling/Therapy,2008,266200
+ECON,,Non-Profit Adminstration,2008,266400
+ECON,,Unlisted,2008,266600
+ECON,,Unlisted,2008,266800
+ECON,,Government,2008,267000
+ECON,,Unlisted,2008,267200
+ECON,,Unlisted,2008,267400
+ECON,,Unlisted,2009,267600
+ECON,,Unlisted,2009,267800
+ECON,,Unlisted,2009,268000
+ECON,,"Research, Other",2009,268200
+ECON,,Other,2009,268400
+ECON,,Merchandising/Retail,2009,268600
+ECON,,Unlisted,2009,268800
+ECON,,Graduate Studies,2009,269000
+ECON,,Unlisted,2009,269200
+ECON,,Unlisted,2009,269400
+ECON,,Graduate Studies,2009,269600
+ECON,,Unlisted,2009,269800
+ECON,,Unlisted,2009,270000
+ECON,,Unlisted,2009,270200
+ECON,,Unlisted,2009,270400
+ECON,,Publishing,2009,270600
+ECON,,Entertainment,2009,270800
+ECON,,Education (Higher Education),2009,271000
+ECON,,Unlisted,2009,271200
+ECON,,Graduate Studies,2009,271400
+ECON,,Unlisted,2010,271600
+ECON,,Education (Higher Education),2010,271800
+ECON,,Photography,2010,272000
+ECON,,Finance,2010,272200
+ECON,,Music,2010,272400
+ECON,,Unlisted,2010,272600
+ECON,,Health Care,2010,272800
+ECON,,Unlisted,2010,273000
+ECON,,Unlisted,2010,273200
+ECON,,Other,2010,273400
+ECON,,Unlisted,2010,273600
+ECON,,Graduate Studies,2010,273800
+ECON,,Computer,2010,274000
+ECON,,Law,2010,274200
+ECON,,Graduate Studies,2010,274400
+ECON,,Agriculture,2010,274600
+ECON,,Advertising,2010,274800
+ECON,,Unlisted,2010,275000
+ECON,,Education (Elementary),2010,275200
+ECON,,Marketing/Market Research,2010,275400
+ECON,,Other,2010,275600
+ECON,,Graduate Studies,2010,275800
+ECON,,Graduate Studies,2010,276000
+ECON,,Education (Higher Education),2010,276200
+ECON,,"Research,Scientific",2010,276400
+ECON,,Unlisted,2010,276600
+ECON,,Graduate Studies,2010,276800
+ECON,,Unlisted,2010,277000
+ECON,,Graduate Studies,2010,277200
+ECON,,Graduate Studies,2010,277400
+ECON,,Graduate Studies,2010,277600
+ECON,,Graduate Studies,2010,277800
+ECON,,Finance,2010,278000
+ECON,,Veterinary/Animal Care,2010,278200
+ECON,,Unlisted,2010,278400
+ECON,,Graduate Studies,2010,278600
+ECON,,Graduate Studies,2010,278800
+ECON,,Publishing,2011,279000
+ECON,,Unlisted,2011,279200
+ECON,,Unlisted,2011,279400
+ECON,,Unlisted,2011,279600
+ECON,,Unlisted,2011,279800
+ECON,,Sports,2011,280000
+ECON,,Graduate Studies,2011,280200
+ECON,,Graduate Studies,2011,280400
+ECON,,Unlisted,2011,280600
+ECON,,Unlisted,2011,280800
+ECON,,Other,2011,281000
+ECON,,Education (Secondary),2011,281200
+ECON,,Medicine,2011,281400
+ECON,,Military,2011,281600
+ECON,,Law,2011,281800
+ECON,,Energy Industries,2011,282000
+ECON,,Psychology/Counseling/Therapy,2011,282200
+ECON,,Computer,2011,282400
+ECON,,Law,2011,282600
+ECON,,Unlisted,2011,282800
+ECON,,Computer,2011,283000
+ECON,,Graduate Studies,2011,283200
+ECON,,Unlisted,2011,283400
+ECON,,Unlisted,2011,283600
+ECON,,Graduate Studies,2011,283800
+ECON,,Business,2011,284000
+ECON,,Unlisted,2011,284200
+ECON,,Marketing/Market Research,2011,284400
+ECON,,Unlisted,2011,284600
+ECON,,Transportation,2011,284800
+ECON,,Unlisted,2011,285000
+ECON,,Marketing/Market Research,2011,285200
+ECON,,Other,2011,285400
+ECON,,Unlisted,2011,285600
+ECON,,"Research, Other",2012,285800
+ECON,,International,2012,286000
+ECON,,Consulting,2012,286200
+ECON,,Unlisted,2012,286400
+ECON,,Unlisted,2012,286600
+ECON,,Entertainment,2012,286800
+ECON,,Unlisted,2012,287000
+ECON,,Graduate Studies,2012,287200
+ECON,,Unlisted,2012,287400
+ECON,,Other,2012,287600
+ECON,,Other,2012,287800
+ECON,,Education (Higher Education),2012,288000
+ECON,,"Research,Scientific",2012,288200
+ECON,,Unlisted,2012,288400
+ECON,,Law,2012,288600
+ECON,,Education (Secondary),2012,288800
+ECON,,Graduate Studies,2012,289000
+ECON,,Other,2012,289200
+ENGL,FREN,Social Work/Human Services,2005,289400
+ENGL,FREN,Unlisted,2005,289600
+ENGL,FREN,Consulting,2007,289800
+ENGL,FREN,Unlisted,2007,290000
+ENGL,FREN,Entertainment,2007,290200
+ENGL,FREN,Psychology/Counseling/Therapy,2008,290400
+ENGL,FREN,Education (Higher Education),2011,290600
+ENGL,GERM,Computer,2003,290800
+ENGL,GERM,Unlisted,2009,291000
+ENGL,GERM,Government,2012,291200
+ENGL,HIST,Education (Higher Education),2002,291400
+ENGL,HIST,Unlisted,2002,291600
+ENGL,HIST,Education (Higher Education),2002,291800
+ENGL,HIST,Non-Profit Adminstration,2002,292000
+ENGL,HIST,Graduate Studies,2002,292200
+ENGL,HIST,Consulting,2003,292400
+ENGL,HIST,Graduate Studies,2004,292600
+ENGL,HIST,Education (Higher Education),2004,292800
+ENGL,HIST,Public Relations,2007,293000
+ENGL,HIST,Medicine,2007,293200
+ENGL,HIST,Unlisted,2007,293400
+ENGL,HIST,Other,2009,293600
+ENGL,INST,Education (Secondary),2007,293800
+ENGL,MATH,Medicine,2006,294000
+ENGL,MATH,Education (Elementary),2010,294200
+ENGL,MLL,Unlisted,2003,294400
+ENGL,MLL,Self Employed,2003,294600
+ENGL,MLL,Education (Secondary),2008,294800
+ENGL,MLL,Unlisted,2008,295000
+ENGL,MLL,Museum Work,2008,295200
+ENGL,MLL,Education (Secondary),2009,295400
+ENGL,MLL,Finance,2010,295600
+ENGL,MLL,Unlisted,2010,295800
+ENGL,MLL,Communications,2010,296000
+ENGL,MLL,Veterinary/Animal Care,2012,296200
+ENGL,MLL,Unlisted,2012,296400
+ENGL,MLL,Nursing,2012,296600
+ENGL,MUSC,Library Science,2002,296800
+ENGL,MUSC,Law,2003,297000
+ENGL,MUSC,Unlisted,2006,297200
+ENGL,MUSC,Photography,2008,297400
+ENGL,MUSC,Unlisted,2011,297600
+ENGL,NEUR,Law,2006,297800
+ENGL,PHIL,Sales,2004,298000
+ENGL,PHIL,Unlisted,2004,298200
+ENGL,PHIL,Graduate Studies,2005,298400
+ENGL,PHIL,Unlisted,2006,298600
+ENGL,PHIL,Education (Higher Education),2006,298800
+ENGL,PHIL,Unlisted,2007,299000
+ENGL,PHIL,Graduate Studies,2008,299200
+ENGL,PHIL,Unlisted,2010,299400
+ENGL,PSCI,Unlisted,2002,299600
+ENGL,PSCI,Unlisted,2002,299800
+ENGL,PSCI,Unlisted,2003,300000
+ENGL,PSCI,"Research, Other",2003,300200
+ENGL,PSCI,Education (Secondary),2004,300400
+ENGL,PSCI,Unlisted,2004,300600
+ENGL,PSCI,Graduate Studies,2005,300800
+ENGL,PSCI,Unlisted,2007,301000
+ENGL,PSCI,Law,2009,301200
+ENGL,PSCI,Unlisted,2011,301400
+ENGL,PSCI,Unlisted,2012,301600
+ENGL,PSYC,Military,2002,301800
+ENGL,PSYC,"Research,Scientific",2003,302000
+ENGL,PSYC,Unlisted,2003,302200
+ENGL,PSYC,Unlisted,2004,302400
+ENGL,PSYC,Health Care,2004,302600
+ENGL,PSYC,Unlisted,2004,302800
+ENGL,PSYC,Music,2005,303000
+ENGL,PSYC,Sales,2006,303200
+ENGL,PSYC,Education (Higher Education),2006,303400
+ENGL,PSYC,Education (Secondary),2008,303600
+ENGL,PSYC,Unlisted,2010,303800
+ENGL,PSYC,Government,2011,304000
+ENGL,PSYC,Education (Higher Education),2012,304200
+ENGL,PSYC,Consulting,2012,304400
+ENGL,RELN,Unlisted,2002,304600
+ENGL,RELN,Other,2002,304800
+ENGL,RELN,Unlisted,2004,305000
+ENGL,RLST,Consulting,2007,305200
+ENGL,RLST,Unlisted,2008,305400
+ENGL,SOCY,Law,2004,305600
+ENGL,SOCY,Psychology/Counseling/Therapy,2006,305800
+ENGL,SOCY,Unlisted,2010,306000
+ENGL,SOCY,Unlisted,2010,306200
+ENGL,SOCY,Unlisted,2012,306400
+ENGL,SOCY,Unlisted,2012,306600
+ENGL,SOCY,Unlisted,2012,306800
+ENGL,SPAN,Performing Arts,2002,307000
+ENGL,SPAN,Graduate Studies,2002,307200
+ENGL,SPAN,Unlisted,2003,307400
+ENGL,SPAN,Sales,2003,307600
+ENGL,SPAN,Unlisted,2004,307800
+ENGL,SPAN,Consulting,2004,308000
+ENGL,SPAN,Law,2005,308200
+ENGL,SPAN,Unlisted,2006,308400
+ENGL,SPAN,Graduate Studies,2006,308600
+ENGL,SPAN,Unlisted,2006,308800
+ENGL,SPAN,Government,2007,309000
+ENGL,SPAN,Law,2008,309200
+ENGL,SPAN,Graduate Studies,2009,309400
+ENGL,SPAN,Graduate Studies,2009,309600
+ENGL,SPAN,Graduate Studies,2010,309800
+ENGL,SPAN,Unlisted,2011,310000
+ENGL,SPAN,ECommerce/Web,2011,310200
+ENGL,SPAN,Graduate Studies,2012,310400
+ENGL,SPAN,Law,2012,310600
+ENGL,WMNS,Accounting,2007,310800
+ENGL,WMNS,Unlisted,2009,311000
+ENGL,,Library Science,2001,311200
+ENGL,,Graduate Studies,2001,311400
+ENGL,,Education (Secondary),2001,311600
+ENGL,,Other,2001,311800
+ENGL,,Unlisted,2001,312000
+ENGL,,Education (Higher Education),2002,312200
+ENGL,,Unlisted,2002,312400
+ENGL,,Library Science,2002,312600
+ENGL,,Unlisted,2002,312800
+ENGL,,Unlisted,2002,313000
+ENGL,,Unlisted,2002,313200
+ENGL,,Psychology/Counseling/Therapy,2002,313400
+ENGL,,Unlisted,2002,313600
+ENGL,,Education (Higher Education),2002,313800
+ENGL,,Education (Higher Education),2002,314000
+ENGL,,Unlisted,2002,314200
+ENGL,,Sales,2002,314400
+ENGL,,Graduate Studies,2002,314600
+ENGL,,Education (Secondary),2002,314800
+ENGL,,Environment/Ecology,2002,315000
+ENGL,,Unlisted,2002,315200
+ENGL,,Other,2002,315400
+ENGL,,Unlisted,2002,315600
+ENGL,,Music,2002,315800
+ENGL,,Unlisted,2002,316000
+ENGL,,Finance,2002,316200
+ENGL,,Unlisted,2002,316400
+ENGL,,Music,2002,316600
+ENGL,,Engineering,2002,316800
+ENGL,,Unlisted,2002,317000
+ENGL,,Library Science,2002,317200
+ENGL,,"Research,Scientific",2002,317400
+ENGL,,Consulting,2002,317600
+ENGL,,Medicine,2002,317800
+ENGL,,Unlisted,2002,318000
+ENGL,,Other,2002,318200
+ENGL,,Education (Elementary),2002,318400
+ENGL,,Other,2002,318600
+ENGL,,Unlisted,2002,318800
+ENGL,,Unlisted,2002,319000
+ENGL,,Unlisted,2002,319200
+ENGL,,Unlisted,2002,319400
+ENGL,,Education (Secondary),2002,319600
+ENGL,,Other,2002,319800
+ENGL,,Library Science,2002,320000
+ENGL,,Education (Higher Education),2002,320200
+ENGL,,Graduate Studies,2002,320400
+ENGL,,Education (Secondary),2002,320600
+ENGL,,Graduate Studies,2002,320800
+ENGL,,ECommerce/Web,2002,321000
+ENGL,,Unlisted,2002,321200
+ENGL,,Health Care,2002,321400
+ENGL,,Unlisted,2002,321600
+ENGL,,Unlisted,2002,321800
+ENGL,,Library Science,2002,322000
+ENGL,,Other,2002,322200
+ENGL,,Government,2002,322400
+ENGL,,Education (Higher Education),2002,322600
+ENGL,,Unlisted,2002,322800
+ENGL,,Unlisted,2002,323000
+ENGL,,Unlisted,2002,323200
+ENGL,,Nursing,2002,323400
+ENGL,,Unlisted,2002,323600
+ENGL,,Unlisted,2002,323800
+ENGL,,Writing,2002,324000
+ENGL,,Unlisted,2002,324200
+ENGL,,Medicine,2002,324400
+ENGL,,Unlisted,2002,324600
+ENGL,,Unlisted,2002,324800
+ENGL,,Law,2003,325000
+ENGL,,Performing Arts,2003,325200
+ENGL,,Unlisted,2003,325400
+ENGL,,Graduate Studies,2003,325600
+ENGL,,Graduate Studies,2003,325800
+ENGL,,Unlisted,2003,326000
+ENGL,,Unlisted,2003,326200
+ENGL,,Unlisted,2003,326400
+ENGL,,Museum Work,2003,326600
+ENGL,,Unlisted,2003,326800
+ENGL,,Education (Elementary),2003,327000
+ENGL,,Graduate Studies,2003,327200
+ENGL,,Unlisted,2003,327400
+ENGL,,Journalism,2003,327600
+ENGL,,"Research,Scientific",2003,327800
+ENGL,,Unlisted,2003,328000
+ENGL,,Unlisted,2003,328200
+ENGL,,Unlisted,2003,328400
+ENGL,,Law,2003,328600
+ENGL,,Unlisted,2003,328800
+ENGL,,Unlisted,2003,329000
+ENGL,,Insurance,2003,329200
+ENGL,,Public Relations,2003,329400
+ENGL,,Unlisted,2003,329600
+ENGL,,Graduate Studies,2003,329800
+ENGL,,Unlisted,2003,330000
+ENGL,,Graduate Studies,2003,330200
+ENGL,,Sales,2003,330400
+ENGL,,Unlisted,2003,330600
+ENGL,,Unlisted,2003,330800
+ENGL,,Education (Higher Education),2003,331000
+ENGL,,Human Resources,2003,331200
+ENGL,,Unlisted,2003,331400
+ENGL,,Unlisted,2003,331600
+ENGL,,Unlisted,2003,331800
+ENGL,,Unlisted,2003,332000
+ENGL,,"Research,Scientific",2003,332200
+ENGL,,Graduate Studies,2003,332400
+ENGL,,Graduate Studies,2003,332600
+ENGL,,Insurance,2003,332800
+ENGL,,Education (Secondary),2003,333000
+ENGL,,Unlisted,2003,333200
+ENGL,,Medicine,2003,333400
+ENGL,,"Research, Other",2003,333600
+ENGL,,Graduate Studies,2003,333800
+ENGL,,Graduate Studies,2003,334000
+ENGL,,Medicine,2003,334200
+ENGL,,Unlisted,2003,334400
+ENGL,,Unlisted,2003,334600
+ENGL,,Unlisted,2003,334800
+ENGL,,Unlisted,2003,335000
+ENGL,,Law,2003,335200
+ENGL,,Banking,2003,335400
+ENGL,,Non-Profit Adminstration,2003,335600
+ENGL,,Unlisted,2003,335800
+ENGL,,"Research,Scientific",2003,336000
+ENGL,,Unlisted,2003,336200
+ENGL,,Graduate Studies,2003,336400
+ENGL,,Unlisted,2003,336600
+ENGL,,Unlisted,2003,336800
+ENGL,,Other,2003,337000
+ENGL,,Education (Elementary),2003,337200
+ENGL,,Unlisted,2003,337400
+ENGL,,Unlisted,2004,337600
+ENGL,,Engineering,2004,337800
+ENGL,,Sports,2004,338000
+ENGL,,Unlisted,2004,338200
+ENGL,,Unlisted,2004,338400
+ENGL,,Unlisted,2004,338600
+ENGL,,Education (Elementary),2004,338800
+ENGL,,Unlisted,2004,339000
+ENGL,,Graduate Studies,2004,339200
+ENGL,,Unlisted,2004,339400
+ENGL,,Unlisted,2004,339600
+ENGL,,Law,2004,339800
+ENGL,,Entertainment,2004,340000
+ENGL,,Unlisted,2004,340200
+ENGL,,Unlisted,2004,340400
+ENGL,,Merchandising/Retail,2004,340600
+ENGL,,Unlisted,2004,340800
+ENGL,,Unlisted,2004,341000
+ENGL,,Unlisted,2004,341200
+ENGL,,Graduate Studies,2004,341400
+ENGL,,Medicine,2004,341600
+ENGL,,Unlisted,2004,341800
+ENGL,,Unlisted,2004,342000
+ENGL,,Unlisted,2004,342200
+ENGL,,Finance,2004,342400
+ENGL,,Consulting,2004,342600
+ENGL,,Unlisted,2004,342800
+ENGL,,Graduate Studies,2004,343000
+ENGL,,Education (Secondary),2004,343200
+ENGL,,Other,2004,343400
+ENGL,,Unlisted,2004,343600
+ENGL,,Unlisted,2004,343800
+ENGL,,Unlisted,2004,344000
+ENGL,,Graduate Studies,2004,344200
+ENGL,,Business,2004,344400
+ENGL,,Unlisted,2004,344600
+ENGL,,Unlisted,2004,344800
+ENGL,,Unlisted,2004,345000
+ENGL,,Unlisted,2004,345200
+ENGL,,Publishing,2004,345400
+ENGL,,Agriculture,2004,345600
+ENGL,,Unlisted,2004,345800
+ENGL,,Unlisted,2004,346000
+ENGL,,Other,2004,346200
+ENGL,,Medicine,2004,346400
+ENGL,,Graduate Studies,2004,346600
+ENGL,,Education (Secondary),2004,346800
+ENGL,,Unlisted,2004,347000
+ENGL,,Graduate Studies,2004,347200
+ENGL,,Performing Arts,2004,347400
+ENGL,,Real Estate,2004,347600
+ENGL,,Non-Profit Adminstration,2004,347800
+ENGL,,Advertising,2004,348000
+ENGL,,Unlisted,2004,348200
+ENGL,,Unlisted,2004,348400
+ENGL,,Education (Secondary),2004,348600
+ENGL,,Unlisted,2004,348800
+ENGL,,Unlisted,2004,349000
+ENGL,,Unlisted,2004,349200
+ENGL,,Finance,2004,349400
+ENGL,,Unlisted,2005,349600
+ENGL,,Other,2005,349800
+ENGL,,Unlisted,2005,350000
+ENGL,,Business,2005,350200
+ENGL,,Unlisted,2005,350400
+ENGL,,Law,2005,350600
+ENGL,,Unlisted,2005,350800
+ENGL,,Psychology/Counseling/Therapy,2005,351000
+ENGL,,Medicine,2005,351200
+ENGL,,Graduate Studies,2005,351400
+ENGL,,Law,2005,351600
+ENGL,,Sports,2005,351800
+ENGL,,Graduate Studies,2005,352000
+ENGL,,Other,2005,352200
+ENGL,,Graduate Studies,2005,352400
+ENGL,,Unlisted,2005,352600
+ENGL,,Unlisted,2005,352800
+ENGL,,Nursing,2005,353000
+ENGL,,Unlisted,2005,353200
+ENGL,,Unlisted,2005,353400
+ENGL,,Unlisted,2005,353600
+ENGL,,Other,2005,353800
+ENGL,,Graduate Studies,2005,354000
+ENGL,,Unlisted,2005,354200
+ENGL,,Education (Secondary),2005,354400
+ENGL,,Consulting,2005,354600
+ENGL,,Unlisted,2005,354800
+ENGL,,Journalism,2005,355000
+ENGL,,Sales,2005,355200
+ENGL,,Unlisted,2005,355400
+ENGL,,Medicine,2005,355600
+ENGL,,Unlisted,2005,355800
+ENGL,,Unlisted,2005,356000
+ENGL,,Unlisted,2005,356200
+ENGL,,Unlisted,2005,356400
+ENGL,,Graduate Studies,2005,356600
+ENGL,,Unlisted,2005,356800
+ENGL,,Unlisted,2005,357000
+ENGL,,Unlisted,2005,357200
+ENGL,,Advertising,2005,357400
+ENGL,,Other,2005,357600
+ENGL,,Other,2005,357800
+ENGL,,Unlisted,2005,358000
+ENGL,,Health Care,2005,358200
+ENGL,,Unlisted,2005,358400
+ENGL,,Unlisted,2005,358600
+ENGL,,Medicine,2005,358800
+ENGL,,Unlisted,2005,359000
+ENGL,,Graduate Studies,2005,359200
+ENGL,,Graduate Studies,2005,359400
+ENGL,,"Research,Scientific",2005,359600
+ENGL,,Unlisted,2005,359800
+ENGL,,Unlisted,2005,360000
+ENGL,,Graduate Studies,2005,360200
+ENGL,,Other,2005,360400
+ENGL,,Sales,2005,360600
+ENGL,,Unlisted,2005,360800
+ENGL,,Computer,2005,361000
+ENGL,,Unlisted,2005,361200
+ENGL,,Graduate Studies,2005,361400
+ENGL,,Graduate Studies,2005,361600
+ENGL,,Communications,2005,361800
+ENGL,,Photography,2005,362000
+ENGL,,Other,2005,362200
+ENGL,,Unlisted,2005,362400
+ENGL,,Unlisted,2005,362600
+ENGL,,Graduate Studies,2005,362800
+ENGL,,Nursing,2005,363000
+ENGL,,Unlisted,2005,363200
+ENGL,,Unlisted,2005,363400
+ENGL,,Graduate Studies,2005,363600
+ENGL,,Graduate Studies,2006,363800
+ENGL,,Law,2006,364000
+ENGL,,Unlisted,2006,364200
+ENGL,,Unlisted,2006,364400
+ENGL,,Non-Profit Adminstration,2006,364600
+ENGL,,Communications,2006,364800
+ENGL,,Unlisted,2006,365000
+ENGL,,Health Care,2006,365200
+ENGL,,Unlisted,2006,365400
+ENGL,,Finance,2006,365600
+ENGL,,Law,2006,365800
+ENGL,,Unlisted,2006,366000
+ENGL,,Unlisted,2006,366200
+ENGL,,Law,2006,366400
+ENGL,,Health Care,2006,366600
+ENGL,,Unlisted,2006,366800
+ENGL,,Unlisted,2006,367000
+ENGL,,Graduate Studies,2006,367200
+ENGL,,Music,2006,367400
+ENGL,,Other,2006,367600
+ENGL,,Social Work/Human Services,2006,367800
+ENGL,,Graduate Studies,2006,368000
+ENGL,,Unlisted,2006,368200
+ENGL,,Unlisted,2006,368400
+ENGL,,Unlisted,2006,368600
+ENGL,,Public Relations,2006,368800
+ENGL,,Finance,2006,369000
+ENGL,,Unlisted,2006,369200
+ENGL,,Unlisted,2006,369400
+ENGL,,Unlisted,2006,369600
+ENGL,,Nursing,2006,369800
+ENGL,,Banking,2006,370000
+ENGL,,Nursing,2006,370200
+ENGL,,Law,2006,370400
+ENGL,,Unlisted,2006,370600
+ENGL,,Unlisted,2006,370800
+ENGL,,Unlisted,2006,371000
+ENGL,,Entertainment,2006,371200
+ENGL,,Graduate Studies,2006,371400
+ENGL,,Computer,2006,371600
+ENGL,,Unlisted,2006,371800
+ENGL,,Graduate Studies,2006,372000
+ENGL,,Unlisted,2006,372200
+ENGL,,Unlisted,2006,372400
+ENGL,,Business,2006,372600
+ENGL,,Graduate Studies,2006,372800
+ENGL,,Consulting,2006,373000
+ENGL,,Graduate Studies,2006,373200
+ENGL,,Unlisted,2006,373400
+ENGL,,Graduate Studies,2006,373600
+ENGL,,Investment/Securities,2006,373800
+ENGL,,Unlisted,2006,374000
+ENGL,,Unlisted,2006,374200
+ENGL,,Unlisted,2006,374400
+ENGL,,Graduate Studies,2006,374600
+ENGL,,Unlisted,2006,374800
+ENGL,,Finance,2006,375000
+ENGL,,Unlisted,2006,375200
+ENGL,,Unlisted,2006,375400
+ENGL,,Unlisted,2006,375600
+ENGL,,Unlisted,2006,375800
+ENGL,,Unlisted,2006,376000
+ENGL,,Unlisted,2006,376200
+ENGL,,Law,2006,376400
+ENGL,,Writing,2006,376600
+ENGL,,Graduate Studies,2007,376800
+ENGL,,Graduate Studies,2007,377000
+ENGL,,Law,2007,377200
+ENGL,,Unlisted,2007,377400
+ENGL,,Unlisted,2007,377600
+ENGL,,Other,2007,377800
+ENGL,,Law,2007,378000
+ENGL,,Unlisted,2007,378200
+ENGL,,Graduate Studies,2007,378400
+ENGL,,Computer,2007,378600
+ENGL,,Unlisted,2007,378800
+ENGL,,Unlisted,2007,379000
+ENGL,,Unlisted,2007,379200
+ENGL,,Graduate Studies,2007,379400
+ENGL,,Unlisted,2007,379600
+ENGL,,Unlisted,2007,379800
+ENGL,,Unlisted,2007,380000
+ENGL,,Graduate Studies,2007,380200
+ENGL,,Environment/Ecology,2007,380400
+ENGL,,Unlisted,2007,380600
+ENGL,,Education (Secondary),2007,380800
+ENGL,,Education (Higher Education),2007,381000
+ENGL,,Education (Secondary),2007,381200
+ENGL,,Unlisted,2007,381400
+ENGL,,Publishing,2007,381600
+ENGL,,"Research,Scientific",2007,381800
+ENGL,,Unlisted,2007,382000
+ENGL,,Unlisted,2007,382200
+ENGL,,Unlisted,2007,382400
+ENGL,,Unlisted,2007,382600
+ENGL,,Unlisted,2007,382800
+ENGL,,Publishing,2007,383000
+ENGL,,"Research, Other",2007,383200
+ENGL,,Education (Secondary),2007,383400
+ENGL,,Unlisted,2007,383600
+ENGL,,Human Resources,2007,383800
+ENGL,,Museum Work,2007,384000
+ENGL,,Real Estate,2007,384200
+ENGL,,Education (Higher Education),2007,384400
+ENGL,,Unlisted,2007,384600
+ENGL,,Psychology/Counseling/Therapy,2007,384800
+ENGL,,Unlisted,2007,385000
+ENGL,,Non-Profit Adminstration,2007,385200
+ENGL,,Sports,2007,385400
+ENGL,,Law,2007,385600
+ENGL,,"Research,Scientific",2007,385800
+ENGL,,Consulting,2007,386000
+ENGL,,Unlisted,2007,386200
+ENGL,,Unlisted,2007,386400
+ENGL,,Unlisted,2007,386600
+ENGL,,Unlisted,2007,386800
+ENGL,,Other,2007,387000
+ENGL,,Unlisted,2007,387200
+ENGL,,Unlisted,2007,387400
+ENGL,,Unlisted,2007,387600
+ENGL,,Non-Profit Adminstration,2007,387800
+ENGL,,Unlisted,2008,388000
+ENGL,,Unlisted,2008,388200
+ENGL,,Unlisted,2008,388400
+ENGL,,Graduate Studies,2008,388600
+ENGL,,Social Work/Human Services,2008,388800
+ENGL,,Other,2008,389000
+ENGL,,Unlisted,2008,389200
+ENGL,,Law,2008,389400
+ENGL,,Graduate Studies,2008,389600
+ENGL,,"Research,Scientific",2008,389800
+ENGL,,Government,2008,390000
+ENGL,,Unlisted,2008,390200
+ENGL,,Graduate Studies,2008,390400
+ENGL,,Unlisted,2008,390600
+ENGL,,Unlisted,2008,390800
+ENGL,,Unlisted,2008,391000
+ENGL,,Unlisted,2008,391200
+ENGL,,Graduate Studies,2008,391400
+ENGL,,Graduate Studies,2008,391600
+ENGL,,Unlisted,2008,391800
+ENGL,,Graduate Studies,2008,392000
+ENGL,,Unlisted,2008,392200
+ENGL,,Unlisted,2008,392400
+ENGL,,Engineering,2008,392600
+ENGL,,Other,2008,392800
+ENGL,,Veterinary/Animal Care,2008,393000
+ENGL,,Writing,2008,393200
+ENGL,,Health Care,2008,393400
+ENGL,,Education (Secondary),2008,393600
+ENGL,,Museum Work,2008,393800
+ENGL,,Broadcast-Radio/Television,2008,394000
+ENGL,,Consulting,2008,394200
+ENGL,,Unlisted,2008,394400
+ENGL,,Library Science,2008,394600
+ENGL,,Unlisted,2008,394800
+ENGL,,Public Relations,2008,395000
+ENGL,,Health Care,2008,395200
+ENGL,,Law,2008,395400
+ENGL,,Nursing,2008,395600
+ENGL,,Consulting,2008,395800
+ENGL,,Unlisted,2008,396000
+ENGL,,Communications,2008,396200
+ENGL,,Unlisted,2008,396400
+ENGL,,Unlisted,2008,396600
+ENGL,,"Research,Scientific",2008,396800
+ENGL,,Graduate Studies,2008,397000
+ENGL,,Non-Profit Adminstration,2008,397200
+ENGL,,Publishing,2008,397400
+ENGL,,Unlisted,2008,397600
+ENGL,,Social Work/Human Services,2008,397800
+ENGL,,Unlisted,2008,398000
+ENGL,,Unlisted,2008,398200
+ENGL,,Other,2008,398400
+ENGL,,Agriculture,2008,398600
+ENGL,,Law,2008,398800
+ENGL,,Unlisted,2008,399000
+ENGL,,Unlisted,2008,399200
+ENGL,,Unlisted,2008,399400
+ENGL,,Unlisted,2009,399600
+ENGL,,Business,2009,399800
+ENGL,,Unlisted,2009,400000
+ENGL,,Unlisted,2009,400200
+ENGL,,Unlisted,2009,400400
+ENGL,,Graduate Studies,2009,400600
+ENGL,,Computer,2009,400800
+ENGL,,Unlisted,2009,401000
+ENGL,,Education (Higher Education),2009,401200
+ENGL,,Unlisted,2009,401400
+ENGL,,Unlisted,2009,401600
+ENGL,,Health Care,2009,401800
+ENGL,,Unlisted,2009,402000
+ENGL,,Non-Profit Adminstration,2009,402200
+ENGL,,Banking,2009,402400
+ENGL,,Education (Higher Education),2009,402600
+ENGL,,Unlisted,2009,402800
+ENGL,,Unlisted,2009,403000
+ENGL,,Unlisted,2009,403200
+ENGL,,Unlisted,2009,403400
+ENGL,,Unlisted,2009,403600
+ENGL,,Education (Elementary),2009,403800
+ENGL,,Graduate Studies,2009,404000
+ENGL,,Other,2009,404200
+ENGL,,"Research,Scientific",2009,404400
+ENGL,,Education (Secondary),2009,404600
+ENGL,,Government,2009,404800
+ENGL,,Unlisted,2009,405000
+ENGL,,Graduate Studies,2009,405200
+ENGL,,Arts,2009,405400
+ENGL,,Performing Arts,2009,405600
+ENGL,,Sales,2009,405800
+ENGL,,Unlisted,2009,406000
+ENGL,,Graduate Studies,2009,406200
+ENGL,,Journalism,2009,406400
+ENGL,,Medicine,2009,406600
+ENGL,,Unlisted,2009,406800
+ENGL,,Music,2009,407000
+ENGL,,Graduate Studies,2009,407200
+ENGL,,Accounting,2009,407400
+ENGL,,Other,2009,407600
+ENGL,,Education (Higher Education),2009,407800
+ENGL,,Other,2009,408000
+ENGL,,Unlisted,2009,408200
+ENGL,,Unlisted,2009,408400
+ENGL,,Graduate Studies,2009,408600
+ENGL,,Unlisted,2010,408800
+ENGL,,Unlisted,2010,409000
+ENGL,,Unlisted,2010,409200
+ENGL,,Unlisted,2010,409400
+ENGL,,Graduate Studies,2010,409600
+ENGL,,Government,2010,409800
+ENGL,,Unlisted,2010,410000
+ENGL,,Non-Profit Adminstration,2010,410200
+ENGL,,Unlisted,2010,410400
+ENGL,,Graduate Studies,2010,410600
+ENGL,,Graduate Studies,2010,410800
+ENGL,,Law,2010,411000
+ENGL,,Unlisted,2010,411200
+ENGL,,Education (Secondary),2010,411400
+ENGL,,Education (Higher Education),2010,411600
+ENGL,,Unlisted,2010,411800
+ENGL,,International,2010,412000
+ENGL,,Performing Arts,2010,412200
+ENGL,,Health Care,2010,412400
+ENGL,,Unlisted,2010,412600
+ENGL,,Unlisted,2010,412800
+ENGL,,Other,2010,413000
+ENGL,,Unlisted,2010,413200
+ENGL,,Graduate Studies,2010,413400
+ENGL,,Unlisted,2010,413600
+ENGL,,Other,2010,413800
+ENGL,,Publishing,2010,414000
+ENGL,,Unlisted,2010,414200
+ENGL,,Education (Secondary),2010,414400
+ENGL,,Unlisted,2010,414600
+ENGL,,Unlisted,2010,414800
+ENGL,,Graduate Studies,2010,415000
+ENGL,,Graduate Studies,2010,415200
+ENGL,,Self Employed,2010,415400
+ENGL,,Unlisted,2010,415600
+ENGL,,Other,2010,415800
+ENGL,,Education (Secondary),2010,416000
+ENGL,,Writing,2010,416200
+ENGL,,Graduate Studies,2010,416400
+ENGL,,Graduate Studies,2010,416600
+ENGL,,Education (Secondary),2010,416800
+ENGL,,Unlisted,2010,417000
+ENGL,,Unlisted,2010,417200
+ENGL,,Unlisted,2010,417400
+ENGL,,Unlisted,2010,417600
+ENGL,,Unlisted,2010,417800
+ENGL,,Unlisted,2010,418000
+ENGL,,Unlisted,2010,418200
+ENGL,,Graduate Studies,2011,418400
+ENGL,,Unlisted,2011,418600
+ENGL,,Volunteer,2011,418800
+ENGL,,Education (Secondary),2011,419000
+ENGL,,Unlisted,2011,419200
+ENGL,,Unlisted,2011,419400
+ENGL,,Education (Elementary),2011,419600
+ENGL,,Unlisted,2011,419800
+ENGL,,Law,2011,420000
+ENGL,,Unlisted,2011,420200
+ENGL,,Graduate Studies,2011,420400
+ENGL,,Volunteer,2011,420600
+ENGL,,Graduate Studies,2011,420800
+ENGL,,Other,2011,421000
+ENGL,,Medicine,2011,421200
+ENGL,,Unlisted,2011,421400
+ENGL,,Unlisted,2011,421600
+ENGL,,Other,2011,421800
+ENGL,,Unlisted,2011,422000
+ENGL,,Arts,2011,422200
+ENGL,,Unlisted,2011,422400
+ENGL,,Graduate Studies,2011,422600
+ENGL,,Unlisted,2011,422800
+ENGL,,Unlisted,2011,423000
+ENGL,,Unlisted,2011,423200
+ENGL,,Unlisted,2011,423400
+ENGL,,Education (Secondary),2011,423600
+ENGL,,Unlisted,2011,423800
+ENGL,,Unlisted,2011,424000
+ENGL,,"Research,Scientific",2011,424200
+ENGL,,Other,2011,424400
+ENGL,,Unlisted,2011,424600
+ENGL,,Other,2011,424800
+ENGL,,Unlisted,2011,425000
+ENGL,,Library Science,2011,425200
+ENGL,,Medicine,2011,425400
+ENGL,,Unlisted,2011,425600
+ENGL,,"Research, Other",2011,425800
+ENGL,,Unlisted,2011,426000
+ENGL,,Unlisted,2011,426200
+ENGL,,Unlisted,2011,426400
+ENGL,,Marketing/Market Research,2011,426600
+ENGL,,Other,2011,426800
+ENGL,,Unlisted,2011,427000
+ENGL,,Unlisted,2011,427200
+ENGL,,Graduate Studies,2011,427400
+ENGL,,Graduate Studies,2011,427600
+ENGL,,Education (Elementary),2011,427800
+ENGL,,Unlisted,2011,428000
+ENGL,,Unlisted,2011,428200
+ENGL,,Unlisted,2011,428400
+ENGL,,Education (Higher Education),2011,428600
+ENGL,,Unlisted,2011,428800
+ENGL,,Other,2011,429000
+ENGL,,Finance,2011,429200
+ENGL,,Sports,2011,429400
+ENGL,,Unlisted,2011,429600
+ENGL,,Graduate Studies,2011,429800
+ENGL,,Architecture,2011,430000
+ENGL,,ECommerce/Web,2011,430200
+ENGL,,Graduate Studies,2011,430400
+ENGL,,Engineering,2011,430600
+ENGL,,Other,2012,430800
+ENGL,,Other,2012,431000
+ENGL,,Graduate Studies,2012,431200
+ENGL,,Unlisted,2012,431400
+ENGL,,Unlisted,2012,431600
+ENGL,,Graduate Studies,2012,431800
+ENGL,,Unlisted,2012,432000
+ENGL,,Unlisted,2012,432200
+ENGL,,Unlisted,2012,432400
+ENGL,,Communications,2012,432600
+ENGL,,Unlisted,2012,432800
+ENGL,,Publishing,2012,433000
+ENGL,,Other,2012,433200
+ENGL,,Graduate Studies,2012,433400
+ENGL,,Unlisted,2012,433600
+ENGL,,Unlisted,2012,433800
+ENGL,,Law,2012,434000
+ENGL,,Education (Secondary),2012,434200
+ENGL,,Graduate Studies,2012,434400
+ENGL,,Law,2012,434600
+ENGL,,Unlisted,2012,434800
+ENGL,,Unlisted,2012,435000
+ENGL,,Graduate Studies,2012,435200
+ENGL,,Education (Secondary),2012,435400
+ENGL,,Unlisted,2012,435600
+ENGL,,Graduate Studies,2012,435800
+ENGL,,Library Science,2012,436000
+ENGL,,Unlisted,2012,436200
+ENGL,,Unlisted,2012,436400
+ENGL,,Graduate Studies,2012,436600
+ENGL,,Unlisted,2012,436800
+ENGL,,Unlisted,2012,437000
+ENGL,,Unlisted,2012,437200
+ENGL,,Unlisted,2012,437400
+ENGL,,Graduate Studies,2012,437600
+ENGL,,Unlisted,2012,437800
+ENGL,,Unlisted,2012,438000
+ENGL,,Graduate Studies,2012,438200
+ENGL,,Unlisted,2012,438400
+ENGL,,Unlisted,2012,438600
+ENGL,,Other,2012,438800
+ENGL,,Graduate Studies,2012,439000
+ENGL,,Unlisted,2012,439200
+ENGL,,Unlisted,2012,439400
+ENGL,,Other,2012,439600
+ENGL,,Unlisted,2012,439800
+ENGL,,Other,2012,440000
+FILM,,Graduate Studies,2012,440200
+FILM,,Unlisted,2012,440400
+FILM,,Other,2012,440600
+FILM,,Other,2012,440800
+FILM,,Graduate Studies,2012,441000
+FREN,INST,Unlisted,2011,441200
+FREN,PSCI,Graduate Studies,2004,441400
+FREN,PSYC,Agriculture,2002,441600
+FREN,SOCY,Unlisted,1999,441800
+FREN,SOCY,Unlisted,2000,442000
+FREN,,Graduate Studies,1999,442200
+FREN,,Education (Secondary),1999,442400
+FREN,,Non-Profit Adminstration,2000,442600
+FREN,,Unlisted,2002,442800
+FREN,,Social Work/Human Services,2004,443000
+FREN,,Unlisted,2004,443200
+FREN,,Graduate Studies,2005,443400
+FREN,,Unlisted,2007,443600
+FREN,,Music,2008,443800
+FREN,,Unlisted,2009,444000
+FREN,,Graduate Studies,2011,444200
+FREN,,Unlisted,2011,444400
+FREN,,Graduate Studies,2011,444600
+GERM,HIST,Medicine,2003,444800
+GERM,HIST,Business,2003,445000
+GERM,PSCI,Unlisted,1999,445200
+GERM,PSCI,Health Care,2001,445400
+GERM,PSCI,Law,2002,445600
+GERM,PSCI,Unlisted,2005,445800
+GERM,RELN,Law,2006,446000
+GERM,,Law,1999,446200
+GERM,,Education (Secondary),2000,446400
+GERM,,Public Relations,2001,446600
+HIST,INST,Public Relations,2003,446800
+HIST,MLL,Education (Higher Education),2004,447000
+HIST,MLL,Unlisted,2005,447200
+HIST,MLL,Finance,2011,447400
+HIST,MUSC,Sports,2005,447600
+HIST,MUSC,Unlisted,2007,447800
+HIST,PSCI,Unlisted,2002,448000
+HIST,PSCI,Business,2003,448200
+HIST,PSCI,Unlisted,2004,448400
+HIST,PSCI,Medicine,2006,448600
+HIST,PSCI,Graduate Studies,2009,448800
+HIST,PSCI,Unlisted,2009,449000
+HIST,PSCI,Unlisted,2011,449200
+HIST,PSCI,Education (Secondary),2012,449400
+HIST,PSYC,Unlisted,2005,449600
+HIST,PSYC,Graduate Studies,2007,449800
+HIST,PSYC,Arts,2011,450000
+HIST,RELN,Medicine,2002,450200
+HIST,RLST,Consulting,2007,450400
+HIST,SPAN,Unlisted,2004,450600
+HIST,SPAN,Education (Higher Education),2006,450800
+HIST,SPAN,Education (Secondary),2007,451000
+HIST,SPAN,Law,2008,451200
+HIST,WMNS,Law,2007,451400
+HIST,,Education (Higher Education),2001,451600
+HIST,,Law,2001,451800
+HIST,,Graduate Studies,2001,452000
+HIST,,Unlisted,2001,452200
+HIST,,Graduate Studies,2002,452400
+HIST,,Music,2002,452600
+HIST,,Unlisted,2002,452800
+HIST,,Graduate Studies,2002,453000
+HIST,,Unlisted,2002,453200
+HIST,,"Research, Other",2002,453400
+HIST,,Unlisted,2002,453600
+HIST,,Unlisted,2002,453800
+HIST,,Education (Secondary),2002,454000
+HIST,,Graduate Studies,2002,454200
+HIST,,Law,2002,454400
+HIST,,Social Work/Human Services,2002,454600
+HIST,,Fundraising/Development,2002,454800
+HIST,,Unlisted,2002,455000
+HIST,,Unlisted,2002,455200
+HIST,,Education (Secondary),2002,455400
+HIST,,Graduate Studies,2002,455600
+HIST,,Library Science,2002,455800
+HIST,,Sports,2002,456000
+HIST,,Unlisted,2002,456200
+HIST,,Unlisted,2002,456400
+HIST,,Other,2002,456600
+HIST,,Unlisted,2002,456800
+HIST,,Graduate Studies,2002,457000
+HIST,,Education (Secondary),2002,457200
+HIST,,Other,2002,457400
+HIST,,Other,2002,457600
+HIST,,Entertainment,2002,457800
+HIST,,Energy Industries,2002,458000
+HIST,,Graduate Studies,2002,458200
+HIST,,Unlisted,2002,458400
+HIST,,Education (Higher Education),2002,458600
+HIST,,Unlisted,2002,458800
+HIST,,Unlisted,2002,459000
+HIST,,Graduate Studies,2002,459200
+HIST,,Unlisted,2003,459400
+HIST,,Unlisted,2003,459600
+HIST,,Other,2003,459800
+HIST,,Other,2003,460000
+HIST,,Social Work/Human Services,2003,460200
+HIST,,Psychology/Counseling/Therapy,2003,460400
+HIST,,Banking,2003,460600
+HIST,,Unlisted,2003,460800
+HIST,,Education (Secondary),2003,461000
+HIST,,Education (Higher Education),2003,461200
+HIST,,Other,2003,461400
+HIST,,Graduate Studies,2003,461600
+HIST,,Publishing,2003,461800
+HIST,,Government,2003,462000
+HIST,,Law,2003,462200
+HIST,,Education (Secondary),2003,462400
+HIST,,Computer,2003,462600
+HIST,,Other,2003,462800
+HIST,,Unlisted,2003,463000
+HIST,,Sales,2003,463200
+HIST,,Unlisted,2003,463400
+HIST,,Marketing/Market Research,2003,463600
+HIST,,Unlisted,2003,463800
+HIST,,Unlisted,2003,464000
+HIST,,Agriculture,2003,464200
+HIST,,Marketing/Market Research,2003,464400
+HIST,,Graduate Studies,2003,464600
+HIST,,Graduate Studies,2003,464800
+HIST,,Education (Elementary),2003,465000
+HIST,,Other,2003,465200
+HIST,,Unlisted,2003,465400
+HIST,,Medicine,2003,465600
+HIST,,Unlisted,2003,465800
+HIST,,Graduate Studies,2003,466000
+HIST,,Graduate Studies,2004,466200
+HIST,,Performing Arts,2004,466400
+HIST,,Unlisted,2004,466600
+HIST,,Unlisted,2004,466800
+HIST,,Graduate Studies,2004,467000
+HIST,,Ministry,2004,467200
+HIST,,Unlisted,2004,467400
+HIST,,Unlisted,2004,467600
+HIST,,Sales,2004,467800
+HIST,,Unlisted,2004,468000
+HIST,,Unlisted,2004,468200
+HIST,,Other,2004,468400
+HIST,,Education (Secondary),2004,468600
+HIST,,Unlisted,2004,468800
+HIST,,Unlisted,2004,469000
+HIST,,Computer,2004,469200
+HIST,,Sports,2004,469400
+HIST,,Marketing/Market Research,2004,469600
+HIST,,Library Science,2004,469800
+HIST,,Other,2004,470000
+HIST,,Education (Elementary),2004,470200
+HIST,,Unlisted,2004,470400
+HIST,,Graduate Studies,2004,470600
+HIST,,Unlisted,2004,470800
+HIST,,Unlisted,2004,471000
+HIST,,Psychology/Counseling/Therapy,2004,471200
+HIST,,Entertainment,2004,471400
+HIST,,Unlisted,2004,471600
+HIST,,Unlisted,2004,471800
+HIST,,Graduate Studies,2004,472000
+HIST,,Unlisted,2004,472200
+HIST,,Unlisted,2004,472400
+HIST,,Graduate Studies,2004,472600
+HIST,,Other,2004,472800
+HIST,,Unlisted,2005,473000
+HIST,,Non-Profit Adminstration,2005,473200
+HIST,,Graduate Studies,2005,473400
+HIST,,Unlisted,2005,473600
+HIST,,Non-Profit Adminstration,2005,473800
+HIST,,Unlisted,2005,474000
+HIST,,Other,2005,474200
+HIST,,Social Work/Human Services,2005,474400
+HIST,,Sales,2005,474600
+HIST,,Entertainment,2005,474800
+HIST,,Unlisted,2005,475000
+HIST,,Publishing,2005,475200
+HIST,,Finance,2005,475400
+HIST,,Unlisted,2005,475600
+HIST,,Graduate Studies,2005,475800
+HIST,,Unlisted,2005,476000
+HIST,,Unlisted,2005,476200
+HIST,,Unlisted,2005,476400
+HIST,,Unlisted,2005,476600
+HIST,,Health Care,2005,476800
+HIST,,Other,2005,477000
+HIST,,International,2005,477200
+HIST,,Graduate Studies,2005,477400
+HIST,,Unlisted,2005,477600
+HIST,,Other,2005,477800
+HIST,,Unlisted,2005,478000
+HIST,,Other,2005,478200
+HIST,,Graduate Studies,2005,478400
+HIST,,Other,2005,478600
+HIST,,Unlisted,2006,478800
+HIST,,Graduate Studies,2006,479000
+HIST,,Unlisted,2006,479200
+HIST,,Unlisted,2006,479400
+HIST,,Unlisted,2006,479600
+HIST,,Graduate Studies,2006,479800
+HIST,,Social Work/Human Services,2006,480000
+HIST,,Education (Secondary),2006,480200
+HIST,,Graduate Studies,2006,480400
+HIST,,Education (Secondary),2006,480600
+HIST,,Graduate Studies,2006,480800
+HIST,,Unlisted,2006,481000
+HIST,,Unlisted,2006,481200
+HIST,,Business,2006,481400
+HIST,,Unlisted,2006,481600
+HIST,,Unlisted,2006,481800
+HIST,,Graduate Studies,2006,482000
+HIST,,Publishing,2006,482200
+HIST,,Other,2006,482400
+HIST,,Engineering,2006,482600
+HIST,,Unlisted,2006,482800
+HIST,,Law,2006,483000
+HIST,,Computer,2006,483200
+HIST,,Broadcast-Radio/Television,2007,483400
+HIST,,Other,2007,483600
+HIST,,Unlisted,2007,483800
+HIST,,Unlisted,2007,484000
+HIST,,Education (Secondary),2007,484200
+HIST,,Finance,2007,484400
+HIST,,Unlisted,2007,484600
+HIST,,Unlisted,2007,484800
+HIST,,Graduate Studies,2007,485000
+HIST,,Graduate Studies,2007,485200
+HIST,,Publishing,2007,485400
+HIST,,Unlisted,2007,485600
+HIST,,Military,2007,485800
+HIST,,Investment/Securities,2007,486000
+HIST,,Unlisted,2007,486200
+HIST,,Sports,2007,486400
+HIST,,Unlisted,2007,486600
+HIST,,Education (Secondary),2007,486800
+HIST,,Education (Secondary),2007,487000
+HIST,,Writing,2007,487200
+HIST,,Finance,2007,487400
+HIST,,Unlisted,2007,487600
+HIST,,Unlisted,2007,487800
+HIST,,Unlisted,2007,488000
+HIST,,Graduate Studies,2007,488200
+HIST,,Graduate Studies,2008,488400
+HIST,,Graduate Studies,2008,488600
+HIST,,Self Employed,2008,488800
+HIST,,Communications,2008,489000
+HIST,,Sports,2008,489200
+HIST,,Insurance,2008,489400
+HIST,,Unlisted,2008,489600
+HIST,,Unlisted,2008,489800
+HIST,,Graduate Studies,2008,490000
+HIST,,Unlisted,2008,490200
+HIST,,Graduate Studies,2008,490400
+HIST,,Graduate Studies,2008,490600
+HIST,,Unlisted,2008,490800
+HIST,,Advertising,2008,491000
+HIST,,Other,2008,491200
+HIST,,Unlisted,2008,491400
+HIST,,Fundraising/Development,2008,491600
+HIST,,Unlisted,2008,491800
+HIST,,Unlisted,2008,492000
+HIST,,Unlisted,2008,492200
+HIST,,Unlisted,2008,492400
+HIST,,Education (Secondary),2008,492600
+HIST,,Unlisted,2008,492800
+HIST,,Unlisted,2008,493000
+HIST,,Insurance,2008,493200
+HIST,,Other,2008,493400
+HIST,,Education (Secondary),2008,493600
+HIST,,Education (Secondary),2008,493800
+HIST,,Entertainment,2008,494000
+HIST,,Unlisted,2008,494200
+HIST,,Unlisted,2008,494400
+HIST,,Other,2009,494600
+HIST,,Graduate Studies,2009,494800
+HIST,,Unlisted,2009,495000
+HIST,,Graduate Studies,2009,495200
+HIST,,Nursing,2009,495400
+HIST,,Unlisted,2009,495600
+HIST,,Graduate Studies,2009,495800
+HIST,,Unlisted,2009,496000
+HIST,,Government,2009,496200
+HIST,,Non-Profit Adminstration,2009,496400
+HIST,,Unlisted,2009,496600
+HIST,,Unlisted,2009,496800
+HIST,,Unlisted,2009,497000
+HIST,,Graduate Studies,2009,497200
+HIST,,Sports,2009,497400
+HIST,,Graduate Studies,2009,497600
+HIST,,Unlisted,2009,497800
+HIST,,Graduate Studies,2009,498000
+HIST,,Unlisted,2009,498200
+HIST,,Graduate Studies,2009,498400
+HIST,,Sales,2009,498600
+HIST,,Graduate Studies,2009,498800
+HIST,,Unlisted,2009,499000
+HIST,,Unlisted,2010,499200
+HIST,,Graduate Studies,2010,499400
+HIST,,Sports,2010,499600
+HIST,,Unlisted,2010,499800
+HIST,,Unlisted,2010,500000
+HIST,,Graduate Studies,2010,500200
+HIST,,Unlisted,2010,500400
+HIST,,Unlisted,2010,500600
+HIST,,Unlisted,2010,500800
+HIST,,Unlisted,2010,501000
+HIST,,Graduate Studies,2010,501200
+HIST,,Graduate Studies,2010,501400
+HIST,,Unlisted,2010,501600
+HIST,,Unlisted,2010,501800
+HIST,,Unlisted,2010,502000
+HIST,,Unlisted,2010,502200
+HIST,,Unlisted,2010,502400
+HIST,,Graduate Studies,2010,502600
+HIST,,Unlisted,2010,502800
+HIST,,Unlisted,2010,503000
+HIST,,Unlisted,2010,503200
+HIST,,Unlisted,2010,503400
+HIST,,Unlisted,2010,503600
+HIST,,Unlisted,2010,503800
+HIST,,Other,2010,504000
+HIST,,Graduate Studies,2010,504200
+HIST,,Education (Secondary),2010,504400
+HIST,,Other,2010,504600
+HIST,,Unlisted,2010,504800
+HIST,,Law,2010,505000
+HIST,,Unlisted,2010,505200
+HIST,,Graduate Studies,2010,505400
+HIST,,Other,2010,505600
+HIST,,Graduate Studies,2010,505800
+HIST,,Advertising,2011,506000
+HIST,,Law,2011,506200
+HIST,,Insurance,2011,506400
+HIST,,Unlisted,2011,506600
+HIST,,Unlisted,2011,506800
+HIST,,Graduate Studies,2011,507000
+HIST,,Unlisted,2011,507200
+HIST,,Unlisted,2011,507400
+HIST,,Public Relations,2011,507600
+HIST,,Graduate Studies,2011,507800
+HIST,,Education (Secondary),2011,508000
+HIST,,Unlisted,2011,508200
+HIST,,Unlisted,2011,508400
+HIST,,Unlisted,2011,508600
+HIST,,Graduate Studies,2011,508800
+HIST,,Banking,2011,509000
+HIST,,Sports,2011,509200
+HIST,,Graduate Studies,2011,509400
+HIST,,Arts,2011,509600
+HIST,,Unlisted,2011,509800
+HIST,,Library Science,2011,510000
+HIST,,Graduate Studies,2011,510200
+HIST,,Law,2012,510400
+HIST,,Graduate Studies,2012,510600
+HIST,,Other,2012,510800
+HIST,,Education (Higher Education),2012,511000
+HIST,,Unlisted,2012,511200
+HIST,,Unlisted,2012,511400
+HIST,,"Research,Scientific",2012,511600
+HIST,,Graduate Studies,2012,511800
+HIST,,Other,2012,512000
+HIST,,Writing,2012,512200
+HIST,,Unlisted,2012,512400
+HIST,,Communications,2012,512600
+HIST,,Other,2012,512800
+HIST,,Unlisted,2012,513000
+HIST,,Education (Higher Education),2012,513200
+HIST,,Unlisted,2012,513400
+HIST,,Unlisted,2012,513600
+HIST,,Other,2012,513800
+HIST,,Communications,2012,514000
+HIST,,Other,2012,514200
+HIST,,Unlisted,2012,514400
+HIST,,Unlisted,2012,514600
+HIST,,Unlisted,2012,514800
+HIST,,Unlisted,2012,515000
+INST,MLL,Education (Higher Education),2003,515200
+INST,MLL,Graduate Studies,2008,515400
+INST,MLL,Education (Secondary),2009,515600
+INST,MLL,Education (Higher Education),2010,515800
+INST,MLL,Finance,2010,516000
+INST,MLL,Transportation,2012,516200
+INST,PHIL,Law,2011,516400
+INST,PSCI,Unlisted,2002,516600
+INST,PSCI,Unlisted,2004,516800
+INST,PSCI,Graduate Studies,2005,517000
+INST,PSCI,Non-Profit Adminstration,2005,517200
+INST,PSCI,Arts,2005,517400
+INST,PSCI,Photography,2009,517600
+INST,PSCI,Unlisted,2009,517800
+INST,PSCI,Accounting,2009,518000
+INST,RLST,Unlisted,2007,518200
+INST,RLST,Unlisted,2008,518400
+INST,SOCY,Consulting,2002,518600
+INST,SOCY,Law,2006,518800
+INST,SOCY,Education (Higher Education),2011,519000
+INST,SPAN,Unlisted,2002,519200
+INST,SPAN,Health Care,2002,519400
+INST,SPAN,Ministry,2003,519600
+INST,SPAN,Other,2003,519800
+INST,SPAN,Human Resources,2003,520000
+INST,SPAN,Other,2004,520200
+INST,SPAN,Unlisted,2004,520400
+INST,SPAN,Other,2004,520600
+INST,SPAN,Unlisted,2004,520800
+INST,SPAN,Law,2005,521000
+INST,SPAN,"Research,Scientific",2005,521200
+INST,SPAN,Engineering,2005,521400
+INST,SPAN,Unlisted,2005,521600
+INST,SPAN,Medicine,2005,521800
+INST,SPAN,Unlisted,2006,522000
+INST,SPAN,Graduate Studies,2006,522200
+INST,SPAN,Unlisted,2006,522400
+INST,SPAN,Business,2006,522600
+INST,SPAN,Journalism,2007,522800
+INST,SPAN,Broadcast-Radio/Television,2007,523000
+INST,SPAN,Other,2007,523200
+INST,SPAN,Writing,2007,523400
+INST,SPAN,Government,2007,523600
+INST,SPAN,Public Relations,2007,523800
+INST,SPAN,Law,2007,524000
+INST,SPAN,Unlisted,2007,524200
+INST,SPAN,Graduate Studies,2007,524400
+INST,SPAN,Entertainment,2008,524600
+INST,SPAN,Ministry,2008,524800
+INST,SPAN,Unlisted,2008,525000
+INST,SPAN,Business,2009,525200
+INST,SPAN,Graduate Studies,2009,525400
+INST,SPAN,Other,2009,525600
+INST,SPAN,Unlisted,2010,525800
+INST,SPAN,Education (Secondary),2010,526000
+INST,SPAN,Unlisted,2011,526200
+INST,SPAN,Law,2011,526400
+INST,SPAN,Psychology/Counseling/Therapy,2011,526600
+INST,SPAN,Finance,2011,526800
+INST,,Other,2012,527000
+INST,,Unlisted,2001,527200
+INST,,Graduate Studies,2001,527400
+INST,,Unlisted,2001,527600
+INST,,Unlisted,2001,527800
+INST,,Other,2002,528000
+INST,,Unlisted,2002,528200
+INST,,Unlisted,2002,528400
+INST,,Unlisted,2002,528600
+INST,,Other,2002,528800
+INST,,Unlisted,2002,529000
+INST,,Unlisted,2002,529200
+INST,,Graduate Studies,2002,529400
+INST,,Graduate Studies,2002,529600
+INST,,Graduate Studies,2002,529800
+INST,,Volunteer,2002,530000
+INST,,Law,2002,530200
+INST,,Education (Secondary),2002,530400
+INST,,Unlisted,2002,530600
+INST,,Unlisted,2003,530800
+INST,,Unlisted,2003,531000
+INST,,Self Employed,2003,531200
+INST,,Education (Higher Education),2003,531400
+INST,,Arts,2003,531600
+INST,,Other,2003,531800
+INST,,Advertising,2003,532000
+INST,,Unlisted,2003,532200
+INST,,Unlisted,2003,532400
+INST,,Unlisted,2003,532600
+INST,,Unlisted,2003,532800
+INST,,Consulting,2003,533000
+INST,,Unlisted,2003,533200
+INST,,Unlisted,2003,533400
+INST,,Unlisted,2003,533600
+INST,,Unlisted,2003,533800
+INST,,Unlisted,2003,534000
+INST,,Education (Higher Education),2004,534200
+INST,,Unlisted,2004,534400
+INST,,Government,2004,534600
+INST,,Computer,2004,534800
+INST,,Unlisted,2004,535000
+INST,,Unlisted,2004,535200
+INST,,"Research,Scientific",2004,535400
+INST,,Unlisted,2004,535600
+INST,,Unlisted,2004,535800
+INST,,Unlisted,2004,536000
+INST,,Graduate Studies,2004,536200
+INST,,Unlisted,2004,536400
+INST,,Unlisted,2004,536600
+INST,,Other,2004,536800
+INST,,Business,2004,537000
+INST,,Unlisted,2005,537200
+INST,,Education (Elementary),2005,537400
+INST,,Education (Secondary),2005,537600
+INST,,Other,2005,537800
+INST,,Government,2005,538000
+INST,,Unlisted,2005,538200
+INST,,Unlisted,2005,538400
+INST,,"Research,Scientific",2005,538600
+INST,,Unlisted,2005,538800
+INST,,Publishing,2005,539000
+INST,,Graduate Studies,2006,539200
+INST,,Graduate Studies,2006,539400
+INST,,Unlisted,2006,539600
+INST,,Unlisted,2006,539800
+INST,,Accounting,2006,540000
+INST,,Unlisted,2006,540200
+INST,,Unlisted,2006,540400
+INST,,Unlisted,2006,540600
+INST,,Education (Higher Education),2006,540800
+INST,,Graduate Studies,2006,541000
+INST,,Graduate Studies,2006,541200
+INST,,Education (Higher Education),2006,541400
+INST,,Unlisted,2007,541600
+INST,,Unlisted,2007,541800
+INST,,Unlisted,2007,542000
+INST,,Marketing/Market Research,2007,542200
+INST,,Education (Elementary),2007,542400
+INST,,Unlisted,2007,542600
+INST,,Unlisted,2007,542800
+INST,,Unlisted,2007,543000
+INST,,Unlisted,2007,543200
+INST,,Sports,2007,543400
+INST,,Education (Secondary),2007,543600
+INST,,Unlisted,2007,543800
+INST,,Human Resources,2007,544000
+INST,,Sports,2007,544200
+INST,,Sales,2007,544400
+INST,,Hotel/Food Management,2007,544600
+INST,,Unlisted,2007,544800
+INST,,Consulting,2007,545000
+INST,,Unlisted,2007,545200
+INST,,Unlisted,2007,545400
+INST,,Unlisted,2008,545600
+INST,,Unlisted,2008,545800
+INST,,Unlisted,2008,546000
+INST,,Unlisted,2008,546200
+INST,,Sales,2008,546400
+INST,,Unlisted,2008,546600
+INST,,Investment/Securities,2008,546800
+INST,,Unlisted,2008,547000
+INST,,Unlisted,2008,547200
+INST,,Unlisted,2008,547400
+INST,,Education (Higher Education),2008,547600
+INST,,Unlisted,2008,547800
+INST,,Unlisted,2008,548000
+INST,,Education (Higher Education),2008,548200
+INST,,Graduate Studies,2008,548400
+INST,,Unlisted,2008,548600
+INST,,Unlisted,2008,548800
+INST,,Unlisted,2008,549000
+INST,,Unlisted,2009,549200
+INST,,Banking,2009,549400
+INST,,Graduate Studies,2009,549600
+INST,,Marketing/Market Research,2009,549800
+INST,,Unlisted,2009,550000
+INST,,Unlisted,2009,550200
+INST,,Banking,2009,550400
+INST,,Health Care,2009,550600
+INST,,Unlisted,2009,550800
+INST,,Other,2009,551000
+INST,,Unlisted,2009,551200
+INST,,"Research,Scientific",2009,551400
+INST,,Unlisted,2009,551600
+INST,,Unlisted,2009,551800
+INST,,Unlisted,2009,552000
+INST,,Unlisted,2009,552200
+INST,,Unlisted,2009,552400
+INST,,Graduate Studies,2009,552600
+INST,,Unlisted,2009,552800
+INST,,Graduate Studies,2009,553000
+INST,,Veterinary/Animal Care,2009,553200
+INST,,Unlisted,2009,553400
+INST,,Unlisted,2010,553600
+INST,,Graduate Studies,2010,553800
+INST,,Unlisted,2010,554000
+INST,,Unlisted,2010,554200
+INST,,Education (Secondary),2010,554400
+INST,,Unlisted,2010,554600
+INST,,Public Relations,2010,554800
+INST,,Library Science,2010,555000
+INST,,Agriculture,2010,555200
+INST,,Non-Profit Adminstration,2010,555400
+INST,,Unlisted,2010,555600
+INST,,Education (Higher Education),2010,555800
+INST,,"Research,Scientific",2010,556000
+INST,,Unlisted,2010,556200
+INST,,Education (Secondary),2010,556400
+INST,,Graduate Studies,2010,556600
+INST,,Unlisted,2010,556800
+INST,,Other,2010,557000
+INST,,Unlisted,2010,557200
+INST,,Education (Secondary),2010,557400
+INST,,Government,2010,557600
+INST,,Unlisted,2011,557800
+INST,,Unlisted,2011,558000
+INST,,Volunteer,2011,558200
+INST,,Graduate Studies,2011,558400
+INST,,Investment/Securities,2011,558600
+INST,,Unlisted,2011,558800
+INST,,Graduate Studies,2011,559000
+INST,,Non-Profit Adminstration,2011,559200
+INST,,Graduate Studies,2011,559400
+INST,,Unlisted,2011,559600
+INST,,Graduate Studies,2011,559800
+INST,,Unlisted,2011,560000
+INST,,Other,2011,560200
+INST,,Graduate Studies,2011,560400
+INST,,Unlisted,2011,560600
+INST,,Other,2011,560800
+INST,,Unlisted,2011,561000
+INST,,Unlisted,2011,561200
+INST,,Other,2011,561400
+INST,,Graduate Studies,2012,561600
+INST,,Government,2012,561800
+INST,,"Research, Other",2012,562000
+INST,,Unlisted,2012,562200
+INST,,Unlisted,2012,562400
+INST,,Unlisted,2012,562600
+INST,,Medicine,2012,562800
+INST,,Unlisted,2012,563000
+INST,,Business,2012,563200
+INST,,Unlisted,2012,563400
+INST,,Graduate Studies,2012,563600
+INST,,Other,2012,563800
+INST,,Education (Elementary),2012,564000
+INST,,Unlisted,2012,564200
+INST,,Unlisted,2012,564400
+INST,,Education (Elementary),2012,564600
+INST,,Other,2012,564800
+INST,,Arts,2012,565000
+MATH,MBIO,Law,2011,565200
+MATH,MLL,Unlisted,2007,565400
+MATH,MUSC,Unlisted,2009,565600
+MATH,NEUR,Law,2012,565800
+MATH,PHIL,Unlisted,2001,566000
+MATH,PHIL,Unlisted,2001,566200
+MATH,PHIL,Finance,2003,566400
+MATH,PHIL,Construction,2007,566600
+MATH,PHIL,Unlisted,2008,566800
+MATH,PHYS,Law,2002,567000
+MATH,PHYS,Manufacturing,2003,567200
+MATH,PHYS,Marketing/Market Research,2003,567400
+MATH,PHYS,Self Employed,2004,567600
+MATH,PHYS,Unlisted,2004,567800
+MATH,PHYS,Hotel/Food Management,2005,568000
+MATH,PHYS,Unlisted,2006,568200
+MATH,PHYS,Law,2006,568400
+MATH,PHYS,Public Relations,2007,568600
+MATH,PHYS,Human Resources,2008,568800
+MATH,PHYS,"Research,Scientific",2008,569000
+MATH,PHYS,Law,2008,569200
+MATH,PHYS,Unlisted,2010,569400
+MATH,PHYS,Law,2011,569600
+MATH,PHYS,Unlisted,2011,569800
+MATH,PHYS,Unlisted,2011,570000
+MATH,PHYS,Other,2011,570200
+MATH,PHYS,Education (Higher Education),2012,570400
+MATH,PSCI,Unlisted,2008,570600
+MATH,PSYC,Graduate Studies,2006,570800
+MATH,PSYC,Unlisted,2011,571000
+MATH,,Unlisted,2002,571200
+MATH,,Unlisted,2002,571400
+MATH,,ECommerce/Web,2002,571600
+MATH,,Government,2002,571800
+MATH,,Education (Higher Education),2002,572000
+MATH,,Education (Secondary),2002,572200
+MATH,,Unlisted,2003,572400
+MATH,,Other,2003,572600
+MATH,,Marketing/Market Research,2003,572800
+MATH,,Unlisted,2003,573000
+MATH,,Sales,2004,573200
+MATH,,Arts,2004,573400
+MATH,,Education (Secondary),2004,573600
+MATH,,Unlisted,2005,573800
+MATH,,Agriculture,2005,574000
+MATH,,Unlisted,2005,574200
+MATH,,Graduate Studies,2005,574400
+MATH,,Unlisted,2005,574600
+MATH,,Health Care,2005,574800
+MATH,,Unlisted,2005,575000
+MATH,,Publishing,2006,575200
+MATH,,Journalism,2006,575400
+MATH,,Education (Secondary),2006,575600
+MATH,,Unlisted,2006,575800
+MATH,,Graduate Studies,2006,576000
+MATH,,Entertainment,2007,576200
+MATH,,Music,2007,576400
+MATH,,Non-Profit Adminstration,2007,576600
+MATH,,Unlisted,2007,576800
+MATH,,Unlisted,2007,577000
+MATH,,Graduate Studies,2007,577200
+MATH,,Other,2007,577400
+MATH,,Unlisted,2008,577600
+MATH,,Unlisted,2008,577800
+MATH,,Unlisted,2008,578000
+MATH,,Unlisted,2008,578200
+MATH,,Education (Elementary),2008,578400
+MATH,,Library Science,2008,578600
+MATH,,Unlisted,2009,578800
+MATH,,Other,2009,579000
+MATH,,Graduate Studies,2009,579200
+MATH,,Unlisted,2009,579400
+MATH,,Graduate Studies,2009,579600
+MATH,,Unlisted,2009,579800
+MATH,,Unlisted,2009,580000
+MATH,,Law,2010,580200
+MATH,,Consulting,2010,580400
+MATH,,Unlisted,2010,580600
+MATH,,Library Science,2010,580800
+MATH,,Unlisted,2010,581000
+MATH,,Graduate Studies,2010,581200
+MATH,,Unlisted,2010,581400
+MATH,,Government,2010,581600
+MATH,,Law,2011,581800
+MATH,,Education (Higher Education),2011,582000
+MATH,,Unlisted,2011,582200
+MATH,,Graduate Studies,2011,582400
+MATH,,Other,2011,582600
+MATH,,Unlisted,2011,582800
+MATH,,Education (Higher Education),2011,583000
+MATH,,Finance,2011,583200
+MATH,,Government,2011,583400
+MATH,,Health Care,2011,583600
+MATH,,Unlisted,2012,583800
+MATH,,Self Employed,2012,584000
+MATH,,Insurance,2012,584200
+MATH,,Unlisted,2012,584400
+MBIO,MUSC,Unlisted,2000,584600
+MBIO,PSCI,Arts,2004,584800
+MBIO,SPAN,Unlisted,2000,585000
+MBIO,SYNP,Unlisted,2005,585200
+MBIO,,Unlisted,2001,585400
+MBIO,,Sports,2002,585600
+MBIO,,Finance,2002,585800
+MBIO,,Graduate Studies,2003,586000
+MBIO,,Education (Secondary),2003,586200
+MBIO,,Other,2003,586400
+MBIO,,Unlisted,2003,586600
+MBIO,,Education (Higher Education),2003,586800
+MBIO,,Other,2003,587000
+MBIO,,Other,2003,587200
+MBIO,,Unlisted,2004,587400
+MBIO,,Health Care,2004,587600
+MBIO,,"Research,Scientific",2004,587800
+MBIO,,Unlisted,2004,588000
+MBIO,,Unlisted,2004,588200
+MBIO,,Education (Secondary),2004,588400
+MBIO,,Entertainment,2005,588600
+MBIO,,Unlisted,2005,588800
+MBIO,,Unlisted,2005,589000
+MBIO,,Unlisted,2005,589200
+MBIO,,Other,2005,589400
+MBIO,,Fundraising/Development,2005,589600
+MBIO,,Museum Work,2005,589800
+MBIO,,Education (Secondary),2005,590000
+MBIO,,Education (Secondary),2005,590200
+MBIO,,Graduate Studies,2006,590400
+MBIO,,Journalism,2006,590600
+MBIO,,Unlisted,2006,590800
+MBIO,,Arts,2006,591000
+MBIO,,Health Care,2006,591200
+MBIO,,Other,2006,591400
+MBIO,,Unlisted,2006,591600
+MBIO,,Unlisted,2006,591800
+MBIO,,Advertising,2007,592000
+MBIO,,Unlisted,2007,592200
+MBIO,,Unlisted,2007,592400
+MBIO,,Library Science,2007,592600
+MBIO,,Consulting,2007,592800
+MBIO,,Education (Secondary),2007,593000
+MBIO,,Volunteer,2007,593200
+MBIO,,Graduate Studies,2008,593400
+MBIO,,Education (Secondary),2008,593600
+MBIO,,Hotel/Food Management,2008,593800
+MBIO,,Business,2008,594000
+MBIO,,Graduate Studies,2008,594200
+MBIO,,Graduate Studies,2008,594400
+MBIO,,Unlisted,2008,594600
+MBIO,,Other,2008,594800
+MBIO,,Unlisted,2008,595000
+MBIO,,Unlisted,2009,595200
+MBIO,,Arts,2009,595400
+MBIO,,Unlisted,2009,595600
+MBIO,,Health Care,2009,595800
+MBIO,,Unlisted,2009,596000
+MBIO,,"Research,Scientific",2009,596200
+MBIO,,Unlisted,2009,596400
+MBIO,,Unlisted,2010,596600
+MBIO,,Graduate Studies,2010,596800
+MBIO,,Health Care,2010,597000
+MBIO,,Graduate Studies,2010,597200
+MBIO,,Unlisted,2010,597400
+MBIO,,Unlisted,2010,597600
+MBIO,,Unlisted,2010,597800
+MBIO,,Unlisted,2010,598000
+MBIO,,Health Care,2010,598200
+MBIO,,Unlisted,2010,598400
+MBIO,,Unlisted,2011,598600
+MBIO,,Graduate Studies,2011,598800
+MBIO,,Other,2011,599000
+MBIO,,Unlisted,2011,599200
+MBIO,,Other,2011,599400
+MBIO,,Unlisted,2011,599600
+MBIO,,Unlisted,2011,599800
+MBIO,,Graduate Studies,2011,600000
+MBIO,,Unlisted,2012,600200
+MBIO,,Graduate Studies,2012,600400
+MBIO,,Sports,2012,600600
+MBIO,,Unlisted,2012,600800
+MBIO,,Business,2012,601000
+MLL,MUSC,Unlisted,2003,601200
+MLL,MUSC,Broadcast-Radio/Television,2010,601400
+MLL,MUSC,Law,2012,601600
+MLL,PHIL,Law,2007,601800
+MLL,PSCI,Unlisted,2001,602000
+MLL,PSCI,Unlisted,2002,602200
+MLL,PSCI,Unlisted,2002,602400
+MLL,PSCI,Writing,2003,602600
+MLL,PSCI,Graduate Studies,2005,602800
+MLL,PSCI,Finance,2006,603000
+MLL,PSCI,Psychology/Counseling/Therapy,2011,603200
+MLL,PSYC,Other,2006,603400
+MLL,PSYC,Unlisted,2010,603600
+MLL,PSYC,Business,2011,603800
+MLL,PSYC,Unlisted,2012,604000
+MLL,RLST,Other,2009,604200
+MLL,SOCY,Non-Profit Adminstration,2003,604400
+MLL,SYNP,Other,2002,604600
+MLL,,Health Care,2001,604800
+MLL,,Graduate Studies,2001,605000
+MLL,,Unlisted,2002,605200
+MLL,,Unlisted,2002,605400
+MLL,,Unlisted,2002,605600
+MLL,,Unlisted,2002,605800
+MLL,,Unlisted,2002,606000
+MLL,,Graduate Studies,2002,606200
+MLL,,Writing,2003,606400
+MLL,,Environment/Ecology,2003,606600
+MLL,,Education (Secondary),2003,606800
+MLL,,Graduate Studies,2003,607000
+MLL,,Unlisted,2003,607200
+MLL,,Unlisted,2003,607400
+MLL,,Unlisted,2004,607600
+MLL,,Environment/Ecology,2004,607800
+MLL,,"Research,Scientific",2004,608000
+MLL,,Graduate Studies,2004,608200
+MLL,,Education (Higher Education),2004,608400
+MLL,,Unlisted,2005,608600
+MLL,,Unlisted,2006,608800
+MLL,,Unlisted,2006,609000
+MLL,,Unlisted,2006,609200
+MLL,,Unlisted,2006,609400
+MLL,,Merchandising/Retail,2006,609600
+MLL,,Non-Profit Adminstration,2006,609800
+MLL,,Unlisted,2007,610000
+MLL,,Sports,2007,610200
+MLL,,Graduate Studies,2007,610400
+MLL,,Unlisted,2007,610600
+MLL,,Unlisted,2007,610800
+MLL,,Unlisted,2008,611000
+MLL,,Environment/Ecology,2008,611200
+MLL,,Sales,2008,611400
+MLL,,Other,2008,611600
+MLL,,Library Science,2008,611800
+MLL,,Other,2008,612000
+MLL,,Law,2008,612200
+MLL,,Graduate Studies,2008,612400
+MLL,,Graduate Studies,2009,612600
+MLL,,Law,2009,612800
+MLL,,Unlisted,2009,613000
+MLL,,Graduate Studies,2009,613200
+MLL,,Unlisted,2009,613400
+MLL,,Unlisted,2009,613600
+MLL,,Other,2009,613800
+MLL,,Unlisted,2009,614000
+MLL,,Fundraising/Development,2009,614200
+MLL,,Graduate Studies,2010,614400
+MLL,,Unlisted,2010,614600
+MLL,,Travel Agency/Tourism,2010,614800
+MLL,,Unlisted,2010,615000
+MLL,,Graduate Studies,2010,615200
+MLL,,Entertainment,2010,615400
+MLL,,Unlisted,2010,615600
+MLL,,Unlisted,2010,615800
+MLL,,Graduate Studies,2010,616000
+MLL,,Nursing,2010,616200
+MLL,,Unlisted,2010,616400
+MLL,,Unlisted,2011,616600
+MLL,,Graduate Studies,2011,616800
+MLL,,Graduate Studies,2011,617000
+MLL,,Education (Secondary),2011,617200
+MLL,,Other,2011,617400
+MLL,,Unlisted,2011,617600
+MLL,,Consulting,2011,617800
+MLL,,Unlisted,2011,618000
+MLL,,Graduate Studies,2011,618200
+MLL,,Unlisted,2011,618400
+MLL,,International,2012,618600
+MLL,,Other,2012,618800
+MLL,,Unlisted,2012,619000
+MLL,,Unlisted,2012,619200
+MLL,,Unlisted,2012,619400
+MLL,,Unlisted,2012,619600
+MLL,,Education (Secondary),2012,619800
+MLL,,Graduate Studies,2012,620000
+MLL,,Unlisted,2012,620200
+MLL,,Unlisted,2012,620400
+MLL,,Environment/Ecology,2012,620600
+MLL,,Unlisted,2012,620800
+MLL,,Education (Secondary),2012,621000
+MUSC,PHIL,Health Care,2003,621200
+MUSC,PHIL,Advertising,2008,621400
+MUSC,PHYS,Education (Secondary),2003,621600
+MUSC,PSCI,Social Work/Human Services,2011,621800
+MUSC,SOCY,Insurance,2004,622000
+MUSC,SPAN,Unlisted,2005,622200
+MUSC,SPAN,Homemaker,2008,622400
+MUSC,SYNP,Non-Profit Adminstration,2005,622600
+MUSC,,Unlisted,2001,622800
+MUSC,,Unlisted,2001,623000
+MUSC,,Unlisted,2002,623200
+MUSC,,Unlisted,2002,623400
+MUSC,,Education (Elementary),2002,623600
+MUSC,,Psychology/Counseling/Therapy,2002,623800
+MUSC,,Non-Profit Adminstration,2002,624000
+MUSC,,Unlisted,2002,624200
+MUSC,,Unlisted,2002,624400
+MUSC,,Journalism,2002,624600
+MUSC,,Non-Profit Adminstration,2003,624800
+MUSC,,Unlisted,2003,625000
+MUSC,,Unlisted,2003,625200
+MUSC,,Unlisted,2003,625400
+MUSC,,Unlisted,2003,625600
+MUSC,,Unlisted,2003,625800
+MUSC,,Unlisted,2004,626000
+MUSC,,Agriculture,2004,626200
+MUSC,,Unlisted,2004,626400
+MUSC,,Unlisted,2004,626600
+MUSC,,Graduate Studies,2004,626800
+MUSC,,Graduate Studies,2004,627000
+MUSC,,Non-Profit Adminstration,2004,627200
+MUSC,,Unlisted,2004,627400
+MUSC,,Education (Higher Education),2005,627600
+MUSC,,Graduate Studies,2005,627800
+MUSC,,Unlisted,2005,628000
+MUSC,,Graduate Studies,2005,628200
+MUSC,,Unlisted,2005,628400
+MUSC,,Marketing/Market Research,2005,628600
+MUSC,,Unlisted,2005,628800
+MUSC,,Unlisted,2005,629000
+MUSC,,Unlisted,2005,629200
+MUSC,,Unlisted,2006,629400
+MUSC,,Unlisted,2006,629600
+MUSC,,Unlisted,2006,629800
+MUSC,,Education (Elementary),2006,630000
+MUSC,,Graduate Studies,2006,630200
+MUSC,,Other,2006,630400
+MUSC,,Unlisted,2006,630600
+MUSC,,Other,2006,630800
+MUSC,,Unlisted,2006,631000
+MUSC,,Unlisted,2006,631200
+MUSC,,Unlisted,2007,631400
+MUSC,,Unlisted,2007,631600
+MUSC,,Unlisted,2007,631800
+MUSC,,Unlisted,2007,632000
+MUSC,,Unlisted,2007,632200
+MUSC,,Unlisted,2007,632400
+MUSC,,Unlisted,2007,632600
+MUSC,,Unlisted,2007,632800
+MUSC,,Unlisted,2007,633000
+MUSC,,Entertainment,2008,633200
+MUSC,,Education (Secondary),2008,633400
+MUSC,,Unlisted,2008,633600
+MUSC,,Graduate Studies,2008,633800
+MUSC,,Real Estate,2008,634000
+MUSC,,Other,2008,634200
+MUSC,,Unlisted,2009,634400
+MUSC,,Public Relations,2009,634600
+MUSC,,Unlisted,2009,634800
+MUSC,,Law,2009,635000
+MUSC,,Unlisted,2009,635200
+MUSC,,Unlisted,2010,635400
+MUSC,,Unlisted,2010,635600
+MUSC,,Unlisted,2010,635800
+MUSC,,Other,2010,636000
+MUSC,,Other,2010,636200
+MUSC,,Graduate Studies,2010,636400
+MUSC,,Unlisted,2010,636600
+MUSC,,Graduate Studies,2010,636800
+MUSC,,Finance,2010,637000
+MUSC,,Unlisted,2011,637200
+MUSC,,Unlisted,2011,637400
+MUSC,,Education (Elementary),2011,637600
+MUSC,,Graduate Studies,2012,637800
+NEUR,PHIL,Education (Secondary),2007,638000
+NEUR,PSYC,Self Employed,2003,638200
+NEUR,PSYC,Graduate Studies,2004,638400
+NEUR,PSYC,Unlisted,2006,638600
+NEUR,PSYC,Unlisted,2006,638800
+NEUR,PSYC,Other,2007,639000
+NEUR,PSYC,Publishing,2008,639200
+NEUR,,Unlisted,2001,639400
+NEUR,,Law,2001,639600
+NEUR,,Unlisted,2001,639800
+NEUR,,Education (Secondary),2002,640000
+NEUR,,Other,2002,640200
+NEUR,,Unlisted,2002,640400
+NEUR,,Education (Elementary),2003,640600
+NEUR,,Other,2003,640800
+NEUR,,Unlisted,2003,641000
+NEUR,,Education (Higher Education),2004,641200
+NEUR,,Fundraising/Development,2004,641400
+NEUR,,Social Work/Human Services,2004,641600
+NEUR,,Unlisted,2004,641800
+NEUR,,Sports,2004,642000
+NEUR,,Arts,2004,642200
+NEUR,,Unlisted,2004,642400
+NEUR,,Unlisted,2004,642600
+NEUR,,Unlisted,2005,642800
+NEUR,,Non-Profit Adminstration,2005,643000
+NEUR,,Unlisted,2005,643200
+NEUR,,Unlisted,2005,643400
+NEUR,,Education (Secondary),2006,643600
+NEUR,,Unlisted,2006,643800
+NEUR,,Unlisted,2006,644000
+NEUR,,Unlisted,2006,644200
+NEUR,,Other,2006,644400
+NEUR,,Unlisted,2006,644600
+NEUR,,Graduate Studies,2007,644800
+NEUR,,Unlisted,2007,645000
+NEUR,,Unlisted,2007,645200
+NEUR,,Unlisted,2007,645400
+NEUR,,Unlisted,2007,645600
+NEUR,,ECommerce/Web,2008,645800
+NEUR,,Unlisted,2008,646000
+NEUR,,Unlisted,2009,646200
+NEUR,,Unlisted,2009,646400
+NEUR,,Museum Work,2009,646600
+NEUR,,Unlisted,2009,646800
+NEUR,,Unlisted,2009,647000
+NEUR,,Consulting,2009,647200
+NEUR,,Unlisted,2009,647400
+NEUR,,Unlisted,2009,647600
+NEUR,,Unlisted,2010,647800
+NEUR,,Unlisted,2010,648000
+NEUR,,Other,2010,648200
+NEUR,,Unlisted,2010,648400
+NEUR,,Unlisted,2010,648600
+NEUR,,Unlisted,2010,648800
+NEUR,,Unlisted,2010,649000
+NEUR,,Education (Secondary),2011,649200
+NEUR,,Unlisted,2011,649400
+NEUR,,Advertising,2011,649600
+NEUR,,Graduate Studies,2011,649800
+NEUR,,Other,2011,650000
+NEUR,,Unlisted,2012,650200
+PHIL,PSCI,Investment/Securities,2002,650400
+PHIL,PSCI,Education (Secondary),2002,650600
+PHIL,PSCI,Medicine,2005,650800
+PHIL,PSYC,Transportation,2005,651000
+PHIL,PSYC,Other,2005,651200
+PHIL,SPAN,Unlisted,2008,651400
+PHIL,SPAN,Education (Secondary),2011,651600
+PHIL,,Graduate Studies,2001,651800
+PHIL,,Graduate Studies,2001,652000
+PHIL,,Unlisted,2002,652200
+PHIL,,Unlisted,2002,652400
+PHIL,,Unlisted,2002,652600
+PHIL,,Law,2002,652800
+PHIL,,Unlisted,2002,653000
+PHIL,,Unlisted,2002,653200
+PHIL,,Consulting,2002,653400
+PHIL,,Unlisted,2003,653600
+PHIL,,Graduate Studies,2003,653800
+PHIL,,Unlisted,2003,654000
+PHIL,,Unlisted,2003,654200
+PHIL,,Music,2003,654400
+PHIL,,Unlisted,2003,654600
+PHIL,,Unlisted,2003,654800
+PHIL,,Graduate Studies,2003,655000
+PHIL,,Unlisted,2003,655200
+PHIL,,Arts,2003,655400
+PHIL,,Unlisted,2003,655600
+PHIL,,Consulting,2004,655800
+PHIL,,Broadcast-Radio/Television,2004,656000
+PHIL,,Education (Secondary),2004,656200
+PHIL,,Unlisted,2004,656400
+PHIL,,Unlisted,2004,656600
+PHIL,,Entertainment,2004,656800
+PHIL,,Government,2004,657000
+PHIL,,Engineering,2005,657200
+PHIL,,Unlisted,2005,657400
+PHIL,,Non-Profit Adminstration,2005,657600
+PHIL,,Unlisted,2005,657800
+PHIL,,Unlisted,2005,658000
+PHIL,,Government,2006,658200
+PHIL,,Publishing,2006,658400
+PHIL,,Finance,2006,658600
+PHIL,,Unlisted,2006,658800
+PHIL,,Unlisted,2006,659000
+PHIL,,Unlisted,2006,659200
+PHIL,,Unlisted,2006,659400
+PHIL,,Sales,2006,659600
+PHIL,,Unlisted,2006,659800
+PHIL,,Unlisted,2007,660000
+PHIL,,Graduate Studies,2007,660200
+PHIL,,Unlisted,2007,660400
+PHIL,,Architecture,2007,660600
+PHIL,,Unlisted,2007,660800
+PHIL,,Education (Secondary),2007,661000
+PHIL,,Unlisted,2007,661200
+PHIL,,Unlisted,2007,661400
+PHIL,,Graduate Studies,2007,661600
+PHIL,,Education (Secondary),2007,661800
+PHIL,,Other,2007,662000
+PHIL,,Unlisted,2008,662200
+PHIL,,Education (Secondary),2008,662400
+PHIL,,Law,2008,662600
+PHIL,,Graduate Studies,2008,662800
+PHIL,,Unlisted,2008,663000
+PHIL,,Other,2008,663200
+PHIL,,Sports,2008,663400
+PHIL,,Law,2008,663600
+PHIL,,Engineering,2008,663800
+PHIL,,Other,2008,664000
+PHIL,,Unlisted,2008,664200
+PHIL,,Other,2008,664400
+PHIL,,Unlisted,2008,664600
+PHIL,,Unlisted,2008,664800
+PHIL,,Unlisted,2008,665000
+PHIL,,Unlisted,2009,665200
+PHIL,,Consulting,2009,665400
+PHIL,,"Research,Scientific",2009,665600
+PHIL,,Unlisted,2010,665800
+PHIL,,Photography,2010,666000
+PHIL,,Unlisted,2010,666200
+PHIL,,Unlisted,2010,666400
+PHIL,,"Research,Scientific",2010,666600
+PHIL,,Unlisted,2010,666800
+PHIL,,Banking,2010,667000
+PHIL,,Other,2010,667200
+PHIL,,Hotel/Food Management,2010,667400
+PHIL,,Education (Secondary),2010,667600
+PHIL,,Unlisted,2011,667800
+PHIL,,Education (Secondary),2011,668000
+PHIL,,Graduate Studies,2011,668200
+PHIL,,Sales,2011,668400
+PHIL,,Unlisted,2011,668600
+PHIL,,Unlisted,2011,668800
+PHIL,,Unlisted,2011,669000
+PHIL,,Graduate Studies,2011,669200
+PHIL,,Education (Elementary),2011,669400
+PHIL,,Volunteer,2011,669600
+PHIL,,Unlisted,2011,669800
+PHIL,,Banking,2011,670000
+PHIL,,Other,2011,670200
+PHIL,,Graduate Studies,2011,670400
+PHIL,,Insurance,2011,670600
+PHIL,,Graduate Studies,2012,670800
+PHIL,,Unlisted,2012,671000
+PHIL,,Unlisted,2012,671200
+PHIL,,Unlisted,2012,671400
+PHIL,,Unlisted,2012,671600
+PHIL,,International,2012,671800
+PHIL,,Unlisted,2012,672000
+PHIL,,Unlisted,2012,672200
+PHIL,,Unlisted,2012,672400
+PHIL,,Unlisted,2012,672600
+PHIL,,Unlisted,2012,672800
+PHIL,,Unlisted,2012,673000
+PHYS,PSCI,Unlisted,2007,673200
+PHYS,PSCI,Education (Secondary),2007,673400
+PHYS,PSCI,Law,2008,673600
+PHYS,,Unlisted,2001,673800
+PHYS,,Unlisted,2001,674000
+PHYS,,Other,2002,674200
+PHYS,,Unlisted,2002,674400
+PHYS,,Unlisted,2002,674600
+PHYS,,Finance,2002,674800
+PHYS,,Education (Secondary),2002,675000
+PHYS,,Graduate Studies,2002,675200
+PHYS,,Computer,2003,675400
+PHYS,,Other,2003,675600
+PHYS,,Unlisted,2003,675800
+PHYS,,Unlisted,2003,676000
+PHYS,,Non-Profit Adminstration,2003,676200
+PHYS,,Other,2003,676400
+PHYS,,Graduate Studies,2004,676600
+PHYS,,Unlisted,2004,676800
+PHYS,,Unlisted,2004,677000
+PHYS,,Telecommunications,2004,677200
+PHYS,,Entertainment,2005,677400
+PHYS,,Unlisted,2005,677600
+PHYS,,Unlisted,2005,677800
+PHYS,,Unlisted,2005,678000
+PHYS,,Unlisted,2007,678200
+PHYS,,Other,2007,678400
+PHYS,,Unlisted,2007,678600
+PHYS,,Unlisted,2008,678800
+PHYS,,Unlisted,2008,679000
+PHYS,,Finance,2008,679200
+PHYS,,Unlisted,2008,679400
+PHYS,,Unlisted,2008,679600
+PHYS,,Unlisted,2009,679800
+PHYS,,Unlisted,2009,680000
+PHYS,,Education (Elementary),2009,680200
+PHYS,,Unlisted,2009,680400
+PHYS,,Finance,2010,680600
+PHYS,,Other,2010,680800
+PHYS,,Graduate Studies,2010,681000
+PHYS,,Other,2010,681200
+PHYS,,Other,2010,681400
+PHYS,,Other,2010,681600
+PHYS,,Unlisted,2010,681800
+PHYS,,Unlisted,2010,682000
+PHYS,,Graduate Studies,2011,682200
+PHYS,,Unlisted,2011,682400
+PHYS,,Other,2011,682600
+PHYS,,Unlisted,2011,682800
+PHYS,,Other,2012,683000
+PHYS,,Education (Secondary),2012,683200
+PHYS,,Unlisted,2012,683400
+PHYS,,Graduate Studies,2012,683600
+PSCI,PSYC,Unlisted,2008,683800
+PSCI,PSYC,Public Relations,2010,684000
+PSCI,SOCY,"Research,Scientific",2007,684200
+PSCI,SPAN,Graduate Studies,2002,684400
+PSCI,SPAN,Publishing,2003,684600
+PSCI,SPAN,Graduate Studies,2004,684800
+PSCI,SPAN,Marketing/Market Research,2007,685000
+PSCI,,Unlisted,2001,685200
+PSCI,,Unlisted,2001,685400
+PSCI,,Unlisted,2002,685600
+PSCI,,Real Estate,2002,685800
+PSCI,,Unlisted,2002,686000
+PSCI,,Unlisted,2002,686200
+PSCI,,Graduate Studies,2002,686400
+PSCI,,Other,2002,686600
+PSCI,,Marketing/Market Research,2002,686800
+PSCI,,Unlisted,2002,687000
+PSCI,,Unlisted,2002,687200
+PSCI,,Education (Elementary),2002,687400
+PSCI,,Investment/Securities,2002,687600
+PSCI,,Graduate Studies,2002,687800
+PSCI,,Other,2002,688000
+PSCI,,Unlisted,2002,688200
+PSCI,,Unlisted,2002,688400
+PSCI,,Graduate Studies,2002,688600
+PSCI,,"Research,Scientific",2002,688800
+PSCI,,Banking,2002,689000
+PSCI,,Graduate Studies,2002,689200
+PSCI,,Education (Secondary),2002,689400
+PSCI,,Education (Secondary),2002,689600
+PSCI,,Unlisted,2002,689800
+PSCI,,Education (Elementary),2002,690000
+PSCI,,Unlisted,2002,690200
+PSCI,,Unlisted,2002,690400
+PSCI,,Education (Secondary),2002,690600
+PSCI,,Education (Secondary),2002,690800
+PSCI,,"Research,Scientific",2002,691000
+PSCI,,Unlisted,2002,691200
+PSCI,,Other,2002,691400
+PSCI,,Other,2002,691600
+PSCI,,Other,2002,691800
+PSCI,,Unlisted,2002,692000
+PSCI,,Unlisted,2002,692200
+PSCI,,Unlisted,2002,692400
+PSCI,,Unlisted,2002,692600
+PSCI,,Unlisted,2002,692800
+PSCI,,Unlisted,2002,693000
+PSCI,,Unlisted,2002,693200
+PSCI,,Consulting,2002,693400
+PSCI,,Performing Arts,2002,693600
+PSCI,,Education (Secondary),2002,693800
+PSCI,,Unlisted,2002,694000
+PSCI,,Other,2003,694200
+PSCI,,Unlisted,2003,694400
+PSCI,,Unlisted,2003,694600
+PSCI,,Law,2003,694800
+PSCI,,Unlisted,2003,695000
+PSCI,,Graduate Studies,2003,695200
+PSCI,,Other,2003,695400
+PSCI,,Consulting,2003,695600
+PSCI,,International,2003,695800
+PSCI,,Medicine,2003,696000
+PSCI,,Education (Secondary),2003,696200
+PSCI,,Law,2003,696400
+PSCI,,Unlisted,2003,696600
+PSCI,,Other,2003,696800
+PSCI,,Graduate Studies,2003,697000
+PSCI,,Military,2003,697200
+PSCI,,Unlisted,2003,697400
+PSCI,,Unlisted,2003,697600
+PSCI,,Unlisted,2003,697800
+PSCI,,Unlisted,2003,698000
+PSCI,,Unlisted,2003,698200
+PSCI,,Unlisted,2003,698400
+PSCI,,Unlisted,2003,698600
+PSCI,,"Research,Scientific",2003,698800
+PSCI,,Unlisted,2003,699000
+PSCI,,Unlisted,2003,699200
+PSCI,,Unlisted,2003,699400
+PSCI,,Graduate Studies,2003,699600
+PSCI,,Unlisted,2003,699800
+PSCI,,Unlisted,2003,700000
+PSCI,,Graduate Studies,2003,700200
+PSCI,,Unlisted,2003,700400
+PSCI,,Unlisted,2003,700600
+PSCI,,Consulting,2003,700800
+PSCI,,Unlisted,2003,701000
+PSCI,,Agriculture,2004,701200
+PSCI,,Graduate Studies,2004,701400
+PSCI,,Unlisted,2004,701600
+PSCI,,Unlisted,2004,701800
+PSCI,,Graduate Studies,2004,702000
+PSCI,,Unlisted,2004,702200
+PSCI,,Education (Secondary),2004,702400
+PSCI,,Unlisted,2004,702600
+PSCI,,Consulting,2004,702800
+PSCI,,"Research,Scientific",2004,703000
+PSCI,,Sales,2004,703200
+PSCI,,Education (Higher Education),2004,703400
+PSCI,,"Research, Other",2004,703600
+PSCI,,Unlisted,2004,703800
+PSCI,,Unlisted,2004,704000
+PSCI,,Unlisted,2004,704200
+PSCI,,Unlisted,2004,704400
+PSCI,,Other,2004,704600
+PSCI,,Unlisted,2004,704800
+PSCI,,Unlisted,2004,705000
+PSCI,,Unlisted,2004,705200
+PSCI,,Advertising,2004,705400
+PSCI,,Other,2004,705600
+PSCI,,Non-Profit Adminstration,2004,705800
+PSCI,,Unlisted,2004,706000
+PSCI,,Unlisted,2004,706200
+PSCI,,Education (Secondary),2004,706400
+PSCI,,Unlisted,2004,706600
+PSCI,,Museum Work,2004,706800
+PSCI,,Other,2004,707000
+PSCI,,Education (Higher Education),2004,707200
+PSCI,,Education (Secondary),2004,707400
+PSCI,,Other,2004,707600
+PSCI,,Unlisted,2004,707800
+PSCI,,"Research, Other",2004,708000
+PSCI,,Unlisted,2005,708200
+PSCI,,Unlisted,2005,708400
+PSCI,,Unlisted,2005,708600
+PSCI,,Hotel/Food Management,2005,708800
+PSCI,,Graduate Studies,2005,709000
+PSCI,,Unlisted,2005,709200
+PSCI,,Publishing,2005,709400
+PSCI,,Graduate Studies,2005,709600
+PSCI,,"Research, Other",2005,709800
+PSCI,,Broadcast-Radio/Television,2005,710000
+PSCI,,Unlisted,2005,710200
+PSCI,,Medicine,2005,710400
+PSCI,,Graduate Studies,2005,710600
+PSCI,,Other,2005,710800
+PSCI,,Finance,2005,711000
+PSCI,,Nursing,2005,711200
+PSCI,,Unlisted,2005,711400
+PSCI,,Other,2005,711600
+PSCI,,Other,2005,711800
+PSCI,,Volunteer,2005,712000
+PSCI,,Unlisted,2005,712200
+PSCI,,Unlisted,2005,712400
+PSCI,,Nursing,2005,712600
+PSCI,,Education (Secondary),2005,712800
+PSCI,,Unlisted,2005,713000
+PSCI,,Unlisted,2005,713200
+PSCI,,Non-Profit Adminstration,2005,713400
+PSCI,,Government,2005,713600
+PSCI,,Social Work/Human Services,2005,713800
+PSCI,,Unlisted,2005,714000
+PSCI,,Graduate Studies,2005,714200
+PSCI,,Unlisted,2005,714400
+PSCI,,"Research, Other",2005,714600
+PSCI,,Unlisted,2005,714800
+PSCI,,Unlisted,2005,715000
+PSCI,,Unlisted,2006,715200
+PSCI,,"Research,Scientific",2006,715400
+PSCI,,Education (Secondary),2006,715600
+PSCI,,Unlisted,2006,715800
+PSCI,,Graduate Studies,2006,716000
+PSCI,,Unlisted,2006,716200
+PSCI,,Graduate Studies,2006,716400
+PSCI,,Unlisted,2006,716600
+PSCI,,International,2006,716800
+PSCI,,Unlisted,2006,717000
+PSCI,,Sports,2006,717200
+PSCI,,Unlisted,2006,717400
+PSCI,,Other,2006,717600
+PSCI,,Graduate Studies,2006,717800
+PSCI,,Unlisted,2006,718000
+PSCI,,Unlisted,2006,718200
+PSCI,,Graduate Studies,2006,718400
+PSCI,,Arts,2006,718600
+PSCI,,Unlisted,2006,718800
+PSCI,,Unlisted,2006,719000
+PSCI,,Investment/Securities,2006,719200
+PSCI,,Other,2006,719400
+PSCI,,Unlisted,2006,719600
+PSCI,,Unlisted,2006,719800
+PSCI,,Unlisted,2006,720000
+PSCI,,Unlisted,2006,720200
+PSCI,,Graduate Studies,2006,720400
+PSCI,,Unlisted,2006,720600
+PSCI,,Graduate Studies,2006,720800
+PSCI,,Unlisted,2006,721000
+PSCI,,Unlisted,2006,721200
+PSCI,,Other,2006,721400
+PSCI,,Unlisted,2007,721600
+PSCI,,Unlisted,2007,721800
+PSCI,,Unlisted,2007,722000
+PSCI,,Unlisted,2007,722200
+PSCI,,Unlisted,2007,722400
+PSCI,,Unlisted,2007,722600
+PSCI,,Unlisted,2007,722800
+PSCI,,Unlisted,2007,723000
+PSCI,,Unlisted,2007,723200
+PSCI,,Unlisted,2007,723400
+PSCI,,Unlisted,2007,723600
+PSCI,,Unlisted,2007,723800
+PSCI,,Unlisted,2007,724000
+PSCI,,Unlisted,2007,724200
+PSCI,,Unlisted,2007,724400
+PSCI,,Unlisted,2007,724600
+PSCI,,Unlisted,2007,724800
+PSCI,,Finance,2007,725000
+PSCI,,Marketing/Market Research,2007,725200
+PSCI,,Education (Secondary),2007,725400
+PSCI,,Graduate Studies,2007,725600
+PSCI,,Unlisted,2007,725800
+PSCI,,Unlisted,2007,726000
+PSCI,,Unlisted,2007,726200
+PSCI,,Unlisted,2007,726400
+PSCI,,Unlisted,2007,726600
+PSCI,,Unlisted,2007,726800
+PSCI,,Education (Secondary),2007,727000
+PSCI,,Performing Arts,2007,727200
+PSCI,,Graduate Studies,2007,727400
+PSCI,,Unlisted,2007,727600
+PSCI,,Unlisted,2007,727800
+PSCI,,Unlisted,2007,728000
+PSCI,,Unlisted,2007,728200
+PSCI,,Unlisted,2008,728400
+PSCI,,Unlisted,2008,728600
+PSCI,,Unlisted,2008,728800
+PSCI,,Unlisted,2008,729000
+PSCI,,Social Work/Human Services,2008,729200
+PSCI,,Unlisted,2008,729400
+PSCI,,Unlisted,2008,729600
+PSCI,,Law,2008,729800
+PSCI,,Unlisted,2008,730000
+PSCI,,Unlisted,2008,730200
+PSCI,,Unlisted,2008,730400
+PSCI,,Unlisted,2008,730600
+PSCI,,Unlisted,2008,730800
+PSCI,,Unlisted,2008,731000
+PSCI,,Other,2008,731200
+PSCI,,Other,2008,731400
+PSCI,,Unlisted,2008,731600
+PSCI,,Sports,2008,731800
+PSCI,,Publishing,2008,732000
+PSCI,,Other,2008,732200
+PSCI,,Other,2008,732400
+PSCI,,Sports,2008,732600
+PSCI,,Unlisted,2008,732800
+PSCI,,Sports,2008,733000
+PSCI,,Unlisted,2008,733200
+PSCI,,Unlisted,2008,733400
+PSCI,,Non-Profit Adminstration,2008,733600
+PSCI,,Graduate Studies,2008,733800
+PSCI,,Unlisted,2008,734000
+PSCI,,Unlisted,2008,734200
+PSCI,,Other,2008,734400
+PSCI,,Sports,2009,734600
+PSCI,,Graduate Studies,2009,734800
+PSCI,,Unlisted,2009,735000
+PSCI,,Unlisted,2009,735200
+PSCI,,Unlisted,2009,735400
+PSCI,,Unlisted,2009,735600
+PSCI,,Unlisted,2009,735800
+PSCI,,Unlisted,2009,736000
+PSCI,,Unlisted,2009,736200
+PSCI,,Graduate Studies,2009,736400
+PSCI,,Unlisted,2009,736600
+PSCI,,Unlisted,2009,736800
+PSCI,,Unlisted,2009,737000
+PSCI,,Unlisted,2009,737200
+PSCI,,Unlisted,2009,737400
+PSCI,,Unlisted,2009,737600
+PSCI,,Unlisted,2009,737800
+PSCI,,Unlisted,2009,738000
+PSCI,,Unlisted,2009,738200
+PSCI,,Unlisted,2009,738400
+PSCI,,Unlisted,2009,738600
+PSCI,,Unlisted,2009,738800
+PSCI,,Unlisted,2009,739000
+PSCI,,Education (Elementary),2010,739200
+PSCI,,Unlisted,2010,739400
+PSCI,,Unlisted,2010,739600
+PSCI,,Other,2010,739800
+PSCI,,Graduate Studies,2010,740000
+PSCI,,Graduate Studies,2010,740200
+PSCI,,Unlisted,2010,740400
+PSCI,,Unlisted,2010,740600
+PSCI,,Education (Elementary),2010,740800
+PSCI,,"Research,Scientific",2010,741000
+PSCI,,Self Employed,2010,741200
+PSCI,,Unlisted,2010,741400
+PSCI,,Unlisted,2010,741600
+PSCI,,Unlisted,2010,741800
+PSCI,,Graduate Studies,2010,742000
+PSCI,,Unlisted,2010,742200
+PSCI,,Publishing,2010,742400
+PSCI,,Unlisted,2010,742600
+PSCI,,Arts,2010,742800
+PSCI,,Unlisted,2010,743000
+PSCI,,Unlisted,2010,743200
+PSCI,,Social Work/Human Services,2010,743400
+PSCI,,Other,2010,743600
+PSCI,,Unlisted,2010,743800
+PSCI,,Unlisted,2010,744000
+PSCI,,Other,2010,744200
+PSCI,,Unlisted,2010,744400
+PSCI,,Other,2010,744600
+PSCI,,Museum Work,2010,744800
+PSCI,,Unlisted,2010,745000
+PSCI,,Unlisted,2010,745200
+PSCI,,Unlisted,2010,745400
+PSCI,,Unlisted,2010,745600
+PSCI,,Law,2011,745800
+PSCI,,Unlisted,2011,746000
+PSCI,,Other,2011,746200
+PSCI,,Unlisted,2011,746400
+PSCI,,Education (Secondary),2011,746600
+PSCI,,Unlisted,2011,746800
+PSCI,,Finance,2011,747000
+PSCI,,Unlisted,2011,747200
+PSCI,,Unlisted,2011,747400
+PSCI,,Other,2011,747600
+PSCI,,Graduate Studies,2011,747800
+PSCI,,Unlisted,2011,748000
+PSCI,,Unlisted,2011,748200
+PSCI,,Unlisted,2011,748400
+PSCI,,Unlisted,2011,748600
+PSCI,,Unlisted,2011,748800
+PSCI,,Unlisted,2011,749000
+PSCI,,Unlisted,2011,749200
+PSCI,,Unlisted,2011,749400
+PSCI,,Energy Industries,2011,749600
+PSCI,,Unlisted,2011,749800
+PSCI,,Hotel/Food Management,2011,750000
+PSCI,,Unlisted,2011,750200
+PSCI,,Unlisted,2011,750400
+PSCI,,Unlisted,2011,750600
+PSCI,,Unlisted,2011,750800
+PSCI,,Unlisted,2011,751000
+PSCI,,Graduate Studies,2012,751200
+PSCI,,Unlisted,2012,751400
+PSCI,,Unlisted,2012,751600
+PSCI,,Unlisted,2012,751800
+PSCI,,Unlisted,2012,752000
+PSCI,,Unlisted,2012,752200
+PSCI,,Unlisted,2012,752400
+PSCI,,Other,2012,752600
+PSCI,,Graduate Studies,2012,752800
+PSCI,,Non-Profit Adminstration,2012,753000
+PSCI,,Unlisted,2012,753200
+PSCI,,Graduate Studies,2012,753400
+PSCI,,Unlisted,2012,753600
+PSCI,,Unlisted,2012,753800
+PSCI,,"Research, Other",2012,754000
+PSCI,,Health Care,2012,754200
+PSCI,,Law,2012,754400
+PSCI,,Unlisted,2012,754600
+PSCI,,Unlisted,2012,754800
+PSCI,,Unlisted,2012,755000
+PSCI,,Unlisted,2012,755200
+PSCI,,Unlisted,2012,755400
+PSCI,,Other,2012,755600
+PSCI,,Unlisted,2012,755800
+PSCI,,Unlisted,2012,756000
+PSCI,,Unlisted,2012,756200
+PSCI,,Other,2012,756400
+PSCI,,Unlisted,2012,756600
+PSCI,,Unlisted,2012,756800
+PSCI,,Unlisted,2012,757000
+PSYC,RELN,Unlisted,2006,757200
+PSYC,RLST,Unlisted,2010,757400
+PSYC,RLST,Unlisted,2010,757600
+PSYC,SOCY,Arts,2003,757800
+PSYC,SOCY,Unlisted,2003,758000
+PSYC,SOCY,Unlisted,2003,758200
+PSYC,SOCY,Unlisted,2008,758400
+PSYC,SOCY,Social Work/Human Services,2009,758600
+PSYC,SPAN,Homemaker,2002,758800
+PSYC,SPAN,Unlisted,2002,759000
+PSYC,SPAN,Unlisted,2002,759200
+PSYC,SPAN,Other,2003,759400
+PSYC,SPAN,Law,2003,759600
+PSYC,SPAN,Graduate Studies,2004,759800
+PSYC,SPAN,Education (Elementary),2007,760000
+PSYC,SPAN,Unlisted,2008,760200
+PSYC,SPAN,Unlisted,2008,760400
+PSYC,SPAN,Unlisted,2008,760600
+PSYC,SPAN,"Research,Scientific",2008,760800
+PSYC,SPAN,Unlisted,2011,761000
+PSYC,,Insurance,2002,761200
+PSYC,,Unlisted,2002,761400
+PSYC,,Unlisted,2002,761600
+PSYC,,Volunteer,2002,761800
+PSYC,,Business,2002,762000
+PSYC,,Education (Secondary),2002,762200
+PSYC,,Unlisted,2002,762400
+PSYC,,Unlisted,2002,762600
+PSYC,,Fundraising/Development,2002,762800
+PSYC,,Unlisted,2002,763000
+PSYC,,Unlisted,2002,763200
+PSYC,,Writing,2002,763400
+PSYC,,Unlisted,2002,763600
+PSYC,,Unlisted,2002,763800
+PSYC,,Unlisted,2002,764000
+PSYC,,"Research,Scientific",2002,764200
+PSYC,,Unlisted,2002,764400
+PSYC,,Unlisted,2002,764600
+PSYC,,Unlisted,2002,764800
+PSYC,,Unlisted,2002,765000
+PSYC,,"Research,Scientific",2002,765200
+PSYC,,Graduate Studies,2002,765400
+PSYC,,Unlisted,2002,765600
+PSYC,,Unlisted,2002,765800
+PSYC,,Unlisted,2002,766000
+PSYC,,Unlisted,2002,766200
+PSYC,,Unlisted,2002,766400
+PSYC,,Unlisted,2002,766600
+PSYC,,Education (Elementary),2002,766800
+PSYC,,Unlisted,2003,767000
+PSYC,,Unlisted,2003,767200
+PSYC,,Graduate Studies,2003,767400
+PSYC,,Unlisted,2003,767600
+PSYC,,Other,2003,767800
+PSYC,,Publishing,2003,768000
+PSYC,,Advertising,2003,768200
+PSYC,,ECommerce/Web,2003,768400
+PSYC,,Unlisted,2003,768600
+PSYC,,"Research,Scientific",2003,768800
+PSYC,,Unlisted,2003,769000
+PSYC,,Finance,2003,769200
+PSYC,,Unlisted,2003,769400
+PSYC,,Government,2003,769600
+PSYC,,Education (Higher Education),2003,769800
+PSYC,,Unlisted,2003,770000
+PSYC,,Unlisted,2003,770200
+PSYC,,Education (Higher Education),2003,770400
+PSYC,,Unlisted,2003,770600
+PSYC,,Education (Secondary),2003,770800
+PSYC,,Unlisted,2003,771000
+PSYC,,Unlisted,2003,771200
+PSYC,,Advertising,2003,771400
+PSYC,,Unlisted,2004,771600
+PSYC,,Other,2004,771800
+PSYC,,Other,2004,772000
+PSYC,,Unlisted,2004,772200
+PSYC,,Unlisted,2004,772400
+PSYC,,Unlisted,2004,772600
+PSYC,,Unlisted,2004,772800
+PSYC,,Music,2004,773000
+PSYC,,Unlisted,2004,773200
+PSYC,,Unlisted,2004,773400
+PSYC,,Unlisted,2004,773600
+PSYC,,Marketing/Market Research,2004,773800
+PSYC,,Publishing,2004,774000
+PSYC,,Unlisted,2004,774200
+PSYC,,Unlisted,2004,774400
+PSYC,,Unlisted,2004,774600
+PSYC,,Unlisted,2004,774800
+PSYC,,Unlisted,2004,775000
+PSYC,,Unlisted,2004,775200
+PSYC,,Unlisted,2004,775400
+PSYC,,Unlisted,2004,775600
+PSYC,,Unlisted,2004,775800
+PSYC,,Arts,2004,776000
+PSYC,,Unlisted,2004,776200
+PSYC,,Unlisted,2004,776400
+PSYC,,Unlisted,2004,776600
+PSYC,,Other,2004,776800
+PSYC,,Education (Secondary),2004,777000
+PSYC,,Other,2004,777200
+PSYC,,Sales,2004,777400
+PSYC,,Unlisted,2004,777600
+PSYC,,Unlisted,2004,777800
+PSYC,,Unlisted,2005,778000
+PSYC,,Unlisted,2005,778200
+PSYC,,Unlisted,2005,778400
+PSYC,,Social Work/Human Services,2005,778600
+PSYC,,Unlisted,2005,778800
+PSYC,,Unlisted,2005,779000
+PSYC,,Merchandising/Retail,2005,779200
+PSYC,,Graduate Studies,2005,779400
+PSYC,,Unlisted,2005,779600
+PSYC,,Business,2005,779800
+PSYC,,Unlisted,2005,780000
+PSYC,,Unlisted,2005,780200
+PSYC,,Graduate Studies,2005,780400
+PSYC,,Unlisted,2005,780600
+PSYC,,Unlisted,2005,780800
+PSYC,,Unlisted,2005,781000
+PSYC,,Unlisted,2005,781200
+PSYC,,Unlisted,2005,781400
+PSYC,,Unlisted,2005,781600
+PSYC,,Other,2005,781800
+PSYC,,Unlisted,2005,782000
+PSYC,,Unlisted,2005,782200
+PSYC,,Other,2005,782400
+PSYC,,Unlisted,2005,782600
+PSYC,,Unlisted,2005,782800
+PSYC,,Unlisted,2005,783000
+PSYC,,Unlisted,2005,783200
+PSYC,,Social Work/Human Services,2005,783400
+PSYC,,Unlisted,2005,783600
+PSYC,,Unlisted,2005,783800
+PSYC,,Other,2005,784000
+PSYC,,Unlisted,2005,784200
+PSYC,,Military,2006,784400
+PSYC,,Accounting,2006,784600
+PSYC,,Unlisted,2006,784800
+PSYC,,Writing,2006,785000
+PSYC,,Unlisted,2006,785200
+PSYC,,Unlisted,2006,785400
+PSYC,,Unlisted,2006,785600
+PSYC,,Education (Secondary),2006,785800
+PSYC,,Unlisted,2006,786000
+PSYC,,Other,2006,786200
+PSYC,,Unlisted,2006,786400
+PSYC,,Health Care,2006,786600
+PSYC,,Graduate Studies,2006,786800
+PSYC,,Fundraising/Development,2006,787000
+PSYC,,Education (Elementary),2006,787200
+PSYC,,Education (Secondary),2006,787400
+PSYC,,Hotel/Food Management,2006,787600
+PSYC,,Unlisted,2006,787800
+PSYC,,Unlisted,2006,788000
+PSYC,,Other,2006,788200
+PSYC,,Graduate Studies,2006,788400
+PSYC,,Unlisted,2006,788600
+PSYC,,"Research,Scientific",2006,788800
+PSYC,,Graduate Studies,2006,789000
+PSYC,,Unlisted,2006,789200
+PSYC,,Unlisted,2006,789400
+PSYC,,Non-Profit Adminstration,2006,789600
+PSYC,,Unlisted,2006,789800
+PSYC,,Unlisted,2006,790000
+PSYC,,ECommerce/Web,2006,790200
+PSYC,,Unlisted,2006,790400
+PSYC,,Other,2006,790600
+PSYC,,Unlisted,2006,790800
+PSYC,,Unlisted,2006,791000
+PSYC,,Unlisted,2006,791200
+PSYC,,Unlisted,2007,791400
+PSYC,,Graduate Studies,2007,791600
+PSYC,,Museum Work,2007,791800
+PSYC,,Graduate Studies,2007,792000
+PSYC,,Unlisted,2007,792200
+PSYC,,Graduate Studies,2007,792400
+PSYC,,Unlisted,2007,792600
+PSYC,,Unlisted,2007,792800
+PSYC,,Graduate Studies,2007,793000
+PSYC,,Unlisted,2007,793200
+PSYC,,Arts,2007,793400
+PSYC,,Unlisted,2007,793600
+PSYC,,Unlisted,2007,793800
+PSYC,,Other,2007,794000
+PSYC,,Other,2007,794200
+PSYC,,Unlisted,2007,794400
+PSYC,,Unlisted,2007,794600
+PSYC,,Other,2007,794800
+PSYC,,Unlisted,2007,795000
+PSYC,,Unlisted,2007,795200
+PSYC,,Unlisted,2007,795400
+PSYC,,Education (Elementary),2007,795600
+PSYC,,Unlisted,2007,795800
+PSYC,,Unlisted,2007,796000
+PSYC,,Unlisted,2007,796200
+PSYC,,Other,2007,796400
+PSYC,,Other,2007,796600
+PSYC,,Education (Secondary),2007,796800
+PSYC,,Unlisted,2007,797000
+PSYC,,Unlisted,2008,797200
+PSYC,,Education (Secondary),2008,797400
+PSYC,,Unlisted,2008,797600
+PSYC,,Unlisted,2008,797800
+PSYC,,Unlisted,2008,798000
+PSYC,,Graduate Studies,2008,798200
+PSYC,,Unlisted,2008,798400
+PSYC,,Unlisted,2008,798600
+PSYC,,Unlisted,2008,798800
+PSYC,,Graduate Studies,2008,799000
+PSYC,,Graduate Studies,2008,799200
+PSYC,,Unlisted,2008,799400
+PSYC,,Graduate Studies,2008,799600
+PSYC,,Unlisted,2008,799800
+PSYC,,Graduate Studies,2008,800000
+PSYC,,Unlisted,2008,800200
+PSYC,,Unlisted,2008,800400
+PSYC,,Graduate Studies,2008,800600
+PSYC,,Graduate Studies,2008,800800
+PSYC,,Unlisted,2008,801000
+PSYC,,Sports,2008,801200
+PSYC,,Unlisted,2008,801400
+PSYC,,Graduate Studies,2008,801600
+PSYC,,Unlisted,2008,801800
+PSYC,,Unlisted,2008,802000
+PSYC,,Unlisted,2008,802200
+PSYC,,Unlisted,2008,802400
+PSYC,,Unlisted,2008,802600
+PSYC,,Unlisted,2008,802800
+PSYC,,Unlisted,2008,803000
+PSYC,,Other,2008,803200
+PSYC,,Unlisted,2009,803400
+PSYC,,Graduate Studies,2009,803600
+PSYC,,Unlisted,2009,803800
+PSYC,,Unlisted,2009,804000
+PSYC,,Unlisted,2009,804200
+PSYC,,Graduate Studies,2009,804400
+PSYC,,Unlisted,2009,804600
+PSYC,,Non-Profit Adminstration,2009,804800
+PSYC,,Education (Secondary),2009,805000
+PSYC,,Unlisted,2009,805200
+PSYC,,Unlisted,2009,805400
+PSYC,,Other,2009,805600
+PSYC,,Arts,2009,805800
+PSYC,,Unlisted,2009,806000
+PSYC,,Unlisted,2009,806200
+PSYC,,Unlisted,2009,806400
+PSYC,,Unlisted,2009,806600
+PSYC,,Unlisted,2009,806800
+PSYC,,Unlisted,2009,807000
+PSYC,,Unlisted,2009,807200
+PSYC,,Unlisted,2009,807400
+PSYC,,Unlisted,2009,807600
+PSYC,,Education (Secondary),2009,807800
+PSYC,,Unlisted,2009,808000
+PSYC,,Unlisted,2009,808200
+PSYC,,Unlisted,2009,808400
+PSYC,,Unlisted,2009,808600
+PSYC,,International,2010,808800
+PSYC,,Unlisted,2010,809000
+PSYC,,Unlisted,2010,809200
+PSYC,,Unlisted,2010,809400
+PSYC,,Unlisted,2010,809600
+PSYC,,Unlisted,2010,809800
+PSYC,,Unlisted,2010,810000
+PSYC,,Unlisted,2010,810200
+PSYC,,Unlisted,2010,810400
+PSYC,,Unlisted,2010,810600
+PSYC,,Unlisted,2010,810800
+PSYC,,Unlisted,2010,811000
+PSYC,,Unlisted,2010,811200
+PSYC,,Unlisted,2010,811400
+PSYC,,Unlisted,2010,811600
+PSYC,,Unlisted,2010,811800
+PSYC,,Unlisted,2010,812000
+PSYC,,Unlisted,2010,812200
+PSYC,,Unlisted,2010,812400
+PSYC,,Unlisted,2010,812600
+PSYC,,Unlisted,2010,812800
+PSYC,,Unlisted,2010,813000
+PSYC,,Unlisted,2010,813200
+PSYC,,Unlisted,2010,813400
+PSYC,,Other,2010,813600
+PSYC,,Unlisted,2010,813800
+PSYC,,Unlisted,2010,814000
+PSYC,,Unlisted,2010,814200
+PSYC,,Unlisted,2010,814400
+PSYC,,Education (Secondary),2010,814600
+PSYC,,Unlisted,2010,814800
+PSYC,,Unlisted,2010,815000
+PSYC,,Unlisted,2010,815200
+PSYC,,Unlisted,2010,815400
+PSYC,,Unlisted,2011,815600
+PSYC,,Unlisted,2011,815800
+PSYC,,Unlisted,2011,816000
+PSYC,,Unlisted,2011,816200
+PSYC,,Unlisted,2011,816400
+PSYC,,Unlisted,2011,816600
+PSYC,,Unlisted,2011,816800
+PSYC,,Unlisted,2011,817000
+PSYC,,Unlisted,2011,817200
+PSYC,,Unlisted,2011,817400
+PSYC,,Unlisted,2011,817600
+PSYC,,Unlisted,2011,817800
+PSYC,,Sports,2011,818000
+PSYC,,Unlisted,2011,818200
+PSYC,,Unlisted,2011,818400
+PSYC,,Unlisted,2011,818600
+PSYC,,Unlisted,2011,818800
+PSYC,,Unlisted,2011,819000
+PSYC,,Unlisted,2011,819200
+PSYC,,Unlisted,2011,819400
+PSYC,,Unlisted,2011,819600
+PSYC,,Unlisted,2011,819800
+PSYC,,Unlisted,2011,820000
+PSYC,,Unlisted,2011,820200
+PSYC,,Unlisted,2011,820400
+PSYC,,Unlisted,2011,820600
+PSYC,,Unlisted,2011,820800
+PSYC,,Unlisted,2011,821000
+PSYC,,Unlisted,2011,821200
+PSYC,,Unlisted,2011,821400
+PSYC,,Sports,2011,821600
+PSYC,,Unlisted,2011,821800
+PSYC,,Unlisted,2011,822000
+PSYC,,Unlisted,2012,822200
+PSYC,,Unlisted,2012,822400
+PSYC,,Unlisted,2012,822600
+PSYC,,Unlisted,2012,822800
+PSYC,,Unlisted,2012,823000
+PSYC,,Unlisted,2012,823200
+PSYC,,Unlisted,2012,823400
+PSYC,,Unlisted,2012,823600
+PSYC,,Unlisted,2012,823800
+PSYC,,Unlisted,2012,824000
+PSYC,,Unlisted,2012,824200
+PSYC,,Unlisted,2012,824400
+PSYC,,Sales,2012,824600
+PSYC,,Unlisted,2012,824800
+PSYC,,Unlisted,2012,825000
+PSYC,,Unlisted,2012,825200
+PSYC,,Unlisted,2012,825400
+PSYC,,Unlisted,2012,825600
+PSYC,,Unlisted,2012,825800
+PSYC,,Unlisted,2012,826000
+PSYC,,Unlisted,2012,826200
+PSYC,,Unlisted,2012,826400
+PSYC,,Unlisted,2012,826600
+PSYC,,Unlisted,2012,826800
+PSYC,,Unlisted,2012,827000
+PSYC,,Unlisted,2012,827200
+PSYC,,Unlisted,2012,827400
+PSYC,,Unlisted,2012,827600
+PSYC,,Unlisted,2012,827800
+PSYC,,Unlisted,2012,828000
+PSYC,,Unlisted,2012,828200
+RELN,,Unlisted,2002,828400
+RELN,,Unlisted,2002,828600
+RELN,,Unlisted,2002,828800
+RELN,,Other,2002,829000
+RELN,,Unlisted,2002,829200
+RELN,,Unlisted,2002,829400
+RELN,,Unlisted,2003,829600
+RELN,,Unlisted,2003,829800
+RELN,,Unlisted,2003,830000
+RELN,,Unlisted,2003,830200
+RELN,,Unlisted,2003,830400
+RELN,,Unlisted,2004,830600
+RELN,,Unlisted,2004,830800
+RELN,,Unlisted,2004,831000
+RELN,,Unlisted,2004,831200
+RELN,,Unlisted,2004,831400
+RELN,,Unlisted,2004,831600
+RELN,,Unlisted,2004,831800
+RELN,,Unlisted,2004,832000
+RELN,,Unlisted,2005,832200
+RELN,,Unlisted,2005,832400
+RELN,,Unlisted,2006,832600
+RELN,,Unlisted,2006,832800
+RELN,,Unlisted,2006,833000
+RELN,,Unlisted,2006,833200
+RELN,,Unlisted,2006,833400
+RELN,,Unlisted,2006,833600
+RELN,,Unlisted,2006,833800
+RELN,,Unlisted,2006,834000
+RELN,,Unlisted,2006,834200
+RLST,SPAN,Graduate Studies,2007,834400
+RLST,,Unlisted,2006,834600
+RLST,,Unlisted,2007,834800
+RLST,,Education (Elementary),2007,835000
+RLST,,Unlisted,2007,835200
+RLST,,Unlisted,2007,835400
+RLST,,Unlisted,2007,835600
+RLST,,Unlisted,2007,835800
+RLST,,Graduate Studies,2007,836000
+RLST,,Education (Higher Education),2008,836200
+RLST,,Unlisted,2008,836400
+RLST,,Unlisted,2008,836600
+RLST,,Unlisted,2008,836800
+RLST,,Unlisted,2008,837000
+RLST,,Unlisted,2008,837200
+RLST,,Unlisted,2008,837400
+RLST,,Finance,2008,837600
+RLST,,Unlisted,2009,837800
+RLST,,Unlisted,2009,838000
+RLST,,Unlisted,2009,838200
+RLST,,Unlisted,2009,838400
+RLST,,Unlisted,2009,838600
+RLST,,Unlisted,2009,838800
+RLST,,Unlisted,2009,839000
+RLST,,Unlisted,2009,839200
+RLST,,Unlisted,2009,839400
+RLST,,Unlisted,2010,839600
+RLST,,Unlisted,2010,839800
+RLST,,Unlisted,2010,840000
+RLST,,Unlisted,2010,840200
+RLST,,Unlisted,2010,840400
+RLST,,Unlisted,2010,840600
+RLST,,Unlisted,2010,840800
+RLST,,Unlisted,2010,841000
+RLST,,Unlisted,2010,841200
+RLST,,Unlisted,2011,841400
+RLST,,Unlisted,2011,841600
+RLST,,Unlisted,2012,841800
+RLST,,Unlisted,2012,842000
+RLST,,Entertainment,2012,842200
+RLST,,Unlisted,2012,842400
+SOCY,SPAN,Consulting,2008,842600
+SOCY,SPAN,"Research, Other",2009,842800
+SOCY,,Unlisted,2002,843000
+SOCY,,Unlisted,2002,843200
+SOCY,,Law,2002,843400
+SOCY,,Unlisted,2002,843600
+SOCY,,Unlisted,2002,843800
+SOCY,,Unlisted,2002,844000
+SOCY,,Health Care,2002,844200
+SOCY,,Unlisted,2002,844400
+SOCY,,Other,2002,844600
+SOCY,,Unlisted,2002,844800
+SOCY,,Unlisted,2002,845000
+SOCY,,Unlisted,2002,845200
+SOCY,,Unlisted,2002,845400
+SOCY,,Unlisted,2002,845600
+SOCY,,Unlisted,2002,845800
+SOCY,,Other,2003,846000
+SOCY,,Unlisted,2003,846200
+SOCY,,Unlisted,2003,846400
+SOCY,,Unlisted,2003,846600
+SOCY,,Graduate Studies,2003,846800
+SOCY,,Unlisted,2003,847000
+SOCY,,Unlisted,2003,847200
+SOCY,,Unlisted,2003,847400
+SOCY,,Unlisted,2004,847600
+SOCY,,Unlisted,2004,847800
+SOCY,,Unlisted,2004,848000
+SOCY,,Unlisted,2004,848200
+SOCY,,Unlisted,2004,848400
+SOCY,,Unlisted,2004,848600
+SOCY,,Unlisted,2004,848800
+SOCY,,Unlisted,2004,849000
+SOCY,,Unlisted,2004,849200
+SOCY,,Unlisted,2004,849400
+SOCY,,Unlisted,2004,849600
+SOCY,,Unlisted,2004,849800
+SOCY,,Unlisted,2004,850000
+SOCY,,Unlisted,2005,850200
+SOCY,,Unlisted,2005,850400
+SOCY,,Unlisted,2005,850600
+SOCY,,Unlisted,2005,850800
+SOCY,,Unlisted,2005,851000
+SOCY,,Unlisted,2005,851200
+SOCY,,Sports,2005,851400
+SOCY,,Unlisted,2005,851600
+SOCY,,Unlisted,2005,851800
+SOCY,,Unlisted,2005,852000
+SOCY,,Unlisted,2005,852200
+SOCY,,Unlisted,2005,852400
+SOCY,,Unlisted,2005,852600
+SOCY,,Unlisted,2005,852800
+SOCY,,Unlisted,2006,853000
+SOCY,,Unlisted,2006,853200
+SOCY,,Unlisted,2006,853400
+SOCY,,Finance,2006,853600
+SOCY,,Unlisted,2006,853800
+SOCY,,Unlisted,2006,854000
+SOCY,,Unlisted,2006,854200
+SOCY,,Unlisted,2006,854400
+SOCY,,Unlisted,2006,854600
+SOCY,,Unlisted,2006,854800
+SOCY,,Unlisted,2006,855000
+SOCY,,Unlisted,2006,855200
+SOCY,,"Research,Scientific",2006,855400
+SOCY,,Unlisted,2006,855600
+SOCY,,Unlisted,2007,855800
+SOCY,,Unlisted,2007,856000
+SOCY,,Unlisted,2007,856200
+SOCY,,Other,2007,856400
+SOCY,,Unlisted,2007,856600
+SOCY,,Unlisted,2007,856800
+SOCY,,Unlisted,2007,857000
+SOCY,,Unlisted,2007,857200
+SOCY,,Unlisted,2007,857400
+SOCY,,Unlisted,2007,857600
+SOCY,,Unlisted,2008,857800
+SOCY,,Unlisted,2008,858000
+SOCY,,Unlisted,2008,858200
+SOCY,,Unlisted,2008,858400
+SOCY,,Other,2008,858600
+SOCY,,Unlisted,2008,858800
+SOCY,,Unlisted,2008,859000
+SOCY,,Unlisted,2008,859200
+SOCY,,Health Care,2008,859400
+SOCY,,Unlisted,2008,859600
+SOCY,,Unlisted,2009,859800
+SOCY,,Unlisted,2009,860000
+SOCY,,Unlisted,2009,860200
+SOCY,,Unlisted,2009,860400
+SOCY,,Unlisted,2009,860600
+SOCY,,Unlisted,2009,860800
+SOCY,,Unlisted,2009,861000
+SOCY,,Unlisted,2009,861200
+SOCY,,Publishing,2009,861400
+SOCY,,Unlisted,2009,861600
+SOCY,,Unlisted,2009,861800
+SOCY,,Unlisted,2009,862000
+SOCY,,Unlisted,2010,862200
+SOCY,,Other,2010,862400
+SOCY,,Other,2010,862600
+SOCY,,Unlisted,2010,862800
+SOCY,,Unlisted,2010,863000
+SOCY,,Unlisted,2010,863200
+SOCY,,Unlisted,2010,863400
+SOCY,,Education (Secondary),2010,863600
+SOCY,,Unlisted,2010,863800
+SOCY,,Unlisted,2010,864000
+SOCY,,Unlisted,2010,864200
+SOCY,,Unlisted,2010,864400
+SOCY,,Unlisted,2010,864600
+SOCY,,Unlisted,2011,864800
+SOCY,,Unlisted,2011,865000
+SOCY,,Unlisted,2011,865200
+SOCY,,Unlisted,2011,865400
+SOCY,,Unlisted,2011,865600
+SOCY,,Unlisted,2011,865800
+SOCY,,Unlisted,2011,866000
+SOCY,,Unlisted,2011,866200
+SOCY,,Other,2011,866400
+SOCY,,Unlisted,2011,866600
+SOCY,,Unlisted,2011,866800
+SOCY,,Unlisted,2011,867000
+SOCY,,Unlisted,2012,867200
+SOCY,,Unlisted,2012,867400
+SOCY,,Unlisted,2012,867600
+SOCY,,Unlisted,2012,867800
+SOCY,,Unlisted,2012,868000
+SOCY,,Unlisted,2012,868200
+SOCY,,Unlisted,2012,868400
+SOCY,,Unlisted,2012,868600
+SOCY,,Unlisted,2012,868800
+SOCY,,Unlisted,2012,869000
+SOCY,,Unlisted,2012,869200
+SOCY,,Unlisted,2012,869400
+SOCY,,Unlisted,2012,869600
+SOCY,,Unlisted,2012,869800
+SOCY,,Unlisted,2012,870000
+SPAN,SYNP,Journalism,2003,870200
+SPAN,SYNP,"Research,Scientific",2004,870400
+SPAN,,Unlisted,2002,870600
+SPAN,,Unlisted,2002,870800
+SPAN,,Unlisted,2002,871000
+SPAN,,Unlisted,2002,871200
+SPAN,,Unlisted,2003,871400
+SPAN,,Unlisted,2003,871600
+SPAN,,Unlisted,2003,871800
+SPAN,,Unlisted,2004,872000
+SPAN,,Unlisted,2004,872200
+SPAN,,Unlisted,2004,872400
+SPAN,,Other,2005,872600
+SPAN,,Unlisted,2005,872800
+SPAN,,Unlisted,2005,873000
+SPAN,,Unlisted,2006,873200
+SPAN,,Unlisted,2006,873400
+SPAN,,Photography,2006,873600
+SPAN,,Unlisted,2006,873800
+SPAN,,Unlisted,2006,874000
+SPAN,,Other,2007,874200
+SPAN,,Unlisted,2007,874400
+SPAN,,Unlisted,2007,874600
+SPAN,,Unlisted,2007,874800
+SPAN,,Unlisted,2008,875000
+SPAN,,Unlisted,2008,875200
+SPAN,,Unlisted,2008,875400
+SPAN,,Unlisted,2008,875600
+SPAN,,Unlisted,2008,875800
+SPAN,,Unlisted,2008,876000
+SPAN,,Unlisted,2009,876200
+SPAN,,Other,2010,876400
+SPAN,,Unlisted,2010,876600
+SPAN,,Other,2010,876800
+SPAN,,Unlisted,2010,877000
+SPAN,,Unlisted,2010,877200
+SPAN,,Unlisted,2011,877400
+SPAN,,Unlisted,2011,877600
+SPAN,,Unlisted,2011,877800
+SPAN,,Unlisted,2012,878000
+SPAN,,Unlisted,2012,878200
+SPAN,,Law,2012,878400
+SPAN,,Unlisted,2012,878600
+SYNP,,Health Care,2002,878800
+SYNP,,Unlisted,2002,879000
+SYNP,,Unlisted,2002,879200
+SYNP,,Unlisted,2002,879400
+SYNP,,Other,2002,879600
+SYNP,,Education (Secondary),2002,879800
+SYNP,,Unlisted,2002,880000
+SYNP,,Unlisted,2002,880200
+SYNP,,Education (Secondary),2003,880400
+SYNP,,Unlisted,2003,880600
+SYNP,,Unlisted,2003,880800
+SYNP,,Unlisted,2003,881000
+SYNP,,Unlisted,2003,881200
+SYNP,,Unlisted,2004,881400
+SYNP,,Unlisted,2004,881600
+SYNP,,Unlisted,2004,881800
+SYNP,,Unlisted,2004,882000
+SYNP,,Unlisted,2004,882200
+SYNP,,Unlisted,2005,882400
+SYNP,,Unlisted,2005,882600
+SYNP,,Unlisted,2005,882800
+SYNP,,Unlisted,2005,883000
+SYNP,,Unlisted,2005,883200
+SYNP,,Unlisted,2006,883400
+SYNP,,Unlisted,2006,883600
+SYNP,,Unlisted,2007,883800
+SYNP,,Sales,2007,884000
+SYNP,,Unlisted,2007,884200
+SYNP,,Unlisted,2007,884400
+SYNP,,Unlisted,2008,884600
+SYNP,,Unlisted,2008,884800
+SYNP,,Unlisted,2008,885000
+SYNP,,Unlisted,2008,885200
+SYNP,,Unlisted,2009,885400
+SYNP,,Unlisted,2009,885600
+SYNP,,Health Care,2010,885800
+SYNP,,Unlisted,2011,886000
+SYNP,,Unlisted,2011,886200
+SYNP,,Other,2012,886400
+WMNS,,Unlisted,2007,886600
+WMNS,,Unlisted,2007,886800
+WMNS,,Consulting,2008,887000
+WMNS,,Unlisted,2008,887200
+WMNS,,Unlisted,2009,887400
+WMNS,,Unlisted,2009,887600
+WMNS,,Unlisted,2009,887800
+WMNS,,Other,2010,888000
+WMNS,,Unlisted,2010,888200
+WMNS,,Unlisted,2011,888400
+WMNS,,Unlisted,2011,888600
+WMNS,,Unlisted,2012,888800

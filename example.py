@@ -83,22 +83,24 @@ def filter_data_math():
                          filter=data_filter)
     conf = CircosConfig(data, 
                         use_default_colors=True, 
-                        lside_tag_order=catmap.left_order, 
+                        lside_tag_order="Mathematics", 
                         rside_tag_order=catmap.right_order)
     conf.produce_image()
 
 # Original image with full dataset, but only drawing math major links.
+# Original image with full dataset, but only drawing math major links.
 def filter_links_math():
 
-    reader = read_csv("projects/kenyon/kenyon.csv")
-    catmap = CategoryMapping("projects/kenyon/major.csv", 
-                             "projects/kenyon/industry.csv", 
-                             "projects/kenyon/order.csv")
+    reader = read_csv("projects/salary/salary.csv")
+    catmap = CategoryMapping("projects/salary/major.csv", 
+                             "projects/salary/industry.csv", 
+                             "projects/salary/order.csv")
     def only_math(ltag, rtag):
-        return (ltag == 'Mathematics')
+        return (ltag == "Mathematics")
 		
     data = CMapImageData(reader, 
                          catmap)
+						 
     conf = CircosConfig(data, 
                         use_default_colors=True, 
                         lside_tag_order=catmap.left_order, 
@@ -327,10 +329,10 @@ def kenyon_transparent():
     conf.produce_image()
 
 def color_by_salary():
-    reader = read_csv("projects/kenyon/kenyon-salary.csv")
-    catmap = CategoryMapping("projects/kenyon/major.csv", 
-                             "projects/kenyon/industry.csv", 
-                             "projects/kenyon/order.csv")
+    reader = read_csv("projects/salary/salary.csv")
+    catmap = CategoryMapping("projects/salary/major.csv", 
+                             "projects/salary/industry.csv", 
+                             "projects/salary/order.csv")
     
     data = CMapImageData(reader, 
                          catmap)
@@ -340,14 +342,107 @@ def color_by_salary():
                                    'Salary', 
                                    ['red', 'yellow', 'green'],
                                    verbose=True)
+								  
+	def salary_filter(color):
+		return (color == 'red')
+		
     conf = CircosConfig(data, 
+						salary_filter=salary_filter,
                         use_default_colors=True,
                         link_colors=colors,
                         lside_tag_order=catmap.left_order, 
                         rside_tag_order=catmap.right_order)
 
     conf.produce_image()
+	
+def color_by_salary_majors():
 
+    category_mapping = CategoryMapping("projects/salary/major.csv", 
+                             "projects/salary/industry.csv", 
+                             "projects/salary/order.csv")
+    
+    dirname = "projects/salary/salary.csv".replace('.csv', '')+"-Majors"
+
+    try:
+        os.mkdir(dirname)
+    except OSError:
+        print "Overwriting directory: %s" % dirname
+        shutil.rmtree(dirname)
+        os.mkdir(dirname)
+
+    for major in category_mapping.left_order:
+
+        reader = read_csv("projects/salary/salary.csv")
+
+        def link_filter(ltag, rtag):
+            return (ltag == major)
+
+        data = CMapImageData(reader, 
+                             category_mapping)
+	colors = color_dict_from_field(data,
+									'Major', 
+                                   'Industry', 
+                                   'Salary', 
+                                   ['red', 'yellow', 'green'],
+                                   verbose=True)					 
+							 
+        imagename=('%s' % major).replace('/', '-')
+        conf = CircosConfig(data, 
+                            use_default_colors=True,
+							link_colors=colors,
+                            link_filter=link_filter,
+                            lside_tag_order=category_mapping.left_order,
+                            rside_tag_order=category_mapping.right_order,
+                            filename=imagename+'.png')
+        conf.produce_image()
+        print '------- Major %s finished. -------' % major
+        shutil.move(imagename+'.png', dirname)
+        os.remove(imagename+'.svg')
+
+def color_by_salary_industries():
+
+    category_mapping = CategoryMapping("projects/salary/major.csv", 
+                             "projects/salary/industry.csv", 
+                             "projects/salary/order.csv")
+    
+    dirname = "projects/salary/salary.csv".replace('.csv', '')+"-Industries"
+
+    try:
+        os.mkdir(dirname)
+    except OSError:
+        print "Overwriting directory: %s" % dirname
+        shutil.rmtree(dirname)
+        os.mkdir(dirname)
+
+    for industry in category_mapping.right_order:
+
+        reader = read_csv("projects/salary/salary.csv")
+
+        def link_filter(ltag, rtag):
+            return (rtag == industry)
+
+        data = CMapImageData(reader, 
+                             category_mapping)
+	colors = color_dict_from_field(data,
+									'Major', 
+                                   'Industry', 
+                                   'Salary', 
+                                   ['red', 'yellow', 'green'],
+                                   verbose=True)					 
+							 
+        imagename=('%s' % industry).replace('/', '-')
+        conf = CircosConfig(data, 
+                            use_default_colors=True,
+							link_colors=colors,
+                            link_filter=link_filter,
+                            lside_tag_order=category_mapping.left_order,
+                            rside_tag_order=category_mapping.right_order,
+                            filename=imagename+'.png')
+        conf.produce_image()
+        print '------- Industries %s finished. -------' % industry
+        shutil.move(imagename+'.png', dirname)
+        os.remove(imagename+'.svg')
+		
 def color_by_salary_explicit_cutoffs():
     reader = read_csv("projects/kenyon/kenyon-salary.csv")
     catmap = CategoryMapping("projects/kenyon/major.csv", 

@@ -1,7 +1,9 @@
-Major Tags,History,Culture Studies,Art/Art History,Physics/Astronomy,Biology,Chemistry,Languages,Economics,English/Literature,Political Studies,Mathematics,Philosophy/Religion,Psychology,Synoptic,Classics,Performance Arts
-major1,HIST,AMST,ARHS,PHYS,BIOL,BCHM,FREN,ECON,ENGL,INST,MATH,PHIL,PSYC,SYNP,CLAS,MUSC
-major2,,ANSO,ARTS,,MBIO,CHEM,GERM,,,PSCI,,RELN,,,LATN,DANC
-,,ANTH,,,NEUR,,MFLL,,,,,RLST,,,,DRAM
-,,SOCY,,,,,MLL,,,,,,,,,
-,,WMNS,,,,,RUSS,,,,,,,,,
-,,,,,,,SPAN,,,,,,,,,
+Major Tags,Art/Art History,Dance/Drama,Music,Classics,English,Modern Languages and Literatures,Philosophy,Religious Studies,Biology,Chemistry,Mathematics/Statistics,Physics,Psychology,Anthropology,Economics,History,Political Studies,Sociology,Interdisciplinary
+major1,ARTS,DANC,MUSC,CLAS,ENGL,FREN,PHIL,RELN,BIOL,BCHM,MATH,PHYS,PSYC,ANTH,ECON,HIST,INST,SOCY,AMST
+major2,ARHS,DRAM,,LATN,,GERM,,RLST,MBIO,CHEM,,,,,,,PSCI,,BCHM
+,,,,,,MLL,,,,,,,,,,,,,INST
+,,,,,,RUSS,,,,,,,,,,,,,MBIO
+,,,,,,SPAN,,,,,,,,,,,,,NEUR
+,,,,,,MFLL,,,,,,,,,,,,,WMNS
+,,,,,,,,,,,,,,,,,,,INDS
+,,,,,,,,,,,,,,,,,,,SYNP

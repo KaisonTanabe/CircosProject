@@ -1,0 +1,4407 @@
+major1,major2,Industry,gradyear
+AMST,ARHS,Other,2007
+ANTH,ARHS,Unlisted,2004
+ANTH,ARTS,Education (Secondary),2004
+ANTH,ARTS,Medicine,2005
+ANTH,ARTS,Education (Secondary),2008
+ARHS,ARTS,Accounting,2006
+ANTH,BIOL,Unlisted,2004
+ARTS,BIOL,Graduate Studies,2002
+ARTS,BIOL,Ministry,2012
+ARTS,CHEM,Social Work/Human Services,2012
+ANTH,CLAS,Unlisted,2007
+ARTS,CLAS,ECommerce/Web,2011
+AMST,DANC,Unlisted,2005
+AMST,DANC,Law,2009
+BIOL,DANC,Unlisted,2006
+AMST,DRAM,Unlisted,2004
+AMST,DRAM,Unlisted,2006
+AMST,DRAM,Unlisted,2006
+AMST,DRAM,Unlisted,2007
+AMST,DRAM,Journalism,2009
+ANTH,DRAM,Health Care,2011
+ARTS,DRAM,Unlisted,2003
+ANTH,ECON,Other,2002
+ANTH,ECON,Education (Elementary),2003
+ARTS,ECON,Education (Higher Education),2012
+ARTS,ECON,Business,2006
+ARTS,ECON,Museum Work,2006
+ARTS,ECON,Investment/Securities,2007
+ARTS,ECON,Fundraising/Development,2009
+ARTS,ECON,Social Work/Human Services,2011
+BCHM,ECON,Fundraising/Development,2008
+CHEM,ECON,Sports,2005
+CLAS,ECON,"Research,Scientific",2012
+DRAM,ECON,Unlisted,2005
+DRAM,ECON,Unlisted,2006
+AMST,ENGL,Homemaker,2005
+AMST,ENGL,Unlisted,2005
+AMST,ENGL,Unlisted,2007
+AMST,ENGL,Government,2012
+ANTH,ENGL,Ministry,2002
+ANTH,ENGL,Unlisted,2002
+ANTH,ENGL,Other,2003
+ANTH,ENGL,Graduate Studies,2006
+ANTH,ENGL,Law,2006
+ANTH,ENGL,Nursing,2009
+ARHS,ENGL,Entertainment,2001
+ARHS,ENGL,Unlisted,2003
+ARHS,ENGL,Real Estate,2003
+ARHS,ENGL,Unlisted,2003
+ARHS,ENGL,Government,2007
+ARHS,ENGL,Education (Higher Education),2008
+ARHS,ENGL,Arts,2009
+ARTS,ENGL,Unlisted,2002
+ARTS,ENGL,Journalism,2003
+ARTS,ENGL,Education (Secondary),2003
+ARTS,ENGL,Military,2004
+ARTS,ENGL,Banking,2004
+ARTS,ENGL,Education (Elementary),2005
+ARTS,ENGL,Environment/Ecology,2006
+ARTS,ENGL,Unlisted,2007
+ARTS,ENGL,Sales,2007
+ARTS,ENGL,Education (Higher Education),2008
+ARTS,ENGL,Graduate Studies,2009
+ARTS,ENGL,Unlisted,2010
+ARTS,ENGL,Education (Secondary),2010
+ARTS,ENGL,Publishing,2011
+ARTS,ENGL,Nursing,2011
+ARTS,ENGL,Writing,2011
+BIOL,ENGL,Unlisted,2001
+BIOL,ENGL,Publishing,2002
+BIOL,ENGL,Unlisted,2003
+BIOL,ENGL,Graduate Studies,2003
+BIOL,ENGL,Unlisted,2004
+BIOL,ENGL,Entertainment,2006
+BIOL,ENGL,Unlisted,2006
+BIOL,ENGL,Unlisted,2007
+BIOL,ENGL,Education (Higher Education),2007
+BIOL,ENGL,Unlisted,2008
+BIOL,ENGL,Law,2009
+BIOL,ENGL,Unlisted,2010
+BIOL,ENGL,Unlisted,2012
+CLAS,ENGL,Unlisted,2002
+CLAS,ENGL,Homemaker,2005
+CLAS,ENGL,Education (Higher Education),2006
+CLAS,ENGL,Unlisted,2008
+CLAS,ENGL,Finance,2009
+CLAS,ENGL,Museum Work,2010
+CLAS,ENGL,Unlisted,2010
+CLAS,ENGL,Education (Secondary),2011
+DANC,ENGL,Unlisted,1995
+DANC,ENGL,Law,2004
+DANC,ENGL,Entertainment,2004
+DANC,ENGL,Education (Elementary),2009
+DRAM,ENGL,Unlisted,2001
+DRAM,ENGL,Unlisted,2002
+DRAM,ENGL,Social Work/Human Services,2002
+DRAM,ENGL,Unlisted,2002
+DRAM,ENGL,Government,2003
+DRAM,ENGL,Unlisted,2003
+DRAM,ENGL,Education (Secondary),2004
+DRAM,ENGL,Unlisted,2004
+DRAM,ENGL,Other,2005
+DRAM,ENGL,Engineering,2005
+DRAM,ENGL,Unlisted,2005
+DRAM,ENGL,Unlisted,2006
+DRAM,ENGL,Unlisted,2007
+DRAM,ENGL,Unlisted,2007
+DRAM,ENGL,Energy Industries,2007
+DRAM,ENGL,Law,2007
+DRAM,ENGL,Arts,2007
+DRAM,ENGL,Unlisted,2007
+DRAM,ENGL,Insurance,2007
+DRAM,ENGL,Sports,2008
+DRAM,ENGL,Unlisted,2008
+DRAM,ENGL,Finance,2008
+DRAM,ENGL,Medicine,2008
+DRAM,ENGL,Other,2009
+DRAM,ENGL,"Research, Other",2009
+DRAM,ENGL,Unlisted,2009
+DRAM,ENGL,Unlisted,2010
+DRAM,ENGL,Education (Higher Education),2011
+DRAM,ENGL,Self Employed,2011
+DRAM,ENGL,Unlisted,2011
+DRAM,ENGL,Writing,2011
+DRAM,ENGL,Other,2011
+DRAM,ENGL,Unlisted,2012
+ECON,ENGL,Unlisted,2003
+ECON,ENGL,Non-Profit Adminstration,2008
+ECON,ENGL,Entertainment,2008
+ECON,ENGL,Education (Higher Education),2010
+ECON,ENGL,Other,2011
+CHEM,FREN,Computer,2002
+DRAM,FREN,Education (Higher Education),2006
+ECON,FREN,Graduate Studies,2009
+ENGL,FREN,Social Work/Human Services,2005
+ENGL,FREN,Unlisted,2005
+ENGL,FREN,Consulting,2007
+ENGL,FREN,Unlisted,2007
+ENGL,FREN,Entertainment,2007
+ENGL,FREN,Psychology/Counseling/Therapy,2008
+ENGL,FREN,Education (Higher Education),2011
+CHEM,GERM,Non-Profit Adminstration,2004
+ENGL,GERM,Computer,2003
+ENGL,GERM,Unlisted,2009
+ENGL,GERM,Government,2012
+AMST,HIST,Other,2011
+ANTH,HIST,Unlisted,2009
+ARTS,HIST,Journalism,2007
+BIOL,HIST,Education (Secondary),2003
+CHEM,HIST,Unlisted,2009
+CLAS,HIST,Graduate Studies,2010
+DANC,HIST,Unlisted,2003
+DANC,HIST,Entertainment,2010
+DRAM,HIST,Education (Higher Education),2003
+DRAM,HIST,Education (Higher Education),2005
+DRAM,HIST,Business,2005
+ECON,HIST,Government,2003
+ECON,HIST,Medicine,2004
+ECON,HIST,Other,2008
+ECON,HIST,Unlisted,2011
+ENGL,HIST,Education (Higher Education),2002
+ENGL,HIST,Unlisted,2002
+ENGL,HIST,Education (Higher Education),2002
+ENGL,HIST,Non-Profit Adminstration,2002
+ENGL,HIST,Graduate Studies,2002
+ENGL,HIST,Consulting,2003
+ENGL,HIST,Graduate Studies,2004
+ENGL,HIST,Education (Higher Education),2004
+ENGL,HIST,Public Relations,2007
+ENGL,HIST,Medicine,2007
+ENGL,HIST,Unlisted,2007
+ENGL,HIST,Other,2009
+GERM,HIST,Medicine,2003
+GERM,HIST,Business,2003
+ANTH,INST,Education (Secondary),2001
+ANTH,INST,Publishing,2001
+ANTH,INST,Graduate Studies,2009
+ARHS,INST,Education (Higher Education),2008
+ARTS,INST,Unlisted,2004
+ARTS,INST,Law,2005
+ARTS,INST,Medicine,2009
+CHEM,INST,Law,2004
+DANC,INST,Graduate Studies,2004
+DANC,INST,Other,2005
+DANC,INST,Education (Higher Education),2008
+ECON,INST,Unlisted,2002
+ECON,INST,Other,2004
+ECON,INST,Self Employed,2004
+ECON,INST,Unlisted,2006
+ECON,INST,Unlisted,2006
+ECON,INST,Insurance,2006
+ECON,INST,Environment/Ecology,2008
+ECON,INST,Law,2009
+ECON,INST,Unlisted,2009
+ECON,INST,Advertising,2012
+ECON,INST,Health Care,2012
+ENGL,INST,Education (Secondary),2007
+FREN,INST,Unlisted,2011
+HIST,INST,Public Relations,2003
+ANTH,MATH,Unlisted,2003
+ANTH,MATH,Military,2008
+BIOL,MATH,Unlisted,2011
+CHEM,MATH,Education (Higher Education),2007
+CLAS,MATH,Self Employed,2007
+ECON,MATH,Education (Secondary),2001
+ECON,MATH,Other,2001
+ECON,MATH,Other,2002
+ECON,MATH,Museum Work,2002
+ECON,MATH,Marketing/Market Research,2002
+ECON,MATH,Graduate Studies,2003
+ECON,MATH,Museum Work,2004
+ECON,MATH,Government,2004
+ECON,MATH,Health Care,2004
+ECON,MATH,Other,2005
+ECON,MATH,Law,2005
+ECON,MATH,Fundraising/Development,2006
+ECON,MATH,Unlisted,2007
+ECON,MATH,Consulting,2007
+ECON,MATH,Unlisted,2008
+ECON,MATH,Journalism,2008
+ECON,MATH,Education (Secondary),2008
+ECON,MATH,Unlisted,2008
+ECON,MATH,Non-Profit Adminstration,2009
+ECON,MATH,Government,2009
+ECON,MATH,Unlisted,2010
+ECON,MATH,Other,2010
+ECON,MATH,"Research,Scientific",2011
+ECON,MATH,Government,2011
+ECON,MATH,Sports,2012
+ECON,MATH,Other,2012
+ENGL,MATH,Medicine,2006
+ENGL,MATH,Education (Elementary),2010
+ANTH,MBIO,Unlisted,2007
+MATH,MBIO,Law,2011
+ANTH,MLL,Unlisted,2011
+ARHS,MLL,Graduate Studies,2001
+ARHS,MLL,Non-Profit Adminstration,2002
+CLAS,MLL,Unlisted,2008
+ECON,MLL,Education (Higher Education),2010
+ECON,MLL,Hotel/Food Management,2012
+ECON,MLL,Unlisted,2012
+ECON,MLL,Education (Higher Education),2012
+ENGL,MLL,Unlisted,2003
+ENGL,MLL,Self Employed,2003
+ENGL,MLL,Education (Secondary),2008
+ENGL,MLL,Unlisted,2008
+ENGL,MLL,Museum Work,2008
+ENGL,MLL,Education (Secondary),2009
+ENGL,MLL,Finance,2010
+ENGL,MLL,Unlisted,2010
+ENGL,MLL,Communications,2010
+ENGL,MLL,Veterinary/Animal Care,2012
+ENGL,MLL,Unlisted,2012
+ENGL,MLL,Nursing,2012
+HIST,MLL,Education (Higher Education),2004
+HIST,MLL,Unlisted,2005
+HIST,MLL,Finance,2011
+INST,MLL,Education (Higher Education),2003
+INST,MLL,Graduate Studies,2008
+INST,MLL,Education (Secondary),2009
+INST,MLL,Education (Higher Education),2010
+INST,MLL,Finance,2010
+INST,MLL,Transportation,2012
+MATH,MLL,Unlisted,2007
+AMST,MUSC,Unlisted,2011
+ANTH,MUSC,Law,2007
+ANTH,MUSC,Education (Secondary),2008
+BIOL,MUSC,Journalism,2005
+CLAS,MUSC,Law,2004
+DRAM,MUSC,Social Work/Human Services,2003
+DRAM,MUSC,Law,2005
+DRAM,MUSC,Unlisted,2007
+DRAM,MUSC,Graduate Studies,2009
+ECON,MUSC,Unlisted,2003
+ECON,MUSC,Real Estate,2006
+ECON,MUSC,Education (Secondary),2007
+ECON,MUSC,Business,2010
+ENGL,MUSC,Library Science,2002
+ENGL,MUSC,Law,2003
+ENGL,MUSC,Unlisted,2006
+ENGL,MUSC,Photography,2008
+ENGL,MUSC,Unlisted,2011
+HIST,MUSC,Sports,2005
+HIST,MUSC,Unlisted,2007
+MATH,MUSC,Unlisted,2009
+MBIO,MUSC,Unlisted,2000
+MLL,MUSC,Unlisted,2003
+MLL,MUSC,Broadcast-Radio/Television,2010
+MLL,MUSC,Law,2012
+ARTS,NEUR,Sports,2004
+BCHM,NEUR,Performing Arts,2006
+ENGL,NEUR,Law,2006
+MATH,NEUR,Law,2012
+ARTS,PHIL,Medicine,2010
+ARTS,PHIL,Unlisted,2012
+CLAS,PHIL,Education (Secondary),2004
+CLAS,PHIL,Unlisted,2005
+DANC,PHIL,Unlisted,2005
+ECON,PHIL,Unlisted,2008
+ECON,PHIL,Fundraising/Development,2008
+ECON,PHIL,Unlisted,2009
+ENGL,PHIL,Sales,2004
+ENGL,PHIL,Unlisted,2004
+ENGL,PHIL,Graduate Studies,2005
+ENGL,PHIL,Unlisted,2006
+ENGL,PHIL,Education (Higher Education),2006
+ENGL,PHIL,Unlisted,2007
+ENGL,PHIL,Graduate Studies,2008
+ENGL,PHIL,Unlisted,2010
+INST,PHIL,Law,2011
+MATH,PHIL,Unlisted,2001
+MATH,PHIL,Unlisted,2001
+MATH,PHIL,Finance,2003
+MATH,PHIL,Construction,2007
+MATH,PHIL,Unlisted,2008
+MLL,PHIL,Law,2007
+MUSC,PHIL,Health Care,2003
+MUSC,PHIL,Advertising,2008
+NEUR,PHIL,Education (Secondary),2007
+ARTS,PHYS,Unlisted,2002
+CHEM,PHYS,Arts,2008
+CHEM,PHYS,Unlisted,2010
+CLAS,PHYS,Energy Industries,2012
+ECON,PHYS,Marketing/Market Research,2003
+ECON,PHYS,Unlisted,2010
+MATH,PHYS,Law,2002
+MATH,PHYS,Manufacturing,2003
+MATH,PHYS,Marketing/Market Research,2003
+MATH,PHYS,Self Employed,2004
+MATH,PHYS,Unlisted,2004
+MATH,PHYS,Hotel/Food Management,2005
+MATH,PHYS,Unlisted,2006
+MATH,PHYS,Law,2006
+MATH,PHYS,Public Relations,2007
+MATH,PHYS,Human Resources,2008
+MATH,PHYS,"Research,Scientific",2008
+MATH,PHYS,Law,2008
+MATH,PHYS,Unlisted,2010
+MATH,PHYS,Law,2011
+MATH,PHYS,Unlisted,2011
+MATH,PHYS,Unlisted,2011
+MATH,PHYS,Other,2011
+MATH,PHYS,Education (Higher Education),2012
+MUSC,PHYS,Education (Secondary),2003
+ANTH,PSCI,Arts,2005
+ARHS,PSCI,Education (Secondary),2001
+ARHS,PSCI,Unlisted,2007
+ARHS,PSCI,Unlisted,2008
+ARTS,PSCI,Finance,2003
+ARTS,PSCI,Graduate Studies,2006
+ARTS,PSCI,Other,2008
+ARTS,PSCI,Self Employed,2011
+CLAS,PSCI,Unlisted,2004
+CLAS,PSCI,Entertainment,2004
+CLAS,PSCI,Unlisted,2008
+DANC,PSCI,Education (Higher Education),2007
+DRAM,PSCI,Unlisted,2001
+DRAM,PSCI,Non-Profit Adminstration,2004
+DRAM,PSCI,Social Work/Human Services,2007
+DRAM,PSCI,Government,2008
+DRAM,PSCI,Education (Secondary),2009
+DRAM,PSCI,Education (Secondary),2010
+ECON,PSCI,Government,2002
+ECON,PSCI,Unlisted,2003
+ECON,PSCI,Law,2006
+ECON,PSCI,Other,2006
+ECON,PSCI,Unlisted,2006
+ECON,PSCI,Medicine,2007
+ECON,PSCI,Unlisted,2007
+ECON,PSCI,Health Care,2007
+ECON,PSCI,Museum Work,2008
+ECON,PSCI,Real Estate,2008
+ECON,PSCI,Insurance,2008
+ECON,PSCI,Unlisted,2009
+ECON,PSCI,Construction,2009
+ECON,PSCI,Law,2009
+ECON,PSCI,Education (Secondary),2009
+ECON,PSCI,Unlisted,2009
+ECON,PSCI,Law,2009
+ECON,PSCI,Unlisted,2010
+ECON,PSCI,Unlisted,2010
+ECON,PSCI,Psychology/Counseling/Therapy,2010
+ECON,PSCI,Other,2011
+ECON,PSCI,Journalism,2011
+ECON,PSCI,Unlisted,2012
+ENGL,PSCI,Unlisted,2002
+ENGL,PSCI,Unlisted,2002
+ENGL,PSCI,Unlisted,2003
+ENGL,PSCI,"Research, Other",2003
+ENGL,PSCI,Education (Secondary),2004
+ENGL,PSCI,Unlisted,2004
+ENGL,PSCI,Graduate Studies,2005
+ENGL,PSCI,Unlisted,2007
+ENGL,PSCI,Law,2009
+ENGL,PSCI,Unlisted,2011
+ENGL,PSCI,Unlisted,2012
+FREN,PSCI,Graduate Studies,2004
+GERM,PSCI,Unlisted,1999
+GERM,PSCI,Health Care,2001
+GERM,PSCI,Law,2002
+GERM,PSCI,Unlisted,2005
+HIST,PSCI,Unlisted,2002
+HIST,PSCI,Business,2003
+HIST,PSCI,Unlisted,2004
+HIST,PSCI,Medicine,2006
+HIST,PSCI,Graduate Studies,2009
+HIST,PSCI,Unlisted,2009
+HIST,PSCI,Unlisted,2011
+HIST,PSCI,Education (Secondary),2012
+INST,PSCI,Unlisted,2002
+INST,PSCI,Unlisted,2004
+INST,PSCI,Graduate Studies,2005
+INST,PSCI,Non-Profit Adminstration,2005
+INST,PSCI,Arts,2005
+INST,PSCI,Photography,2009
+INST,PSCI,Unlisted,2009
+INST,PSCI,Accounting,2009
+MATH,PSCI,Unlisted,2008
+MBIO,PSCI,Arts,2004
+MLL,PSCI,Unlisted,2001
+MLL,PSCI,Unlisted,2002
+MLL,PSCI,Unlisted,2002
+MLL,PSCI,Writing,2003
+MLL,PSCI,Graduate Studies,2005
+MLL,PSCI,Finance,2006
+MLL,PSCI,Psychology/Counseling/Therapy,2011
+MUSC,PSCI,Social Work/Human Services,2011
+PHIL,PSCI,Investment/Securities,2002
+PHIL,PSCI,Education (Secondary),2002
+PHIL,PSCI,Medicine,2005
+PHYS,PSCI,Unlisted,2007
+PHYS,PSCI,Education (Secondary),2007
+PHYS,PSCI,Law,2008
+AMST,PSYC,Journalism,2008
+ANTH,PSYC,Education (Secondary),2002
+ANTH,PSYC,Unlisted,2002
+ANTH,PSYC,Unlisted,2006
+ANTH,PSYC,Sales,2006
+ANTH,PSYC,Unlisted,2008
+ARHS,PSYC,Graduate Studies,2004
+ARTS,PSYC,Marketing/Market Research,2003
+ARTS,PSYC,Psychology/Counseling/Therapy,2004
+ARTS,PSYC,Graduate Studies,2005
+ARTS,PSYC,Unlisted,2006
+ARTS,PSYC,Communications,2006
+ARTS,PSYC,Education (Secondary),2009
+ARTS,PSYC,Unlisted,2012
+BIOL,PSYC,Graduate Studies,2005
+CLAS,PSYC,Unlisted,2010
+DANC,PSYC,Unlisted,2006
+DRAM,PSYC,Government,2007
+DRAM,PSYC,Other,2011
+ECON,PSYC,Self Employed,2007
+ECON,PSYC,Law,2008
+ECON,PSYC,Graduate Studies,2008
+ECON,PSYC,Unlisted,2008
+ECON,PSYC,Graduate Studies,2012
+ECON,PSYC,Unlisted,2012
+ENGL,PSYC,Military,2002
+ENGL,PSYC,"Research,Scientific",2003
+ENGL,PSYC,Unlisted,2003
+ENGL,PSYC,Unlisted,2004
+ENGL,PSYC,Health Care,2004
+ENGL,PSYC,Unlisted,2004
+ENGL,PSYC,Music,2005
+ENGL,PSYC,Sales,2006
+ENGL,PSYC,Education (Higher Education),2006
+ENGL,PSYC,Education (Secondary),2008
+ENGL,PSYC,Unlisted,2010
+ENGL,PSYC,Government,2011
+ENGL,PSYC,Education (Higher Education),2012
+ENGL,PSYC,Consulting,2012
+FREN,PSYC,Agriculture,2002
+HIST,PSYC,Unlisted,2005
+HIST,PSYC,Graduate Studies,2007
+HIST,PSYC,Arts,2011
+MATH,PSYC,Graduate Studies,2006
+MATH,PSYC,Unlisted,2011
+MLL,PSYC,Other,2006
+MLL,PSYC,Unlisted,2010
+MLL,PSYC,Business,2011
+MLL,PSYC,Unlisted,2012
+NEUR,PSYC,Self Employed,2003
+NEUR,PSYC,Graduate Studies,2004
+NEUR,PSYC,Unlisted,2006
+NEUR,PSYC,Unlisted,2006
+NEUR,PSYC,Other,2007
+NEUR,PSYC,Publishing,2008
+PHIL,PSYC,Transportation,2005
+PHIL,PSYC,Other,2005
+PSCI,PSYC,Unlisted,2008
+PSCI,PSYC,Public Relations,2010
+BIOL,RELN,Accounting,2003
+CLAS,RELN,ECommerce/Web,2001
+CLAS,RELN,Unlisted,2001
+ENGL,RELN,Unlisted,2002
+ENGL,RELN,Other,2002
+ENGL,RELN,Unlisted,2004
+GERM,RELN,Law,2006
+HIST,RELN,Medicine,2002
+PSYC,RELN,Unlisted,2006
+ECON,RLST,Education (Secondary),2011
+ENGL,RLST,Consulting,2007
+ENGL,RLST,Unlisted,2008
+HIST,RLST,Consulting,2007
+INST,RLST,Unlisted,2007
+INST,RLST,Unlisted,2008
+MLL,RLST,Other,2009
+PSYC,RLST,Unlisted,2010
+PSYC,RLST,Unlisted,2010
+AMST,SOCY,Other,2005
+AMST,SOCY,Unlisted,2010
+ARTS,SOCY,Unlisted,2008
+CHEM,SOCY,Sports,2003
+DANC,SOCY,Journalism,2009
+DRAM,SOCY,Unlisted,2005
+DRAM,SOCY,Other,2012
+ENGL,SOCY,Law,2004
+ENGL,SOCY,Psychology/Counseling/Therapy,2006
+ENGL,SOCY,Unlisted,2010
+ENGL,SOCY,Unlisted,2010
+ENGL,SOCY,Unlisted,2012
+ENGL,SOCY,Unlisted,2012
+ENGL,SOCY,Unlisted,2012
+FREN,SOCY,Unlisted,1999
+FREN,SOCY,Unlisted,2000
+INST,SOCY,Consulting,2002
+INST,SOCY,Law,2006
+INST,SOCY,Education (Higher Education),2011
+MLL,SOCY,Non-Profit Adminstration,2003
+MUSC,SOCY,Insurance,2004
+PSCI,SOCY,"Research,Scientific",2007
+PSYC,SOCY,Arts,2003
+PSYC,SOCY,Unlisted,2003
+PSYC,SOCY,Unlisted,2003
+PSYC,SOCY,Unlisted,2008
+PSYC,SOCY,Social Work/Human Services,2009
+ANTH,SPAN,Museum Work,2006
+ANTH,SPAN,Law,2007
+ANTH,SPAN,Education (Secondary),2010
+ANTH,SPAN,"Research,Scientific",2012
+ARHS,SPAN,Unlisted,2005
+ARTS,SPAN,Medicine,2001
+ARTS,SPAN,Unlisted,2006
+BIOL,SPAN,Accounting,2004
+BIOL,SPAN,Library Science,2007
+DANC,SPAN,Law,2006
+DRAM,SPAN,Publishing,2002
+DRAM,SPAN,Unlisted,2009
+ECON,SPAN,Unlisted,2002
+ECON,SPAN,Education (Higher Education),2004
+ECON,SPAN,Psychology/Counseling/Therapy,2005
+ECON,SPAN,Medicine,2007
+ECON,SPAN,Education (Secondary),2012
+ENGL,SPAN,Performing Arts,2002
+ENGL,SPAN,Graduate Studies,2002
+ENGL,SPAN,Unlisted,2003
+ENGL,SPAN,Sales,2003
+ENGL,SPAN,Unlisted,2004
+ENGL,SPAN,Consulting,2004
+ENGL,SPAN,Law,2005
+ENGL,SPAN,Unlisted,2006
+ENGL,SPAN,Graduate Studies,2006
+ENGL,SPAN,Unlisted,2006
+ENGL,SPAN,Government,2007
+ENGL,SPAN,Law,2008
+ENGL,SPAN,Graduate Studies,2009
+ENGL,SPAN,Graduate Studies,2009
+ENGL,SPAN,Graduate Studies,2010
+ENGL,SPAN,Unlisted,2011
+ENGL,SPAN,ECommerce/Web,2011
+ENGL,SPAN,Graduate Studies,2012
+ENGL,SPAN,Law,2012
+HIST,SPAN,Unlisted,2004
+HIST,SPAN,Education (Higher Education),2006
+HIST,SPAN,Education (Secondary),2007
+HIST,SPAN,Law,2008
+INST,SPAN,Unlisted,2002
+INST,SPAN,Health Care,2002
+INST,SPAN,Ministry,2003
+INST,SPAN,Other,2003
+INST,SPAN,Human Resources,2003
+INST,SPAN,Other,2004
+INST,SPAN,Unlisted,2004
+INST,SPAN,Other,2004
+INST,SPAN,Unlisted,2004
+INST,SPAN,Law,2005
+INST,SPAN,"Research,Scientific",2005
+INST,SPAN,Engineering,2005
+INST,SPAN,Unlisted,2005
+INST,SPAN,Medicine,2005
+INST,SPAN,Unlisted,2006
+INST,SPAN,Graduate Studies,2006
+INST,SPAN,Unlisted,2006
+INST,SPAN,Business,2006
+INST,SPAN,Journalism,2007
+INST,SPAN,Broadcast-Radio/Television,2007
+INST,SPAN,Other,2007
+INST,SPAN,Writing,2007
+INST,SPAN,Government,2007
+INST,SPAN,Public Relations,2007
+INST,SPAN,Law,2007
+INST,SPAN,Unlisted,2007
+INST,SPAN,Graduate Studies,2007
+INST,SPAN,Entertainment,2008
+INST,SPAN,Ministry,2008
+INST,SPAN,Unlisted,2008
+INST,SPAN,Business,2009
+INST,SPAN,Graduate Studies,2009
+INST,SPAN,Other,2009
+INST,SPAN,Unlisted,2010
+INST,SPAN,Education (Secondary),2010
+INST,SPAN,Unlisted,2011
+INST,SPAN,Law,2011
+INST,SPAN,Psychology/Counseling/Therapy,2011
+INST,SPAN,Finance,2011
+MBIO,SPAN,Unlisted,2000
+MUSC,SPAN,Unlisted,2005
+MUSC,SPAN,Homemaker,2008
+PHIL,SPAN,Unlisted,2008
+PHIL,SPAN,Education (Secondary),2011
+PSCI,SPAN,Graduate Studies,2002
+PSCI,SPAN,Publishing,2003
+PSCI,SPAN,Graduate Studies,2004
+PSCI,SPAN,Marketing/Market Research,2007
+PSYC,SPAN,Homemaker,2002
+PSYC,SPAN,Unlisted,2002
+PSYC,SPAN,Unlisted,2002
+PSYC,SPAN,Other,2003
+PSYC,SPAN,Law,2003
+PSYC,SPAN,Graduate Studies,2004
+PSYC,SPAN,Education (Elementary),2007
+PSYC,SPAN,Unlisted,2008
+PSYC,SPAN,Unlisted,2008
+PSYC,SPAN,Unlisted,2008
+PSYC,SPAN,"Research,Scientific",2008
+PSYC,SPAN,Unlisted,2011
+RLST,SPAN,Graduate Studies,2007
+SOCY,SPAN,Consulting,2008
+SOCY,SPAN,"Research, Other",2009
+MBIO,,Unlisted,2005
+MLL,,Other,2002
+MUSC,,Non-Profit Adminstration,2005
+SPAN,,Journalism,2003
+SPAN,,"Research,Scientific",2004
+ANTH,WMNS,Unlisted,2009
+ARTS,WMNS,Consulting,2012
+ENGL,WMNS,Accounting,2007
+ENGL,WMNS,Unlisted,2009
+HIST,WMNS,Law,2007
+AMST,,Government,1984
+AMST,,Social Work/Human Services,1993
+AMST,,Unlisted,1999
+AMST,,Graduate Studies,1999
+AMST,,Education (Secondary),2000
+AMST,,Finance,2003
+AMST,,Unlisted,2003
+AMST,,Transportation,2003
+AMST,,Finance,2005
+AMST,,"Research,Scientific",2003
+AMST,,Investment/Securities,2003
+AMST,,Law,2003
+AMST,,Nursing,2004
+AMST,,Government,2004
+AMST,,Fundraising/Development,2004
+AMST,,Marketing/Market Research,2004
+AMST,,Graduate Studies,2004
+AMST,,Graduate Studies,2005
+AMST,,Graduate Studies,2005
+AMST,,Real Estate,2005
+AMST,,Unlisted,2005
+AMST,,Environment/Ecology,2005
+AMST,,Other,2005
+AMST,,Education (Higher Education),2005
+AMST,,Unlisted,2005
+AMST,,Unlisted,2005
+AMST,,Unlisted,2006
+AMST,,Unlisted,2006
+AMST,,Performing Arts,2006
+AMST,,Unlisted,2006
+AMST,,Unlisted,2006
+AMST,,Education (Higher Education),2006
+AMST,,Unlisted,2006
+AMST,,Veterinary/Animal Care,2006
+AMST,,Unlisted,2006
+AMST,,Military,2006
+AMST,,Unlisted,2006
+AMST,,Unlisted,2006
+AMST,,Transportation,2006
+AMST,,Graduate Studies,2006
+AMST,,Unlisted,2006
+AMST,,Unlisted,2006
+AMST,,Graduate Studies,2006
+AMST,,Education (Secondary),2007
+AMST,,Computer,2007
+AMST,,Unlisted,2007
+AMST,,Unlisted,2007
+AMST,,Consulting,2007
+AMST,,Unlisted,2007
+AMST,,Unlisted,2007
+AMST,,Non-Profit Adminstration,2008
+AMST,,Unlisted,2008
+AMST,,Graduate Studies,2008
+AMST,,Sales,2008
+AMST,,Education (Higher Education),2008
+AMST,,International,2008
+AMST,,Unlisted,2008
+AMST,,Education (Higher Education),2008
+AMST,,Unlisted,2008
+AMST,,Education (Secondary),2008
+AMST,,Graduate Studies,2008
+AMST,,Business,2008
+AMST,,Writing,2008
+AMST,,Unlisted,2008
+AMST,,Unlisted,2008
+AMST,,Sales,2008
+AMST,,Homemaker,2008
+AMST,,Public Relations,2008
+AMST,,Unlisted,2009
+AMST,,Unlisted,2009
+AMST,,Unlisted,2009
+AMST,,Business,2009
+AMST,,Government,2009
+AMST,,Unlisted,2009
+AMST,,Unlisted,2009
+AMST,,Unlisted,2009
+AMST,,Graduate Studies,2009
+AMST,,Unlisted,2009
+AMST,,Hotel/Food Management,2010
+AMST,,Unlisted,2010
+AMST,,Government,2010
+AMST,,Unlisted,2010
+AMST,,Homemaker,2010
+AMST,,Unlisted,2010
+AMST,,Medicine,2010
+AMST,,Advertising,2010
+AMST,,Law,2010
+AMST,,Veterinary/Animal Care,2010
+AMST,,Fundraising/Development,2011
+AMST,,Unlisted,2011
+AMST,,Unlisted,2011
+AMST,,Arts,2011
+AMST,,Energy Industries,2012
+ANTH,,Other,1995
+ANTH,,Unlisted,2001
+ANTH,,Insurance,2001
+ANTH,,Consulting,2001
+ANTH,,Medicine,2001
+ANTH,,Unlisted,2001
+ANTH,,Broadcast-Radio/Television,2002
+ANTH,,Graduate Studies,2002
+ANTH,,Unlisted,2002
+ANTH,,Unlisted,2002
+ANTH,,Unlisted,2002
+ANTH,,Unlisted,2002
+ANTH,,Public Relations,2002
+ANTH,,Unlisted,2002
+ANTH,,Nursing,2002
+ANTH,,Education (Elementary),2002
+ANTH,,Education (Secondary),2002
+ANTH,,Law,2002
+ANTH,,Business,2002
+ANTH,,"Research,Scientific",2002
+ANTH,,Communications,2002
+ANTH,,Non-Profit Adminstration,2002
+ANTH,,Unlisted,2002
+ANTH,,Volunteer,2002
+ANTH,,Graduate Studies,2003
+ANTH,,Publishing,2003
+ANTH,,Fundraising/Development,2003
+ANTH,,Education (Secondary),2003
+ANTH,,Arts,2003
+ANTH,,Unlisted,2003
+ANTH,,Unlisted,2003
+ANTH,,"Research,Scientific",2003
+ANTH,,Unlisted,2003
+ANTH,,Music,2003
+ANTH,,Other,2003
+ANTH,,Government,2003
+ANTH,,Unlisted,2004
+ANTH,,Consulting,2004
+ANTH,,Museum Work,2004
+ANTH,,Education (Secondary),2004
+ANTH,,Unlisted,2004
+ANTH,,Psychology/Counseling/Therapy,2004
+ANTH,,Education (Secondary),2004
+ANTH,,Unlisted,2004
+ANTH,,Law,2004
+ANTH,,Unlisted,2004
+ANTH,,Military,2004
+ANTH,,Unlisted,2004
+ANTH,,Investment/Securities,2004
+ANTH,,Unlisted,2005
+ANTH,,Library Science,2005
+ANTH,,Education (Elementary),2005
+ANTH,,Unlisted,2005
+ANTH,,Other,2005
+ANTH,,Environment/Ecology,2005
+ANTH,,Other,2005
+ANTH,,Graduate Studies,2005
+ANTH,,Law,2005
+ANTH,,Hotel/Food Management,2005
+ANTH,,Unlisted,2006
+ANTH,,Graduate Studies,2006
+ANTH,,ECommerce/Web,2006
+ANTH,,Graduate Studies,2006
+ANTH,,Publishing,2006
+ANTH,,"Research,Scientific",2006
+ANTH,,Entertainment,2006
+ANTH,,Graduate Studies,2006
+ANTH,,Publishing,2006
+ANTH,,Medicine,2006
+ANTH,,Other,2006
+ANTH,,Advertising,2006
+ANTH,,Unlisted,2006
+ANTH,,Government,2006
+ANTH,,Education (Secondary),2007
+ANTH,,Education (Higher Education),2007
+ANTH,,Unlisted,2007
+ANTH,,Ministry,2007
+ANTH,,Education (Secondary),2007
+ANTH,,Unlisted,2007
+ANTH,,Veterinary/Animal Care,2007
+ANTH,,Unlisted,2007
+ANTH,,Social Work/Human Services,2007
+ANTH,,Unlisted,2008
+ANTH,,Graduate Studies,2008
+ANTH,,Publishing,2008
+ANTH,,Sales,2008
+ANTH,,Unlisted,2008
+ANTH,,Sports,2008
+ANTH,,Government,2008
+ANTH,,Unlisted,2008
+ANTH,,Unlisted,2008
+ANTH,,Unlisted,2008
+ANTH,,Unlisted,2008
+ANTH,,Unlisted,2008
+ANTH,,Unlisted,2008
+ANTH,,Unlisted,2008
+ANTH,,Consulting,2008
+ANTH,,Nursing,2008
+ANTH,,Unlisted,2009
+ANTH,,Other,2009
+ANTH,,Banking,2009
+ANTH,,Sales,2009
+ANTH,,Education (Secondary),2009
+ANTH,,Unlisted,2009
+ANTH,,Unlisted,2009
+ANTH,,Education (Secondary),2009
+ANTH,,Other,2009
+ANTH,,Journalism,2009
+ANTH,,Unlisted,2009
+ANTH,,Marketing/Market Research,2009
+ANTH,,Unlisted,2009
+ANTH,,Graduate Studies,2009
+ANTH,,Advertising,2009
+ANTH,,Unlisted,2010
+ANTH,,Banking,2010
+ANTH,,Education (Secondary),2010
+ANTH,,Journalism,2010
+ANTH,,Entertainment,2010
+ANTH,,Marketing/Market Research,2010
+ANTH,,Marketing/Market Research,2010
+ANTH,,Unlisted,2010
+ANTH,,Sales,2010
+ANTH,,Education (Secondary),2010
+ANTH,,Psychology/Counseling/Therapy,2010
+ANTH,,Education (Secondary),2010
+ANTH,,Law,2010
+ANTH,,Volunteer,2010
+ANTH,,Health Care,2010
+ANTH,,Unlisted,2010
+ANTH,,Unlisted,2010
+ANTH,,Fundraising/Development,2010
+ANTH,,Graduate Studies,2011
+ANTH,,Nursing,2011
+ANTH,,Education (Secondary),2011
+ANTH,,Writing,2011
+ANTH,,Unlisted,2011
+ANTH,,Education (Secondary),2011
+ANTH,,Photography,2011
+ANTH,,Unlisted,2011
+ANTH,,Consulting,2011
+ANTH,,Other,2011
+ANTH,,Government,2011
+ANTH,,Advertising,2011
+ANTH,,Graduate Studies,2011
+ANTH,,Unlisted,2011
+ANTH,,Medicine,2011
+ANTH,,"Research,Scientific",2012
+ANTH,,Finance,2012
+ANTH,,Graduate Studies,2012
+ARHS,,"Research, Other",2001
+ARHS,,Ministry,2001
+ARHS,,Nursing,2001
+ARHS,,Unlisted,2001
+ARHS,,Education (Higher Education),2002
+ARHS,,Graduate Studies,2002
+ARHS,,Other,2002
+ARHS,,Unlisted,2002
+ARHS,,Energy Industries,2002
+ARHS,,Museum Work,2002
+ARHS,,Unlisted,2002
+ARHS,,Graduate Studies,2002
+ARHS,,Graduate Studies,2003
+ARHS,,Education (Higher Education),2003
+ARHS,,Graduate Studies,2003
+ARHS,,Education (Secondary),2003
+ARHS,,Arts,2003
+ARHS,,Unlisted,2003
+ARHS,,Unlisted,2003
+ARHS,,Business,2004
+ARHS,,Consulting,2004
+ARHS,,Graduate Studies,2004
+ARHS,,Graduate Studies,2004
+ARHS,,Nursing,2004
+ARHS,,Psychology/Counseling/Therapy,2005
+ARHS,,Education (Secondary),2005
+ARHS,,Unlisted,2005
+ARHS,,Education (Higher Education),2005
+ARHS,,Other,2005
+ARHS,,Sports,2005
+ARHS,,Military,2005
+ARHS,,Graduate Studies,2006
+ARHS,,Law,2006
+ARHS,,Unlisted,2006
+ARHS,,Graduate Studies,2006
+ARHS,,Other,2006
+ARHS,,Graduate Studies,2007
+ARHS,,Engineering,2007
+ARHS,,Education (Elementary),2007
+ARHS,,Education (Secondary),2007
+ARHS,,Marketing/Market Research,2007
+ARHS,,Unlisted,2007
+ARHS,,"Research,Scientific",2007
+ARHS,,Social Work/Human Services,2007
+ARHS,,Unlisted,2008
+ARHS,,Unlisted,2008
+ARHS,,Non-Profit Adminstration,2008
+ARHS,,Health Care,2008
+ARHS,,Unlisted,2008
+ARHS,,Unlisted,2008
+ARHS,,Unlisted,2009
+ARHS,,Unlisted,2009
+ARHS,,Writing,2009
+ARHS,,Unlisted,2009
+ARHS,,Other,2009
+ARHS,,Education (Secondary),2009
+ARHS,,Unlisted,2009
+ARHS,,Government,2009
+ARHS,,Publishing,2009
+ARHS,,Unlisted,2009
+ARHS,,Nursing,2009
+ARHS,,Unlisted,2009
+ARHS,,Other,2010
+ARHS,,Social Work/Human Services,2010
+ARHS,,Law,2010
+ARHS,,Unlisted,2010
+ARHS,,Finance,2010
+ARHS,,Education (Secondary),2010
+ARHS,,Government,2010
+ARHS,,Writing,2010
+ARHS,,Performing Arts,2011
+ARHS,,Arts,2011
+ARHS,,Unlisted,2011
+ARHS,,Graduate Studies,2011
+ARHS,,Unlisted,2011
+ARHS,,Unlisted,2011
+ARHS,,Unlisted,2011
+ARHS,,Arts,2011
+ARHS,,Education (Elementary),2011
+ARHS,,Arts,2011
+ARHS,,Publishing,2011
+ARHS,,Unlisted,2011
+ARHS,,Energy Industries,2011
+ARTS,,Other,2001
+ARTS,,Unlisted,2001
+ARTS,,Fundraising/Development,2001
+ARTS,,Environment/Ecology,2001
+ARTS,,Unlisted,2001
+ARTS,,Education (Higher Education),2002
+ARTS,,Unlisted,2002
+ARTS,,Unlisted,2002
+ARTS,,Museum Work,2002
+ARTS,,Unlisted,2002
+ARTS,,Unlisted,2002
+ARTS,,Unlisted,2002
+ARTS,,Medicine,2002
+ARTS,,Unlisted,2002
+ARTS,,Journalism,2003
+ARTS,,Education (Secondary),2003
+ARTS,,Education (Higher Education),2003
+ARTS,,Unlisted,2003
+ARTS,,Unlisted,2003
+ARTS,,Unlisted,2003
+ARTS,,Non-Profit Adminstration,2003
+ARTS,,Education (Higher Education),2003
+ARTS,,Marketing/Market Research,2003
+ARTS,,Government,2003
+ARTS,,Graduate Studies,2004
+ARTS,,Insurance,2004
+ARTS,,Finance,2004
+ARTS,,Unlisted,2004
+ARTS,,Government,2004
+ARTS,,Unlisted,2004
+ARTS,,Graduate Studies,2004
+ARTS,,Graduate Studies,2004
+ARTS,,Medicine,2005
+ARTS,,Education (Higher Education),2005
+ARTS,,Unlisted,2005
+ARTS,,Law,2005
+ARTS,,Unlisted,2005
+ARTS,,Graduate Studies,2005
+ARTS,,Unlisted,2006
+ARTS,,Law,2006
+ARTS,,Graduate Studies,2006
+ARTS,,Unlisted,2006
+ARTS,,Graduate Studies,2006
+ARTS,,Unlisted,2006
+ARTS,,Graduate Studies,2007
+ARTS,,Unlisted,2007
+ARTS,,Other,2007
+ARTS,,Graduate Studies,2007
+ARTS,,Unlisted,2007
+ARTS,,Unlisted,2007
+ARTS,,Unlisted,2007
+ARTS,,Homemaker,2008
+ARTS,,Graduate Studies,2008
+ARTS,,Marketing/Market Research,2008
+ARTS,,Law,2008
+ARTS,,Unlisted,2008
+ARTS,,Unlisted,2008
+ARTS,,Graduate Studies,2008
+ARTS,,Unlisted,2008
+ARTS,,Graduate Studies,2008
+ARTS,,Other,2008
+ARTS,,Finance,2008
+ARTS,,Arts,2008
+ARTS,,Health Care,2008
+ARTS,,Writing,2009
+ARTS,,Graduate Studies,2009
+ARTS,,Health Care,2010
+ARTS,,Graduate Studies,2010
+ARTS,,Unlisted,2010
+ARTS,,Unlisted,2010
+ARTS,,Education (Higher Education),2010
+ARTS,,Unlisted,2010
+ARTS,,Self Employed,2010
+ARTS,,Other,2010
+ARTS,,Consulting,2010
+ARTS,,Social Work/Human Services,2010
+ARTS,,Law,2010
+ARTS,,Unlisted,2010
+ARTS,,Broadcast-Radio/Television,2010
+ARTS,,Government,2010
+ARTS,,Graduate Studies,2010
+ARTS,,Education (Secondary),2010
+ARTS,,Education (Secondary),2010
+ARTS,,Graduate Studies,2010
+ARTS,,Psychology/Counseling/Therapy,2011
+ARTS,,Unlisted,2011
+ARTS,,Engineering,2011
+ARTS,,Law,2011
+ARTS,,Unlisted,2011
+ARTS,,Banking,2011
+ARTS,,Unlisted,2011
+ARTS,,Education (Secondary),2011
+ARTS,,Graduate Studies,2011
+ARTS,,Medicine,2011
+ARTS,,Hotel/Food Management,2012
+ARTS,,Unlisted,2012
+ARTS,,Other,2012
+BCHM,,Nursing,2000
+BCHM,,Graduate Studies,2000
+BCHM,,Finance,2001
+BCHM,,Performing Arts,2001
+BCHM,,Graduate Studies,2001
+BCHM,,Library Science,2001
+BCHM,,"Research,Scientific",2002
+BCHM,,Medicine,2002
+BCHM,,Unlisted,2003
+BCHM,,Homemaker,2003
+BCHM,,Law,2003
+BCHM,,Unlisted,2003
+BCHM,,Writing,2004
+BCHM,,Unlisted,2004
+BCHM,,Law,2004
+BCHM,,Graduate Studies,2004
+BCHM,,Ministry,2005
+BCHM,,Ministry,2005
+BCHM,,"Research,Scientific",2005
+BCHM,,Graduate Studies,2005
+BCHM,,Other,2006
+BCHM,,Nursing,2006
+BCHM,,Education (Secondary),2007
+BCHM,,Library Science,2007
+BCHM,,Marketing/Market Research,2007
+BCHM,,Unlisted,2007
+BCHM,,Other,2007
+BCHM,,Veterinary/Animal Care,2007
+BCHM,,Psychology/Counseling/Therapy,2008
+BCHM,,Psychology/Counseling/Therapy,2008
+BCHM,,Unlisted,2008
+BCHM,,Unlisted,2008
+BCHM,,Law,2008
+BCHM,,Insurance,2009
+BCHM,,Arts,2009
+BCHM,,Law,2009
+BCHM,,Architecture,2010
+BCHM,,Unlisted,2011
+BCHM,,Unlisted,2011
+BCHM,,Graduate Studies,2011
+BCHM,,Education (Higher Education),2011
+BCHM,,Unlisted,2011
+BCHM,,Graduate Studies,2011
+BCHM,,Unlisted,2011
+BCHM,,"Research, Other",2011
+BCHM,,Medicine,2011
+BCHM,,Ministry,2011
+BCHM,,Unlisted,2011
+BCHM,,Unlisted,2011
+BIOL,,Architecture,2001
+BIOL,,Other,2001
+BIOL,,Psychology/Counseling/Therapy,2001
+BIOL,,Law,2001
+BIOL,,Unlisted,2001
+BIOL,,Government,2002
+BIOL,,Unlisted,2002
+BIOL,,Graduate Studies,2002
+BIOL,,Law,2002
+BIOL,,Fundraising/Development,2002
+BIOL,,Travel Agency/Tourism,2002
+BIOL,,Unlisted,2002
+BIOL,,Fundraising/Development,2002
+BIOL,,Graduate Studies,2002
+BIOL,,Graduate Studies,2002
+BIOL,,Fundraising/Development,2002
+BIOL,,Law,2002
+BIOL,,Photography,2002
+BIOL,,Other,2002
+BIOL,,Unlisted,2003
+BIOL,,Finance,2003
+BIOL,,Education (Secondary),2003
+BIOL,,Entertainment,2003
+BIOL,,Unlisted,2003
+BIOL,,Graduate Studies,2003
+BIOL,,Arts,2003
+BIOL,,Unlisted,2003
+BIOL,,Non-Profit Adminstration,2003
+BIOL,,Graduate Studies,2003
+BIOL,,Unlisted,2003
+BIOL,,"Research,Scientific",2003
+BIOL,,Military,2003
+BIOL,,Unlisted,2003
+BIOL,,Ministry,2003
+BIOL,,Unlisted,2003
+BIOL,,Engineering,2003
+BIOL,,Entertainment,2003
+BIOL,,Construction,2003
+BIOL,,Other,2003
+BIOL,,Finance,2003
+BIOL,,Graduate Studies,2003
+BIOL,,Other,2004
+BIOL,,"Research,Scientific",2004
+BIOL,,Unlisted,2004
+BIOL,,Unlisted,2004
+BIOL,,Entertainment,2004
+BIOL,,Unlisted,2004
+BIOL,,Finance,2004
+BIOL,,Law,2004
+BIOL,,Unlisted,2004
+BIOL,,Unlisted,2004
+BIOL,,Education (Secondary),2004
+BIOL,,Consulting,2004
+BIOL,,Consulting,2004
+BIOL,,Non-Profit Adminstration,2004
+BIOL,,Unlisted,2004
+BIOL,,Writing,2004
+BIOL,,Self Employed,2004
+BIOL,,Graduate Studies,2004
+BIOL,,Unlisted,2005
+BIOL,,Banking,2005
+BIOL,,Unlisted,2005
+BIOL,,Unlisted,2005
+BIOL,,Unlisted,2005
+BIOL,,Homemaker,2005
+BIOL,,Graduate Studies,2005
+BIOL,,Unlisted,2005
+BIOL,,Unlisted,2005
+BIOL,,Sales,2005
+BIOL,,Accounting,2005
+BIOL,,Unlisted,2005
+BIOL,,Ministry,2006
+BIOL,,Graduate Studies,2006
+BIOL,,Other,2006
+BIOL,,Unlisted,2006
+BIOL,,Unlisted,2006
+BIOL,,Education (Secondary),2006
+BIOL,,Unlisted,2006
+BIOL,,Unlisted,2006
+BIOL,,Unlisted,2006
+BIOL,,Unlisted,2006
+BIOL,,Education (Secondary),2006
+BIOL,,Unlisted,2006
+BIOL,,Unlisted,2006
+BIOL,,Unlisted,2006
+BIOL,,Education (Secondary),2006
+BIOL,,Unlisted,2006
+BIOL,,Business,2006
+BIOL,,Other,2006
+BIOL,,Unlisted,2006
+BIOL,,Unlisted,2006
+BIOL,,Journalism,2006
+BIOL,,Education (Secondary),2006
+BIOL,,Unlisted,2006
+BIOL,,Psychology/Counseling/Therapy,2007
+BIOL,,Unlisted,2007
+BIOL,,Government,2007
+BIOL,,Unlisted,2007
+BIOL,,Social Work/Human Services,2007
+BIOL,,Unlisted,2007
+BIOL,,Unlisted,2007
+BIOL,,"Research,Scientific",2007
+BIOL,,Education (Secondary),2007
+BIOL,,Education (Higher Education),2007
+BIOL,,Other,2007
+BIOL,,Law,2007
+BIOL,,Banking,2007
+BIOL,,Real Estate,2007
+BIOL,,Broadcast-Radio/Television,2007
+BIOL,,Construction,2007
+BIOL,,International,2007
+BIOL,,Unlisted,2007
+BIOL,,Human Resources,2007
+BIOL,,"Research,Scientific",2008
+BIOL,,Other,2008
+BIOL,,Unlisted,2008
+BIOL,,Museum Work,2008
+BIOL,,Other,2008
+BIOL,,Unlisted,2008
+BIOL,,Graduate Studies,2008
+BIOL,,Banking,2008
+BIOL,,Law,2008
+BIOL,,Graduate Studies,2009
+BIOL,,Unlisted,2009
+BIOL,,Unlisted,2009
+BIOL,,Unlisted,2009
+BIOL,,Graduate Studies,2009
+BIOL,,Graduate Studies,2009
+BIOL,,Graduate Studies,2009
+BIOL,,Education (Secondary),2009
+BIOL,,Unlisted,2009
+BIOL,,Unlisted,2009
+BIOL,,Unlisted,2009
+BIOL,,Social Work/Human Services,2009
+BIOL,,Unlisted,2009
+BIOL,,Graduate Studies,2009
+BIOL,,Graduate Studies,2009
+BIOL,,Unlisted,2009
+BIOL,,Law,2009
+BIOL,,Government,2009
+BIOL,,"Research, Other",2009
+BIOL,,Unlisted,2009
+BIOL,,Government,2009
+BIOL,,Unlisted,2009
+BIOL,,Education (Secondary),2009
+BIOL,,Unlisted,2009
+BIOL,,Education (Higher Education),2009
+BIOL,,Social Work/Human Services,2009
+BIOL,,Law,2010
+BIOL,,Journalism,2010
+BIOL,,Graduate Studies,2010
+BIOL,,Graduate Studies,2010
+BIOL,,Education (Secondary),2010
+BIOL,,Unlisted,2010
+BIOL,,Marketing/Market Research,2010
+BIOL,,Graduate Studies,2010
+BIOL,,Law,2010
+BIOL,,Entertainment,2010
+BIOL,,Unlisted,2010
+BIOL,,"Research,Scientific",2010
+BIOL,,Graduate Studies,2010
+BIOL,,Graduate Studies,2011
+BIOL,,Entertainment,2011
+BIOL,,Medicine,2011
+BIOL,,Unlisted,2011
+BIOL,,Graduate Studies,2011
+BIOL,,Unlisted,2011
+BIOL,,Unlisted,2011
+BIOL,,Unlisted,2011
+BIOL,,Unlisted,2011
+BIOL,,Unlisted,2011
+BIOL,,Finance,2011
+BIOL,,Unlisted,2011
+BIOL,,Unlisted,2011
+BIOL,,Fundraising/Development,2011
+BIOL,,Banking,2011
+BIOL,,Unlisted,2011
+BIOL,,Public Relations,2011
+BIOL,,Graduate Studies,2012
+BIOL,,Library Science,2012
+BIOL,,Graduate Studies,2012
+BIOL,,Medicine,2012
+BIOL,,Social Work/Human Services,2012
+BIOL,,Social Work/Human Services,2012
+BIOL,,Unlisted,2012
+BIOL,,Graduate Studies,2012
+BIOL,,Unlisted,2012
+BIOL,,Publishing,2012
+BIOL,,Law,2012
+BIOL,,Education (Secondary),2012
+BIOL,,Unlisted,2012
+BIOL,,Other,2012
+CHEM,,Unlisted,2001
+CHEM,,Unlisted,2001
+CHEM,,Medicine,2001
+CHEM,,Education (Secondary),2001
+CHEM,,Unlisted,2001
+CHEM,,Education (Secondary),2001
+CHEM,,Unlisted,2002
+CHEM,,Education (Secondary),2002
+CHEM,,Marketing/Market Research,2002
+CHEM,,Unlisted,2002
+CHEM,,Consulting,2002
+CHEM,,Law,2002
+CHEM,,Other,2003
+CHEM,,Investment/Securities,2003
+CHEM,,Unlisted,2003
+CHEM,,Education (Secondary),2003
+CHEM,,Arts,2003
+CHEM,,Unlisted,2004
+CHEM,,Unlisted,2004
+CHEM,,Law Enforcement,2004
+CHEM,,Unlisted,2004
+CHEM,,"Research,Scientific",2005
+CHEM,,Government,2005
+CHEM,,Unlisted,2005
+CHEM,,Education (Secondary),2005
+CHEM,,Education (Secondary),2005
+CHEM,,Unlisted,2006
+CHEM,,Government,2006
+CHEM,,Education (Secondary),2006
+CHEM,,"Research,Scientific",2006
+CHEM,,Graduate Studies,2006
+CHEM,,Education (Secondary),2006
+CHEM,,Unlisted,2006
+CHEM,,Unlisted,2006
+CHEM,,Unlisted,2007
+CHEM,,Entertainment,2007
+CHEM,,Unlisted,2007
+CHEM,,Unlisted,2007
+CHEM,,Social Work/Human Services,2007
+CHEM,,Unlisted,2009
+CHEM,,Unlisted,2009
+CHEM,,Unlisted,2009
+CHEM,,Medicine,2009
+CHEM,,Government,2009
+CHEM,,Unlisted,2009
+CHEM,,Non-Profit Adminstration,2010
+CHEM,,Graduate Studies,2010
+CHEM,,Unlisted,2010
+CHEM,,Computer,2011
+CLAS,,Other,2001
+CLAS,,Unlisted,2001
+CLAS,,Unlisted,2001
+CLAS,,Unlisted,2001
+CLAS,,Law,2002
+CLAS,,Unlisted,2002
+CLAS,,Unlisted,2002
+CLAS,,Unlisted,2003
+CLAS,,Unlisted,2004
+CLAS,,Unlisted,2005
+CLAS,,Nursing,2005
+CLAS,,Other,2005
+CLAS,,Unlisted,2005
+CLAS,,Education (Secondary),2005
+CLAS,,Education (Higher Education),2005
+CLAS,,Graduate Studies,2006
+CLAS,,Publishing,2006
+CLAS,,Education (Elementary),2006
+CLAS,,Education (Elementary),2006
+CLAS,,Agriculture,2007
+CLAS,,Unlisted,2007
+CLAS,,Unlisted,2007
+CLAS,,Unlisted,2007
+CLAS,,Unlisted,2007
+CLAS,,Education (Higher Education),2007
+CLAS,,Other,2007
+CLAS,,Accounting,2007
+CLAS,,Unlisted,2007
+CLAS,,Publishing,2008
+CLAS,,Graduate Studies,2008
+CLAS,,Unlisted,2009
+CLAS,,Medicine,2009
+CLAS,,Education (Elementary),2009
+CLAS,,Unlisted,2009
+CLAS,,Homemaker,2009
+CLAS,,Law,2009
+CLAS,,Unlisted,2010
+CLAS,,Unlisted,2010
+CLAS,,Unlisted,2010
+CLAS,,Non-Profit Adminstration,2010
+CLAS,,Arts,2010
+CLAS,,Graduate Studies,2010
+CLAS,,Unlisted,2011
+CLAS,,Insurance,2011
+CLAS,,Social Work/Human Services,2011
+CLAS,,Graduate Studies,2011
+CLAS,,Education (Secondary),2011
+CLAS,,Unlisted,2012
+DANC,,Marketing/Market Research,1997
+DANC,,Graduate Studies,1998
+DANC,,Unlisted,1998
+DANC,,ECommerce/Web,2000
+DANC,,Sales,2000
+DANC,,Other,2003
+DANC,,Journalism,2005
+DANC,,Unlisted,2006
+DANC,,Graduate Studies,2007
+DANC,,Transportation,2008
+DANC,,Veterinary/Animal Care,2008
+DANC,,Education (Higher Education),2008
+DANC,,Graduate Studies,2009
+DANC,,Unlisted,2010
+DRAM,,"Research, Other",2001
+DRAM,,Public Relations,2001
+DRAM,,Journalism,2001
+DRAM,,Unlisted,2001
+DRAM,,Graduate Studies,2002
+DRAM,,Law,2002
+DRAM,,Human Resources,2002
+DRAM,,Unlisted,2002
+DRAM,,Unlisted,2002
+DRAM,,Graduate Studies,2002
+DRAM,,Education (Elementary),2002
+DRAM,,Other,2002
+DRAM,,Graduate Studies,2002
+DRAM,,Unlisted,2002
+DRAM,,Education (Elementary),2003
+DRAM,,Unlisted,2003
+DRAM,,Medicine,2003
+DRAM,,Unlisted,2003
+DRAM,,Marketing/Market Research,2003
+DRAM,,Museum Work,2003
+DRAM,,Unlisted,2003
+DRAM,,Unlisted,2003
+DRAM,,Unlisted,2003
+DRAM,,Other,2003
+DRAM,,Unlisted,2003
+DRAM,,Graduate Studies,2003
+DRAM,,Unlisted,2004
+DRAM,,Unlisted,2004
+DRAM,,Unlisted,2004
+DRAM,,Unlisted,2004
+DRAM,,Unlisted,2004
+DRAM,,Fundraising/Development,2004
+DRAM,,Unlisted,2004
+DRAM,,Unlisted,2004
+DRAM,,Social Work/Human Services,2004
+DRAM,,Entertainment,2004
+DRAM,,Unlisted,2004
+DRAM,,Unlisted,2004
+DRAM,,Museum Work,2004
+DRAM,,Environment/Ecology,2004
+DRAM,,Unlisted,2004
+DRAM,,Government,2005
+DRAM,,Government,2005
+DRAM,,Graduate Studies,2005
+DRAM,,Unlisted,2005
+DRAM,,Unlisted,2005
+DRAM,,Unlisted,2005
+DRAM,,Sports,2005
+DRAM,,Graduate Studies,2005
+DRAM,,Museum Work,2005
+DRAM,,Other,2005
+DRAM,,Other,2005
+DRAM,,Veterinary/Animal Care,2005
+DRAM,,Law,2005
+DRAM,,Education (Higher Education),2005
+DRAM,,Unlisted,2006
+DRAM,,Unlisted,2006
+DRAM,,Unlisted,2006
+DRAM,,Graduate Studies,2006
+DRAM,,Law,2006
+DRAM,,Education (Higher Education),2006
+DRAM,,Unlisted,2006
+DRAM,,Graduate Studies,2006
+DRAM,,Unlisted,2007
+DRAM,,Graduate Studies,2007
+DRAM,,Unlisted,2007
+DRAM,,Unlisted,2007
+DRAM,,Marketing/Market Research,2007
+DRAM,,Unlisted,2007
+DRAM,,Business,2008
+DRAM,,Unlisted,2008
+DRAM,,Other,2008
+DRAM,,Unlisted,2008
+DRAM,,Marketing/Market Research,2008
+DRAM,,"Research, Other",2008
+DRAM,,International,2008
+DRAM,,Unlisted,2008
+DRAM,,Law,2008
+DRAM,,Entertainment,2008
+DRAM,,Unlisted,2008
+DRAM,,Non-Profit Adminstration,2008
+DRAM,,Unlisted,2008
+DRAM,,"Research,Scientific",2008
+DRAM,,Sports,2008
+DRAM,,Unlisted,2008
+DRAM,,Unlisted,2009
+DRAM,,Unlisted,2009
+DRAM,,Journalism,2009
+DRAM,,Unlisted,2009
+DRAM,,Unlisted,2009
+DRAM,,Education (Elementary),2009
+DRAM,,Psychology/Counseling/Therapy,2009
+DRAM,,Non-Profit Adminstration,2009
+DRAM,,Arts,2009
+DRAM,,Music,2009
+DRAM,,Law,2009
+DRAM,,Unlisted,2009
+DRAM,,Computer,2009
+DRAM,,Unlisted,2009
+DRAM,,Marketing/Market Research,2009
+DRAM,,Law,2010
+DRAM,,Unlisted,2010
+DRAM,,Unlisted,2010
+DRAM,,Fundraising/Development,2010
+DRAM,,Medicine,2010
+DRAM,,Homemaker,2010
+DRAM,,Unlisted,2010
+DRAM,,Unlisted,2010
+DRAM,,Business,2010
+DRAM,,Education (Secondary),2010
+DRAM,,Graduate Studies,2010
+DRAM,,Unlisted,2010
+DRAM,,Merchandising/Retail,2011
+DRAM,,Education (Secondary),2011
+DRAM,,Unlisted,2011
+DRAM,,Entertainment,2011
+DRAM,,Unlisted,2012
+DRAM,,Broadcast-Radio/Television,2012
+DRAM,,Unlisted,2012
+DRAM,,Marketing/Market Research,2012
+DRAM,,Education (Elementary),2012
+DRAM,,Ministry,2012
+ECON,,Unlisted,2001
+ECON,,Graduate Studies,2001
+ECON,,Medicine,2001
+ECON,,Unlisted,2001
+ECON,,Graduate Studies,2002
+ECON,,Banking,2002
+ECON,,Unlisted,2002
+ECON,,Education (Secondary),2002
+ECON,,Unlisted,2002
+ECON,,Graduate Studies,2002
+ECON,,Education (Elementary),2002
+ECON,,Other,2002
+ECON,,Graduate Studies,2002
+ECON,,Unlisted,2002
+ECON,,Marketing/Market Research,2002
+ECON,,Unlisted,2002
+ECON,,Law,2003
+ECON,,Unlisted,2003
+ECON,,Unlisted,2003
+ECON,,Education (Elementary),2003
+ECON,,Unlisted,2003
+ECON,,Unlisted,2003
+ECON,,Unlisted,2003
+ECON,,Entertainment,2003
+ECON,,Unlisted,2003
+ECON,,Graduate Studies,2003
+ECON,,Unlisted,2003
+ECON,,Unlisted,2003
+ECON,,Unlisted,2003
+ECON,,Other,2003
+ECON,,Unlisted,2003
+ECON,,Agriculture,2004
+ECON,,Education (Higher Education),2004
+ECON,,Unlisted,2004
+ECON,,Unlisted,2004
+ECON,,Graduate Studies,2004
+ECON,,Unlisted,2004
+ECON,,Unlisted,2004
+ECON,,Unlisted,2004
+ECON,,Other,2004
+ECON,,Unlisted,2004
+ECON,,Writing,2004
+ECON,,Education (Higher Education),2004
+ECON,,Unlisted,2005
+ECON,,Unlisted,2005
+ECON,,Graduate Studies,2005
+ECON,,Government,2005
+ECON,,Other,2005
+ECON,,Unlisted,2005
+ECON,,Unlisted,2005
+ECON,,Sales,2005
+ECON,,Other,2005
+ECON,,Publishing,2005
+ECON,,Health Care,2005
+ECON,,Law,2005
+ECON,,Graduate Studies,2005
+ECON,,Graduate Studies,2006
+ECON,,Fundraising/Development,2006
+ECON,,Unlisted,2006
+ECON,,Graduate Studies,2006
+ECON,,Merchandising/Retail,2006
+ECON,,Unlisted,2006
+ECON,,Marketing/Market Research,2006
+ECON,,Unlisted,2006
+ECON,,Health Care,2006
+ECON,,Writing,2006
+ECON,,Unlisted,2006
+ECON,,Unlisted,2006
+ECON,,Education (Secondary),2006
+ECON,,Other,2006
+ECON,,Unlisted,2007
+ECON,,Non-Profit Adminstration,2007
+ECON,,Law,2007
+ECON,,Marketing/Market Research,2007
+ECON,,ECommerce/Web,2007
+ECON,,Graduate Studies,2007
+ECON,,Journalism,2007
+ECON,,Unlisted,2007
+ECON,,Unlisted,2007
+ECON,,Education (Secondary),2007
+ECON,,Unlisted,2007
+ECON,,Unlisted,2007
+ECON,,Unlisted,2007
+ECON,,Law,2007
+ECON,,Unlisted,2007
+ECON,,Graduate Studies,2007
+ECON,,Other,2008
+ECON,,Unlisted,2008
+ECON,,Education (Elementary),2008
+ECON,,Fundraising/Development,2008
+ECON,,Education (Elementary),2008
+ECON,,Unlisted,2008
+ECON,,Unlisted,2008
+ECON,,Graduate Studies,2008
+ECON,,Education (Elementary),2008
+ECON,,Unlisted,2008
+ECON,,Graduate Studies,2008
+ECON,,Unlisted,2008
+ECON,,Psychology/Counseling/Therapy,2008
+ECON,,Non-Profit Adminstration,2008
+ECON,,Unlisted,2008
+ECON,,Unlisted,2008
+ECON,,Government,2008
+ECON,,Unlisted,2008
+ECON,,Unlisted,2008
+ECON,,Unlisted,2009
+ECON,,Unlisted,2009
+ECON,,Unlisted,2009
+ECON,,"Research, Other",2009
+ECON,,Other,2009
+ECON,,Merchandising/Retail,2009
+ECON,,Unlisted,2009
+ECON,,Graduate Studies,2009
+ECON,,Unlisted,2009
+ECON,,Unlisted,2009
+ECON,,Graduate Studies,2009
+ECON,,Unlisted,2009
+ECON,,Unlisted,2009
+ECON,,Unlisted,2009
+ECON,,Unlisted,2009
+ECON,,Publishing,2009
+ECON,,Entertainment,2009
+ECON,,Education (Higher Education),2009
+ECON,,Unlisted,2009
+ECON,,Graduate Studies,2009
+ECON,,Unlisted,2010
+ECON,,Education (Higher Education),2010
+ECON,,Photography,2010
+ECON,,Finance,2010
+ECON,,Music,2010
+ECON,,Unlisted,2010
+ECON,,Health Care,2010
+ECON,,Unlisted,2010
+ECON,,Unlisted,2010
+ECON,,Other,2010
+ECON,,Unlisted,2010
+ECON,,Graduate Studies,2010
+ECON,,Computer,2010
+ECON,,Law,2010
+ECON,,Graduate Studies,2010
+ECON,,Agriculture,2010
+ECON,,Advertising,2010
+ECON,,Unlisted,2010
+ECON,,Education (Elementary),2010
+ECON,,Marketing/Market Research,2010
+ECON,,Other,2010
+ECON,,Graduate Studies,2010
+ECON,,Graduate Studies,2010
+ECON,,Education (Higher Education),2010
+ECON,,"Research,Scientific",2010
+ECON,,Unlisted,2010
+ECON,,Graduate Studies,2010
+ECON,,Unlisted,2010
+ECON,,Graduate Studies,2010
+ECON,,Graduate Studies,2010
+ECON,,Graduate Studies,2010
+ECON,,Graduate Studies,2010
+ECON,,Finance,2010
+ECON,,Veterinary/Animal Care,2010
+ECON,,Unlisted,2010
+ECON,,Graduate Studies,2010
+ECON,,Graduate Studies,2010
+ECON,,Publishing,2011
+ECON,,Unlisted,2011
+ECON,,Unlisted,2011
+ECON,,Unlisted,2011
+ECON,,Unlisted,2011
+ECON,,Sports,2011
+ECON,,Graduate Studies,2011
+ECON,,Graduate Studies,2011
+ECON,,Unlisted,2011
+ECON,,Unlisted,2011
+ECON,,Other,2011
+ECON,,Education (Secondary),2011
+ECON,,Medicine,2011
+ECON,,Military,2011
+ECON,,Law,2011
+ECON,,Energy Industries,2011
+ECON,,Psychology/Counseling/Therapy,2011
+ECON,,Computer,2011
+ECON,,Law,2011
+ECON,,Unlisted,2011
+ECON,,Computer,2011
+ECON,,Graduate Studies,2011
+ECON,,Unlisted,2011
+ECON,,Unlisted,2011
+ECON,,Graduate Studies,2011
+ECON,,Business,2011
+ECON,,Unlisted,2011
+ECON,,Marketing/Market Research,2011
+ECON,,Unlisted,2011
+ECON,,Transportation,2011
+ECON,,Unlisted,2011
+ECON,,Marketing/Market Research,2011
+ECON,,Other,2011
+ECON,,Unlisted,2011
+ECON,,"Research, Other",2012
+ECON,,International,2012
+ECON,,Consulting,2012
+ECON,,Unlisted,2012
+ECON,,Unlisted,2012
+ECON,,Entertainment,2012
+ECON,,Unlisted,2012
+ECON,,Graduate Studies,2012
+ECON,,Unlisted,2012
+ECON,,Other,2012
+ECON,,Other,2012
+ECON,,Education (Higher Education),2012
+ECON,,"Research,Scientific",2012
+ECON,,Unlisted,2012
+ECON,,Law,2012
+ECON,,Education (Secondary),2012
+ECON,,Graduate Studies,2012
+ECON,,Other,2012
+ENGL,,Library Science,2001
+ENGL,,Graduate Studies,2001
+ENGL,,Education (Secondary),2001
+ENGL,,Other,2001
+ENGL,,Unlisted,2001
+ENGL,,Education (Higher Education),2002
+ENGL,,Unlisted,2002
+ENGL,,Library Science,2002
+ENGL,,Unlisted,2002
+ENGL,,Unlisted,2002
+ENGL,,Unlisted,2002
+ENGL,,Psychology/Counseling/Therapy,2002
+ENGL,,Unlisted,2002
+ENGL,,Education (Higher Education),2002
+ENGL,,Education (Higher Education),2002
+ENGL,,Unlisted,2002
+ENGL,,Sales,2002
+ENGL,,Graduate Studies,2002
+ENGL,,Education (Secondary),2002
+ENGL,,Environment/Ecology,2002
+ENGL,,Unlisted,2002
+ENGL,,Other,2002
+ENGL,,Unlisted,2002
+ENGL,,Music,2002
+ENGL,,Unlisted,2002
+ENGL,,Finance,2002
+ENGL,,Unlisted,2002
+ENGL,,Music,2002
+ENGL,,Engineering,2002
+ENGL,,Unlisted,2002
+ENGL,,Library Science,2002
+ENGL,,"Research,Scientific",2002
+ENGL,,Consulting,2002
+ENGL,,Medicine,2002
+ENGL,,Unlisted,2002
+ENGL,,Other,2002
+ENGL,,Education (Elementary),2002
+ENGL,,Other,2002
+ENGL,,Unlisted,2002
+ENGL,,Unlisted,2002
+ENGL,,Unlisted,2002
+ENGL,,Unlisted,2002
+ENGL,,Education (Secondary),2002
+ENGL,,Other,2002
+ENGL,,Library Science,2002
+ENGL,,Education (Higher Education),2002
+ENGL,,Graduate Studies,2002
+ENGL,,Education (Secondary),2002
+ENGL,,Graduate Studies,2002
+ENGL,,ECommerce/Web,2002
+ENGL,,Unlisted,2002
+ENGL,,Health Care,2002
+ENGL,,Unlisted,2002
+ENGL,,Unlisted,2002
+ENGL,,Library Science,2002
+ENGL,,Other,2002
+ENGL,,Government,2002
+ENGL,,Education (Higher Education),2002
+ENGL,,Unlisted,2002
+ENGL,,Unlisted,2002
+ENGL,,Unlisted,2002
+ENGL,,Nursing,2002
+ENGL,,Unlisted,2002
+ENGL,,Unlisted,2002
+ENGL,,Writing,2002
+ENGL,,Unlisted,2002
+ENGL,,Medicine,2002
+ENGL,,Unlisted,2002
+ENGL,,Unlisted,2002
+ENGL,,Law,2003
+ENGL,,Performing Arts,2003
+ENGL,,Unlisted,2003
+ENGL,,Graduate Studies,2003
+ENGL,,Graduate Studies,2003
+ENGL,,Unlisted,2003
+ENGL,,Unlisted,2003
+ENGL,,Unlisted,2003
+ENGL,,Museum Work,2003
+ENGL,,Unlisted,2003
+ENGL,,Education (Elementary),2003
+ENGL,,Graduate Studies,2003
+ENGL,,Unlisted,2003
+ENGL,,Journalism,2003
+ENGL,,"Research,Scientific",2003
+ENGL,,Unlisted,2003
+ENGL,,Unlisted,2003
+ENGL,,Unlisted,2003
+ENGL,,Law,2003
+ENGL,,Unlisted,2003
+ENGL,,Unlisted,2003
+ENGL,,Insurance,2003
+ENGL,,Public Relations,2003
+ENGL,,Unlisted,2003
+ENGL,,Graduate Studies,2003
+ENGL,,Unlisted,2003
+ENGL,,Graduate Studies,2003
+ENGL,,Sales,2003
+ENGL,,Unlisted,2003
+ENGL,,Unlisted,2003
+ENGL,,Education (Higher Education),2003
+ENGL,,Human Resources,2003
+ENGL,,Unlisted,2003
+ENGL,,Unlisted,2003
+ENGL,,Unlisted,2003
+ENGL,,Unlisted,2003
+ENGL,,"Research,Scientific",2003
+ENGL,,Graduate Studies,2003
+ENGL,,Graduate Studies,2003
+ENGL,,Insurance,2003
+ENGL,,Education (Secondary),2003
+ENGL,,Unlisted,2003
+ENGL,,Medicine,2003
+ENGL,,"Research, Other",2003
+ENGL,,Graduate Studies,2003
+ENGL,,Graduate Studies,2003
+ENGL,,Medicine,2003
+ENGL,,Unlisted,2003
+ENGL,,Unlisted,2003
+ENGL,,Unlisted,2003
+ENGL,,Unlisted,2003
+ENGL,,Law,2003
+ENGL,,Banking,2003
+ENGL,,Non-Profit Adminstration,2003
+ENGL,,Unlisted,2003
+ENGL,,"Research,Scientific",2003
+ENGL,,Unlisted,2003
+ENGL,,Graduate Studies,2003
+ENGL,,Unlisted,2003
+ENGL,,Unlisted,2003
+ENGL,,Other,2003
+ENGL,,Education (Elementary),2003
+ENGL,,Unlisted,2003
+ENGL,,Unlisted,2004
+ENGL,,Engineering,2004
+ENGL,,Sports,2004
+ENGL,,Unlisted,2004
+ENGL,,Unlisted,2004
+ENGL,,Unlisted,2004
+ENGL,,Education (Elementary),2004
+ENGL,,Unlisted,2004
+ENGL,,Graduate Studies,2004
+ENGL,,Unlisted,2004
+ENGL,,Unlisted,2004
+ENGL,,Law,2004
+ENGL,,Entertainment,2004
+ENGL,,Unlisted,2004
+ENGL,,Unlisted,2004
+ENGL,,Merchandising/Retail,2004
+ENGL,,Unlisted,2004
+ENGL,,Unlisted,2004
+ENGL,,Unlisted,2004
+ENGL,,Graduate Studies,2004
+ENGL,,Medicine,2004
+ENGL,,Unlisted,2004
+ENGL,,Unlisted,2004
+ENGL,,Unlisted,2004
+ENGL,,Finance,2004
+ENGL,,Consulting,2004
+ENGL,,Unlisted,2004
+ENGL,,Graduate Studies,2004
+ENGL,,Education (Secondary),2004
+ENGL,,Other,2004
+ENGL,,Unlisted,2004
+ENGL,,Unlisted,2004
+ENGL,,Unlisted,2004
+ENGL,,Graduate Studies,2004
+ENGL,,Business,2004
+ENGL,,Unlisted,2004
+ENGL,,Unlisted,2004
+ENGL,,Unlisted,2004
+ENGL,,Unlisted,2004
+ENGL,,Publishing,2004
+ENGL,,Agriculture,2004
+ENGL,,Unlisted,2004
+ENGL,,Unlisted,2004
+ENGL,,Other,2004
+ENGL,,Medicine,2004
+ENGL,,Graduate Studies,2004
+ENGL,,Education (Secondary),2004
+ENGL,,Unlisted,2004
+ENGL,,Graduate Studies,2004
+ENGL,,Performing Arts,2004
+ENGL,,Real Estate,2004
+ENGL,,Non-Profit Adminstration,2004
+ENGL,,Advertising,2004
+ENGL,,Unlisted,2004
+ENGL,,Unlisted,2004
+ENGL,,Education (Secondary),2004
+ENGL,,Unlisted,2004
+ENGL,,Unlisted,2004
+ENGL,,Unlisted,2004
+ENGL,,Finance,2004
+ENGL,,Unlisted,2005
+ENGL,,Other,2005
+ENGL,,Unlisted,2005
+ENGL,,Business,2005
+ENGL,,Unlisted,2005
+ENGL,,Law,2005
+ENGL,,Unlisted,2005
+ENGL,,Psychology/Counseling/Therapy,2005
+ENGL,,Medicine,2005
+ENGL,,Graduate Studies,2005
+ENGL,,Law,2005
+ENGL,,Sports,2005
+ENGL,,Graduate Studies,2005
+ENGL,,Other,2005
+ENGL,,Graduate Studies,2005
+ENGL,,Unlisted,2005
+ENGL,,Unlisted,2005
+ENGL,,Nursing,2005
+ENGL,,Unlisted,2005
+ENGL,,Unlisted,2005
+ENGL,,Unlisted,2005
+ENGL,,Other,2005
+ENGL,,Graduate Studies,2005
+ENGL,,Unlisted,2005
+ENGL,,Education (Secondary),2005
+ENGL,,Consulting,2005
+ENGL,,Unlisted,2005
+ENGL,,Journalism,2005
+ENGL,,Sales,2005
+ENGL,,Unlisted,2005
+ENGL,,Medicine,2005
+ENGL,,Unlisted,2005
+ENGL,,Unlisted,2005
+ENGL,,Unlisted,2005
+ENGL,,Unlisted,2005
+ENGL,,Graduate Studies,2005
+ENGL,,Unlisted,2005
+ENGL,,Unlisted,2005
+ENGL,,Unlisted,2005
+ENGL,,Advertising,2005
+ENGL,,Other,2005
+ENGL,,Other,2005
+ENGL,,Unlisted,2005
+ENGL,,Health Care,2005
+ENGL,,Unlisted,2005
+ENGL,,Unlisted,2005
+ENGL,,Medicine,2005
+ENGL,,Unlisted,2005
+ENGL,,Graduate Studies,2005
+ENGL,,Graduate Studies,2005
+ENGL,,"Research,Scientific",2005
+ENGL,,Unlisted,2005
+ENGL,,Unlisted,2005
+ENGL,,Graduate Studies,2005
+ENGL,,Other,2005
+ENGL,,Sales,2005
+ENGL,,Unlisted,2005
+ENGL,,Computer,2005
+ENGL,,Unlisted,2005
+ENGL,,Graduate Studies,2005
+ENGL,,Graduate Studies,2005
+ENGL,,Communications,2005
+ENGL,,Photography,2005
+ENGL,,Other,2005
+ENGL,,Unlisted,2005
+ENGL,,Unlisted,2005
+ENGL,,Graduate Studies,2005
+ENGL,,Nursing,2005
+ENGL,,Unlisted,2005
+ENGL,,Unlisted,2005
+ENGL,,Graduate Studies,2005
+ENGL,,Graduate Studies,2006
+ENGL,,Law,2006
+ENGL,,Unlisted,2006
+ENGL,,Unlisted,2006
+ENGL,,Non-Profit Adminstration,2006
+ENGL,,Communications,2006
+ENGL,,Unlisted,2006
+ENGL,,Health Care,2006
+ENGL,,Unlisted,2006
+ENGL,,Finance,2006
+ENGL,,Law,2006
+ENGL,,Unlisted,2006
+ENGL,,Unlisted,2006
+ENGL,,Law,2006
+ENGL,,Health Care,2006
+ENGL,,Unlisted,2006
+ENGL,,Unlisted,2006
+ENGL,,Graduate Studies,2006
+ENGL,,Music,2006
+ENGL,,Other,2006
+ENGL,,Social Work/Human Services,2006
+ENGL,,Graduate Studies,2006
+ENGL,,Unlisted,2006
+ENGL,,Unlisted,2006
+ENGL,,Unlisted,2006
+ENGL,,Public Relations,2006
+ENGL,,Finance,2006
+ENGL,,Unlisted,2006
+ENGL,,Unlisted,2006
+ENGL,,Unlisted,2006
+ENGL,,Nursing,2006
+ENGL,,Banking,2006
+ENGL,,Nursing,2006
+ENGL,,Law,2006
+ENGL,,Unlisted,2006
+ENGL,,Unlisted,2006
+ENGL,,Unlisted,2006
+ENGL,,Entertainment,2006
+ENGL,,Graduate Studies,2006
+ENGL,,Computer,2006
+ENGL,,Unlisted,2006
+ENGL,,Graduate Studies,2006
+ENGL,,Unlisted,2006
+ENGL,,Unlisted,2006
+ENGL,,Business,2006
+ENGL,,Graduate Studies,2006
+ENGL,,Consulting,2006
+ENGL,,Graduate Studies,2006
+ENGL,,Unlisted,2006
+ENGL,,Graduate Studies,2006
+ENGL,,Investment/Securities,2006
+ENGL,,Unlisted,2006
+ENGL,,Unlisted,2006
+ENGL,,Unlisted,2006
+ENGL,,Graduate Studies,2006
+ENGL,,Unlisted,2006
+ENGL,,Finance,2006
+ENGL,,Unlisted,2006
+ENGL,,Unlisted,2006
+ENGL,,Unlisted,2006
+ENGL,,Unlisted,2006
+ENGL,,Unlisted,2006
+ENGL,,Unlisted,2006
+ENGL,,Law,2006
+ENGL,,Writing,2006
+ENGL,,Graduate Studies,2007
+ENGL,,Graduate Studies,2007
+ENGL,,Law,2007
+ENGL,,Unlisted,2007
+ENGL,,Unlisted,2007
+ENGL,,Other,2007
+ENGL,,Law,2007
+ENGL,,Unlisted,2007
+ENGL,,Graduate Studies,2007
+ENGL,,Computer,2007
+ENGL,,Unlisted,2007
+ENGL,,Unlisted,2007
+ENGL,,Unlisted,2007
+ENGL,,Graduate Studies,2007
+ENGL,,Unlisted,2007
+ENGL,,Unlisted,2007
+ENGL,,Unlisted,2007
+ENGL,,Graduate Studies,2007
+ENGL,,Environment/Ecology,2007
+ENGL,,Unlisted,2007
+ENGL,,Education (Secondary),2007
+ENGL,,Education (Higher Education),2007
+ENGL,,Education (Secondary),2007
+ENGL,,Unlisted,2007
+ENGL,,Publishing,2007
+ENGL,,"Research,Scientific",2007
+ENGL,,Unlisted,2007
+ENGL,,Unlisted,2007
+ENGL,,Unlisted,2007
+ENGL,,Unlisted,2007
+ENGL,,Unlisted,2007
+ENGL,,Publishing,2007
+ENGL,,"Research, Other",2007
+ENGL,,Education (Secondary),2007
+ENGL,,Unlisted,2007
+ENGL,,Human Resources,2007
+ENGL,,Museum Work,2007
+ENGL,,Real Estate,2007
+ENGL,,Education (Higher Education),2007
+ENGL,,Unlisted,2007
+ENGL,,Psychology/Counseling/Therapy,2007
+ENGL,,Unlisted,2007
+ENGL,,Non-Profit Adminstration,2007
+ENGL,,Sports,2007
+ENGL,,Law,2007
+ENGL,,"Research,Scientific",2007
+ENGL,,Consulting,2007
+ENGL,,Unlisted,2007
+ENGL,,Unlisted,2007
+ENGL,,Unlisted,2007
+ENGL,,Unlisted,2007
+ENGL,,Other,2007
+ENGL,,Unlisted,2007
+ENGL,,Unlisted,2007
+ENGL,,Unlisted,2007
+ENGL,,Non-Profit Adminstration,2007
+ENGL,,Unlisted,2008
+ENGL,,Unlisted,2008
+ENGL,,Unlisted,2008
+ENGL,,Graduate Studies,2008
+ENGL,,Social Work/Human Services,2008
+ENGL,,Other,2008
+ENGL,,Unlisted,2008
+ENGL,,Law,2008
+ENGL,,Graduate Studies,2008
+ENGL,,"Research,Scientific",2008
+ENGL,,Government,2008
+ENGL,,Unlisted,2008
+ENGL,,Graduate Studies,2008
+ENGL,,Unlisted,2008
+ENGL,,Unlisted,2008
+ENGL,,Unlisted,2008
+ENGL,,Unlisted,2008
+ENGL,,Graduate Studies,2008
+ENGL,,Graduate Studies,2008
+ENGL,,Unlisted,2008
+ENGL,,Graduate Studies,2008
+ENGL,,Unlisted,2008
+ENGL,,Unlisted,2008
+ENGL,,Engineering,2008
+ENGL,,Other,2008
+ENGL,,Veterinary/Animal Care,2008
+ENGL,,Writing,2008
+ENGL,,Health Care,2008
+ENGL,,Education (Secondary),2008
+ENGL,,Museum Work,2008
+ENGL,,Broadcast-Radio/Television,2008
+ENGL,,Consulting,2008
+ENGL,,Unlisted,2008
+ENGL,,Library Science,2008
+ENGL,,Unlisted,2008
+ENGL,,Public Relations,2008
+ENGL,,Health Care,2008
+ENGL,,Law,2008
+ENGL,,Nursing,2008
+ENGL,,Consulting,2008
+ENGL,,Unlisted,2008
+ENGL,,Communications,2008
+ENGL,,Unlisted,2008
+ENGL,,Unlisted,2008
+ENGL,,"Research,Scientific",2008
+ENGL,,Graduate Studies,2008
+ENGL,,Non-Profit Adminstration,2008
+ENGL,,Publishing,2008
+ENGL,,Unlisted,2008
+ENGL,,Social Work/Human Services,2008
+ENGL,,Unlisted,2008
+ENGL,,Unlisted,2008
+ENGL,,Other,2008
+ENGL,,Agriculture,2008
+ENGL,,Law,2008
+ENGL,,Unlisted,2008
+ENGL,,Unlisted,2008
+ENGL,,Unlisted,2008
+ENGL,,Unlisted,2009
+ENGL,,Business,2009
+ENGL,,Unlisted,2009
+ENGL,,Unlisted,2009
+ENGL,,Unlisted,2009
+ENGL,,Graduate Studies,2009
+ENGL,,Computer,2009
+ENGL,,Unlisted,2009
+ENGL,,Education (Higher Education),2009
+ENGL,,Unlisted,2009
+ENGL,,Unlisted,2009
+ENGL,,Health Care,2009
+ENGL,,Unlisted,2009
+ENGL,,Non-Profit Adminstration,2009
+ENGL,,Banking,2009
+ENGL,,Education (Higher Education),2009
+ENGL,,Unlisted,2009
+ENGL,,Unlisted,2009
+ENGL,,Unlisted,2009
+ENGL,,Unlisted,2009
+ENGL,,Unlisted,2009
+ENGL,,Education (Elementary),2009
+ENGL,,Graduate Studies,2009
+ENGL,,Other,2009
+ENGL,,"Research,Scientific",2009
+ENGL,,Education (Secondary),2009
+ENGL,,Government,2009
+ENGL,,Unlisted,2009
+ENGL,,Graduate Studies,2009
+ENGL,,Arts,2009
+ENGL,,Performing Arts,2009
+ENGL,,Sales,2009
+ENGL,,Unlisted,2009
+ENGL,,Graduate Studies,2009
+ENGL,,Journalism,2009
+ENGL,,Medicine,2009
+ENGL,,Unlisted,2009
+ENGL,,Music,2009
+ENGL,,Graduate Studies,2009
+ENGL,,Accounting,2009
+ENGL,,Other,2009
+ENGL,,Education (Higher Education),2009
+ENGL,,Other,2009
+ENGL,,Unlisted,2009
+ENGL,,Unlisted,2009
+ENGL,,Graduate Studies,2009
+ENGL,,Unlisted,2010
+ENGL,,Unlisted,2010
+ENGL,,Unlisted,2010
+ENGL,,Unlisted,2010
+ENGL,,Graduate Studies,2010
+ENGL,,Government,2010
+ENGL,,Unlisted,2010
+ENGL,,Non-Profit Adminstration,2010
+ENGL,,Unlisted,2010
+ENGL,,Graduate Studies,2010
+ENGL,,Graduate Studies,2010
+ENGL,,Law,2010
+ENGL,,Unlisted,2010
+ENGL,,Education (Secondary),2010
+ENGL,,Education (Higher Education),2010
+ENGL,,Unlisted,2010
+ENGL,,International,2010
+ENGL,,Performing Arts,2010
+ENGL,,Health Care,2010
+ENGL,,Unlisted,2010
+ENGL,,Unlisted,2010
+ENGL,,Other,2010
+ENGL,,Unlisted,2010
+ENGL,,Graduate Studies,2010
+ENGL,,Unlisted,2010
+ENGL,,Other,2010
+ENGL,,Publishing,2010
+ENGL,,Unlisted,2010
+ENGL,,Education (Secondary),2010
+ENGL,,Unlisted,2010
+ENGL,,Unlisted,2010
+ENGL,,Graduate Studies,2010
+ENGL,,Graduate Studies,2010
+ENGL,,Self Employed,2010
+ENGL,,Unlisted,2010
+ENGL,,Other,2010
+ENGL,,Education (Secondary),2010
+ENGL,,Writing,2010
+ENGL,,Graduate Studies,2010
+ENGL,,Graduate Studies,2010
+ENGL,,Education (Secondary),2010
+ENGL,,Unlisted,2010
+ENGL,,Unlisted,2010
+ENGL,,Unlisted,2010
+ENGL,,Unlisted,2010
+ENGL,,Unlisted,2010
+ENGL,,Unlisted,2010
+ENGL,,Unlisted,2010
+ENGL,,Graduate Studies,2011
+ENGL,,Unlisted,2011
+ENGL,,Volunteer,2011
+ENGL,,Education (Secondary),2011
+ENGL,,Unlisted,2011
+ENGL,,Unlisted,2011
+ENGL,,Education (Elementary),2011
+ENGL,,Unlisted,2011
+ENGL,,Law,2011
+ENGL,,Unlisted,2011
+ENGL,,Graduate Studies,2011
+ENGL,,Volunteer,2011
+ENGL,,Graduate Studies,2011
+ENGL,,Other,2011
+ENGL,,Medicine,2011
+ENGL,,Unlisted,2011
+ENGL,,Unlisted,2011
+ENGL,,Other,2011
+ENGL,,Unlisted,2011
+ENGL,,Arts,2011
+ENGL,,Unlisted,2011
+ENGL,,Graduate Studies,2011
+ENGL,,Unlisted,2011
+ENGL,,Unlisted,2011
+ENGL,,Unlisted,2011
+ENGL,,Unlisted,2011
+ENGL,,Education (Secondary),2011
+ENGL,,Unlisted,2011
+ENGL,,Unlisted,2011
+ENGL,,"Research,Scientific",2011
+ENGL,,Other,2011
+ENGL,,Unlisted,2011
+ENGL,,Other,2011
+ENGL,,Unlisted,2011
+ENGL,,Library Science,2011
+ENGL,,Medicine,2011
+ENGL,,Unlisted,2011
+ENGL,,"Research, Other",2011
+ENGL,,Unlisted,2011
+ENGL,,Unlisted,2011
+ENGL,,Unlisted,2011
+ENGL,,Marketing/Market Research,2011
+ENGL,,Other,2011
+ENGL,,Unlisted,2011
+ENGL,,Unlisted,2011
+ENGL,,Graduate Studies,2011
+ENGL,,Graduate Studies,2011
+ENGL,,Education (Elementary),2011
+ENGL,,Unlisted,2011
+ENGL,,Unlisted,2011
+ENGL,,Unlisted,2011
+ENGL,,Education (Higher Education),2011
+ENGL,,Unlisted,2011
+ENGL,,Other,2011
+ENGL,,Finance,2011
+ENGL,,Sports,2011
+ENGL,,Unlisted,2011
+ENGL,,Graduate Studies,2011
+ENGL,,Architecture,2011
+ENGL,,ECommerce/Web,2011
+ENGL,,Graduate Studies,2011
+ENGL,,Engineering,2011
+ENGL,,Other,2012
+ENGL,,Other,2012
+ENGL,,Graduate Studies,2012
+ENGL,,Unlisted,2012
+ENGL,,Unlisted,2012
+ENGL,,Graduate Studies,2012
+ENGL,,Unlisted,2012
+ENGL,,Unlisted,2012
+ENGL,,Unlisted,2012
+ENGL,,Communications,2012
+ENGL,,Unlisted,2012
+ENGL,,Publishing,2012
+ENGL,,Other,2012
+ENGL,,Graduate Studies,2012
+ENGL,,Unlisted,2012
+ENGL,,Unlisted,2012
+ENGL,,Law,2012
+ENGL,,Education (Secondary),2012
+ENGL,,Graduate Studies,2012
+ENGL,,Law,2012
+ENGL,,Unlisted,2012
+ENGL,,Unlisted,2012
+ENGL,,Graduate Studies,2012
+ENGL,,Education (Secondary),2012
+ENGL,,Unlisted,2012
+ENGL,,Graduate Studies,2012
+ENGL,,Library Science,2012
+ENGL,,Unlisted,2012
+ENGL,,Unlisted,2012
+ENGL,,Graduate Studies,2012
+ENGL,,Unlisted,2012
+ENGL,,Unlisted,2012
+ENGL,,Unlisted,2012
+ENGL,,Unlisted,2012
+ENGL,,Graduate Studies,2012
+ENGL,,Unlisted,2012
+ENGL,,Unlisted,2012
+ENGL,,Graduate Studies,2012
+ENGL,,Unlisted,2012
+ENGL,,Unlisted,2012
+ENGL,,Other,2012
+ENGL,,Graduate Studies,2012
+ENGL,,Unlisted,2012
+ENGL,,Unlisted,2012
+ENGL,,Other,2012
+ENGL,,Unlisted,2012
+ENGL,,Other,2012
+FILM,,Graduate Studies,2012
+FILM,,Unlisted,2012
+FILM,,Other,2012
+FILM,,Other,2012
+FILM,,Graduate Studies,2012
+FREN,,Graduate Studies,1999
+FREN,,Education (Secondary),1999
+FREN,,Non-Profit Adminstration,2000
+FREN,,Unlisted,2002
+FREN,,Social Work/Human Services,2004
+FREN,,Unlisted,2004
+FREN,,Graduate Studies,2005
+FREN,,Unlisted,2007
+FREN,,Music,2008
+FREN,,Unlisted,2009
+FREN,,Graduate Studies,2011
+FREN,,Unlisted,2011
+FREN,,Graduate Studies,2011
+GERM,,Law,1999
+GERM,,Education (Secondary),2000
+GERM,,Public Relations,2001
+HIST,,Education (Higher Education),2001
+HIST,,Law,2001
+HIST,,Graduate Studies,2001
+HIST,,Unlisted,2001
+HIST,,Graduate Studies,2002
+HIST,,Music,2002
+HIST,,Unlisted,2002
+HIST,,Graduate Studies,2002
+HIST,,Unlisted,2002
+HIST,,"Research, Other",2002
+HIST,,Unlisted,2002
+HIST,,Unlisted,2002
+HIST,,Education (Secondary),2002
+HIST,,Graduate Studies,2002
+HIST,,Law,2002
+HIST,,Social Work/Human Services,2002
+HIST,,Fundraising/Development,2002
+HIST,,Unlisted,2002
+HIST,,Unlisted,2002
+HIST,,Education (Secondary),2002
+HIST,,Graduate Studies,2002
+HIST,,Library Science,2002
+HIST,,Sports,2002
+HIST,,Unlisted,2002
+HIST,,Unlisted,2002
+HIST,,Other,2002
+HIST,,Unlisted,2002
+HIST,,Graduate Studies,2002
+HIST,,Education (Secondary),2002
+HIST,,Other,2002
+HIST,,Other,2002
+HIST,,Entertainment,2002
+HIST,,Energy Industries,2002
+HIST,,Graduate Studies,2002
+HIST,,Unlisted,2002
+HIST,,Education (Higher Education),2002
+HIST,,Unlisted,2002
+HIST,,Unlisted,2002
+HIST,,Graduate Studies,2002
+HIST,,Unlisted,2003
+HIST,,Unlisted,2003
+HIST,,Other,2003
+HIST,,Other,2003
+HIST,,Social Work/Human Services,2003
+HIST,,Psychology/Counseling/Therapy,2003
+HIST,,Banking,2003
+HIST,,Unlisted,2003
+HIST,,Education (Secondary),2003
+HIST,,Education (Higher Education),2003
+HIST,,Other,2003
+HIST,,Graduate Studies,2003
+HIST,,Publishing,2003
+HIST,,Government,2003
+HIST,,Law,2003
+HIST,,Education (Secondary),2003
+HIST,,Computer,2003
+HIST,,Other,2003
+HIST,,Unlisted,2003
+HIST,,Sales,2003
+HIST,,Unlisted,2003
+HIST,,Marketing/Market Research,2003
+HIST,,Unlisted,2003
+HIST,,Unlisted,2003
+HIST,,Agriculture,2003
+HIST,,Marketing/Market Research,2003
+HIST,,Graduate Studies,2003
+HIST,,Graduate Studies,2003
+HIST,,Education (Elementary),2003
+HIST,,Other,2003
+HIST,,Unlisted,2003
+HIST,,Medicine,2003
+HIST,,Unlisted,2003
+HIST,,Graduate Studies,2003
+HIST,,Graduate Studies,2004
+HIST,,Performing Arts,2004
+HIST,,Unlisted,2004
+HIST,,Unlisted,2004
+HIST,,Graduate Studies,2004
+HIST,,Ministry,2004
+HIST,,Unlisted,2004
+HIST,,Unlisted,2004
+HIST,,Sales,2004
+HIST,,Unlisted,2004
+HIST,,Unlisted,2004
+HIST,,Other,2004
+HIST,,Education (Secondary),2004
+HIST,,Unlisted,2004
+HIST,,Unlisted,2004
+HIST,,Computer,2004
+HIST,,Sports,2004
+HIST,,Marketing/Market Research,2004
+HIST,,Library Science,2004
+HIST,,Other,2004
+HIST,,Education (Elementary),2004
+HIST,,Unlisted,2004
+HIST,,Graduate Studies,2004
+HIST,,Unlisted,2004
+HIST,,Unlisted,2004
+HIST,,Psychology/Counseling/Therapy,2004
+HIST,,Entertainment,2004
+HIST,,Unlisted,2004
+HIST,,Unlisted,2004
+HIST,,Graduate Studies,2004
+HIST,,Unlisted,2004
+HIST,,Unlisted,2004
+HIST,,Graduate Studies,2004
+HIST,,Other,2004
+HIST,,Unlisted,2005
+HIST,,Non-Profit Adminstration,2005
+HIST,,Graduate Studies,2005
+HIST,,Unlisted,2005
+HIST,,Non-Profit Adminstration,2005
+HIST,,Unlisted,2005
+HIST,,Other,2005
+HIST,,Social Work/Human Services,2005
+HIST,,Sales,2005
+HIST,,Entertainment,2005
+HIST,,Unlisted,2005
+HIST,,Publishing,2005
+HIST,,Finance,2005
+HIST,,Unlisted,2005
+HIST,,Graduate Studies,2005
+HIST,,Unlisted,2005
+HIST,,Unlisted,2005
+HIST,,Unlisted,2005
+HIST,,Unlisted,2005
+HIST,,Health Care,2005
+HIST,,Other,2005
+HIST,,International,2005
+HIST,,Graduate Studies,2005
+HIST,,Unlisted,2005
+HIST,,Other,2005
+HIST,,Unlisted,2005
+HIST,,Other,2005
+HIST,,Graduate Studies,2005
+HIST,,Other,2005
+HIST,,Unlisted,2006
+HIST,,Graduate Studies,2006
+HIST,,Unlisted,2006
+HIST,,Unlisted,2006
+HIST,,Unlisted,2006
+HIST,,Graduate Studies,2006
+HIST,,Social Work/Human Services,2006
+HIST,,Education (Secondary),2006
+HIST,,Graduate Studies,2006
+HIST,,Education (Secondary),2006
+HIST,,Graduate Studies,2006
+HIST,,Unlisted,2006
+HIST,,Unlisted,2006
+HIST,,Business,2006
+HIST,,Unlisted,2006
+HIST,,Unlisted,2006
+HIST,,Graduate Studies,2006
+HIST,,Publishing,2006
+HIST,,Other,2006
+HIST,,Engineering,2006
+HIST,,Unlisted,2006
+HIST,,Law,2006
+HIST,,Computer,2006
+HIST,,Broadcast-Radio/Television,2007
+HIST,,Other,2007
+HIST,,Unlisted,2007
+HIST,,Unlisted,2007
+HIST,,Education (Secondary),2007
+HIST,,Finance,2007
+HIST,,Unlisted,2007
+HIST,,Unlisted,2007
+HIST,,Graduate Studies,2007
+HIST,,Graduate Studies,2007
+HIST,,Publishing,2007
+HIST,,Unlisted,2007
+HIST,,Military,2007
+HIST,,Investment/Securities,2007
+HIST,,Unlisted,2007
+HIST,,Sports,2007
+HIST,,Unlisted,2007
+HIST,,Education (Secondary),2007
+HIST,,Education (Secondary),2007
+HIST,,Writing,2007
+HIST,,Finance,2007
+HIST,,Unlisted,2007
+HIST,,Unlisted,2007
+HIST,,Unlisted,2007
+HIST,,Graduate Studies,2007
+HIST,,Graduate Studies,2008
+HIST,,Graduate Studies,2008
+HIST,,Self Employed,2008
+HIST,,Communications,2008
+HIST,,Sports,2008
+HIST,,Insurance,2008
+HIST,,Unlisted,2008
+HIST,,Unlisted,2008
+HIST,,Graduate Studies,2008
+HIST,,Unlisted,2008
+HIST,,Graduate Studies,2008
+HIST,,Graduate Studies,2008
+HIST,,Unlisted,2008
+HIST,,Advertising,2008
+HIST,,Other,2008
+HIST,,Unlisted,2008
+HIST,,Fundraising/Development,2008
+HIST,,Unlisted,2008
+HIST,,Unlisted,2008
+HIST,,Unlisted,2008
+HIST,,Unlisted,2008
+HIST,,Education (Secondary),2008
+HIST,,Unlisted,2008
+HIST,,Unlisted,2008
+HIST,,Insurance,2008
+HIST,,Other,2008
+HIST,,Education (Secondary),2008
+HIST,,Education (Secondary),2008
+HIST,,Entertainment,2008
+HIST,,Unlisted,2008
+HIST,,Unlisted,2008
+HIST,,Other,2009
+HIST,,Graduate Studies,2009
+HIST,,Unlisted,2009
+HIST,,Graduate Studies,2009
+HIST,,Nursing,2009
+HIST,,Unlisted,2009
+HIST,,Graduate Studies,2009
+HIST,,Unlisted,2009
+HIST,,Government,2009
+HIST,,Non-Profit Adminstration,2009
+HIST,,Unlisted,2009
+HIST,,Unlisted,2009
+HIST,,Unlisted,2009
+HIST,,Graduate Studies,2009
+HIST,,Sports,2009
+HIST,,Graduate Studies,2009
+HIST,,Unlisted,2009
+HIST,,Graduate Studies,2009
+HIST,,Unlisted,2009
+HIST,,Graduate Studies,2009
+HIST,,Sales,2009
+HIST,,Graduate Studies,2009
+HIST,,Unlisted,2009
+HIST,,Unlisted,2010
+HIST,,Graduate Studies,2010
+HIST,,Sports,2010
+HIST,,Unlisted,2010
+HIST,,Unlisted,2010
+HIST,,Graduate Studies,2010
+HIST,,Unlisted,2010
+HIST,,Unlisted,2010
+HIST,,Unlisted,2010
+HIST,,Unlisted,2010
+HIST,,Graduate Studies,2010
+HIST,,Graduate Studies,2010
+HIST,,Unlisted,2010
+HIST,,Unlisted,2010
+HIST,,Unlisted,2010
+HIST,,Unlisted,2010
+HIST,,Unlisted,2010
+HIST,,Graduate Studies,2010
+HIST,,Unlisted,2010
+HIST,,Unlisted,2010
+HIST,,Unlisted,2010
+HIST,,Unlisted,2010
+HIST,,Unlisted,2010
+HIST,,Unlisted,2010
+HIST,,Other,2010
+HIST,,Graduate Studies,2010
+HIST,,Education (Secondary),2010
+HIST,,Other,2010
+HIST,,Unlisted,2010
+HIST,,Law,2010
+HIST,,Unlisted,2010
+HIST,,Graduate Studies,2010
+HIST,,Other,2010
+HIST,,Graduate Studies,2010
+HIST,,Advertising,2011
+HIST,,Law,2011
+HIST,,Insurance,2011
+HIST,,Unlisted,2011
+HIST,,Unlisted,2011
+HIST,,Graduate Studies,2011
+HIST,,Unlisted,2011
+HIST,,Unlisted,2011
+HIST,,Public Relations,2011
+HIST,,Graduate Studies,2011
+HIST,,Education (Secondary),2011
+HIST,,Unlisted,2011
+HIST,,Unlisted,2011
+HIST,,Unlisted,2011
+HIST,,Graduate Studies,2011
+HIST,,Banking,2011
+HIST,,Sports,2011
+HIST,,Graduate Studies,2011
+HIST,,Arts,2011
+HIST,,Unlisted,2011
+HIST,,Library Science,2011
+HIST,,Graduate Studies,2011
+HIST,,Law,2012
+HIST,,Graduate Studies,2012
+HIST,,Other,2012
+HIST,,Education (Higher Education),2012
+HIST,,Unlisted,2012
+HIST,,Unlisted,2012
+HIST,,"Research,Scientific",2012
+HIST,,Graduate Studies,2012
+HIST,,Other,2012
+HIST,,Writing,2012
+HIST,,Unlisted,2012
+HIST,,Communications,2012
+HIST,,Other,2012
+HIST,,Unlisted,2012
+HIST,,Education (Higher Education),2012
+HIST,,Unlisted,2012
+HIST,,Unlisted,2012
+HIST,,Other,2012
+HIST,,Communications,2012
+HIST,,Other,2012
+HIST,,Unlisted,2012
+HIST,,Unlisted,2012
+HIST,,Unlisted,2012
+HIST,,Unlisted,2012
+INST,,Other,2012
+INST,,Unlisted,2001
+INST,,Graduate Studies,2001
+INST,,Unlisted,2001
+INST,,Unlisted,2001
+INST,,Other,2002
+INST,,Unlisted,2002
+INST,,Unlisted,2002
+INST,,Unlisted,2002
+INST,,Other,2002
+INST,,Unlisted,2002
+INST,,Unlisted,2002
+INST,,Graduate Studies,2002
+INST,,Graduate Studies,2002
+INST,,Graduate Studies,2002
+INST,,Volunteer,2002
+INST,,Law,2002
+INST,,Education (Secondary),2002
+INST,,Unlisted,2002
+INST,,Unlisted,2003
+INST,,Unlisted,2003
+INST,,Self Employed,2003
+INST,,Education (Higher Education),2003
+INST,,Arts,2003
+INST,,Other,2003
+INST,,Advertising,2003
+INST,,Unlisted,2003
+INST,,Unlisted,2003
+INST,,Unlisted,2003
+INST,,Unlisted,2003
+INST,,Consulting,2003
+INST,,Unlisted,2003
+INST,,Unlisted,2003
+INST,,Unlisted,2003
+INST,,Unlisted,2003
+INST,,Unlisted,2003
+INST,,Education (Higher Education),2004
+INST,,Unlisted,2004
+INST,,Government,2004
+INST,,Computer,2004
+INST,,Unlisted,2004
+INST,,Unlisted,2004
+INST,,"Research,Scientific",2004
+INST,,Unlisted,2004
+INST,,Unlisted,2004
+INST,,Unlisted,2004
+INST,,Graduate Studies,2004
+INST,,Unlisted,2004
+INST,,Unlisted,2004
+INST,,Other,2004
+INST,,Business,2004
+INST,,Unlisted,2005
+INST,,Education (Elementary),2005
+INST,,Education (Secondary),2005
+INST,,Other,2005
+INST,,Government,2005
+INST,,Unlisted,2005
+INST,,Unlisted,2005
+INST,,"Research,Scientific",2005
+INST,,Unlisted,2005
+INST,,Publishing,2005
+INST,,Graduate Studies,2006
+INST,,Graduate Studies,2006
+INST,,Unlisted,2006
+INST,,Unlisted,2006
+INST,,Accounting,2006
+INST,,Unlisted,2006
+INST,,Unlisted,2006
+INST,,Unlisted,2006
+INST,,Education (Higher Education),2006
+INST,,Graduate Studies,2006
+INST,,Graduate Studies,2006
+INST,,Education (Higher Education),2006
+INST,,Unlisted,2007
+INST,,Unlisted,2007
+INST,,Unlisted,2007
+INST,,Marketing/Market Research,2007
+INST,,Education (Elementary),2007
+INST,,Unlisted,2007
+INST,,Unlisted,2007
+INST,,Unlisted,2007
+INST,,Unlisted,2007
+INST,,Sports,2007
+INST,,Education (Secondary),2007
+INST,,Unlisted,2007
+INST,,Human Resources,2007
+INST,,Sports,2007
+INST,,Sales,2007
+INST,,Hotel/Food Management,2007
+INST,,Unlisted,2007
+INST,,Consulting,2007
+INST,,Unlisted,2007
+INST,,Unlisted,2007
+INST,,Unlisted,2008
+INST,,Unlisted,2008
+INST,,Unlisted,2008
+INST,,Unlisted,2008
+INST,,Sales,2008
+INST,,Unlisted,2008
+INST,,Investment/Securities,2008
+INST,,Unlisted,2008
+INST,,Unlisted,2008
+INST,,Unlisted,2008
+INST,,Education (Higher Education),2008
+INST,,Unlisted,2008
+INST,,Unlisted,2008
+INST,,Education (Higher Education),2008
+INST,,Graduate Studies,2008
+INST,,Unlisted,2008
+INST,,Unlisted,2008
+INST,,Unlisted,2008
+INST,,Unlisted,2009
+INST,,Banking,2009
+INST,,Graduate Studies,2009
+INST,,Marketing/Market Research,2009
+INST,,Unlisted,2009
+INST,,Unlisted,2009
+INST,,Banking,2009
+INST,,Health Care,2009
+INST,,Unlisted,2009
+INST,,Other,2009
+INST,,Unlisted,2009
+INST,,"Research,Scientific",2009
+INST,,Unlisted,2009
+INST,,Unlisted,2009
+INST,,Unlisted,2009
+INST,,Unlisted,2009
+INST,,Unlisted,2009
+INST,,Graduate Studies,2009
+INST,,Unlisted,2009
+INST,,Graduate Studies,2009
+INST,,Veterinary/Animal Care,2009
+INST,,Unlisted,2009
+INST,,Unlisted,2010
+INST,,Graduate Studies,2010
+INST,,Unlisted,2010
+INST,,Unlisted,2010
+INST,,Education (Secondary),2010
+INST,,Unlisted,2010
+INST,,Public Relations,2010
+INST,,Library Science,2010
+INST,,Agriculture,2010
+INST,,Non-Profit Adminstration,2010
+INST,,Unlisted,2010
+INST,,Education (Higher Education),2010
+INST,,"Research,Scientific",2010
+INST,,Unlisted,2010
+INST,,Education (Secondary),2010
+INST,,Graduate Studies,2010
+INST,,Unlisted,2010
+INST,,Other,2010
+INST,,Unlisted,2010
+INST,,Education (Secondary),2010
+INST,,Government,2010
+INST,,Unlisted,2011
+INST,,Unlisted,2011
+INST,,Volunteer,2011
+INST,,Graduate Studies,2011
+INST,,Investment/Securities,2011
+INST,,Unlisted,2011
+INST,,Graduate Studies,2011
+INST,,Non-Profit Adminstration,2011
+INST,,Graduate Studies,2011
+INST,,Unlisted,2011
+INST,,Graduate Studies,2011
+INST,,Unlisted,2011
+INST,,Other,2011
+INST,,Graduate Studies,2011
+INST,,Unlisted,2011
+INST,,Other,2011
+INST,,Unlisted,2011
+INST,,Unlisted,2011
+INST,,Other,2011
+INST,,Graduate Studies,2012
+INST,,Government,2012
+INST,,"Research, Other",2012
+INST,,Unlisted,2012
+INST,,Unlisted,2012
+INST,,Unlisted,2012
+INST,,Medicine,2012
+INST,,Unlisted,2012
+INST,,Business,2012
+INST,,Unlisted,2012
+INST,,Graduate Studies,2012
+INST,,Other,2012
+INST,,Education (Elementary),2012
+INST,,Unlisted,2012
+INST,,Unlisted,2012
+INST,,Education (Elementary),2012
+INST,,Other,2012
+INST,,Arts,2012
+MATH,,Unlisted,2002
+MATH,,Unlisted,2002
+MATH,,ECommerce/Web,2002
+MATH,,Government,2002
+MATH,,Education (Higher Education),2002
+MATH,,Education (Secondary),2002
+MATH,,Unlisted,2003
+MATH,,Other,2003
+MATH,,Marketing/Market Research,2003
+MATH,,Unlisted,2003
+MATH,,Sales,2004
+MATH,,Arts,2004
+MATH,,Education (Secondary),2004
+MATH,,Unlisted,2005
+MATH,,Agriculture,2005
+MATH,,Unlisted,2005
+MATH,,Graduate Studies,2005
+MATH,,Unlisted,2005
+MATH,,Health Care,2005
+MATH,,Unlisted,2005
+MATH,,Publishing,2006
+MATH,,Journalism,2006
+MATH,,Education (Secondary),2006
+MATH,,Unlisted,2006
+MATH,,Graduate Studies,2006
+MATH,,Entertainment,2007
+MATH,,Music,2007
+MATH,,Non-Profit Adminstration,2007
+MATH,,Unlisted,2007
+MATH,,Unlisted,2007
+MATH,,Graduate Studies,2007
+MATH,,Other,2007
+MATH,,Unlisted,2008
+MATH,,Unlisted,2008
+MATH,,Unlisted,2008
+MATH,,Unlisted,2008
+MATH,,Education (Elementary),2008
+MATH,,Library Science,2008
+MATH,,Unlisted,2009
+MATH,,Other,2009
+MATH,,Graduate Studies,2009
+MATH,,Unlisted,2009
+MATH,,Graduate Studies,2009
+MATH,,Unlisted,2009
+MATH,,Unlisted,2009
+MATH,,Law,2010
+MATH,,Consulting,2010
+MATH,,Unlisted,2010
+MATH,,Library Science,2010
+MATH,,Unlisted,2010
+MATH,,Graduate Studies,2010
+MATH,,Unlisted,2010
+MATH,,Government,2010
+MATH,,Law,2011
+MATH,,Education (Higher Education),2011
+MATH,,Unlisted,2011
+MATH,,Graduate Studies,2011
+MATH,,Other,2011
+MATH,,Unlisted,2011
+MATH,,Education (Higher Education),2011
+MATH,,Finance,2011
+MATH,,Government,2011
+MATH,,Health Care,2011
+MATH,,Unlisted,2012
+MATH,,Self Employed,2012
+MATH,,Insurance,2012
+MATH,,Unlisted,2012
+MBIO,,Unlisted,2001
+MBIO,,Sports,2002
+MBIO,,Finance,2002
+MBIO,,Graduate Studies,2003
+MBIO,,Education (Secondary),2003
+MBIO,,Other,2003
+MBIO,,Unlisted,2003
+MBIO,,Education (Higher Education),2003
+MBIO,,Other,2003
+MBIO,,Other,2003
+MBIO,,Unlisted,2004
+MBIO,,Health Care,2004
+MBIO,,"Research,Scientific",2004
+MBIO,,Unlisted,2004
+MBIO,,Unlisted,2004
+MBIO,,Education (Secondary),2004
+MBIO,,Entertainment,2005
+MBIO,,Unlisted,2005
+MBIO,,Unlisted,2005
+MBIO,,Unlisted,2005
+MBIO,,Other,2005
+MBIO,,Fundraising/Development,2005
+MBIO,,Museum Work,2005
+MBIO,,Education (Secondary),2005
+MBIO,,Education (Secondary),2005
+MBIO,,Graduate Studies,2006
+MBIO,,Journalism,2006
+MBIO,,Unlisted,2006
+MBIO,,Arts,2006
+MBIO,,Health Care,2006
+MBIO,,Other,2006
+MBIO,,Unlisted,2006
+MBIO,,Unlisted,2006
+MBIO,,Advertising,2007
+MBIO,,Unlisted,2007
+MBIO,,Unlisted,2007
+MBIO,,Library Science,2007
+MBIO,,Consulting,2007
+MBIO,,Education (Secondary),2007
+MBIO,,Volunteer,2007
+MBIO,,Graduate Studies,2008
+MBIO,,Education (Secondary),2008
+MBIO,,Hotel/Food Management,2008
+MBIO,,Business,2008
+MBIO,,Graduate Studies,2008
+MBIO,,Graduate Studies,2008
+MBIO,,Unlisted,2008
+MBIO,,Other,2008
+MBIO,,Unlisted,2008
+MBIO,,Unlisted,2009
+MBIO,,Arts,2009
+MBIO,,Unlisted,2009
+MBIO,,Health Care,2009
+MBIO,,Unlisted,2009
+MBIO,,"Research,Scientific",2009
+MBIO,,Unlisted,2009
+MBIO,,Unlisted,2010
+MBIO,,Graduate Studies,2010
+MBIO,,Health Care,2010
+MBIO,,Graduate Studies,2010
+MBIO,,Unlisted,2010
+MBIO,,Unlisted,2010
+MBIO,,Unlisted,2010
+MBIO,,Unlisted,2010
+MBIO,,Health Care,2010
+MBIO,,Unlisted,2010
+MBIO,,Unlisted,2011
+MBIO,,Graduate Studies,2011
+MBIO,,Other,2011
+MBIO,,Unlisted,2011
+MBIO,,Other,2011
+MBIO,,Unlisted,2011
+MBIO,,Unlisted,2011
+MBIO,,Graduate Studies,2011
+MBIO,,Unlisted,2012
+MBIO,,Graduate Studies,2012
+MBIO,,Sports,2012
+MBIO,,Unlisted,2012
+MBIO,,Business,2012
+MLL,,Health Care,2001
+MLL,,Graduate Studies,2001
+MLL,,Unlisted,2002
+MLL,,Unlisted,2002
+MLL,,Unlisted,2002
+MLL,,Unlisted,2002
+MLL,,Unlisted,2002
+MLL,,Graduate Studies,2002
+MLL,,Writing,2003
+MLL,,Environment/Ecology,2003
+MLL,,Education (Secondary),2003
+MLL,,Graduate Studies,2003
+MLL,,Unlisted,2003
+MLL,,Unlisted,2003
+MLL,,Unlisted,2004
+MLL,,Environment/Ecology,2004
+MLL,,"Research,Scientific",2004
+MLL,,Graduate Studies,2004
+MLL,,Education (Higher Education),2004
+MLL,,Unlisted,2005
+MLL,,Unlisted,2006
+MLL,,Unlisted,2006
+MLL,,Unlisted,2006
+MLL,,Unlisted,2006
+MLL,,Merchandising/Retail,2006
+MLL,,Non-Profit Adminstration,2006
+MLL,,Unlisted,2007
+MLL,,Sports,2007
+MLL,,Graduate Studies,2007
+MLL,,Unlisted,2007
+MLL,,Unlisted,2007
+MLL,,Unlisted,2008
+MLL,,Environment/Ecology,2008
+MLL,,Sales,2008
+MLL,,Other,2008
+MLL,,Library Science,2008
+MLL,,Other,2008
+MLL,,Law,2008
+MLL,,Graduate Studies,2008
+MLL,,Graduate Studies,2009
+MLL,,Law,2009
+MLL,,Unlisted,2009
+MLL,,Graduate Studies,2009
+MLL,,Unlisted,2009
+MLL,,Unlisted,2009
+MLL,,Other,2009
+MLL,,Unlisted,2009
+MLL,,Fundraising/Development,2009
+MLL,,Graduate Studies,2010
+MLL,,Unlisted,2010
+MLL,,Travel Agency/Tourism,2010
+MLL,,Unlisted,2010
+MLL,,Graduate Studies,2010
+MLL,,Entertainment,2010
+MLL,,Unlisted,2010
+MLL,,Unlisted,2010
+MLL,,Graduate Studies,2010
+MLL,,Nursing,2010
+MLL,,Unlisted,2010
+MLL,,Unlisted,2011
+MLL,,Graduate Studies,2011
+MLL,,Graduate Studies,2011
+MLL,,Education (Secondary),2011
+MLL,,Other,2011
+MLL,,Unlisted,2011
+MLL,,Consulting,2011
+MLL,,Unlisted,2011
+MLL,,Graduate Studies,2011
+MLL,,Unlisted,2011
+MLL,,International,2012
+MLL,,Other,2012
+MLL,,Unlisted,2012
+MLL,,Unlisted,2012
+MLL,,Unlisted,2012
+MLL,,Unlisted,2012
+MLL,,Education (Secondary),2012
+MLL,,Graduate Studies,2012
+MLL,,Unlisted,2012
+MLL,,Unlisted,2012
+MLL,,Environment/Ecology,2012
+MLL,,Unlisted,2012
+MLL,,Education (Secondary),2012
+MUSC,,Unlisted,2001
+MUSC,,Unlisted,2001
+MUSC,,Unlisted,2002
+MUSC,,Unlisted,2002
+MUSC,,Education (Elementary),2002
+MUSC,,Psychology/Counseling/Therapy,2002
+MUSC,,Non-Profit Adminstration,2002
+MUSC,,Unlisted,2002
+MUSC,,Unlisted,2002
+MUSC,,Journalism,2002
+MUSC,,Non-Profit Adminstration,2003
+MUSC,,Unlisted,2003
+MUSC,,Unlisted,2003
+MUSC,,Unlisted,2003
+MUSC,,Unlisted,2003
+MUSC,,Unlisted,2003
+MUSC,,Unlisted,2004
+MUSC,,Agriculture,2004
+MUSC,,Unlisted,2004
+MUSC,,Unlisted,2004
+MUSC,,Graduate Studies,2004
+MUSC,,Graduate Studies,2004
+MUSC,,Non-Profit Adminstration,2004
+MUSC,,Unlisted,2004
+MUSC,,Education (Higher Education),2005
+MUSC,,Graduate Studies,2005
+MUSC,,Unlisted,2005
+MUSC,,Graduate Studies,2005
+MUSC,,Unlisted,2005
+MUSC,,Marketing/Market Research,2005
+MUSC,,Unlisted,2005
+MUSC,,Unlisted,2005
+MUSC,,Unlisted,2005
+MUSC,,Unlisted,2006
+MUSC,,Unlisted,2006
+MUSC,,Unlisted,2006
+MUSC,,Education (Elementary),2006
+MUSC,,Graduate Studies,2006
+MUSC,,Other,2006
+MUSC,,Unlisted,2006
+MUSC,,Other,2006
+MUSC,,Unlisted,2006
+MUSC,,Unlisted,2006
+MUSC,,Unlisted,2007
+MUSC,,Unlisted,2007
+MUSC,,Unlisted,2007
+MUSC,,Unlisted,2007
+MUSC,,Unlisted,2007
+MUSC,,Unlisted,2007
+MUSC,,Unlisted,2007
+MUSC,,Unlisted,2007
+MUSC,,Unlisted,2007
+MUSC,,Entertainment,2008
+MUSC,,Education (Secondary),2008
+MUSC,,Unlisted,2008
+MUSC,,Graduate Studies,2008
+MUSC,,Real Estate,2008
+MUSC,,Other,2008
+MUSC,,Unlisted,2009
+MUSC,,Public Relations,2009
+MUSC,,Unlisted,2009
+MUSC,,Law,2009
+MUSC,,Unlisted,2009
+MUSC,,Unlisted,2010
+MUSC,,Unlisted,2010
+MUSC,,Unlisted,2010
+MUSC,,Other,2010
+MUSC,,Other,2010
+MUSC,,Graduate Studies,2010
+MUSC,,Unlisted,2010
+MUSC,,Graduate Studies,2010
+MUSC,,Finance,2010
+MUSC,,Unlisted,2011
+MUSC,,Unlisted,2011
+MUSC,,Education (Elementary),2011
+MUSC,,Graduate Studies,2012
+NEUR,,Unlisted,2001
+NEUR,,Law,2001
+NEUR,,Unlisted,2001
+NEUR,,Education (Secondary),2002
+NEUR,,Other,2002
+NEUR,,Unlisted,2002
+NEUR,,Education (Elementary),2003
+NEUR,,Other,2003
+NEUR,,Unlisted,2003
+NEUR,,Education (Higher Education),2004
+NEUR,,Fundraising/Development,2004
+NEUR,,Social Work/Human Services,2004
+NEUR,,Unlisted,2004
+NEUR,,Sports,2004
+NEUR,,Arts,2004
+NEUR,,Unlisted,2004
+NEUR,,Unlisted,2004
+NEUR,,Unlisted,2005
+NEUR,,Non-Profit Adminstration,2005
+NEUR,,Unlisted,2005
+NEUR,,Unlisted,2005
+NEUR,,Education (Secondary),2006
+NEUR,,Unlisted,2006
+NEUR,,Unlisted,2006
+NEUR,,Unlisted,2006
+NEUR,,Other,2006
+NEUR,,Unlisted,2006
+NEUR,,Graduate Studies,2007
+NEUR,,Unlisted,2007
+NEUR,,Unlisted,2007
+NEUR,,Unlisted,2007
+NEUR,,Unlisted,2007
+NEUR,,ECommerce/Web,2008
+NEUR,,Unlisted,2008
+NEUR,,Unlisted,2009
+NEUR,,Unlisted,2009
+NEUR,,Museum Work,2009
+NEUR,,Unlisted,2009
+NEUR,,Unlisted,2009
+NEUR,,Consulting,2009
+NEUR,,Unlisted,2009
+NEUR,,Unlisted,2009
+NEUR,,Unlisted,2010
+NEUR,,Unlisted,2010
+NEUR,,Other,2010
+NEUR,,Unlisted,2010
+NEUR,,Unlisted,2010
+NEUR,,Unlisted,2010
+NEUR,,Unlisted,2010
+NEUR,,Education (Secondary),2011
+NEUR,,Unlisted,2011
+NEUR,,Advertising,2011
+NEUR,,Graduate Studies,2011
+NEUR,,Other,2011
+NEUR,,Unlisted,2012
+PHIL,,Graduate Studies,2001
+PHIL,,Graduate Studies,2001
+PHIL,,Unlisted,2002
+PHIL,,Unlisted,2002
+PHIL,,Unlisted,2002
+PHIL,,Law,2002
+PHIL,,Unlisted,2002
+PHIL,,Unlisted,2002
+PHIL,,Consulting,2002
+PHIL,,Unlisted,2003
+PHIL,,Graduate Studies,2003
+PHIL,,Unlisted,2003
+PHIL,,Unlisted,2003
+PHIL,,Music,2003
+PHIL,,Unlisted,2003
+PHIL,,Unlisted,2003
+PHIL,,Graduate Studies,2003
+PHIL,,Unlisted,2003
+PHIL,,Arts,2003
+PHIL,,Unlisted,2003
+PHIL,,Consulting,2004
+PHIL,,Broadcast-Radio/Television,2004
+PHIL,,Education (Secondary),2004
+PHIL,,Unlisted,2004
+PHIL,,Unlisted,2004
+PHIL,,Entertainment,2004
+PHIL,,Government,2004
+PHIL,,Engineering,2005
+PHIL,,Unlisted,2005
+PHIL,,Non-Profit Adminstration,2005
+PHIL,,Unlisted,2005
+PHIL,,Unlisted,2005
+PHIL,,Government,2006
+PHIL,,Publishing,2006
+PHIL,,Finance,2006
+PHIL,,Unlisted,2006
+PHIL,,Unlisted,2006
+PHIL,,Unlisted,2006
+PHIL,,Unlisted,2006
+PHIL,,Sales,2006
+PHIL,,Unlisted,2006
+PHIL,,Unlisted,2007
+PHIL,,Graduate Studies,2007
+PHIL,,Unlisted,2007
+PHIL,,Architecture,2007
+PHIL,,Unlisted,2007
+PHIL,,Education (Secondary),2007
+PHIL,,Unlisted,2007
+PHIL,,Unlisted,2007
+PHIL,,Graduate Studies,2007
+PHIL,,Education (Secondary),2007
+PHIL,,Other,2007
+PHIL,,Unlisted,2008
+PHIL,,Education (Secondary),2008
+PHIL,,Law,2008
+PHIL,,Graduate Studies,2008
+PHIL,,Unlisted,2008
+PHIL,,Other,2008
+PHIL,,Sports,2008
+PHIL,,Law,2008
+PHIL,,Engineering,2008
+PHIL,,Other,2008
+PHIL,,Unlisted,2008
+PHIL,,Other,2008
+PHIL,,Unlisted,2008
+PHIL,,Unlisted,2008
+PHIL,,Unlisted,2008
+PHIL,,Unlisted,2009
+PHIL,,Consulting,2009
+PHIL,,"Research,Scientific",2009
+PHIL,,Unlisted,2010
+PHIL,,Photography,2010
+PHIL,,Unlisted,2010
+PHIL,,Unlisted,2010
+PHIL,,"Research,Scientific",2010
+PHIL,,Unlisted,2010
+PHIL,,Banking,2010
+PHIL,,Other,2010
+PHIL,,Hotel/Food Management,2010
+PHIL,,Education (Secondary),2010
+PHIL,,Unlisted,2011
+PHIL,,Education (Secondary),2011
+PHIL,,Graduate Studies,2011
+PHIL,,Sales,2011
+PHIL,,Unlisted,2011
+PHIL,,Unlisted,2011
+PHIL,,Unlisted,2011
+PHIL,,Graduate Studies,2011
+PHIL,,Education (Elementary),2011
+PHIL,,Volunteer,2011
+PHIL,,Unlisted,2011
+PHIL,,Banking,2011
+PHIL,,Other,2011
+PHIL,,Graduate Studies,2011
+PHIL,,Insurance,2011
+PHIL,,Graduate Studies,2012
+PHIL,,Unlisted,2012
+PHIL,,Unlisted,2012
+PHIL,,Unlisted,2012
+PHIL,,Unlisted,2012
+PHIL,,International,2012
+PHIL,,Unlisted,2012
+PHIL,,Unlisted,2012
+PHIL,,Unlisted,2012
+PHIL,,Unlisted,2012
+PHIL,,Unlisted,2012
+PHIL,,Unlisted,2012
+PHYS,,Unlisted,2001
+PHYS,,Unlisted,2001
+PHYS,,Other,2002
+PHYS,,Unlisted,2002
+PHYS,,Unlisted,2002
+PHYS,,Finance,2002
+PHYS,,Education (Secondary),2002
+PHYS,,Graduate Studies,2002
+PHYS,,Computer,2003
+PHYS,,Other,2003
+PHYS,,Unlisted,2003
+PHYS,,Unlisted,2003
+PHYS,,Non-Profit Adminstration,2003
+PHYS,,Other,2003
+PHYS,,Graduate Studies,2004
+PHYS,,Unlisted,2004
+PHYS,,Unlisted,2004
+PHYS,,Telecommunications,2004
+PHYS,,Entertainment,2005
+PHYS,,Unlisted,2005
+PHYS,,Unlisted,2005
+PHYS,,Unlisted,2005
+PHYS,,Unlisted,2007
+PHYS,,Other,2007
+PHYS,,Unlisted,2007
+PHYS,,Unlisted,2008
+PHYS,,Unlisted,2008
+PHYS,,Finance,2008
+PHYS,,Unlisted,2008
+PHYS,,Unlisted,2008
+PHYS,,Unlisted,2009
+PHYS,,Unlisted,2009
+PHYS,,Education (Elementary),2009
+PHYS,,Unlisted,2009
+PHYS,,Finance,2010
+PHYS,,Other,2010
+PHYS,,Graduate Studies,2010
+PHYS,,Other,2010
+PHYS,,Other,2010
+PHYS,,Other,2010
+PHYS,,Unlisted,2010
+PHYS,,Unlisted,2010
+PHYS,,Graduate Studies,2011
+PHYS,,Unlisted,2011
+PHYS,,Other,2011
+PHYS,,Unlisted,2011
+PHYS,,Other,2012
+PHYS,,Education (Secondary),2012
+PHYS,,Unlisted,2012
+PHYS,,Graduate Studies,2012
+PSCI,,Unlisted,2001
+PSCI,,Unlisted,2001
+PSCI,,Unlisted,2002
+PSCI,,Real Estate,2002
+PSCI,,Unlisted,2002
+PSCI,,Unlisted,2002
+PSCI,,Graduate Studies,2002
+PSCI,,Other,2002
+PSCI,,Marketing/Market Research,2002
+PSCI,,Unlisted,2002
+PSCI,,Unlisted,2002
+PSCI,,Education (Elementary),2002
+PSCI,,Investment/Securities,2002
+PSCI,,Graduate Studies,2002
+PSCI,,Other,2002
+PSCI,,Unlisted,2002
+PSCI,,Unlisted,2002
+PSCI,,Graduate Studies,2002
+PSCI,,"Research,Scientific",2002
+PSCI,,Banking,2002
+PSCI,,Graduate Studies,2002
+PSCI,,Education (Secondary),2002
+PSCI,,Education (Secondary),2002
+PSCI,,Unlisted,2002
+PSCI,,Education (Elementary),2002
+PSCI,,Unlisted,2002
+PSCI,,Unlisted,2002
+PSCI,,Education (Secondary),2002
+PSCI,,Education (Secondary),2002
+PSCI,,"Research,Scientific",2002
+PSCI,,Unlisted,2002
+PSCI,,Other,2002
+PSCI,,Other,2002
+PSCI,,Other,2002
+PSCI,,Unlisted,2002
+PSCI,,Unlisted,2002
+PSCI,,Unlisted,2002
+PSCI,,Unlisted,2002
+PSCI,,Unlisted,2002
+PSCI,,Unlisted,2002
+PSCI,,Unlisted,2002
+PSCI,,Consulting,2002
+PSCI,,Performing Arts,2002
+PSCI,,Education (Secondary),2002
+PSCI,,Unlisted,2002
+PSCI,,Other,2003
+PSCI,,Unlisted,2003
+PSCI,,Unlisted,2003
+PSCI,,Law,2003
+PSCI,,Unlisted,2003
+PSCI,,Graduate Studies,2003
+PSCI,,Other,2003
+PSCI,,Consulting,2003
+PSCI,,International,2003
+PSCI,,Medicine,2003
+PSCI,,Education (Secondary),2003
+PSCI,,Law,2003
+PSCI,,Unlisted,2003
+PSCI,,Other,2003
+PSCI,,Graduate Studies,2003
+PSCI,,Military,2003
+PSCI,,Unlisted,2003
+PSCI,,Unlisted,2003
+PSCI,,Unlisted,2003
+PSCI,,Unlisted,2003
+PSCI,,Unlisted,2003
+PSCI,,Unlisted,2003
+PSCI,,Unlisted,2003
+PSCI,,"Research,Scientific",2003
+PSCI,,Unlisted,2003
+PSCI,,Unlisted,2003
+PSCI,,Unlisted,2003
+PSCI,,Graduate Studies,2003
+PSCI,,Unlisted,2003
+PSCI,,Unlisted,2003
+PSCI,,Graduate Studies,2003
+PSCI,,Unlisted,2003
+PSCI,,Unlisted,2003
+PSCI,,Consulting,2003
+PSCI,,Unlisted,2003
+PSCI,,Agriculture,2004
+PSCI,,Graduate Studies,2004
+PSCI,,Unlisted,2004
+PSCI,,Unlisted,2004
+PSCI,,Graduate Studies,2004
+PSCI,,Unlisted,2004
+PSCI,,Education (Secondary),2004
+PSCI,,Unlisted,2004
+PSCI,,Consulting,2004
+PSCI,,"Research,Scientific",2004
+PSCI,,Sales,2004
+PSCI,,Education (Higher Education),2004
+PSCI,,"Research, Other",2004
+PSCI,,Unlisted,2004
+PSCI,,Unlisted,2004
+PSCI,,Unlisted,2004
+PSCI,,Unlisted,2004
+PSCI,,Other,2004
+PSCI,,Unlisted,2004
+PSCI,,Unlisted,2004
+PSCI,,Unlisted,2004
+PSCI,,Advertising,2004
+PSCI,,Other,2004
+PSCI,,Non-Profit Adminstration,2004
+PSCI,,Unlisted,2004
+PSCI,,Unlisted,2004
+PSCI,,Education (Secondary),2004
+PSCI,,Unlisted,2004
+PSCI,,Museum Work,2004
+PSCI,,Other,2004
+PSCI,,Education (Higher Education),2004
+PSCI,,Education (Secondary),2004
+PSCI,,Other,2004
+PSCI,,Unlisted,2004
+PSCI,,"Research, Other",2004
+PSCI,,Unlisted,2005
+PSCI,,Unlisted,2005
+PSCI,,Unlisted,2005
+PSCI,,Hotel/Food Management,2005
+PSCI,,Graduate Studies,2005
+PSCI,,Unlisted,2005
+PSCI,,Publishing,2005
+PSCI,,Graduate Studies,2005
+PSCI,,"Research, Other",2005
+PSCI,,Broadcast-Radio/Television,2005
+PSCI,,Unlisted,2005
+PSCI,,Medicine,2005
+PSCI,,Graduate Studies,2005
+PSCI,,Other,2005
+PSCI,,Finance,2005
+PSCI,,Nursing,2005
+PSCI,,Unlisted,2005
+PSCI,,Other,2005
+PSCI,,Other,2005
+PSCI,,Volunteer,2005
+PSCI,,Unlisted,2005
+PSCI,,Unlisted,2005
+PSCI,,Nursing,2005
+PSCI,,Education (Secondary),2005
+PSCI,,Unlisted,2005
+PSCI,,Unlisted,2005
+PSCI,,Non-Profit Adminstration,2005
+PSCI,,Government,2005
+PSCI,,Social Work/Human Services,2005
+PSCI,,Unlisted,2005
+PSCI,,Graduate Studies,2005
+PSCI,,Unlisted,2005
+PSCI,,"Research, Other",2005
+PSCI,,Unlisted,2005
+PSCI,,Unlisted,2005
+PSCI,,Unlisted,2006
+PSCI,,"Research,Scientific",2006
+PSCI,,Education (Secondary),2006
+PSCI,,Unlisted,2006
+PSCI,,Graduate Studies,2006
+PSCI,,Unlisted,2006
+PSCI,,Graduate Studies,2006
+PSCI,,Unlisted,2006
+PSCI,,International,2006
+PSCI,,Unlisted,2006
+PSCI,,Sports,2006
+PSCI,,Unlisted,2006
+PSCI,,Other,2006
+PSCI,,Graduate Studies,2006
+PSCI,,Unlisted,2006
+PSCI,,Unlisted,2006
+PSCI,,Graduate Studies,2006
+PSCI,,Arts,2006
+PSCI,,Unlisted,2006
+PSCI,,Unlisted,2006
+PSCI,,Investment/Securities,2006
+PSCI,,Other,2006
+PSCI,,Unlisted,2006
+PSCI,,Unlisted,2006
+PSCI,,Unlisted,2006
+PSCI,,Unlisted,2006
+PSCI,,Graduate Studies,2006
+PSCI,,Unlisted,2006
+PSCI,,Graduate Studies,2006
+PSCI,,Unlisted,2006
+PSCI,,Unlisted,2006
+PSCI,,Other,2006
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Finance,2007
+PSCI,,Marketing/Market Research,2007
+PSCI,,Education (Secondary),2007
+PSCI,,Graduate Studies,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Education (Secondary),2007
+PSCI,,Performing Arts,2007
+PSCI,,Graduate Studies,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2007
+PSCI,,Unlisted,2008
+PSCI,,Unlisted,2008
+PSCI,,Unlisted,2008
+PSCI,,Unlisted,2008
+PSCI,,Social Work/Human Services,2008
+PSCI,,Unlisted,2008
+PSCI,,Unlisted,2008
+PSCI,,Law,2008
+PSCI,,Unlisted,2008
+PSCI,,Unlisted,2008
+PSCI,,Unlisted,2008
+PSCI,,Unlisted,2008
+PSCI,,Unlisted,2008
+PSCI,,Unlisted,2008
+PSCI,,Other,2008
+PSCI,,Other,2008
+PSCI,,Unlisted,2008
+PSCI,,Sports,2008
+PSCI,,Publishing,2008
+PSCI,,Other,2008
+PSCI,,Other,2008
+PSCI,,Sports,2008
+PSCI,,Unlisted,2008
+PSCI,,Sports,2008
+PSCI,,Unlisted,2008
+PSCI,,Unlisted,2008
+PSCI,,Non-Profit Adminstration,2008
+PSCI,,Graduate Studies,2008
+PSCI,,Unlisted,2008
+PSCI,,Unlisted,2008
+PSCI,,Other,2008
+PSCI,,Sports,2009
+PSCI,,Graduate Studies,2009
+PSCI,,Unlisted,2009
+PSCI,,Unlisted,2009
+PSCI,,Unlisted,2009
+PSCI,,Unlisted,2009
+PSCI,,Unlisted,2009
+PSCI,,Unlisted,2009
+PSCI,,Unlisted,2009
+PSCI,,Graduate Studies,2009
+PSCI,,Unlisted,2009
+PSCI,,Unlisted,2009
+PSCI,,Unlisted,2009
+PSCI,,Unlisted,2009
+PSCI,,Unlisted,2009
+PSCI,,Unlisted,2009
+PSCI,,Unlisted,2009
+PSCI,,Unlisted,2009
+PSCI,,Unlisted,2009
+PSCI,,Unlisted,2009
+PSCI,,Unlisted,2009
+PSCI,,Unlisted,2009
+PSCI,,Unlisted,2009
+PSCI,,Education (Elementary),2010
+PSCI,,Unlisted,2010
+PSCI,,Unlisted,2010
+PSCI,,Other,2010
+PSCI,,Graduate Studies,2010
+PSCI,,Graduate Studies,2010
+PSCI,,Unlisted,2010
+PSCI,,Unlisted,2010
+PSCI,,Education (Elementary),2010
+PSCI,,"Research,Scientific",2010
+PSCI,,Self Employed,2010
+PSCI,,Unlisted,2010
+PSCI,,Unlisted,2010
+PSCI,,Unlisted,2010
+PSCI,,Graduate Studies,2010
+PSCI,,Unlisted,2010
+PSCI,,Publishing,2010
+PSCI,,Unlisted,2010
+PSCI,,Arts,2010
+PSCI,,Unlisted,2010
+PSCI,,Unlisted,2010
+PSCI,,Social Work/Human Services,2010
+PSCI,,Other,2010
+PSCI,,Unlisted,2010
+PSCI,,Unlisted,2010
+PSCI,,Other,2010
+PSCI,,Unlisted,2010
+PSCI,,Other,2010
+PSCI,,Museum Work,2010
+PSCI,,Unlisted,2010
+PSCI,,Unlisted,2010
+PSCI,,Unlisted,2010
+PSCI,,Unlisted,2010
+PSCI,,Law,2011
+PSCI,,Unlisted,2011
+PSCI,,Other,2011
+PSCI,,Unlisted,2011
+PSCI,,Education (Secondary),2011
+PSCI,,Unlisted,2011
+PSCI,,Finance,2011
+PSCI,,Unlisted,2011
+PSCI,,Unlisted,2011
+PSCI,,Other,2011
+PSCI,,Graduate Studies,2011
+PSCI,,Unlisted,2011
+PSCI,,Unlisted,2011
+PSCI,,Unlisted,2011
+PSCI,,Unlisted,2011
+PSCI,,Unlisted,2011
+PSCI,,Unlisted,2011
+PSCI,,Unlisted,2011
+PSCI,,Unlisted,2011
+PSCI,,Energy Industries,2011
+PSCI,,Unlisted,2011
+PSCI,,Hotel/Food Management,2011
+PSCI,,Unlisted,2011
+PSCI,,Unlisted,2011
+PSCI,,Unlisted,2011
+PSCI,,Unlisted,2011
+PSCI,,Unlisted,2011
+PSCI,,Graduate Studies,2012
+PSCI,,Unlisted,2012
+PSCI,,Unlisted,2012
+PSCI,,Unlisted,2012
+PSCI,,Unlisted,2012
+PSCI,,Unlisted,2012
+PSCI,,Unlisted,2012
+PSCI,,Other,2012
+PSCI,,Graduate Studies,2012
+PSCI,,Non-Profit Adminstration,2012
+PSCI,,Unlisted,2012
+PSCI,,Graduate Studies,2012
+PSCI,,Unlisted,2012
+PSCI,,Unlisted,2012
+PSCI,,"Research, Other",2012
+PSCI,,Health Care,2012
+PSCI,,Law,2012
+PSCI,,Unlisted,2012
+PSCI,,Unlisted,2012
+PSCI,,Unlisted,2012
+PSCI,,Unlisted,2012
+PSCI,,Unlisted,2012
+PSCI,,Other,2012
+PSCI,,Unlisted,2012
+PSCI,,Unlisted,2012
+PSCI,,Unlisted,2012
+PSCI,,Other,2012
+PSCI,,Unlisted,2012
+PSCI,,Unlisted,2012
+PSCI,,Unlisted,2012
+PSYC,,Insurance,2002
+PSYC,,Unlisted,2002
+PSYC,,Unlisted,2002
+PSYC,,Volunteer,2002
+PSYC,,Business,2002
+PSYC,,Education (Secondary),2002
+PSYC,,Unlisted,2002
+PSYC,,Unlisted,2002
+PSYC,,Fundraising/Development,2002
+PSYC,,Unlisted,2002
+PSYC,,Unlisted,2002
+PSYC,,Writing,2002
+PSYC,,Unlisted,2002
+PSYC,,Unlisted,2002
+PSYC,,Unlisted,2002
+PSYC,,"Research,Scientific",2002
+PSYC,,Unlisted,2002
+PSYC,,Unlisted,2002
+PSYC,,Unlisted,2002
+PSYC,,Unlisted,2002
+PSYC,,"Research,Scientific",2002
+PSYC,,Graduate Studies,2002
+PSYC,,Unlisted,2002
+PSYC,,Unlisted,2002
+PSYC,,Unlisted,2002
+PSYC,,Unlisted,2002
+PSYC,,Unlisted,2002
+PSYC,,Unlisted,2002
+PSYC,,Education (Elementary),2002
+PSYC,,Unlisted,2003
+PSYC,,Unlisted,2003
+PSYC,,Graduate Studies,2003
+PSYC,,Unlisted,2003
+PSYC,,Other,2003
+PSYC,,Publishing,2003
+PSYC,,Advertising,2003
+PSYC,,ECommerce/Web,2003
+PSYC,,Unlisted,2003
+PSYC,,"Research,Scientific",2003
+PSYC,,Unlisted,2003
+PSYC,,Finance,2003
+PSYC,,Unlisted,2003
+PSYC,,Government,2003
+PSYC,,Education (Higher Education),2003
+PSYC,,Unlisted,2003
+PSYC,,Unlisted,2003
+PSYC,,Education (Higher Education),2003
+PSYC,,Unlisted,2003
+PSYC,,Education (Secondary),2003
+PSYC,,Unlisted,2003
+PSYC,,Unlisted,2003
+PSYC,,Advertising,2003
+PSYC,,Unlisted,2004
+PSYC,,Other,2004
+PSYC,,Other,2004
+PSYC,,Unlisted,2004
+PSYC,,Unlisted,2004
+PSYC,,Unlisted,2004
+PSYC,,Unlisted,2004
+PSYC,,Music,2004
+PSYC,,Unlisted,2004
+PSYC,,Unlisted,2004
+PSYC,,Unlisted,2004
+PSYC,,Marketing/Market Research,2004
+PSYC,,Publishing,2004
+PSYC,,Unlisted,2004
+PSYC,,Unlisted,2004
+PSYC,,Unlisted,2004
+PSYC,,Unlisted,2004
+PSYC,,Unlisted,2004
+PSYC,,Unlisted,2004
+PSYC,,Unlisted,2004
+PSYC,,Unlisted,2004
+PSYC,,Unlisted,2004
+PSYC,,Arts,2004
+PSYC,,Unlisted,2004
+PSYC,,Unlisted,2004
+PSYC,,Unlisted,2004
+PSYC,,Other,2004
+PSYC,,Education (Secondary),2004
+PSYC,,Other,2004
+PSYC,,Sales,2004
+PSYC,,Unlisted,2004
+PSYC,,Unlisted,2004
+PSYC,,Unlisted,2005
+PSYC,,Unlisted,2005
+PSYC,,Unlisted,2005
+PSYC,,Social Work/Human Services,2005
+PSYC,,Unlisted,2005
+PSYC,,Unlisted,2005
+PSYC,,Merchandising/Retail,2005
+PSYC,,Graduate Studies,2005
+PSYC,,Unlisted,2005
+PSYC,,Business,2005
+PSYC,,Unlisted,2005
+PSYC,,Unlisted,2005
+PSYC,,Graduate Studies,2005
+PSYC,,Unlisted,2005
+PSYC,,Unlisted,2005
+PSYC,,Unlisted,2005
+PSYC,,Unlisted,2005
+PSYC,,Unlisted,2005
+PSYC,,Unlisted,2005
+PSYC,,Other,2005
+PSYC,,Unlisted,2005
+PSYC,,Unlisted,2005
+PSYC,,Other,2005
+PSYC,,Unlisted,2005
+PSYC,,Unlisted,2005
+PSYC,,Unlisted,2005
+PSYC,,Unlisted,2005
+PSYC,,Social Work/Human Services,2005
+PSYC,,Unlisted,2005
+PSYC,,Unlisted,2005
+PSYC,,Other,2005
+PSYC,,Unlisted,2005
+PSYC,,Military,2006
+PSYC,,Accounting,2006
+PSYC,,Unlisted,2006
+PSYC,,Writing,2006
+PSYC,,Unlisted,2006
+PSYC,,Unlisted,2006
+PSYC,,Unlisted,2006
+PSYC,,Education (Secondary),2006
+PSYC,,Unlisted,2006
+PSYC,,Other,2006
+PSYC,,Unlisted,2006
+PSYC,,Health Care,2006
+PSYC,,Graduate Studies,2006
+PSYC,,Fundraising/Development,2006
+PSYC,,Education (Elementary),2006
+PSYC,,Education (Secondary),2006
+PSYC,,Hotel/Food Management,2006
+PSYC,,Unlisted,2006
+PSYC,,Unlisted,2006
+PSYC,,Other,2006
+PSYC,,Graduate Studies,2006
+PSYC,,Unlisted,2006
+PSYC,,"Research,Scientific",2006
+PSYC,,Graduate Studies,2006
+PSYC,,Unlisted,2006
+PSYC,,Unlisted,2006
+PSYC,,Non-Profit Adminstration,2006
+PSYC,,Unlisted,2006
+PSYC,,Unlisted,2006
+PSYC,,ECommerce/Web,2006
+PSYC,,Unlisted,2006
+PSYC,,Other,2006
+PSYC,,Unlisted,2006
+PSYC,,Unlisted,2006
+PSYC,,Unlisted,2006
+PSYC,,Unlisted,2007
+PSYC,,Graduate Studies,2007
+PSYC,,Museum Work,2007
+PSYC,,Graduate Studies,2007
+PSYC,,Unlisted,2007
+PSYC,,Graduate Studies,2007
+PSYC,,Unlisted,2007
+PSYC,,Unlisted,2007
+PSYC,,Graduate Studies,2007
+PSYC,,Unlisted,2007
+PSYC,,Arts,2007
+PSYC,,Unlisted,2007
+PSYC,,Unlisted,2007
+PSYC,,Other,2007
+PSYC,,Other,2007
+PSYC,,Unlisted,2007
+PSYC,,Unlisted,2007
+PSYC,,Other,2007
+PSYC,,Unlisted,2007
+PSYC,,Unlisted,2007
+PSYC,,Unlisted,2007
+PSYC,,Education (Elementary),2007
+PSYC,,Unlisted,2007
+PSYC,,Unlisted,2007
+PSYC,,Unlisted,2007
+PSYC,,Other,2007
+PSYC,,Other,2007
+PSYC,,Education (Secondary),2007
+PSYC,,Unlisted,2007
+PSYC,,Unlisted,2008
+PSYC,,Education (Secondary),2008
+PSYC,,Unlisted,2008
+PSYC,,Unlisted,2008
+PSYC,,Unlisted,2008
+PSYC,,Graduate Studies,2008
+PSYC,,Unlisted,2008
+PSYC,,Unlisted,2008
+PSYC,,Unlisted,2008
+PSYC,,Graduate Studies,2008
+PSYC,,Graduate Studies,2008
+PSYC,,Unlisted,2008
+PSYC,,Graduate Studies,2008
+PSYC,,Unlisted,2008
+PSYC,,Graduate Studies,2008
+PSYC,,Unlisted,2008
+PSYC,,Unlisted,2008
+PSYC,,Graduate Studies,2008
+PSYC,,Graduate Studies,2008
+PSYC,,Unlisted,2008
+PSYC,,Sports,2008
+PSYC,,Unlisted,2008
+PSYC,,Graduate Studies,2008
+PSYC,,Unlisted,2008
+PSYC,,Unlisted,2008
+PSYC,,Unlisted,2008
+PSYC,,Unlisted,2008
+PSYC,,Unlisted,2008
+PSYC,,Unlisted,2008
+PSYC,,Unlisted,2008
+PSYC,,Other,2008
+PSYC,,Unlisted,2009
+PSYC,,Graduate Studies,2009
+PSYC,,Unlisted,2009
+PSYC,,Unlisted,2009
+PSYC,,Unlisted,2009
+PSYC,,Graduate Studies,2009
+PSYC,,Unlisted,2009
+PSYC,,Non-Profit Adminstration,2009
+PSYC,,Education (Secondary),2009
+PSYC,,Unlisted,2009
+PSYC,,Unlisted,2009
+PSYC,,Other,2009
+PSYC,,Arts,2009
+PSYC,,Unlisted,2009
+PSYC,,Unlisted,2009
+PSYC,,Unlisted,2009
+PSYC,,Unlisted,2009
+PSYC,,Unlisted,2009
+PSYC,,Unlisted,2009
+PSYC,,Unlisted,2009
+PSYC,,Unlisted,2009
+PSYC,,Unlisted,2009
+PSYC,,Education (Secondary),2009
+PSYC,,Unlisted,2009
+PSYC,,Unlisted,2009
+PSYC,,Unlisted,2009
+PSYC,,Unlisted,2009
+PSYC,,International,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Other,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Education (Secondary),2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2010
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Sports,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Sports,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2011
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Sales,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+PSYC,,Unlisted,2012
+RELN,,Unlisted,2002
+RELN,,Unlisted,2002
+RELN,,Unlisted,2002
+RELN,,Other,2002
+RELN,,Unlisted,2002
+RELN,,Unlisted,2002
+RELN,,Unlisted,2003
+RELN,,Unlisted,2003
+RELN,,Unlisted,2003
+RELN,,Unlisted,2003
+RELN,,Unlisted,2003
+RELN,,Unlisted,2004
+RELN,,Unlisted,2004
+RELN,,Unlisted,2004
+RELN,,Unlisted,2004
+RELN,,Unlisted,2004
+RELN,,Unlisted,2004
+RELN,,Unlisted,2004
+RELN,,Unlisted,2004
+RELN,,Unlisted,2005
+RELN,,Unlisted,2005
+RELN,,Unlisted,2006
+RELN,,Unlisted,2006
+RELN,,Unlisted,2006
+RELN,,Unlisted,2006
+RELN,,Unlisted,2006
+RELN,,Unlisted,2006
+RELN,,Unlisted,2006
+RELN,,Unlisted,2006
+RELN,,Unlisted,2006
+RLST,,Unlisted,2006
+RLST,,Unlisted,2007
+RLST,,Education (Elementary),2007
+RLST,,Unlisted,2007
+RLST,,Unlisted,2007
+RLST,,Unlisted,2007
+RLST,,Unlisted,2007
+RLST,,Graduate Studies,2007
+RLST,,Education (Higher Education),2008
+RLST,,Unlisted,2008
+RLST,,Unlisted,2008
+RLST,,Unlisted,2008
+RLST,,Unlisted,2008
+RLST,,Unlisted,2008
+RLST,,Unlisted,2008
+RLST,,Finance,2008
+RLST,,Unlisted,2009
+RLST,,Unlisted,2009
+RLST,,Unlisted,2009
+RLST,,Unlisted,2009
+RLST,,Unlisted,2009
+RLST,,Unlisted,2009
+RLST,,Unlisted,2009
+RLST,,Unlisted,2009
+RLST,,Unlisted,2009
+RLST,,Unlisted,2010
+RLST,,Unlisted,2010
+RLST,,Unlisted,2010
+RLST,,Unlisted,2010
+RLST,,Unlisted,2010
+RLST,,Unlisted,2010
+RLST,,Unlisted,2010
+RLST,,Unlisted,2010
+RLST,,Unlisted,2010
+RLST,,Unlisted,2011
+RLST,,Unlisted,2011
+RLST,,Unlisted,2012
+RLST,,Unlisted,2012
+RLST,,Entertainment,2012
+RLST,,Unlisted,2012
+SOCY,,Unlisted,2002
+SOCY,,Unlisted,2002
+SOCY,,Law,2002
+SOCY,,Unlisted,2002
+SOCY,,Unlisted,2002
+SOCY,,Unlisted,2002
+SOCY,,Health Care,2002
+SOCY,,Unlisted,2002
+SOCY,,Other,2002
+SOCY,,Unlisted,2002
+SOCY,,Unlisted,2002
+SOCY,,Unlisted,2002
+SOCY,,Unlisted,2002
+SOCY,,Unlisted,2002
+SOCY,,Unlisted,2002
+SOCY,,Other,2003
+SOCY,,Unlisted,2003
+SOCY,,Unlisted,2003
+SOCY,,Unlisted,2003
+SOCY,,Graduate Studies,2003
+SOCY,,Unlisted,2003
+SOCY,,Unlisted,2003
+SOCY,,Unlisted,2003
+SOCY,,Unlisted,2004
+SOCY,,Unlisted,2004
+SOCY,,Unlisted,2004
+SOCY,,Unlisted,2004
+SOCY,,Unlisted,2004
+SOCY,,Unlisted,2004
+SOCY,,Unlisted,2004
+SOCY,,Unlisted,2004
+SOCY,,Unlisted,2004
+SOCY,,Unlisted,2004
+SOCY,,Unlisted,2004
+SOCY,,Unlisted,2004
+SOCY,,Unlisted,2004
+SOCY,,Unlisted,2005
+SOCY,,Unlisted,2005
+SOCY,,Unlisted,2005
+SOCY,,Unlisted,2005
+SOCY,,Unlisted,2005
+SOCY,,Unlisted,2005
+SOCY,,Sports,2005
+SOCY,,Unlisted,2005
+SOCY,,Unlisted,2005
+SOCY,,Unlisted,2005
+SOCY,,Unlisted,2005
+SOCY,,Unlisted,2005
+SOCY,,Unlisted,2005
+SOCY,,Unlisted,2005
+SOCY,,Unlisted,2006
+SOCY,,Unlisted,2006
+SOCY,,Unlisted,2006
+SOCY,,Finance,2006
+SOCY,,Unlisted,2006
+SOCY,,Unlisted,2006
+SOCY,,Unlisted,2006
+SOCY,,Unlisted,2006
+SOCY,,Unlisted,2006
+SOCY,,Unlisted,2006
+SOCY,,Unlisted,2006
+SOCY,,Unlisted,2006
+SOCY,,"Research,Scientific",2006
+SOCY,,Unlisted,2006
+SOCY,,Unlisted,2007
+SOCY,,Unlisted,2007
+SOCY,,Unlisted,2007
+SOCY,,Other,2007
+SOCY,,Unlisted,2007
+SOCY,,Unlisted,2007
+SOCY,,Unlisted,2007
+SOCY,,Unlisted,2007
+SOCY,,Unlisted,2007
+SOCY,,Unlisted,2007
+SOCY,,Unlisted,2008
+SOCY,,Unlisted,2008
+SOCY,,Unlisted,2008
+SOCY,,Unlisted,2008
+SOCY,,Other,2008
+SOCY,,Unlisted,2008
+SOCY,,Unlisted,2008
+SOCY,,Unlisted,2008
+SOCY,,Health Care,2008
+SOCY,,Unlisted,2008
+SOCY,,Unlisted,2009
+SOCY,,Unlisted,2009
+SOCY,,Unlisted,2009
+SOCY,,Unlisted,2009
+SOCY,,Unlisted,2009
+SOCY,,Unlisted,2009
+SOCY,,Unlisted,2009
+SOCY,,Unlisted,2009
+SOCY,,Publishing,2009
+SOCY,,Unlisted,2009
+SOCY,,Unlisted,2009
+SOCY,,Unlisted,2009
+SOCY,,Unlisted,2010
+SOCY,,Other,2010
+SOCY,,Other,2010
+SOCY,,Unlisted,2010
+SOCY,,Unlisted,2010
+SOCY,,Unlisted,2010
+SOCY,,Unlisted,2010
+SOCY,,Education (Secondary),2010
+SOCY,,Unlisted,2010
+SOCY,,Unlisted,2010
+SOCY,,Unlisted,2010
+SOCY,,Unlisted,2010
+SOCY,,Unlisted,2010
+SOCY,,Unlisted,2011
+SOCY,,Unlisted,2011
+SOCY,,Unlisted,2011
+SOCY,,Unlisted,2011
+SOCY,,Unlisted,2011
+SOCY,,Unlisted,2011
+SOCY,,Unlisted,2011
+SOCY,,Unlisted,2011
+SOCY,,Other,2011
+SOCY,,Unlisted,2011
+SOCY,,Unlisted,2011
+SOCY,,Unlisted,2011
+SOCY,,Unlisted,2012
+SOCY,,Unlisted,2012
+SOCY,,Unlisted,2012
+SOCY,,Unlisted,2012
+SOCY,,Unlisted,2012
+SOCY,,Unlisted,2012
+SOCY,,Unlisted,2012
+SOCY,,Unlisted,2012
+SOCY,,Unlisted,2012
+SOCY,,Unlisted,2012
+SOCY,,Unlisted,2012
+SOCY,,Unlisted,2012
+SOCY,,Unlisted,2012
+SOCY,,Unlisted,2012
+SOCY,,Unlisted,2012
+SPAN,,Unlisted,2002
+SPAN,,Unlisted,2002
+SPAN,,Unlisted,2002
+SPAN,,Unlisted,2002
+SPAN,,Unlisted,2003
+SPAN,,Unlisted,2003
+SPAN,,Unlisted,2003
+SPAN,,Unlisted,2004
+SPAN,,Unlisted,2004
+SPAN,,Unlisted,2004
+SPAN,,Other,2005
+SPAN,,Unlisted,2005
+SPAN,,Unlisted,2005
+SPAN,,Unlisted,2006
+SPAN,,Unlisted,2006
+SPAN,,Photography,2006
+SPAN,,Unlisted,2006
+SPAN,,Unlisted,2006
+SPAN,,Other,2007
+SPAN,,Unlisted,2007
+SPAN,,Unlisted,2007
+SPAN,,Unlisted,2007
+SPAN,,Unlisted,2008
+SPAN,,Unlisted,2008
+SPAN,,Unlisted,2008
+SPAN,,Unlisted,2008
+SPAN,,Unlisted,2008
+SPAN,,Unlisted,2008
+SPAN,,Unlisted,2009
+SPAN,,Other,2010
+SPAN,,Unlisted,2010
+SPAN,,Other,2010
+SPAN,,Unlisted,2010
+SPAN,,Unlisted,2010
+SPAN,,Unlisted,2011
+SPAN,,Unlisted,2011
+SPAN,,Unlisted,2011
+SPAN,,Unlisted,2012
+SPAN,,Unlisted,2012
+SPAN,,Law,2012
+SPAN,,Unlisted,2012
+WMNS,,Unlisted,2007
+WMNS,,Unlisted,2007
+WMNS,,Consulting,2008
+WMNS,,Unlisted,2008
+WMNS,,Unlisted,2009
+WMNS,,Unlisted,2009
+WMNS,,Unlisted,2009
+WMNS,,Other,2010
+WMNS,,Unlisted,2010
+WMNS,,Unlisted,2011
+WMNS,,Unlisted,2011
+WMNS,,Unlisted,2012
