@@ -343,11 +343,11 @@ def color_by_salary():
                                    ['red', 'yellow', 'green'],
                                    verbose=True)
 								  
-	def salary_filter(color):
-		return (color == 'red')
+    def salary_filter(color):
+        return (color == 'red')
 		
     conf = CircosConfig(data, 
-						salary_filter=salary_filter,
+                        salary_filter=salary_filter,
                         use_default_colors=True,
                         link_colors=colors,
                         lside_tag_order=catmap.left_order, 
