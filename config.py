@@ -31,7 +31,7 @@ class CircosConfig(object):
         self.data = data
         self.link_filter = kwargs.get('link_filter', lambda x, y: True)
 
-	self.salary_filter = kwargs.get('link_filter', lambda x: True)
+	self.salary_filter = kwargs.get('salary_filter', lambda x: True)
         self.ltag_parse = kwargs.get('ltag_parse', lambda x: x)
         self.rtag_parse = kwargs.get('rtag_parse', lambda x: x)
         

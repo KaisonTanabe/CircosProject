@@ -1,57 +1,57 @@
-major1,Industry,,,,
-Administrative Ability,Wisdom ,,,,
-Acute-Mindedness,Wisdom ,,,,
-Clearness of Vision,Wisdom ,,,,
-Shrewdness,Wisdom ,,,,
-Craftiness,Foolishness,,,,
-Deceitfulness,Foolishness,,,,
-Inexperience,Foolishness,,,,
-Stupidity,Cunning,,,,
-Mania,Cunning,,,,
-Generosity,Courage,,,,
-Bravery,Courage,,,,
-Self-respect,Courage,,,,
-Endurance,Courage,,,,
-Forbearance,Courage,,,,
-Firmness,Courage,,,,
-Gravity,Courage,,,,
-Dignity,Courage,,,,
-Weightness,Courage,,,,
-Lavishness,Cowardice,,,,
-Audaciousness,Cowardice,,,,
-Boasting,Cowardice,,,,
-Sel-flove,Cowardice,,,,
-Meanness,Rashness,,,,
-Shirking,Rashness,,,,
-Self-abasement,Rashness,,,,
-Terror-stricken,Rashness,,,,
-Shamelessness,Rashness,,,,
-Abasement,Rashness,,,,
-Modesty/Shyness,Temperance,,,,
-Forgiveness,Temperance,,,,
-Patience,Temperance,,,,
-Munifecence,Temperance,,,,
-Good Estimation,Temperance,,,,
-Cheerfulness,Temperance,,,,
-Genteel,Temperance,,,,
-Pleasing Appearance,Temperance,,,,
-Contentment,Temperance,,,,
-Tranquility,Temperance,,,,
-Geniality,Temperance,,,,
-Piety,Temperance,,,,
-Gracefulness and Wit,Temperance,,,,
-Helping others,Temperance,,,,
-Displeasure,Temperance,,,,
-Shamelessness,Indifference,,,,
-Extravagance,Indifference,,,,
-Hypocrisy,Indifference,,,,
-Dryness,Indifference,,,,
-Wantonness/Obscenity,Indifference,,,,
-Barbarity,Indifference,,,,
-Lamentation,Indifference,,,,
-Envy,Indifference,,,,
-Effeminacy,Cupidity,,,,
-Stinginess,Cupidity,,,,
-Disgracefulness,Cupidity,,,,
-Flattery,Cupidity,,,,
-Gloat,Cupidity,,,,
+major1,Industry
+Administrative Ability,Wisdom 
+Acute-mindedness,Wisdom 
+Clearness of Vision,Wisdom 
+Shrewdness,Wisdom 
+Craftiness,Cunning
+Deceitfulness,Cunning
+Inexperience,Foolishness
+Stupidity,Foolishness
+Mania,Foolishness
+Generosity,Courage
+Bravery,Courage
+Self-respect,Courage
+Endurance,Courage
+Forbearance,Courage
+Firmness,Courage
+Gravity,Courage
+Dignity,Courage
+Weightness,Courage
+Lavishness,Rashness
+Audaciousness,Rashness
+Boasting,Rashness
+Self-love,Rashness
+Meanness,Cowardice
+Shirking,Cowardice
+Self-abasement,Cowardice
+Terror-stricken,Cowardice
+Shamelessness,Cowardice
+Abasement,Cowardice
+Modesty/Shyness,Temperance
+Forgiveness,Temperance
+Patience,Temperance
+Munifecence,Temperance
+Good Estimation,Temperance
+Cheerfulness,Temperance
+Genteel,Temperance
+Pleasing Appearance,Temperance
+Contentment,Temperance
+Tranquility,Temperance
+Geniality,Temperance
+Piety,Temperance
+Gracefulness and Wit,Temperance
+Helping others,Temperance
+Displeasure,Temperance
+shamelessness,Cupidity
+Extravagance,Cupidity
+Hypocrisy,Cupidity
+Dryness,Cupidity
+Obscenity,Cupidity
+Barbarity,Cupidity
+Lamentation,Cupidity
+Envy,Cupidity
+Effeminacy,Indifference
+Stinginess,Indifference
+Disgracefulness,Indifference
+Flattery,Indifference
+Gloat,Indifference

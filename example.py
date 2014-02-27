@@ -107,6 +107,26 @@ def filter_links_math():
                         rside_tag_order=catmap.right_order,
                         link_filter=only_math)
     conf.produce_image()
+	
+def filter_salary2_math():
+
+    reader = read_csv("projects/salary2/salary2.csv")
+    catmap = CategoryMapping("projects/salary2/major.csv", 
+                             "projects/salary2/industry.csv", 
+                             "projects/salary2/order.csv")
+    def only_math(ltag, rtag):
+        return (ltag == "Math-l")
+		
+    data = CMapImageData(reader, 
+                         catmap)
+						 
+    conf = CircosConfig(data, 
+                        color_palette="salaryy", 
+                        lside_tag_order=catmap.left_order, 
+                        rside_tag_order=catmap.right_order,
+                        link_filter=only_math)
+    conf.produce_image()
+
 
 # Original image with full dataset, only drawing links for a single
 # industry.  One for each industry.
@@ -296,7 +316,42 @@ def bilal():
                         rside_tag_order=catmap.right_order)
 
     conf.produce_image()
-	
+def bilal_major_set():
+
+    category_mapping = CategoryMapping("projects/bilal/major.csv", 
+                             "projects/bilal/industry.csv", 
+                             "projects/bilal/order.csv")
+    
+    dirname = "projects/bilal/bilal.csv".replace('.csv', '')+"-Majors"
+
+    try:
+        os.mkdir(dirname)
+    except OSError:
+        print "Overwriting directory: %s" % dirname
+        shutil.rmtree(dirname)
+        os.mkdir(dirname)
+
+    for major in category_mapping.left_order:
+
+        reader = read_csv("projects/bilal/bilal.csv")
+
+        def link_filter(ltag, rtag):
+            return (ltag == major)
+
+        data = CMapImageData(reader, 
+                             category_mapping)
+
+        imagename=('%s' % major).replace('/', '-')
+        conf = CircosConfig(data, 
+                            color_palette="bilal", 
+                            link_filter=link_filter,
+                            lside_tag_order=category_mapping.left_order,
+                            rside_tag_order=category_mapping.right_order,
+                            filename=imagename+'.png')
+        conf.produce_image()
+        print '------- Major %s finished. -------' % major
+        shutil.move(imagename+'.png', dirname)
+        os.remove(imagename+'.svg')
 def uva():
     reader = read_csv("projects/uva/uva.csv")
     catmap = CategoryMapping("projects/uva/majornew.csv", 
@@ -333,21 +388,45 @@ def color_by_salary():
     catmap = CategoryMapping("projects/salary/major.csv", 
                              "projects/salary/industry.csv", 
                              "projects/salary/order.csv")
-    
+	
     data = CMapImageData(reader, 
                          catmap)
     colors = color_dict_from_field(data, 
                                    'Major', 
                                    'Industry', 
                                    'Salary', 
-                                   ['red', 'yellow', 'green'],
+                                   ['vvlgrey', 'grey', 'vvdgrey'],
                                    verbose=True)
 								  
     def salary_filter(color):
-        return (color == 'red')
+        return (color == 'grey')
 		
     conf = CircosConfig(data, 
                         salary_filter=salary_filter,
+                        use_default_colors=True,
+                        link_colors=colors,
+                        lside_tag_order=catmap.left_order, 
+                        rside_tag_order=catmap.right_order)
+
+    conf.produce_image()
+	
+def color_by_salary3():
+    reader = read_csv("projects/salary2/salary3.csv")
+    catmap = CategoryMapping("projects/salary2/major.csv", 
+                             "projects/salary2/industry.csv", 
+                             "projects/salary2/order.csv")
+	
+    data = CMapImageData(reader, 
+                         catmap)
+    colors = color_dict_from_field(data, 
+                                   'Major', 
+                                   'Industry', 
+                                   'salary', 
+                                   ['vvdgrey', 'grey', 'vvlgrey'],
+                                   verbose=True)
+
+		
+    conf = CircosConfig(data, 
                         use_default_colors=True,
                         link_colors=colors,
                         lside_tag_order=catmap.left_order, 
