@@ -16,10 +16,10 @@ from mapping import CategoryMapping, color_dict_from_field
 from pprint import pprint as pp
 
 def original_image():
-    reader = read_csv("projects/kenyon/kenyon.csv")
-    catmap = CategoryMapping("projects/kenyon/major.csv", 
-                             "projects/kenyon/industry.csv", 
-                             "projects/kenyon/order.csv")
+    reader = read_csv("projects/kenyon4.24.14/kenyonn.csv")
+    catmap = CategoryMapping("projects/kenyon4.24.14/major.csv", 
+                             "projects/kenyon4.24.14/industry.csv", 
+                             "projects/kenyon4.24.14/order.csv")
     
     data = CMapImageData(reader, 
                          catmap)
@@ -206,6 +206,84 @@ def uva_industry_set():
         os.remove(imagename+'.svg')
 
 # Original image with full dataset, only drawing links for a single
+# industry.  One for each industry.
+def kenyon_industry_set():
+
+    category_mapping = CategoryMapping("projects/kenyon4.24.14/major.csv", 
+                                       "projects/kenyon4.24.14/industry.csv", 
+                                       "projects/kenyon4.24.14/order.csv")
+
+    dirname = "projects/kenyon4.24.14/kenyonn.csv".replace('.csv', '')+"-Industries"
+	
+    try:
+        os.mkdir(dirname)
+    except OSError:
+        print "Overwriting directory: %s" % dirname
+        shutil.rmtree(dirname)
+        os.mkdir(dirname)
+    
+    for industry in category_mapping.right_order:
+
+        reader = read_csv("projects/kenyon4.24.14/kenyonn.csv")
+
+        def link_filter(ltag, rtag):
+            return (rtag == industry)
+
+        data = CMapImageData(reader, 
+                             category_mapping)
+
+        imagename=('%s' % industry).replace('/', '-')
+        conf = CircosConfig(data, 
+                            color_palette="kenyon", 
+                            link_filter=link_filter,
+                            lside_tag_order=category_mapping.left_order,
+                            rside_tag_order=category_mapping.right_order,
+                            filename=imagename+'.png')
+        conf.produce_image()
+        print '------- Industry %s finished. -------' % industry
+        shutil.move(imagename+'.png', dirname)
+        os.remove(imagename+'.svg')
+		
+# Original image with full dataset, only drawing links for a single
+# major.  One for each major.
+def kenyon_major_set():
+
+    category_mapping = CategoryMapping("projects/kenyon4.24.14/major.csv", 
+                                       "projects/kenyon4.24.14/industry.csv", 
+                                       "projects/kenyon4.24.14/order.csv")
+
+    dirname = "projects/kenyon4.24.14/kenyonn.csv".replace('.csv', '')+"-Majors"
+	
+    try:
+        os.mkdir(dirname)
+    except OSError:
+        print "Overwriting directory: %s" % dirname
+        shutil.rmtree(dirname)
+        os.mkdir(dirname)
+    
+    for major in category_mapping.left_order:
+
+        reader = read_csv("projects/kenyon4.24.14/kenyonn.csv")
+
+        def link_filter(ltag, rtag):
+            return (ltag == major)
+
+        data = CMapImageData(reader, 
+                             category_mapping)
+
+        imagename=('%s' % major).replace('/', '-')
+        conf = CircosConfig(data, 
+                            color_palette="kenyon", 
+                            link_filter=link_filter,
+                            lside_tag_order=category_mapping.left_order,
+                            rside_tag_order=category_mapping.right_order,
+                            filename=imagename+'.png')
+        conf.produce_image()
+        print '------- Major %s finished. -------' % major
+        shutil.move(imagename+'.png', dirname)
+        os.remove(imagename+'.svg')	
+		
+# Original image with full dataset, only drawing links for a single
 # major.  One for each major.
 def major_set(data_filename, major_filename, industry_filename, order_filename):
 
@@ -285,10 +363,10 @@ def uva_major_set():
         os.remove(imagename+'.svg')
    		
 def kenyon_alternate_palette():
-    reader = read_csv("projects/kenyonn/kenyon.csv")
-    catmap = CategoryMapping("projects/kenyonn/major.csv", 
-                             "projects/kenyonn/industry.csv", 
-                             "projects/kenyonn/order.csv")
+    reader = read_csv("projects/kenyon4.24.14/kenyonn.csv")
+    catmap = CategoryMapping("projects/kenyon4.24.14/major.csv", 
+                             "projects/kenyon4.24.14/industry.csv", 
+                             "projects/kenyon4.24.14/order.csv")
     
     data = CMapImageData(reader, 
                          catmap)

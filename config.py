@@ -31,7 +31,7 @@ class CircosConfig(object):
         self.data = data
         self.link_filter = kwargs.get('link_filter', lambda x, y: True)
 
-	self.salary_filter = kwargs.get('salary_filter', lambda x: True)
+#	self.salary_filter = kwargs.get('salary_filter', lambda x: True)
         self.ltag_parse = kwargs.get('ltag_parse', lambda x: x)
         self.rtag_parse = kwargs.get('rtag_parse', lambda x: x)
         
@@ -245,7 +245,7 @@ class CircosConfig(object):
                     hide_link = '' if self.link_filter(l_tag, r_tag) else '#'
                     ribbon_width = self.data.pair_counts.get((l_tag, r_tag), 0)
                     color = self.link_colors.get((l_tag, r_tag), 'grey')
-                    hide_link = '' if self.salary_filter(color) else '#'	
+#                    hide_link = '' if self.salary_filter(color) else '#'	
 					
                     # No data for this pair.
                     if ribbon_width == 0:
