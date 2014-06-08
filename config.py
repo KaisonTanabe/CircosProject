@@ -13,6 +13,7 @@ from operator import itemgetter
 
 from templates import (osx_circos_command,
                        cygwin_circos_command,
+                       greg_linux_circos_command,
                        svg_to_png_command)
 
 from filters import read_filled_csv
@@ -321,6 +322,10 @@ class CircosConfig(object):
                 # Cut off the .png or .svg extension.
                 filename = self.circos_conf_settings['filename'].replace('.png', '')
                 subprocess.call(svg_to_png_command(filename))
+
+        elif platform.system() == "Linux":
+            subprocess.call(greg_linux_circos_command)
+
 
     def verify_tags(self):
         

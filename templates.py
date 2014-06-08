@@ -1,5 +1,6 @@
 import platform
 
+greg_linux_circos_command = ['perl', '/home/gregkraken/Programming/circos-0.64/bin/circos', '-conf', './tmp/circos.conf']
 osx_circos_command =    ['perl', '/Applications/circos-0.64/bin/circos', '-conf', './tmp/circos.conf']
 cygwin_circos_command = ['perl', '../circos-0.64/bin/circos', '-conf', './tmp/circos.conf']
 

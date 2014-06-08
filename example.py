@@ -791,3 +791,6 @@ if __name__ == "__main__":
     #                     lside_tag_order=catmap.left_order, 
     #                     rside_tag_order=catmap.right_order)
     # conf.produce_image()
+
+uva()
+#highlight_image()
