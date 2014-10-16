@@ -430,21 +430,6 @@ def bilal_major_set():
         print '------- Major %s finished. -------' % major
         shutil.move(imagename+'.png', dirname)
         os.remove(imagename+'.svg')
-def uva():
-    reader = read_csv("projects/uva/uva.csv")
-    catmap = CategoryMapping("projects/uva/majornew.csv", 
-                             "projects/uva/industrynew.csv", 
-                             "projects/uva/ordernew.csv")
-    
-    data = CMapImageData(reader, 
-                         catmap)
-
-    conf = CircosConfig(data, 
-                        color_palette="uva",
-                        lside_tag_order=catmap.left_order, 
-                        rside_tag_order=catmap.right_order)
-
-    conf.produce_image()
 def kenyon_transparent():
     reader = read_csv("projects/kenyon/kenyon.csv")
     catmap = CategoryMapping("projects/kenyon/major.csv", 
@@ -725,7 +710,57 @@ def double_major_set():
                             
                             conf.produce_image()
                             print '------- %s double majors finished. -------' % major
-                
+
+def uva():
+    reader = read_csv("projects/uva/uva.csv")
+    catmap = CategoryMapping("projects/uva/majornew.csv", 
+                             "projects/uva/industrynew.csv", 
+                             "projects/uva/ordernew.csv")
+    
+    data = CMapImageData(reader, 
+                         catmap)
+
+    conf = CircosConfig(data, 
+                        color_palette="uva",
+                        lside_tag_order=catmap.left_order, 
+                        rside_tag_order=catmap.right_order)
+
+    conf.produce_image()
+
+def uva_self_mapping():
+    reader = read_csv("projects/uva/uva.csv")
+    catmap = CategoryMapping("projects/uva/majornew.csv", 
+                             "projects/uva/industrynew.csv", 
+                             "projects/uva/ordernew-self.csv")
+    
+    data = CMapImageData(reader, 
+                         catmap, False, False, True)
+
+    conf = CircosConfig(data, 
+                        color_palette="uva",
+                        lside_tag_order=catmap.left_order, 
+                        rside_tag_order=catmap.right_order,
+                        use_self_map=True)
+
+    conf.produce_image()
+
+def test_self_mapping():
+    reader = read_csv("projects/self_map/self_map.csv")
+    catmap = CategoryMapping("projects/self_map/major.csv", 
+                             "projects/self_map/industry.csv", 
+                             "projects/self_map/order.csv")
+    
+    data = CMapImageData(reader, 
+                         catmap, False, False, True)
+
+    conf = CircosConfig(data, 
+                        color_palette="self_map_test",
+                        lside_tag_order=catmap.left_order, 
+                        rside_tag_order=catmap.right_order,
+                        use_self_map=True)
+
+    conf.produce_image()
+
                 # # Deprecated
 # def majors_to_some_industries():
                     
@@ -792,5 +827,7 @@ if __name__ == "__main__":
     #                     rside_tag_order=catmap.right_order)
     # conf.produce_image()
 
-uva()
+#uva()
+#uva_self_mapping()
 #highlight_image()
+test_self_mapping()

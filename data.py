@@ -61,12 +61,14 @@ class CMapImageData(object):
                  mapping,
                  use_subvalues_left=True, # default to true because everything is a tuple
                  use_subvalues_right=True, 
+                 use_self_map=False,
                  **kwargs):
 
         self.data = data
         self.mapping = mapping
         self.ltag = self.mapping.left_output_key
         self.rtag = self.mapping.right_output_key
+        self.use_self_map = use_self_map
             
         self.data = ifilter(lambda x: len(x['Major']) <= 2, mapping.apply(self.data))
         if kwargs.get('filter'):
@@ -84,7 +86,14 @@ class CMapImageData(object):
         # The use_subvalues flag signifies that our data entries are
         # tuples of primitives, and we want to count the entries in
         # the tuples rather than the tuples themselves.
-        if self.use_subvalues:
+
+        if self.use_self_map:
+            self.data, copy = tee(self.data, 2)
+
+            self.lcounts, self.rcounts, self.pair_counts = \
+                compute_counts_self_map(copy, self.ltag, self.rtag)            
+
+        elif self.use_subvalues:
             
             self.data, copy0, copy1 = tee(self.data, 3)
             l_max, r_max = compute_max_entry_length(copy0, self.ltag, self.rtag)
@@ -97,6 +106,35 @@ class CMapImageData(object):
 
             self.lcounts, self.rcounts, self.pair_counts = \
                 compute_counts_primitives(copy, self.ltag, self.rtag)
+
+def compute_counts_self_map(data, ltag, rtag):
+    
+    lvalue_counts = Counter()
+    value_pair_counts = Counter()
+
+    # Returns a stream of tuples containing (entry[ltag], entry[rtag])
+    # for each entry.
+    tag_values = imap(itemgetter(ltag, rtag), data)
+    for lvalue, rvalue in tag_values:
+        
+        assert(isinstance(lvalue, tuple)), "Non-tuple entry: (%s %r)" % (ltag, lvalue)
+        assert(isinstance(rvalue, tuple)), "Non-tuple: (%s %r)" % (rtag, rvalue)
+
+        lvalue_counts[ lvalue[0] ] += 1
+        lvalue_counts[ rvalue[0] ] += 1
+
+        value_pair_counts[(lvalue[0], rvalue[0])] += 1
+
+    lvalue_total = sum(count for count in lvalue_counts.itervalues())
+    pair_total = sum(count for count in value_pair_counts.itervalues())
+
+    # Convert the counts to ints so that circos can parse them correctly.
+    #intify_counts(lvalue_counts)
+    #intify_counts(value_pair_counts)
+
+    assert(lvalue_total == pair_total*2)
+    
+    return lvalue_counts, Counter(), value_pair_counts
 
 def compute_counts_primitives(data, ltag, rtag):
     

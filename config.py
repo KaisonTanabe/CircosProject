@@ -31,6 +31,7 @@ class CircosConfig(object):
 
         self.data = data
         self.link_filter = kwargs.get('link_filter', lambda x, y: True)
+        self.use_self_map = kwargs.get('use_self_map', False)
 
 #	self.salary_filter = kwargs.get('salary_filter', lambda x: True)
         self.ltag_parse = kwargs.get('ltag_parse', lambda x: x)
@@ -64,8 +65,12 @@ class CircosConfig(object):
             for index, ltag in enumerate(self.lside_tag_order):
                 self.karyotype_colors[ltag] = '{palette}{index}'.format(index=index, palette=palette)
                 if build_links:
-                    for rtag in self.rside_tag_order:
-                        self.link_colors[(ltag, rtag)] = '{palette}{index}'.format(index=index, palette=palette)
+                    if self.use_self_map:
+                        for ltag_2 in self.lside_tag_order:
+                            self.link_colors[(ltag, ltag_2)] = '{palette}{index}'.format(index=index, palette=palette)
+                    else:
+                        for rtag in self.rside_tag_order:
+                            self.link_colors[(ltag, rtag)] = '{palette}{index}'.format(index=index, palette=palette)
         # Custom dictionary, default to grey for missing entries.
         else:
             # This needs to happen first because it changes the values
@@ -292,16 +297,101 @@ class CircosConfig(object):
                     
                 # End rside-loop.  We should have processed all
                 # entries for this lside tag.
-                assert lcounts[l_tag] == 0, l_tag
+                #assert lcounts[l_tag] == 0, l_tag
                 print "Finished processing lside tag: {tag}".format(tag=l_tag)
                 
             # End lside-loop
             for r_tag, count in rcounts.iteritems():
                 assert count == 0, "%r %r" % (r_tag, count)
 
+    def write_linkdata_self_map(self):
+        
+        # Make copies of the stored data so we can decrement and check
+        # correctness at the end.
+        lcounts = deepcopy(self.data.lcounts)
+
+        with open('./tmp/linkdata.txt') as link_data:
+            
+            link_id = 0
+            line_template = "{hide_link}id{id}\t{name}\t{start}\t{end}\tcolor={color}\n"
+            link_data = open('./tmp/linkdata.txt', 'w')
+
+            # For each lside tag, iterate over all rside tags, drawing
+            # a ribbon of width given by the number of data entries
+            # matching both tags (as stored in self.data.pair_counts).
+            for (l_index_1, l_tag_1) in enumerate(self.lside_tag_order):
+                for (l_index_2, l_tag_2) in enumerate(self.lside_tag_order):
+
+                    # We prepend a # symbol to comment out the line if
+                    # we don't want to actually show this link.
+                    hide_link = '' if self.link_filter(l_tag_1, l_tag_2) else '#'
+                    ribbon_width = self.data.pair_counts.get((l_tag_1, l_tag_2), 0)
+                    color = self.link_colors.get((l_tag_1, l_tag_2), 'grey')
+#                    hide_link = '' if self.salary_filter(color) else '#'   
+                    
+                    # No data for this pair.
+                    if ribbon_width == 0:
+                        print "No data for combination %s %s" % (l_tag_1, l_tag_2)
+                        continue
+
+                    # ------------------------------------
+
+                    if l_index_1 == l_index_2:
+                        ribbon_width *= 2
+
+                    # Write the line defining the left-side half of the ribbon.
+                    end = lcounts[l_tag_1]
+                    start = end - ribbon_width
+                    lside_line = line_template.format(id=link_id, 
+                                                      name="lside%d" % l_index_1, 
+                                                      start=start, 
+                                                      end=end,
+                                                      color=color, 
+                                                      hide_link=hide_link)
+
+                    link_data.write(lside_line)
+                    # Resize the count of remaining entries for this
+                    # left-side tag.
+                    lcounts[l_tag_1] = start
+                    
+                    # ------------------------------------
+
+                    if l_index_1 == l_index_2:
+                        ribbon_width = 0
+
+                    # Write the line defining the right-side half of the ribbon.
+                    end = lcounts[l_tag_2]
+                    start = end - ribbon_width
+                    rside_line = line_template.format(id=link_id, 
+                                                      name="lside%d" % l_index_2, 
+                                                      start=start, 
+                                                      end=end,
+                                                      color=color, 
+                                                      hide_link=hide_link)
+                    link_data.write(rside_line)
+                    # Resize the count of remaining entries for this
+                    # right-side tag.
+                    lcounts[l_tag_2] = start
+
+                    # ------------------------------------
+
+                    link_id += 1
+                    
+                # End rside-loop.  We should have processed all
+                # entries for this lside tag.
+                #assert lcounts[l_tag] == 0, l_tag
+                print "Finished processing lside tag: {tag}".format(tag=l_tag_2)
+                
+            # End lside-loop
+            # for l_tag_2, count in rcounts.iteritems():
+            #    assert count == 0, "%r %r" % (l_tag_2, count)
+
     def produce_image(self):
         self.write_config_files()
-        self.write_linkdata()
+        if self.use_self_map:
+            self.write_linkdata_self_map()
+        else:
+            self.write_linkdata()
         self.run_circos()
 
     def run_circos(self):
