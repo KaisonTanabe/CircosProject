@@ -761,6 +761,24 @@ def test_self_mapping():
 
     conf.produce_image()
 
+def williams_major_self_mapping():
+    #reader = read_csv("projects/williams_double_major/williams_self_map.csv")
+    reader = read_csv("projects/williams_double_major/williams_double_only.csv")
+    catmap = CategoryMapping("projects/williams_double_major/major.csv", 
+                             "projects/williams_double_major/industry.csv", 
+                             "projects/williams_double_major/order.csv")
+    
+    data = CMapImageData(reader, 
+                         catmap, False, False, True)
+
+    conf = CircosConfig(data, 
+                        color_palette="williams_double_major",
+                        lside_tag_order=catmap.left_order, 
+                        rside_tag_order=catmap.right_order,
+                        use_self_map=True)
+
+    conf.produce_image()
+
                 # # Deprecated
 # def majors_to_some_industries():
                     
@@ -830,4 +848,5 @@ if __name__ == "__main__":
 #uva()
 #uva_self_mapping()
 #highlight_image()
-test_self_mapping()
+#test_self_mapping()
+williams_major_self_mapping()

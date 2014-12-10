@@ -116,6 +116,11 @@ def compute_counts_self_map(data, ltag, rtag):
     # for each entry.
     tag_values = imap(itemgetter(ltag, rtag), data)
     for lvalue, rvalue in tag_values:
+
+        # if min(lvalue[0], rvalue[0]) == rvalue[0]:
+        #     tmp = rvalue
+        #     rvalue = lvalue
+        #     lvalue = tmp
         
         assert(isinstance(lvalue, tuple)), "Non-tuple entry: (%s %r)" % (ltag, lvalue)
         assert(isinstance(rvalue, tuple)), "Non-tuple: (%s %r)" % (rtag, rvalue)
